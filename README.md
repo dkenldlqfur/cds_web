@@ -8,6 +8,8 @@ Android Chrome 및 iPhone Safari에서 접속할 웹 빌드입니다.
 
 2026-10-23: 첫 동영상 뒤 상태 문구 초기화 시 시세의 `%` 기호 때문에 `Status text exceeds original owned buffer`가 발생하던 경로를 수정했습니다. 기존 게임 탭을 닫고 [최신 수정본](https://dkenldlqfur.github.io/cds_web/?v=status-fix-20261023)으로 접속하세요.
 
+2026-10-23: 휴대폰의 실제 표시 영역에 게임 화면 전체를 맞추도록 공통 화면 배치를 보강했습니다. 화면 회전, 조작 버튼 줄 바꿈, 키보드 및 확대 상태 변경 시 배율을 다시 계산합니다. [휴대폰 화면 수정본](https://dkenldlqfur.github.io/cds_web/?v=mobile-layout-20261023).
+
 ## 배포 상태
 
 저장소 소유자의 승인으로 공개 저장소로 전환하고 GitHub Pages를 활성화했습니다. 배포 진행 상태는 [Actions](https://github.com/dkenldlqfur/cds_web/actions)에서 확인할 수 있습니다.
