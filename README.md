@@ -4,6 +4,8 @@ Android Chrome 및 iPhone Safari에서 접속할 웹 빌드입니다.
 
 게임 접속 주소: **https://dkenldlqfur.github.io/cds_web/**
 
+2026-10-23: 종료 시 `World bridge stage receiver`가 발생하던 호출 경로를 수정했습니다. World 정리가 상태창·정보창 전용 물리 콜백으로 들어가지 않고 기존 Screen/Active/Stage를 사용하도록 연결했으며, 재활성화 래퍼의 같은 우회 호출도 수정했습니다. 사용자 요청에 따라 이번 수정은 컴파일·정적 검사로 검증하며, 수정 후 플레이 테스트는 수행하지 않았습니다. [종료 오류 수정본](https://dkenldlqfur.github.io/cds_web/?v=exit-stage-fix-20261023).
+
 2026-10-23: 상륙 시 `Virtual missing canonical global20B`로 중단되던 공통 네이티브 코드를 수정했습니다. 저장용 20바이트 레코드와 실제 16바이트 전역 객체를 혼동하던 검사였으며, 육상 대화의 동일 검사도 수정했습니다. 실제 객체·메모리 처리 코드의 독립 회귀 테스트에서 기존 오류를 재현하고 수정 후 36개 검사를 통과했습니다. 브라우저에서 항해부터 상륙까지의 플레이 검증은 별도입니다. [상륙 오류 수정본](https://dkenldlqfur.github.io/cds_web/?v=landing-global-fix-20261023).
 
 2026-10-23: 실제 웹 실행으로 메뉴 입력 문제 두 가지를 재현하고 수정했습니다. WebAssembly의 시간 변환이 최댓값에 고정되어 화면 갱신과 Enter 대기가 멈추던 문제, 짧은 터치 해제를 중첩 위치 검사에서 먼저 소비하던 문제입니다. 수정 빌드의 Chrome 실행에서 방향키 선택 변경, 한 번의 Enter로 새 게임 메뉴 열기, Esc 종료 확인과 취소, 짧은 터치로 새 게임 메뉴 열기를 확인했습니다. [타이머·터치 수정본](https://dkenldlqfur.github.io/cds_web/?v=clock-touch-fix-20261023).
