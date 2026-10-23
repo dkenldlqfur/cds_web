@@ -4,6 +4,8 @@ Android Chrome 및 iPhone Safari에서 접속할 웹 빌드입니다.
 
 게임 접속 주소: **https://dkenldlqfur.github.io/cds_web/**
 
+2026-10-23: 환경설정의 음량 버튼을 Godot 내부 0~100% 슬라이더로 연결했습니다. 0% 음소거, 즉시 미리 적용, 확인 시 저장, 취소 시 이전 음량 복원을 지원하며 다음 시작 때 저장값을 불러옵니다. Windows 음량 프로그램 없이 Windows·웹이 같은 AudioServer 설정을 사용합니다. 이번 변경은 사용자 요청에 따라 컴파일·정적 검사만 수행했습니다. [Godot 음량 설정 적용본](https://dkenldlqfur.github.io/cds_web/?v=godot-volume-20261023).
+
 2026-10-23: 종료 시 `World bridge stage receiver`가 발생하던 호출 경로를 수정했습니다. World 정리가 상태창·정보창 전용 물리 콜백으로 들어가지 않고 기존 Screen/Active/Stage를 사용하도록 연결했으며, 재활성화 래퍼의 같은 우회 호출도 수정했습니다. 사용자 요청에 따라 이번 수정은 컴파일·정적 검사로 검증하며, 수정 후 플레이 테스트는 수행하지 않았습니다. [종료 오류 수정본](https://dkenldlqfur.github.io/cds_web/?v=exit-stage-fix-20261023).
 
 2026-10-23: 상륙 시 `Virtual missing canonical global20B`로 중단되던 공통 네이티브 코드를 수정했습니다. 저장용 20바이트 레코드와 실제 16바이트 전역 객체를 혼동하던 검사였으며, 육상 대화의 동일 검사도 수정했습니다. 실제 객체·메모리 처리 코드의 독립 회귀 테스트에서 기존 오류를 재현하고 수정 후 36개 검사를 통과했습니다. 브라우저에서 항해부터 상륙까지의 플레이 검증은 별도입니다. [상륙 오류 수정본](https://dkenldlqfur.github.io/cds_web/?v=landing-global-fix-20261023).
