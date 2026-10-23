@@ -1,0 +1,25 @@
+{
+  "schema_version": 2,
+  "records": [
+    {
+      "id": 0,
+      "price": 250,
+      "weight": 15
+    },
+    {
+      "id": 1,
+      "price": 1600,
+      "weight": 20
+    },
+    {
+      "id": 2,
+      "price": 2100,
+      "weight": 25
+    },
+    {
+      "id": 3,
+      "price": 2500,
+      "weight": 30
+    }
+  ]
+}
