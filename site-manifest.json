@@ -953,8 +953,8 @@
     },
     {
       "path": "cds_native.web.wasm",
-      "size": 8353780,
-      "sha256": "c6fd197870d6b1bf6154b4771d4ac1c897ae16faf939b2386691962cc5066d86"
+      "size": 8353782,
+      "sha256": "eeb462e66cef42c9bca7d50a9a3e9d7a2af928dc304fd7f03b2fd50bf1ea75af"
     },
     {
       "path": "index.apple-touch-icon.png",
