@@ -29,8 +29,7 @@ jobs:
           node --check site/isolation-sw.js
 
   deploy:
-    # This repository currently uses a plan requiring a public Pages source.
-    # Keep uploaded files private until its owner authorizes public visibility.
+    # Public Pages hosting was authorized by the repository owner.
     if: ${{ !github.event.repository.private }}
     needs: verify
     runs-on: ubuntu-latest

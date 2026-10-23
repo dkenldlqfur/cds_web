@@ -2,13 +2,13 @@
 
 Android Chrome 및 iPhone Safari에서 접속할 웹 빌드입니다.
 
-배포가 완료되면 접속할 주소: **https://dkenldlqfur.github.io/cds_web/**
+게임 접속 주소: **https://dkenldlqfur.github.io/cds_web/**
 
 ## 배포 상태
 
-현재 저장소가 비공개이고 계정 요금제에서 비공개 저장소의 GitHub Pages를 허용하지 않아, Pages 공개 배포는 아직 시작하지 않았습니다. 파일 업로드만으로 위 주소가 활성화되는 것은 아닙니다.
+저장소 소유자의 승인으로 공개 저장소로 전환하고 GitHub Pages를 활성화했습니다. 배포 진행 상태는 [Actions](https://github.com/dkenldlqfur/cds_web/actions)에서 확인할 수 있습니다.
 
-저장소 소유자가 공개 전환을 승인한 뒤 저장소를 Public으로 바꾸고, Settings → Pages → Source를 GitHub Actions로 설정합니다. Actions → Publish game to GitHub Pages → Run workflow로 배포합니다. 이후 main 브랜치 업데이트는 자동으로 배포됩니다.
+`main` 브랜치 업데이트는 정적 파일 검사 후 자동으로 배포됩니다. Actions → Publish game to GitHub Pages → Run workflow로 다시 배포할 수도 있습니다.
 
 ## 포함 파일
 
