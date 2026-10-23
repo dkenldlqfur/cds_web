@@ -953,8 +953,8 @@
     },
     {
       "path": "cds_native.web.wasm",
-      "size": 8350489,
-      "sha256": "be7e9390e982809debcb388a2f440abb25e337ac5fd3576af863263dadc8762f"
+      "size": 8349153,
+      "sha256": "0b4e6843213c1fc85017cd28da47b87cca3a070547e617d95b6883a2df6cc05a"
     },
     {
       "path": "index.apple-touch-icon.png",
@@ -973,8 +973,8 @@
     },
     {
       "path": "index.html",
-      "size": 11497,
-      "sha256": "ff41eeac4c79904ac2af289512fae2aec75b8c0ccde823cda53c377368fd8383"
+      "size": 12562,
+      "sha256": "bc69beb8183b613e24efcc024a477062a58913c60de10bd11269ad91f13ddb54"
     },
     {
       "path": "index.icon.png",
@@ -1008,8 +1008,8 @@
     },
     {
       "path": "isolation-sw.js",
-      "size": 1041,
-      "sha256": "ca63fb1d71e64a38290bf619f6a2412a6d684d635e7740f4653185fd6dbb1ded"
+      "size": 1139,
+      "sha256": "80afc9dfecf4c3b2ec4734f10c01912200360aa5a2397f11877ff27cd68c26fe"
     },
     {
       "path": "LICENSE.DroidSans.txt",

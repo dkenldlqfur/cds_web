@@ -4,6 +4,8 @@ Android Chrome 및 iPhone Safari에서 접속할 웹 빌드입니다.
 
 게임 접속 주소: **https://dkenldlqfur.github.io/cds_web/**
 
+2026-10-23: 웹에서 원본 AVI 파일을 찾다가 CD 확인 창이 반복되던 경로를 수정했습니다. 웹은 CD 확인 없이 변환된 OGV 영상을 필요할 때 내려받습니다. 기존 페이지가 열려 있으면 닫고 [수정본 주소](https://dkenldlqfur.github.io/cds_web/?v=cd-fix-20261023)로 접속하세요.
+
 ## 배포 상태
 
 저장소 소유자의 승인으로 공개 저장소로 전환하고 GitHub Pages를 활성화했습니다. 배포 진행 상태는 [Actions](https://github.com/dkenldlqfur/cds_web/actions)에서 확인할 수 있습니다.

@@ -39,11 +39,24 @@ function fail(error){status.textContent='게임을 시작할 수 없습니다.';
 async function prepareBrowser(){
  if(!isSecureContext)throw new Error('HTTPS 주소로 접속해야 합니다.');
  const key='cds95-isolation-reload:'+location.pathname;
- if(globalThis.crossOriginIsolated&&typeof SharedArrayBuffer!=='undefined'){sessionStorage.removeItem(key);return true;}
+ const url=new URL('isolation-sw.js',location.href);
+ if(globalThis.crossOriginIsolated&&typeof SharedArrayBuffer!=='undefined'){
+  // Existing Pages visitors must update the worker before loading new modules.
+  if(navigator.serviceWorker?.controller?.scriptURL===url.href){
+   const registration=await navigator.serviceWorker.register(url.href,{scope:'./',updateViaCache:'none'});
+   await registration.update();
+   const pending=registration.installing||registration.waiting;
+   if(pending&&pending.state!=='activated')await new Promise((resolve,reject)=>{
+    const timeout=setTimeout(()=>{pending.removeEventListener('statechange',changed);reject(new Error('게임 업데이트 준비 시간이 초과되었습니다. 새로고침해 주세요.'));},30000);
+    function changed(){if(pending.state==='activated'){clearTimeout(timeout);pending.removeEventListener('statechange',changed);resolve();}else if(pending.state==='redundant'){clearTimeout(timeout);pending.removeEventListener('statechange',changed);reject(new Error('게임 업데이트를 다시 준비해야 합니다. 새로고침해 주세요.'));}}
+    pending.addEventListener('statechange',changed);changed();
+   });
+  }
+  sessionStorage.removeItem(key);return true;
+ }
  if(!('serviceWorker' in navigator))throw new Error('이 브라우저는 게임 실행 준비 기능을 지원하지 않습니다. 최신 Chrome 또는 Safari를 사용해 주세요.');
  if(sessionStorage.getItem(key)==='1'&&navigator.serviceWorker.controller)throw new Error('게임 실행 준비를 완료하지 못했습니다. 최신 Chrome 또는 Safari에서 주소를 다시 열어 주세요.');
  status.textContent='처음 접속한 브라우저를 준비합니다. 잠시 후 자동으로 다시 열립니다.';
- const url=new URL('isolation-sw.js',location.href);
  await navigator.serviceWorker.register(url.href,{scope:'./',updateViaCache:'none'});
  await new Promise((resolve,reject)=>{
   const ready=()=>navigator.serviceWorker.controller?.scriptURL===url.href;
