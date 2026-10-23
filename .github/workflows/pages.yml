@@ -15,18 +15,30 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  verify:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v6
+      - name: Verify published files without starting the game
+        run: python3 tools/verify_site.py
+      - name: Check JavaScript syntax only
+        run: |
+          node --check site/index.js
+          node --check site/isolation-sw.js
+
   deploy:
     # This repository currently uses a plan requiring a public Pages source.
     # Keep uploaded files private until its owner authorizes public visibility.
     if: ${{ !github.event.repository.private }}
+    needs: verify
     runs-on: ubuntu-latest
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - uses: actions/checkout@v6
-      - name: Verify published files without starting the game
-        run: python3 tools/verify_site.py
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
         with:
