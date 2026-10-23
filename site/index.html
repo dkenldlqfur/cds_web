@@ -46,7 +46,7 @@ canvas{width:var(--display-width,640px)!important;height:var(--display-height,48
 <script src="index.js"></script>
 <script>
 'use strict';
-const config={"args":[],"canvasResizePolicy":1,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":true,"executable":"index","experimentalVK":true,"fileSizes":{"index.pck":31324880,"index.wasm":1713410},"focusCanvas":true,"gdextensionLibs":["cds_native.web.wasm"],"godotPoolSize":4};
+const config={"args":[],"canvasResizePolicy":1,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":true,"executable":"index","experimentalVK":true,"fileSizes":{"index.pck":31325968,"index.wasm":1713410},"focusCanvas":true,"gdextensionLibs":["cds_native.web.wasm"],"godotPoolSize":4};
 const canvas=document.getElementById('canvas'),screen=document.getElementById('screen'),start=document.getElementById('start'),status=document.getElementById('status'),progress=document.getElementById('progress');
 config.canvas=canvas;config.canvasResizePolicy=1;config.focusCanvas=true;
 config.onProgress=(current,total)=>{if(total){progress.value=current/total;}};
@@ -117,13 +117,19 @@ async function assets(){
  await Promise.all([worker(),worker(),worker()]);status.textContent='준비가 끝났습니다. 시작을 눌러주세요.';start.disabled=false;start.textContent='시작';
 }
 start.addEventListener('click',async()=>{start.disabled=true;start.textContent='실행 중…';try{await engine.startGame();document.getElementById('cover').style.display='none';document.body.classList.add('started');canvas.focus();fit();}catch(error){fail(error);}});
-// DOM code/key go through Godot's normal Web keyboard path. Game commands
-// retain their original per-screen meanings; Space is not sailing pause.
+// Physical key names retain their original per-screen meanings. The toolbar
+// enters Godot's input dispatcher directly, without a focus-only first tap.
 const codes={ArrowLeft:[37,'ArrowLeft'],ArrowUp:[38,'ArrowUp'],ArrowRight:[39,'ArrowRight'],ArrowDown:[40,'ArrowDown'],Enter:[13,'Enter'],Escape:[27,'Escape'],Tab:[9,'Tab'],Backspace:[8,'Backspace'],' ':[32,'Space'],'0':[48,'Digit0'],'1':[49,'Digit1'],'2':[50,'Digit2'],'3':[51,'Digit3'],'4':[52,'Digit4'],'5':[53,'Digit5'],'6':[54,'Digit6'],'7':[55,'Digit7'],'8':[56,'Digit8'],'9':[57,'Digit9']};
+const pendingKeys=[];let keyFrame=0;
+function flushKeys(){
+ keyFrame=0;if(!pendingKeys.length)return;
+ if(typeof window.CDS95VirtualKey!=='function'){keyFrame=requestAnimationFrame(flushKeys);return;}
+ while(pendingKeys.length)window.CDS95VirtualKey(...pendingKeys.shift());
+}
 function key(key,down,repeat=false){
- const [code,name]=codes[key];
- if(down)canvas.focus({preventScroll:true});
- canvas.dispatchEvent(new KeyboardEvent(down?'keydown':'keyup',{key,code:name,keyCode:code,which:code,repeat,bubbles:true,cancelable:true}));
+ if(!Object.prototype.hasOwnProperty.call(codes,key))return;
+ pendingKeys.push([key,down,repeat]);
+ if(typeof window.CDS95VirtualKey==='function')flushKeys();else if(!keyFrame)keyFrame=requestAnimationFrame(flushKeys);
 }
 const keyReleases=[];
 function releaseKeys(){for(const release of keyReleases)release();}
