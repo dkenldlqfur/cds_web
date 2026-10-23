@@ -12988,7 +12988,7 @@
       "field_10": -1,
       "field_14": -1,
       "field_18": -1,
-      "event_catalog": -1,
+      "event_catalog": 265,
       "hit_box": [
         176,
         190,
@@ -13471,7 +13471,7 @@
       "field_10": -1,
       "field_14": -1,
       "field_18": -1,
-      "event_catalog": 265,
+      "event_catalog": -1,
       "hit_box": [
         144,
         156,

@@ -449,7 +449,7 @@
     {
       "path": "assets/data/records/facilities.json",
       "size": 583566,
-      "sha256": "c0b36b3d5214c04113cf5e80016ec33509ec6b86e0339d4e1bcfb12fcece917d"
+      "sha256": "88076602004af2ccf19d4b7fa9d38ad51bb16dcec6a0240e07fcf49ac41cbd27"
     },
     {
       "path": "assets/data/records/figureheads.json",
@@ -484,7 +484,7 @@
     {
       "path": "assets/data/records/patrons.json",
       "size": 34197,
-      "sha256": "bc8d6137f528be1648ea9144fa0997e954706c1d2507008bd10fd58d59257729"
+      "sha256": "a106e83203b72031c21dc953481b1f2249ad0c42bca5b432096ddb86234005ad"
     },
     {
       "path": "assets/data/records/people.json",
@@ -518,8 +518,8 @@
     },
     {
       "path": "assets/data/records/world_catalog.json",
-      "size": 143012,
-      "sha256": "2161549ba12b25ba4f62ccbd9b507c02ee68c83e2edb028dd36309493eeb7946"
+      "size": 143011,
+      "sha256": "c9c6b6fefbb42401848cdb564ef041c0ac54a37fb33420f5da9fb1d4af6975ab"
     },
     {
       "path": "assets/data/records/zodiac_dates.json",
@@ -533,8 +533,8 @@
     },
     {
       "path": "assets/data/strings.ko.json",
-      "size": 590173,
-      "sha256": "b1a036feb172165dd19ef58cdd98aa930744d7631815d1909cd2d14bc630be1d"
+      "size": 628381,
+      "sha256": "7e14b583b59ef6ebd06f631e8d54f0990f9f29f0f9bf18acc66eeac1bed3839e"
     },
     {
       "path": "assets/data/strings.legacy.json",
@@ -949,12 +949,12 @@
     {
       "path": "assets-manifest.json",
       "size": 48562,
-      "sha256": "0c3cfea9bef9c062053c8d7cea6b94288a1c216bc1816034382c5a739e68204f"
+      "sha256": "64f43d83a039e046643d83a20e3d9e0e422de39ecf4868336f0c6dedeb4425f3"
     },
     {
       "path": "cds_native.web.wasm",
-      "size": 8353091,
-      "sha256": "f190b76e10707c58452bda59bbe978ce6242fa81032ba3123c4b9b21c50dcdf6"
+      "size": 8377486,
+      "sha256": "c38c29a41ddb713ba8027458fc9ee3ca38310f67f3c73240e9300305ae7ee041"
     },
     {
       "path": "index.apple-touch-icon.png",
@@ -974,7 +974,7 @@
     {
       "path": "index.html",
       "size": 19113,
-      "sha256": "10333d619980d4f531d16a88216e537bfcbc95b63dd053aa966c70279f9703ec"
+      "sha256": "9aa51f36243e113e686a9ea69e35b04d3b204307c7a22e85c6ee853f9a52fb23"
     },
     {
       "path": "index.icon.png",
@@ -988,8 +988,8 @@
     },
     {
       "path": "index.pck",
-      "size": 31333756,
-      "sha256": "e0796e4dd6003e87942648ae20ffaf575a4e3455a3e396c1e8f5d8a830b5ce19"
+      "size": 31371964,
+      "sha256": "63d883b29ca4183ddffd15d52b5313231b32ff5e632a97c983618a480c42476a"
     },
     {
       "path": "index.png",

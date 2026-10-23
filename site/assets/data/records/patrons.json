@@ -1273,7 +1273,7 @@
       "blood_type": 3,
       "power": 18,
       "city": 38,
-      "initial_facility": 0,
+      "initial_facility": 3,
       "funds_10000": 20,
       "contract_factor": 66,
       "preference_flags": 234,

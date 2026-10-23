@@ -4,6 +4,8 @@ Android Chrome 및 iPhone Safari에서 접속할 웹 빌드입니다.
 
 게임 접속 주소: **https://dkenldlqfur.github.io/cds_web/**
 
+2026-10-23: 편집 도구의 검토된 용어·오역 수정, 01–10 저장/불러오기 슬롯, 항해일지 동반 보관과 기존 저장 보존, 월드 지도 선박 중앙 추적을 적용했습니다. 조선소 슬롯·중량, 포격 명중률, 심판 전열, 상륙 선박 이미지, 힌트·이벤트 조건 등도 수정했습니다. 지도는 원래 타일 좌표를 유지하며 중앙에서 최대 8픽셀 이내로 추적합니다. 사용자 요청에 따라 플레이 없이 Windows·웹 컴파일과 정적 검사만 수행했습니다. [편집 도구 기능 적용본](https://dkenldlqfur.github.io/cds_web/?v=editor-features-20261023).
+
 2026-10-23: 환경설정의 음량 버튼을 Godot 내부 0~100% 슬라이더로 연결했습니다. 0% 음소거, 즉시 미리 적용, 확인 시 저장, 취소 시 이전 음량 복원을 지원하며 다음 시작 때 저장값을 불러옵니다. Windows 음량 프로그램 없이 Windows·웹이 같은 AudioServer 설정을 사용합니다. 이번 변경은 사용자 요청에 따라 컴파일·정적 검사만 수행했습니다. [Godot 음량 설정 적용본](https://dkenldlqfur.github.io/cds_web/?v=godot-volume-20261023).
 
 2026-10-23: 종료 시 `World bridge stage receiver`가 발생하던 호출 경로를 수정했습니다. World 정리가 상태창·정보창 전용 물리 콜백으로 들어가지 않고 기존 Screen/Active/Stage를 사용하도록 연결했으며, 재활성화 래퍼의 같은 우회 호출도 수정했습니다. 사용자 요청에 따라 이번 수정은 컴파일·정적 검사로 검증하며, 수정 후 플레이 테스트는 수행하지 않았습니다. [종료 오류 수정본](https://dkenldlqfur.github.io/cds_web/?v=exit-stage-fix-20261023).

@@ -439,8 +439,8 @@
     {
       "url": "assets/data/strings.ko.json",
       "path": "/cds95/data/strings.ko.json",
-      "size": 590173,
-      "sha256": "b1a036feb172165dd19ef58cdd98aa930744d7631815d1909cd2d14bc630be1d",
+      "size": 628381,
+      "sha256": "7e14b583b59ef6ebd06f631e8d54f0990f9f29f0f9bf18acc66eeac1bed3839e",
       "aliases": [],
       "deferred": false
     },
@@ -520,7 +520,7 @@
       "url": "assets/data/records/facilities.json",
       "path": "/cds95/data/records/facilities.json",
       "size": 583566,
-      "sha256": "c0b36b3d5214c04113cf5e80016ec33509ec6b86e0339d4e1bcfb12fcece917d",
+      "sha256": "88076602004af2ccf19d4b7fa9d38ad51bb16dcec6a0240e07fcf49ac41cbd27",
       "aliases": [],
       "deferred": false
     },
@@ -576,7 +576,7 @@
       "url": "assets/data/records/patrons.json",
       "path": "/cds95/data/records/patrons.json",
       "size": 34197,
-      "sha256": "bc8d6137f528be1648ea9144fa0997e954706c1d2507008bd10fd58d59257729",
+      "sha256": "a106e83203b72031c21dc953481b1f2249ad0c42bca5b432096ddb86234005ad",
       "aliases": [],
       "deferred": false
     },
@@ -631,8 +631,8 @@
     {
       "url": "assets/data/records/world_catalog.json",
       "path": "/cds95/data/records/world_catalog.json",
-      "size": 143012,
-      "sha256": "2161549ba12b25ba4f62ccbd9b507c02ee68c83e2edb028dd36309493eeb7946",
+      "size": 143011,
+      "sha256": "c9c6b6fefbb42401848cdb564ef041c0ac54a37fb33420f5da9fb1d4af6975ab",
       "aliases": [],
       "deferred": false
     },
