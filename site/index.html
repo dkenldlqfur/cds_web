@@ -12,6 +12,9 @@ canvas{width:var(--display-width,640px)!important;height:var(--display-height,48
 #app{position:absolute;left:var(--visual-left,0px);top:var(--visual-top,0px);width:var(--visual-width,100%);height:var(--visual-height,100dvh)!important}
 #screen{position:relative;min-width:0}
 #canvas{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);max-width:none;max-height:none}
+#tools .direction-controls{flex:0 0 auto}#direction-mode{display:flex;gap:4px;margin-bottom:4px}#direction-mode button{flex:1;min-height:30px;padding:3px 6px;font-size:12px}.direction-pad{display:grid;grid-template-columns:repeat(3,44px);gap:3px}.direction-pad button{padding:3px;font-size:14px;user-select:none;-webkit-user-select:none}#action-keys{display:grid;grid-template-columns:repeat(3,minmax(44px,1fr));gap:4px;flex:1;max-width:330px;min-width:144px}#action-keys button{padding:5px;font-size:13px}#control-hint{flex-basis:100%;margin:0;text-align:center;font-size:12px;color:#acbec8}#tools button{touch-action:none}@media(max-height:420px){.direction-pad{grid-template-columns:repeat(3,38px)}.direction-pad button{min-width:38px;min-height:38px}#direction-mode button{min-height:27px}#control-hint{font-size:11px}}
+#tools{max-height:46%;flex-shrink:0;overflow-y:auto;align-items:center}
+.direction-pad button{width:100%;min-width:0;overflow:hidden;white-space:normal;line-height:1.15}
 *{box-sizing:border-box}html,body{margin:0;width:100%;height:100%;background:#101820;color:#f3f5ed;font:15px system-ui,sans-serif}body{overflow:hidden}#app{height:100dvh;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left)}#screen{flex:1;min-height:0;width:100%;display:flex;align-items:center;justify-content:center;overflow:hidden}canvas{display:block;outline:none;touch-action:none;image-rendering:pixelated}button{font:inherit;color:inherit;background:#263b49;border:1px solid #5a7483;border-radius:7px;min-width:44px;min-height:44px;padding:8px 12px;touch-action:manipulation}button:active,button[aria-pressed=true]{background:#a77a30;color:#fff}button:disabled{opacity:.5}#tools{display:flex;flex-wrap:wrap;justify-content:center;gap:5px;padding:6px;width:100%;background:#14222d}#cover{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:#101820;z-index:10;padding:24px}#card{width:min(440px,100%);text-align:center;line-height:1.6}h1{font-size:25px;font-weight:600;margin:0 0 14px}progress{width:100%;height:12px;accent-color:#d9af63}#status{min-height:48px;white-space:pre-wrap;overflow-wrap:anywhere}#start{background:#a77a30;min-width:140px}#tip{font-size:13px;color:#acbec8}#error{color:#f2b0a8}body:not(.started) #tools{visibility:hidden}@media(max-height:420px){#tools{gap:3px;padding:3px}button{min-height:38px;padding:5px 9px}#tip{display:none}}
 </style>
 <link id="-gd-engine-icon" rel="icon" type="image/png" href="index.icon.png" />
@@ -23,9 +26,20 @@ canvas{width:var(--display-width,640px)!important;height:var(--display-height,48
  <p id="download" role="status" hidden></p>
  <div id="screen"><canvas id="canvas" width="640" height="480" tabindex="0" aria-label="게임 화면"></canvas></div>
  <nav id="tools" aria-label="게임 조작">
-  <button type="button" data-key="ArrowLeft" aria-label="왼쪽">←</button><button type="button" data-key="ArrowUp" aria-label="위">↑</button><button type="button" data-key="ArrowDown" aria-label="아래">↓</button><button type="button" data-key="ArrowRight" aria-label="오른쪽">→</button>
-  <button type="button" data-key="Enter">확인</button><button type="button" data-key="Escape">취소</button><button type="button" data-key="Tab">다음</button><button type="button" data-key=" ">일시정지</button>
-  <button id="right" type="button" aria-pressed="false">우클릭</button><button id="fullscreen" type="button">전체 화면</button>
+  <div class="direction-controls">
+   <div id="direction-mode" role="group" aria-label="방향키 종류"><button type="button" data-direction-mode="menu" aria-pressed="true">메뉴</button><button type="button" data-direction-mode="sailing" aria-pressed="false">항해</button></div>
+   <div class="direction-pad" role="group" aria-label="방향키">
+    <button type="button" data-menu-key="" data-sailing-key="7" data-direction="↖" disabled>↖</button><button type="button" data-menu-key="ArrowUp" data-sailing-key="8" data-direction="↑">↑</button><button type="button" data-menu-key="" data-sailing-key="9" data-direction="↗" disabled>↗</button>
+    <button type="button" data-menu-key="ArrowLeft" data-sailing-key="4" data-direction="←">←</button><button type="button" data-menu-key="" data-sailing-key="5" data-direction="정지/재개" disabled>·</button><button type="button" data-menu-key="ArrowRight" data-sailing-key="6" data-direction="→">→</button>
+    <button type="button" data-menu-key="" data-sailing-key="1" data-direction="↙" disabled>↙</button><button type="button" data-menu-key="ArrowDown" data-sailing-key="2" data-direction="↓">↓</button><button type="button" data-menu-key="" data-sailing-key="3" data-direction="↘" disabled>↘</button>
+   </div>
+  </div>
+  <div id="action-keys">
+   <button type="button" data-key="Enter">Enter</button><button type="button" data-key="Escape">Esc</button><button type="button" data-key="Tab">Tab</button>
+   <button type="button" data-key=" ">Space</button><button type="button" data-key="0">0</button><button type="button" data-key="Backspace">⌫</button>
+   <button id="right" type="button" aria-pressed="false">우클릭 1회</button><button id="fullscreen" type="button">전체 화면</button>
+  </div>
+  <p id="control-hint" aria-live="polite">메뉴: 방향키로 이동 · 키의 동작은 현재 게임 화면에 따릅니다.</p>
  </nav>
 </main>
 <div id="cover"><div id="card"><h1>대항해시대 III</h1><p id="status" role="status">게임 데이터를 준비합니다.</p><progress id="progress" max="1" value="0"></progress><p><button id="start" disabled>준비 중…</button></p><p id="tip">가로 화면을 권장합니다. 화면을 눌러 선택하고,<br>우클릭은 버튼을 누른 뒤 게임 화면을 터치하세요.<br>저장은 이 브라우저에 보관됩니다.</p><p id="error" role="alert"></p></div></div>
@@ -103,9 +117,47 @@ async function assets(){
  await Promise.all([worker(),worker(),worker()]);status.textContent='준비가 끝났습니다. 시작을 눌러주세요.';start.disabled=false;start.textContent='시작';
 }
 start.addEventListener('click',async()=>{start.disabled=true;start.textContent='실행 중…';try{await engine.startGame();document.getElementById('cover').style.display='none';document.body.classList.add('started');canvas.focus();fit();}catch(error){fail(error);}});
-const codes={ArrowLeft:[37,'ArrowLeft'],ArrowUp:[38,'ArrowUp'],ArrowRight:[39,'ArrowRight'],ArrowDown:[40,'ArrowDown'],Enter:[13,'Enter'],Escape:[27,'Escape'],Tab:[9,'Tab'],' ':[32,'Space']};
-function key(key,down){const [code,name]=codes[key];canvas.dispatchEvent(new KeyboardEvent(down?'keydown':'keyup',{key,code:name,keyCode:code,which:code,bubbles:true,cancelable:true}));}
-for(const button of document.querySelectorAll('[data-key]')){let held=false,timer;const release=()=>{if(!held)return;held=false;clearInterval(timer);key(button.dataset.key,false);};button.addEventListener('pointerdown',event=>{event.preventDefault();button.setPointerCapture(event.pointerId);held=true;key(button.dataset.key,true);if(button.dataset.key.startsWith('Arrow'))timer=setInterval(()=>key(button.dataset.key,true),160);});for(const event of ['pointerup','pointercancel','lostpointercapture'])button.addEventListener(event,release);}
+// DOM code/key go through Godot's normal Web keyboard path. Game commands
+// retain their original per-screen meanings; Space is not sailing pause.
+const codes={ArrowLeft:[37,'ArrowLeft'],ArrowUp:[38,'ArrowUp'],ArrowRight:[39,'ArrowRight'],ArrowDown:[40,'ArrowDown'],Enter:[13,'Enter'],Escape:[27,'Escape'],Tab:[9,'Tab'],Backspace:[8,'Backspace'],' ':[32,'Space'],'0':[48,'Digit0'],'1':[49,'Digit1'],'2':[50,'Digit2'],'3':[51,'Digit3'],'4':[52,'Digit4'],'5':[53,'Digit5'],'6':[54,'Digit6'],'7':[55,'Digit7'],'8':[56,'Digit8'],'9':[57,'Digit9']};
+function key(key,down,repeat=false){
+ const [code,name]=codes[key];
+ if(down)canvas.focus({preventScroll:true});
+ canvas.dispatchEvent(new KeyboardEvent(down?'keydown':'keyup',{key,code:name,keyCode:code,which:code,repeat,bubbles:true,cancelable:true}));
+}
+const keyReleases=[];
+function releaseKeys(){for(const release of keyReleases)release();}
+for(const button of document.querySelectorAll('[data-key],[data-menu-key]')){
+ let heldKey='',pointer=null,delay,timer,pointerClick=false;
+ const release=()=>{if(!heldKey)return;const released=heldKey;heldKey='';pointer=null;clearTimeout(delay);clearInterval(timer);key(released,false);};
+ keyReleases.push(release);
+ button.addEventListener('pointerdown',event=>{
+  if(button.disabled||heldKey||event.button!==0)return;
+  event.preventDefault();heldKey=button.dataset.key;pointer=event.pointerId;pointerClick=true;
+  button.setPointerCapture(pointer);key(heldKey,true);
+  if(heldKey.startsWith('Arrow'))delay=setTimeout(()=>{if(heldKey){key(heldKey,true,true);timer=setInterval(()=>{if(heldKey)key(heldKey,true,true);},160);}},300);
+ });
+ for(const event of ['pointerup','pointercancel','lostpointercapture'])button.addEventListener(event,e=>{if(e.pointerId===pointer){release();if(event!=='pointerup')pointerClick=false;}});
+ // Keyboard/assistive activation has no pointerdown. A pointer click already
+ // sent its key and must not send a duplicate after pointerup.
+ button.addEventListener('click',event=>{if(pointerClick){pointerClick=false;return;}if(event.detail===0&&!button.disabled){key(button.dataset.key,true);key(button.dataset.key,false);}});
+}
+function directionMode(mode){
+ releaseKeys();
+ for(const button of document.querySelectorAll('[data-direction-mode]'))button.setAttribute('aria-pressed',String(button.dataset.directionMode===mode));
+ for(const button of document.querySelectorAll('[data-menu-key]')){
+  const value=mode==='sailing'?button.dataset.sailingKey:button.dataset.menuKey;
+  button.dataset.key=value;button.disabled=!value;
+  const sailingLabel=value==='5'?'5':`${button.dataset.direction} ${value}`;
+  button.textContent=mode==='sailing'?sailingLabel:value?button.dataset.direction:'·';
+  button.setAttribute('aria-label',mode==='sailing'?`항해 ${button.dataset.direction}, 숫자 ${value}`:value?`메뉴 ${button.dataset.direction}, ${value}`:'메뉴 모드에서 사용하지 않음');
+ }
+ document.getElementById('control-hint').textContent=mode==='sailing'?'항해: 숫자 1~9로 방향 지정 · 5는 정지/재개':'메뉴: 방향키로 이동 · 키의 동작은 현재 게임 화면에 따릅니다.';
+ scheduleFit();
+}
+for(const button of document.querySelectorAll('[data-direction-mode]'))button.addEventListener('click',()=>directionMode(button.dataset.directionMode));
+window.addEventListener('blur',releaseKeys);document.addEventListener('visibilitychange',()=>{if(document.hidden)releaseKeys();});
+directionMode('menu');
 let rightMode=false,rightTouch=null;const right=document.getElementById('right');right.addEventListener('click',()=>{rightMode=!rightMode;right.setAttribute('aria-pressed',String(rightMode));canvas.focus();});
 function mouse(type,touch,pressed){canvas.dispatchEvent(new MouseEvent(type,{clientX:touch.clientX,clientY:touch.clientY,button:2,buttons:pressed?2:0,bubbles:true,cancelable:true}));}
 canvas.addEventListener('contextmenu',event=>event.preventDefault());
