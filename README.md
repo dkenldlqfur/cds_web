@@ -4,6 +4,10 @@ Android Chrome 및 iPhone Safari에서 접속할 웹 빌드입니다.
 
 게임 접속 주소: **https://dkenldlqfur.github.io/cds_web/**
 
+2026-10-23: 모든 하단 키가 불안정하다는 보고에 따라 게임이 버튼의 원본 키 입력 큐를 직접 읽도록 변경했습니다. 브라우저 콜백과 캔버스 포커스를 거치는 게임 전달 경로를 제거하고 중복 입력을 방지했습니다. [공통 입력 수정본](https://dkenldlqfur.github.io/cds_web/?v=input-poll-20261023). 실제 휴대폰 플레이는 수행하지 않았으므로 체감 동작은 미검증입니다.
+
+2026-10-23: 메인 메뉴가 Esc를 무시하던 처리를 수정했습니다. 메인 메뉴에서 Esc를 누르면 종료 확인이 표시되고, 확인 창에서 Esc 또는 아니오를 선택하면 메인 메뉴로 돌아갑니다. [메인 메뉴 Esc 수정본](https://dkenldlqfur.github.io/cds_web/?v=main-esc-20261023). 실제 메뉴 처리 본문을 포함한 컴파일 시점 검사만 수행했습니다.
+
 2026-10-23: 웹에서 원본 AVI 파일을 찾다가 CD 확인 창이 반복되던 경로를 수정했습니다. 웹은 CD 확인 없이 변환된 OGV 영상을 필요할 때 내려받습니다. 기존 페이지가 열려 있으면 닫고 [수정본 주소](https://dkenldlqfur.github.io/cds_web/?v=cd-fix-20261023)로 접속하세요.
 
 2026-10-23: 첫 동영상 뒤 상태 문구 초기화 시 시세의 `%` 기호 때문에 `Status text exceeds original owned buffer`가 발생하던 경로를 수정했습니다. 기존 게임 탭을 닫고 [최신 수정본](https://dkenldlqfur.github.io/cds_web/?v=status-fix-20261023)으로 접속하세요.
