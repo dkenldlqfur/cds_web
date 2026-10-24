@@ -9,7 +9,7 @@
       "sell_price": 10000,
       "effect": 0,
       "category": 0,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 1,
@@ -19,7 +19,7 @@
       "sell_price": 12000,
       "effect": 1,
       "category": 0,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 2,
@@ -29,7 +29,7 @@
       "sell_price": 15000,
       "effect": 2,
       "category": 0,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 3,
@@ -39,7 +39,7 @@
       "sell_price": 1,
       "effect": 3,
       "category": 0,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 4,
@@ -49,7 +49,7 @@
       "sell_price": 100000,
       "effect": 4,
       "category": 0,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 5,
@@ -59,7 +59,7 @@
       "sell_price": 3500,
       "effect": 3,
       "category": 1,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 6,
@@ -69,7 +69,7 @@
       "sell_price": 6000,
       "effect": 5,
       "category": 1,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 7,
@@ -79,7 +79,7 @@
       "sell_price": 4000,
       "effect": 3,
       "category": 1,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 8,
@@ -89,7 +89,7 @@
       "sell_price": 35000,
       "effect": 25,
       "category": 1,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 9,
@@ -99,7 +99,7 @@
       "sell_price": 5000,
       "effect": 4,
       "category": 1,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 10,
@@ -109,7 +109,7 @@
       "sell_price": 3000,
       "effect": 3,
       "category": 1,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 11,
@@ -119,7 +119,7 @@
       "sell_price": 10000,
       "effect": 10,
       "category": 1,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 12,
@@ -129,7 +129,7 @@
       "sell_price": 5400,
       "effect": 4,
       "category": 1,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 13,
@@ -139,7 +139,7 @@
       "sell_price": 17000,
       "effect": 15,
       "category": 1,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 14,
@@ -149,7 +149,7 @@
       "sell_price": 24000,
       "effect": 20,
       "category": 1,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 15,
@@ -159,7 +159,7 @@
       "sell_price": 55000,
       "effect": 30,
       "category": 1,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 16,
@@ -169,7 +169,7 @@
       "sell_price": 16000,
       "effect": 15,
       "category": 1,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 17,
@@ -179,7 +179,7 @@
       "sell_price": 13000,
       "effect": 13,
       "category": 1,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 18,
@@ -189,7 +189,7 @@
       "sell_price": 5600,
       "effect": 5,
       "category": 1,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 19,
@@ -199,7 +199,7 @@
       "sell_price": 2000,
       "effect": 2,
       "category": 1,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 20,
@@ -209,7 +209,7 @@
       "sell_price": 3600,
       "effect": 3,
       "category": 1,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 21,
@@ -219,7 +219,7 @@
       "sell_price": 8000,
       "effect": 6,
       "category": 1,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 22,
@@ -229,7 +229,7 @@
       "sell_price": 42000,
       "effect": 28,
       "category": 1,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 23,
@@ -239,7 +239,7 @@
       "sell_price": 40000,
       "effect": 27,
       "category": 1,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 24,
@@ -249,7 +249,7 @@
       "sell_price": 37000,
       "effect": 26,
       "category": 1,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 25,
@@ -259,7 +259,7 @@
       "sell_price": 32000,
       "effect": 24,
       "category": 1,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 26,
@@ -269,7 +269,7 @@
       "sell_price": 30000,
       "effect": 23,
       "category": 1,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 27,
@@ -279,7 +279,7 @@
       "sell_price": 65000,
       "effect": 34,
       "category": 1,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 28,
@@ -289,7 +289,7 @@
       "sell_price": 48000,
       "effect": 29,
       "category": 1,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 29,
@@ -299,7 +299,7 @@
       "sell_price": 18000,
       "effect": 16,
       "category": 1,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 30,
@@ -309,7 +309,7 @@
       "sell_price": 27000,
       "effect": 22,
       "category": 1,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 31,
@@ -319,7 +319,7 @@
       "sell_price": 4800,
       "effect": 4,
       "category": 1,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 32,
@@ -329,7 +329,7 @@
       "sell_price": 60000,
       "effect": 32,
       "category": 1,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 33,
@@ -339,7 +339,7 @@
       "sell_price": 5000,
       "effect": 0,
       "category": 2,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 34,
@@ -349,7 +349,7 @@
       "sell_price": 1250,
       "effect": 1,
       "category": 2,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 35,
@@ -359,7 +359,7 @@
       "sell_price": 4000,
       "effect": 2,
       "category": 2,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 36,
@@ -369,7 +369,7 @@
       "sell_price": 50,
       "effect": 4,
       "category": 2,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 37,
@@ -379,7 +379,7 @@
       "sell_price": 100,
       "effect": 22,
       "category": 3,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 38,
@@ -389,7 +389,7 @@
       "sell_price": 500,
       "effect": 28,
       "category": 3,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 39,
@@ -399,7 +399,7 @@
       "sell_price": 1050,
       "effect": 34,
       "category": 3,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 40,
@@ -409,7 +409,7 @@
       "sell_price": 2600,
       "effect": 38,
       "category": 3,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 41,
@@ -419,7 +419,7 @@
       "sell_price": 4200,
       "effect": 43,
       "category": 3,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 42,
@@ -429,7 +429,7 @@
       "sell_price": 6000,
       "effect": 48,
       "category": 3,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 43,
@@ -439,7 +439,7 @@
       "sell_price": 9500,
       "effect": 52,
       "category": 3,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 44,
@@ -449,7 +449,7 @@
       "sell_price": 13500,
       "effect": 56,
       "category": 3,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 45,
@@ -459,7 +459,7 @@
       "sell_price": 17500,
       "effect": 60,
       "category": 3,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 46,
@@ -469,7 +469,7 @@
       "sell_price": 25000,
       "effect": 65,
       "category": 3,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 47,
@@ -479,7 +479,7 @@
       "sell_price": 80000,
       "effect": 75,
       "category": 3,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 48,
@@ -489,7 +489,7 @@
       "sell_price": 320000,
       "effect": 95,
       "category": 3,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 49,
@@ -499,7 +499,7 @@
       "sell_price": 160000,
       "effect": 85,
       "category": 3,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 50,
@@ -509,7 +509,7 @@
       "sell_price": 5000,
       "effect": 3,
       "category": 3,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 51,
@@ -519,7 +519,7 @@
       "sell_price": 6000,
       "effect": 48,
       "category": 3,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 52,
@@ -529,7 +529,7 @@
       "sell_price": 1000,
       "effect": 30,
       "category": 3,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 53,
@@ -539,7 +539,7 @@
       "sell_price": 4800,
       "effect": 45,
       "category": 3,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 54,
@@ -549,7 +549,7 @@
       "sell_price": 12000,
       "effect": 55,
       "category": 3,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 55,
@@ -559,7 +559,7 @@
       "sell_price": 23000,
       "effect": 65,
       "category": 3,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 56,
@@ -569,7 +569,7 @@
       "sell_price": 43000,
       "effect": 70,
       "category": 3,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 57,
@@ -579,7 +579,7 @@
       "sell_price": 3800,
       "effect": 40,
       "category": 3,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 58,
@@ -589,7 +589,7 @@
       "sell_price": 35000,
       "effect": 68,
       "category": 3,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 59,
@@ -599,7 +599,7 @@
       "sell_price": 8800,
       "effect": 52,
       "category": 3,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 60,
@@ -609,7 +609,7 @@
       "sell_price": 45000,
       "effect": 67,
       "category": 3,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 61,
@@ -619,7 +619,7 @@
       "sell_price": 280000,
       "effect": 90,
       "category": 3,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 62,
@@ -629,7 +629,7 @@
       "sell_price": 500,
       "effect": 7,
       "category": 3,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 63,
@@ -639,7 +639,7 @@
       "sell_price": 1000,
       "effect": 5,
       "category": 3,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 64,
@@ -649,7 +649,7 @@
       "sell_price": 600,
       "effect": 25,
       "category": 3,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 65,
@@ -659,7 +659,7 @@
       "sell_price": 8000,
       "effect": 50,
       "category": 3,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 66,
@@ -669,7 +669,7 @@
       "sell_price": 150,
       "effect": 15,
       "category": 4,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 67,
@@ -679,7 +679,7 @@
       "sell_price": 1200,
       "effect": 25,
       "category": 4,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 68,
@@ -689,7 +689,7 @@
       "sell_price": 5000,
       "effect": 35,
       "category": 4,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 69,
@@ -699,7 +699,7 @@
       "sell_price": 18000,
       "effect": 50,
       "category": 4,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 70,
@@ -709,7 +709,7 @@
       "sell_price": 2400,
       "effect": 28,
       "category": 4,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 71,
@@ -719,7 +719,7 @@
       "sell_price": 4000,
       "effect": 33,
       "category": 4,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 72,
@@ -729,7 +729,7 @@
       "sell_price": 8000,
       "effect": 40,
       "category": 4,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 73,
@@ -739,7 +739,7 @@
       "sell_price": 13000,
       "effect": 45,
       "category": 4,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 74,
@@ -749,7 +749,7 @@
       "sell_price": 1000,
       "effect": 22,
       "category": 4,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 75,
@@ -759,7 +759,7 @@
       "sell_price": 6000,
       "effect": 37,
       "category": 4,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 76,
@@ -769,7 +769,7 @@
       "sell_price": 10000,
       "effect": 42,
       "category": 4,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 77,
@@ -779,7 +779,7 @@
       "sell_price": 22000,
       "effect": 52,
       "category": 4,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 78,
@@ -789,7 +789,7 @@
       "sell_price": 40000,
       "effect": 60,
       "category": 4,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 79,
@@ -799,7 +799,7 @@
       "sell_price": 20000,
       "effect": 30,
       "category": 4,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 80,
@@ -809,7 +809,7 @@
       "sell_price": 25000,
       "effect": 28,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 81,
@@ -819,7 +819,7 @@
       "sell_price": 29000,
       "effect": 32,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 82,
@@ -829,7 +829,7 @@
       "sell_price": 60000,
       "effect": 45,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 83,
@@ -839,7 +839,7 @@
       "sell_price": 3000,
       "effect": 20,
       "category": 7,
-      "field_18": 30
+      "hint_id": 30
     },
     {
       "id": 84,
@@ -849,7 +849,7 @@
       "sell_price": 10000,
       "effect": 16,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 85,
@@ -859,7 +859,7 @@
       "sell_price": 8000,
       "effect": 22,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 86,
@@ -869,7 +869,7 @@
       "sell_price": 75000,
       "effect": 40,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 87,
@@ -879,7 +879,7 @@
       "sell_price": 34000,
       "effect": 30,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 88,
@@ -889,7 +889,7 @@
       "sell_price": 33000,
       "effect": 29,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 89,
@@ -899,7 +899,7 @@
       "sell_price": 40000,
       "effect": 33,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 90,
@@ -909,7 +909,7 @@
       "sell_price": 70000,
       "effect": 38,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 91,
@@ -919,7 +919,7 @@
       "sell_price": 12000,
       "effect": 20,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 92,
@@ -929,7 +929,7 @@
       "sell_price": 78000,
       "effect": 45,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 93,
@@ -939,7 +939,7 @@
       "sell_price": 20000,
       "effect": 22,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 94,
@@ -949,7 +949,7 @@
       "sell_price": 72000,
       "effect": 40,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 95,
@@ -959,7 +959,7 @@
       "sell_price": 55000,
       "effect": 36,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 96,
@@ -969,7 +969,7 @@
       "sell_price": 48000,
       "effect": 34,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 97,
@@ -979,7 +979,7 @@
       "sell_price": 1700,
       "effect": 25,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 98,
@@ -989,7 +989,7 @@
       "sell_price": 67000,
       "effect": 35,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 99,
@@ -999,7 +999,7 @@
       "sell_price": 2000,
       "effect": 40,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 100,
@@ -1009,7 +1009,7 @@
       "sell_price": 70000,
       "effect": 35,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 101,
@@ -1019,7 +1019,7 @@
       "sell_price": 85000,
       "effect": 1,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 102,
@@ -1029,7 +1029,7 @@
       "sell_price": 75000,
       "effect": 4,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 103,
@@ -1039,7 +1039,7 @@
       "sell_price": 76000,
       "effect": 9,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 104,
@@ -1049,7 +1049,7 @@
       "sell_price": 60000,
       "effect": 24,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 105,
@@ -1059,7 +1059,7 @@
       "sell_price": 52000,
       "effect": 27,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 106,
@@ -1069,7 +1069,7 @@
       "sell_price": 1200,
       "effect": 38,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 107,
@@ -1079,7 +1079,7 @@
       "sell_price": 80000,
       "effect": 19,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 108,
@@ -1089,7 +1089,7 @@
       "sell_price": 1200,
       "effect": 17,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 109,
@@ -1099,7 +1099,7 @@
       "sell_price": 2500,
       "effect": 11,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 110,
@@ -1109,7 +1109,7 @@
       "sell_price": 500,
       "effect": 0,
       "category": 7,
-      "field_18": 82
+      "hint_id": 82
     },
     {
       "id": 111,
@@ -1119,7 +1119,7 @@
       "sell_price": 60000,
       "effect": 35,
       "category": 1,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 112,
@@ -1129,7 +1129,7 @@
       "sell_price": 150,
       "effect": 15,
       "category": 7,
-      "field_18": 59
+      "hint_id": 59
     },
     {
       "id": 113,
@@ -1139,7 +1139,7 @@
       "sell_price": 100,
       "effect": 10,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 114,
@@ -1149,7 +1149,7 @@
       "sell_price": 28000,
       "effect": 25,
       "category": 1,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 115,
@@ -1159,7 +1159,7 @@
       "sell_price": 5500,
       "effect": 10,
       "category": 1,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 116,
@@ -1169,7 +1169,7 @@
       "sell_price": 3200,
       "effect": 15,
       "category": 1,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 117,
@@ -1179,7 +1179,7 @@
       "sell_price": 1500,
       "effect": 3,
       "category": 1,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 118,
@@ -1189,7 +1189,7 @@
       "sell_price": 2200,
       "effect": 7,
       "category": 1,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 119,
@@ -1199,7 +1199,7 @@
       "sell_price": 50,
       "effect": 12,
       "category": 1,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 120,
@@ -1209,7 +1209,7 @@
       "sell_price": 5000,
       "effect": 28,
       "category": 7,
-      "field_18": 174
+      "hint_id": 174
     },
     {
       "id": 121,
@@ -1219,7 +1219,7 @@
       "sell_price": 33000,
       "effect": 58,
       "category": 4,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 122,
@@ -1229,7 +1229,7 @@
       "sell_price": 1500,
       "effect": 35,
       "category": 7,
-      "field_18": 72
+      "hint_id": 72
     },
     {
       "id": 123,
@@ -1239,7 +1239,7 @@
       "sell_price": 800,
       "effect": 30,
       "category": 7,
-      "field_18": 73
+      "hint_id": 73
     },
     {
       "id": 124,
@@ -1249,7 +1249,7 @@
       "sell_price": 800,
       "effect": 31,
       "category": 7,
-      "field_18": 154
+      "hint_id": 154
     },
     {
       "id": 125,
@@ -1259,7 +1259,7 @@
       "sell_price": 5000,
       "effect": 50,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 126,
@@ -1269,7 +1269,7 @@
       "sell_price": 200,
       "effect": 10,
       "category": 7,
-      "field_18": 45
+      "hint_id": 45
     },
     {
       "id": 127,
@@ -1279,7 +1279,7 @@
       "sell_price": 6000,
       "effect": 15,
       "category": 1,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 128,
@@ -1289,7 +1289,7 @@
       "sell_price": 12500,
       "effect": 12,
       "category": 8,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 129,
@@ -1299,7 +1299,7 @@
       "sell_price": 15000,
       "effect": 25,
       "category": 8,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 130,
@@ -1309,7 +1309,7 @@
       "sell_price": 10000,
       "effect": 10,
       "category": 8,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 131,
@@ -1319,7 +1319,7 @@
       "sell_price": 14000,
       "effect": 24,
       "category": 8,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 132,
@@ -1329,7 +1329,7 @@
       "sell_price": 8000,
       "effect": 40,
       "category": 8,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 133,
@@ -1339,7 +1339,7 @@
       "sell_price": 1200,
       "effect": 17,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 134,
@@ -1349,7 +1349,7 @@
       "sell_price": 2500,
       "effect": 15,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 135,
@@ -1359,7 +1359,7 @@
       "sell_price": 2000,
       "effect": 21,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 136,
@@ -1369,7 +1369,7 @@
       "sell_price": 1800,
       "effect": 20,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 137,
@@ -1379,7 +1379,7 @@
       "sell_price": 10000,
       "effect": 30,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 138,
@@ -1389,7 +1389,7 @@
       "sell_price": 9000,
       "effect": 36,
       "category": 8,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 139,
@@ -1399,7 +1399,7 @@
       "sell_price": 16000,
       "effect": 32,
       "category": 8,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 140,
@@ -1409,7 +1409,7 @@
       "sell_price": 3000,
       "effect": 6,
       "category": 8,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 141,
@@ -1419,7 +1419,7 @@
       "sell_price": 8000,
       "effect": 32,
       "category": 8,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 142,
@@ -1429,7 +1429,7 @@
       "sell_price": 2000,
       "effect": 10,
       "category": 8,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 143,
@@ -1439,7 +1439,7 @@
       "sell_price": 25000,
       "effect": 35,
       "category": 8,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 144,
@@ -1449,7 +1449,7 @@
       "sell_price": 20000,
       "effect": 25,
       "category": 8,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 145,
@@ -1459,7 +1459,7 @@
       "sell_price": 35000,
       "effect": 60,
       "category": 8,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 146,
@@ -1469,7 +1469,7 @@
       "sell_price": 30000,
       "effect": 50,
       "category": 8,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 147,
@@ -1479,7 +1479,7 @@
       "sell_price": 25000,
       "effect": 40,
       "category": 8,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 148,
@@ -1489,7 +1489,7 @@
       "sell_price": 24000,
       "effect": 38,
       "category": 8,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 149,
@@ -1499,7 +1499,7 @@
       "sell_price": 21000,
       "effect": 36,
       "category": 8,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 150,
@@ -1509,7 +1509,7 @@
       "sell_price": 9500,
       "effect": 20,
       "category": 8,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 151,
@@ -1519,7 +1519,7 @@
       "sell_price": 25000,
       "effect": 35,
       "category": 8,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 152,
@@ -1529,7 +1529,7 @@
       "sell_price": 13500,
       "effect": 30,
       "category": 8,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 153,
@@ -1539,7 +1539,7 @@
       "sell_price": 14000,
       "effect": 28,
       "category": 8,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 154,
@@ -1549,7 +1549,7 @@
       "sell_price": 8000,
       "effect": 24,
       "category": 8,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 155,
@@ -1559,7 +1559,7 @@
       "sell_price": 12000,
       "effect": 32,
       "category": 8,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 156,
@@ -1569,7 +1569,7 @@
       "sell_price": 15000,
       "effect": 28,
       "category": 8,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 157,
@@ -1579,7 +1579,7 @@
       "sell_price": 6000,
       "effect": 25,
       "category": 8,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 158,
@@ -1589,7 +1589,7 @@
       "sell_price": 1500,
       "effect": 8,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 159,
@@ -1599,7 +1599,7 @@
       "sell_price": 800,
       "effect": 20,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 160,
@@ -1609,7 +1609,7 @@
       "sell_price": 1000,
       "effect": 5,
       "category": 1,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 161,
@@ -1619,7 +1619,7 @@
       "sell_price": 1500,
       "effect": 25,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 162,
@@ -1629,7 +1629,7 @@
       "sell_price": 500,
       "effect": 15,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 163,
@@ -1639,7 +1639,7 @@
       "sell_price": 350,
       "effect": 12,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 164,
@@ -1649,7 +1649,7 @@
       "sell_price": 150,
       "effect": 15,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 165,
@@ -1659,7 +1659,7 @@
       "sell_price": 1500,
       "effect": 20,
       "category": 3,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 166,
@@ -1669,7 +1669,7 @@
       "sell_price": 9000,
       "effect": 33,
       "category": 1,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 167,
@@ -1679,7 +1679,7 @@
       "sell_price": 40000,
       "effect": 35,
       "category": 8,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 168,
@@ -1689,7 +1689,7 @@
       "sell_price": 35000,
       "effect": 40,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 169,
@@ -1699,7 +1699,7 @@
       "sell_price": 2000,
       "effect": 20,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 170,
@@ -1709,7 +1709,7 @@
       "sell_price": 25000,
       "effect": 50,
       "category": 8,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 171,
@@ -1719,7 +1719,7 @@
       "sell_price": 11000,
       "effect": 24,
       "category": 8,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 172,
@@ -1729,7 +1729,7 @@
       "sell_price": 8000,
       "effect": 20,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 173,
@@ -1739,7 +1739,7 @@
       "sell_price": 30000,
       "effect": 40,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 174,
@@ -1749,7 +1749,7 @@
       "sell_price": 30000,
       "effect": 40,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 175,
@@ -1759,7 +1759,7 @@
       "sell_price": 15000,
       "effect": 20,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 176,
@@ -1769,7 +1769,7 @@
       "sell_price": 28000,
       "effect": 30,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 177,
@@ -1779,7 +1779,7 @@
       "sell_price": 27000,
       "effect": 20,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 178,
@@ -1789,7 +1789,7 @@
       "sell_price": 30000,
       "effect": 30,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 179,
@@ -1799,7 +1799,7 @@
       "sell_price": 50000,
       "effect": 60,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 180,
@@ -1809,7 +1809,7 @@
       "sell_price": 24000,
       "effect": 40,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 181,
@@ -1819,7 +1819,7 @@
       "sell_price": 19000,
       "effect": 35,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 182,
@@ -1829,7 +1829,7 @@
       "sell_price": 9000,
       "effect": 30,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 183,
@@ -1839,7 +1839,7 @@
       "sell_price": 14000,
       "effect": 35,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 184,
@@ -1849,7 +1849,7 @@
       "sell_price": 9000,
       "effect": 27,
       "category": 7,
-      "field_18": 60
+      "hint_id": 60
     },
     {
       "id": 185,
@@ -1859,7 +1859,7 @@
       "sell_price": 5000,
       "effect": 17,
       "category": 1,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 186,
@@ -1869,7 +1869,7 @@
       "sell_price": 50,
       "effect": 10,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 187,
@@ -1879,7 +1879,7 @@
       "sell_price": 100,
       "effect": 15,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 188,
@@ -1889,7 +1889,7 @@
       "sell_price": 80,
       "effect": 12,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 189,
@@ -1899,7 +1899,7 @@
       "sell_price": 50,
       "effect": 45,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 190,
@@ -1909,7 +1909,7 @@
       "sell_price": 55,
       "effect": 50,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 191,
@@ -1919,7 +1919,7 @@
       "sell_price": 45,
       "effect": 42,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 192,
@@ -1929,7 +1929,7 @@
       "sell_price": 30,
       "effect": 36,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 193,
@@ -1939,7 +1939,7 @@
       "sell_price": 90,
       "effect": 25,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 194,
@@ -1949,7 +1949,7 @@
       "sell_price": 10,
       "effect": 24,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 195,
@@ -1959,7 +1959,7 @@
       "sell_price": 40,
       "effect": 22,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 196,
@@ -1969,7 +1969,7 @@
       "sell_price": 12,
       "effect": 27,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 197,
@@ -1979,7 +1979,7 @@
       "sell_price": 50,
       "effect": 40,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 198,
@@ -1989,7 +1989,7 @@
       "sell_price": 1000,
       "effect": 28,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 199,
@@ -1999,7 +1999,7 @@
       "sell_price": 600,
       "effect": 30,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 200,
@@ -2009,7 +2009,7 @@
       "sell_price": 300,
       "effect": 21,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 201,
@@ -2019,7 +2019,7 @@
       "sell_price": 950,
       "effect": 22,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 202,
@@ -2029,7 +2029,7 @@
       "sell_price": 1000,
       "effect": 24,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 203,
@@ -2039,7 +2039,7 @@
       "sell_price": 850,
       "effect": 20,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 204,
@@ -2049,7 +2049,7 @@
       "sell_price": 200,
       "effect": 12,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 205,
@@ -2059,7 +2059,7 @@
       "sell_price": 30000,
       "effect": 27,
       "category": 1,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 206,
@@ -2069,7 +2069,7 @@
       "sell_price": 9000,
       "effect": 17,
       "category": 1,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 207,
@@ -2079,7 +2079,7 @@
       "sell_price": 480,
       "effect": 5,
       "category": 1,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 208,
@@ -2089,7 +2089,7 @@
       "sell_price": 700,
       "effect": 7,
       "category": 1,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 209,
@@ -2099,7 +2099,7 @@
       "sell_price": 11000,
       "effect": 21,
       "category": 1,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 210,
@@ -2109,7 +2109,7 @@
       "sell_price": 600,
       "effect": 6,
       "category": 1,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 211,
@@ -2119,7 +2119,7 @@
       "sell_price": 350,
       "effect": 30,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 212,
@@ -2129,7 +2129,7 @@
       "sell_price": 10000,
       "effect": 35,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 213,
@@ -2139,7 +2139,7 @@
       "sell_price": 400,
       "effect": 0,
       "category": 6,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 214,
@@ -2149,7 +2149,7 @@
       "sell_price": 420,
       "effect": 1,
       "category": 6,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 215,
@@ -2159,7 +2159,7 @@
       "sell_price": 440,
       "effect": 2,
       "category": 6,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 216,
@@ -2169,7 +2169,7 @@
       "sell_price": 460,
       "effect": 3,
       "category": 6,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 217,
@@ -2179,7 +2179,7 @@
       "sell_price": 480,
       "effect": 4,
       "category": 6,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 218,
@@ -2189,7 +2189,7 @@
       "sell_price": 500,
       "effect": 5,
       "category": 6,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 219,
@@ -2199,7 +2199,7 @@
       "sell_price": 520,
       "effect": 6,
       "category": 6,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 220,
@@ -2209,7 +2209,7 @@
       "sell_price": 550,
       "effect": 7,
       "category": 6,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 221,
@@ -2219,7 +2219,7 @@
       "sell_price": 2100,
       "effect": 8,
       "category": 6,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 222,
@@ -2229,7 +2229,7 @@
       "sell_price": 2200,
       "effect": 9,
       "category": 6,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 223,
@@ -2239,7 +2239,7 @@
       "sell_price": 2300,
       "effect": 10,
       "category": 6,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 224,
@@ -2249,7 +2249,7 @@
       "sell_price": 2400,
       "effect": 11,
       "category": 6,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 225,
@@ -2259,7 +2259,7 @@
       "sell_price": 2500,
       "effect": 12,
       "category": 6,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 226,
@@ -2269,7 +2269,7 @@
       "sell_price": 7950,
       "effect": 13,
       "category": 6,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 227,
@@ -2279,7 +2279,7 @@
       "sell_price": 8000,
       "effect": 14,
       "category": 6,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 228,
@@ -2289,7 +2289,7 @@
       "sell_price": 8100,
       "effect": 15,
       "category": 6,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 229,
@@ -2299,7 +2299,7 @@
       "sell_price": 8200,
       "effect": 16,
       "category": 6,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 230,
@@ -2309,7 +2309,7 @@
       "sell_price": 8400,
       "effect": 17,
       "category": 6,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 231,
@@ -2319,7 +2319,7 @@
       "sell_price": 8500,
       "effect": 18,
       "category": 6,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 232,
@@ -2329,7 +2329,7 @@
       "sell_price": 8700,
       "effect": 19,
       "category": 6,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 233,
@@ -2339,7 +2339,7 @@
       "sell_price": 8850,
       "effect": 20,
       "category": 6,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 234,
@@ -2349,7 +2349,7 @@
       "sell_price": 9000,
       "effect": 21,
       "category": 6,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 235,
@@ -2359,7 +2359,7 @@
       "sell_price": 9150,
       "effect": 22,
       "category": 6,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 236,
@@ -2369,7 +2369,7 @@
       "sell_price": 9300,
       "effect": 23,
       "category": 6,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 237,
@@ -2379,7 +2379,7 @@
       "sell_price": 9500,
       "effect": 24,
       "category": 6,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 238,
@@ -2389,7 +2389,7 @@
       "sell_price": 9700,
       "effect": 25,
       "category": 6,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 239,
@@ -2399,7 +2399,7 @@
       "sell_price": 140000,
       "effect": 26,
       "category": 6,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 240,
@@ -2409,7 +2409,7 @@
       "sell_price": 125000,
       "effect": 27,
       "category": 6,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 241,
@@ -2419,7 +2419,7 @@
       "sell_price": 120000,
       "effect": 28,
       "category": 6,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 242,
@@ -2429,7 +2429,7 @@
       "sell_price": 135000,
       "effect": 29,
       "category": 6,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 243,
@@ -2439,7 +2439,7 @@
       "sell_price": 130000,
       "effect": 30,
       "category": 6,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 244,
@@ -2449,7 +2449,7 @@
       "sell_price": 125000,
       "effect": 31,
       "category": 6,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 245,
@@ -2459,7 +2459,7 @@
       "sell_price": 135000,
       "effect": 32,
       "category": 6,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 246,
@@ -2469,7 +2469,7 @@
       "sell_price": 138000,
       "effect": 33,
       "category": 6,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 247,
@@ -2479,7 +2479,7 @@
       "sell_price": 200000,
       "effect": 34,
       "category": 6,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 248,
@@ -2489,7 +2489,7 @@
       "sell_price": 230000,
       "effect": 35,
       "category": 6,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 249,
@@ -2499,7 +2499,7 @@
       "sell_price": 50,
       "effect": 0,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 250,
@@ -2509,7 +2509,7 @@
       "sell_price": 400,
       "effect": 0,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 251,
@@ -2519,7 +2519,7 @@
       "sell_price": 200,
       "effect": 0,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 252,
@@ -2529,7 +2529,7 @@
       "sell_price": 100,
       "effect": 0,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 253,
@@ -2539,7 +2539,7 @@
       "sell_price": 200,
       "effect": 0,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 254,
@@ -2549,7 +2549,7 @@
       "sell_price": 120,
       "effect": 0,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 255,
@@ -2559,7 +2559,7 @@
       "sell_price": 25,
       "effect": 0,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 256,
@@ -2569,7 +2569,7 @@
       "sell_price": 100,
       "effect": 0,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 257,
@@ -2579,7 +2579,7 @@
       "sell_price": 200,
       "effect": 0,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 258,
@@ -2589,7 +2589,7 @@
       "sell_price": 100,
       "effect": 0,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 259,
@@ -2599,7 +2599,7 @@
       "sell_price": 100,
       "effect": 0,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 260,
@@ -2609,7 +2609,7 @@
       "sell_price": 30,
       "effect": 0,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 261,
@@ -2619,7 +2619,7 @@
       "sell_price": 200,
       "effect": 0,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 262,
@@ -2629,7 +2629,7 @@
       "sell_price": 250,
       "effect": 0,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 263,
@@ -2639,7 +2639,7 @@
       "sell_price": 50,
       "effect": 0,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 264,
@@ -2649,7 +2649,7 @@
       "sell_price": 200,
       "effect": 0,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 265,
@@ -2659,7 +2659,7 @@
       "sell_price": 150,
       "effect": 0,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 266,
@@ -2669,7 +2669,7 @@
       "sell_price": 5,
       "effect": 0,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 267,
@@ -2679,7 +2679,7 @@
       "sell_price": 200,
       "effect": 0,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 268,
@@ -2689,7 +2689,7 @@
       "sell_price": 100,
       "effect": 0,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 269,
@@ -2699,7 +2699,7 @@
       "sell_price": 300,
       "effect": 0,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 270,
@@ -2709,7 +2709,7 @@
       "sell_price": 120,
       "effect": 0,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 271,
@@ -2719,7 +2719,7 @@
       "sell_price": 50,
       "effect": 0,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 272,
@@ -2729,7 +2729,7 @@
       "sell_price": 350,
       "effect": 2,
       "category": 1,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 273,
@@ -2739,7 +2739,7 @@
       "sell_price": 700,
       "effect": 4,
       "category": 1,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 274,
@@ -2749,7 +2749,7 @@
       "sell_price": 50,
       "effect": 1,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 275,
@@ -2759,7 +2759,7 @@
       "sell_price": 45,
       "effect": 0,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 276,
@@ -2769,7 +2769,7 @@
       "sell_price": 190,
       "effect": 0,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 277,
@@ -2779,7 +2779,7 @@
       "sell_price": 500,
       "effect": 1,
       "category": 7,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 278,
@@ -2789,7 +2789,7 @@
       "sell_price": 500,
       "effect": 1,
       "category": 7,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 279,
@@ -2799,7 +2799,7 @@
       "sell_price": 500,
       "effect": 1,
       "category": 7,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 280,
@@ -2809,7 +2809,7 @@
       "sell_price": 500,
       "effect": 1,
       "category": 7,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 281,
@@ -2819,7 +2819,7 @@
       "sell_price": 500,
       "effect": 1,
       "category": 7,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 282,
@@ -2829,7 +2829,7 @@
       "sell_price": 500,
       "effect": 1,
       "category": 7,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 283,
@@ -2839,7 +2839,7 @@
       "sell_price": 500,
       "effect": 1,
       "category": 7,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 284,
@@ -2849,7 +2849,7 @@
       "sell_price": 500,
       "effect": 1,
       "category": 7,
-      "field_18": -1
+      "hint_id": -1
     },
     {
       "id": 285,
@@ -2859,7 +2859,7 @@
       "sell_price": 60000,
       "effect": 35,
       "category": 5,
-      "field_18": -1
+      "hint_id": -1
     }
   ]
 }

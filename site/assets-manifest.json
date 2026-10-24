@@ -439,8 +439,8 @@
     {
       "url": "assets/data/strings.ko.json",
       "path": "/cds95/data/strings.ko.json",
-      "size": 628381,
-      "sha256": "7e14b583b59ef6ebd06f631e8d54f0990f9f29f0f9bf18acc66eeac1bed3839e",
+      "size": 628403,
+      "sha256": "f9914a487248017ee423d5707dd9ab756272886dee7a18aadc6e0a49ba344cb1",
       "aliases": [],
       "deferred": false
     },
@@ -495,8 +495,8 @@
     {
       "url": "assets/data/records/cities.json",
       "path": "/cds95/data/records/cities.json",
-      "size": 149453,
-      "sha256": "56e94b17a3f3f23fedd4c26b59695330c86b6906db5ea1e43484b7926fb9fcaf",
+      "size": 155103,
+      "sha256": "cc127084b7142c99000bfd79691cb8abcd08dc481a1ccda81e3c6b4299b49f9c",
       "aliases": [],
       "deferred": false
     },
@@ -519,8 +519,8 @@
     {
       "url": "assets/data/records/facilities.json",
       "path": "/cds95/data/records/facilities.json",
-      "size": 583566,
-      "sha256": "88076602004af2ccf19d4b7fa9d38ad51bb16dcec6a0240e07fcf49ac41cbd27",
+      "size": 600154,
+      "sha256": "f6411b894784c79f89f02881eccd273539f9c88a662a70aaca12024712bfe9df",
       "aliases": [],
       "deferred": false
     },
@@ -551,8 +551,8 @@
     {
       "url": "assets/data/records/items.json",
       "path": "/cds95/data/records/items.json",
-      "size": 58978,
-      "sha256": "c35f23985126e11359b3206be1ed57ffcc525a7064178e8d6f565dbc672c1c4e",
+      "size": 58692,
+      "sha256": "98717dacd5c5ba7637367429097320bc15b326e00c84708dfdf722eaf986d266",
       "aliases": [],
       "deferred": false
     },
@@ -583,8 +583,8 @@
     {
       "url": "assets/data/records/people.json",
       "path": "/cds95/data/records/people.json",
-      "size": 283784,
-      "sha256": "305369460b9b7ed9415d6320ce980b9d2295388e69ed7b5a4f279b20f425e128",
+      "size": 284908,
+      "sha256": "a78b86d59aec31828c681d9a23f5b15e2a147f095fed13a52425d6a731972fb0",
       "aliases": [],
       "deferred": false
     },
@@ -631,8 +631,8 @@
     {
       "url": "assets/data/records/world_catalog.json",
       "path": "/cds95/data/records/world_catalog.json",
-      "size": 143011,
-      "sha256": "c9c6b6fefbb42401848cdb564ef041c0ac54a37fb33420f5da9fb1d4af6975ab",
+      "size": 146299,
+      "sha256": "f33b470032f538185b70c7198ce51d8738ff999e78fead07f1b54eeb9c3c8d26",
       "aliases": [],
       "deferred": false
     },

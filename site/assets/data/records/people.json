@@ -17,7 +17,7 @@
       "recruitment_state": 0,
       "initial_city": -1,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 200,
       "attributes": [
         69,
@@ -77,7 +77,7 @@
       "recruitment_state": 0,
       "initial_city": -1,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 200,
       "attributes": [
         70,
@@ -137,7 +137,7 @@
       "recruitment_state": 0,
       "initial_city": -1,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 200,
       "attributes": [
         86,
@@ -197,7 +197,7 @@
       "recruitment_state": 0,
       "initial_city": -1,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 200,
       "attributes": [
         78,
@@ -257,7 +257,7 @@
       "recruitment_state": 0,
       "initial_city": -1,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 200,
       "attributes": [
         85,
@@ -317,7 +317,7 @@
       "recruitment_state": 0,
       "initial_city": -1,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 200,
       "attributes": [
         76,
@@ -377,7 +377,7 @@
       "recruitment_state": 0,
       "initial_city": -1,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 200,
       "attributes": [
         60,
@@ -437,7 +437,7 @@
       "recruitment_state": 0,
       "initial_city": -1,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 200,
       "attributes": [
         86,
@@ -497,7 +497,7 @@
       "recruitment_state": 0,
       "initial_city": -1,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 200,
       "attributes": [
         71,
@@ -557,7 +557,7 @@
       "recruitment_state": 0,
       "initial_city": -1,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 200,
       "attributes": [
         89,
@@ -617,7 +617,7 @@
       "recruitment_state": 0,
       "initial_city": -1,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 200,
       "attributes": [
         77,
@@ -677,7 +677,7 @@
       "recruitment_state": 0,
       "initial_city": -1,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 200,
       "attributes": [
         58,
@@ -737,7 +737,7 @@
       "recruitment_state": 0,
       "initial_city": -1,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 200,
       "attributes": [
         65,
@@ -797,7 +797,7 @@
       "recruitment_state": 0,
       "initial_city": -1,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 200,
       "attributes": [
         68,
@@ -857,7 +857,7 @@
       "recruitment_state": 1,
       "initial_city": 89,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 200,
       "attributes": [
         58,
@@ -917,7 +917,7 @@
       "recruitment_state": 1,
       "initial_city": 91,
       "initial_facility": 5,
-      "field_38": 3,
+      "travel_scope": 3,
       "recruit_cost_factor": 200,
       "attributes": [
         66,
@@ -977,7 +977,7 @@
       "recruitment_state": 1,
       "initial_city": 84,
       "initial_facility": 5,
-      "field_38": 1,
+      "travel_scope": 1,
       "recruit_cost_factor": 200,
       "attributes": [
         61,
@@ -1037,7 +1037,7 @@
       "recruitment_state": 1,
       "initial_city": 91,
       "initial_facility": 4,
-      "field_38": 3,
+      "travel_scope": 3,
       "recruit_cost_factor": 200,
       "attributes": [
         59,
@@ -1097,7 +1097,7 @@
       "recruitment_state": 1,
       "initial_city": 1,
       "initial_facility": 5,
-      "field_38": 3,
+      "travel_scope": 3,
       "recruit_cost_factor": 200,
       "attributes": [
         55,
@@ -1157,7 +1157,7 @@
       "recruitment_state": 1,
       "initial_city": 84,
       "initial_facility": 4,
-      "field_38": 1,
+      "travel_scope": 1,
       "recruit_cost_factor": 200,
       "attributes": [
         86,
@@ -1217,7 +1217,7 @@
       "recruitment_state": 1,
       "initial_city": 0,
       "initial_facility": 4,
-      "field_38": 3,
+      "travel_scope": 3,
       "recruit_cost_factor": 200,
       "attributes": [
         65,
@@ -1277,7 +1277,7 @@
       "recruitment_state": 1,
       "initial_city": 101,
       "initial_facility": 4,
-      "field_38": 3,
+      "travel_scope": 3,
       "recruit_cost_factor": 200,
       "attributes": [
         58,
@@ -1337,7 +1337,7 @@
       "recruitment_state": 1,
       "initial_city": 150,
       "initial_facility": 5,
-      "field_38": 3,
+      "travel_scope": 3,
       "recruit_cost_factor": 200,
       "attributes": [
         62,
@@ -1397,7 +1397,7 @@
       "recruitment_state": 1,
       "initial_city": 0,
       "initial_facility": 5,
-      "field_38": 3,
+      "travel_scope": 3,
       "recruit_cost_factor": 200,
       "attributes": [
         44,
@@ -1457,7 +1457,7 @@
       "recruitment_state": 1,
       "initial_city": 100,
       "initial_facility": 5,
-      "field_38": 3,
+      "travel_scope": 3,
       "recruit_cost_factor": 200,
       "attributes": [
         37,
@@ -1517,7 +1517,7 @@
       "recruitment_state": 1,
       "initial_city": 102,
       "initial_facility": 4,
-      "field_38": 3,
+      "travel_scope": 3,
       "recruit_cost_factor": 200,
       "attributes": [
         63,
@@ -1577,7 +1577,7 @@
       "recruitment_state": 1,
       "initial_city": 160,
       "initial_facility": 4,
-      "field_38": 3,
+      "travel_scope": 3,
       "recruit_cost_factor": 200,
       "attributes": [
         60,
@@ -1637,7 +1637,7 @@
       "recruitment_state": 1,
       "initial_city": 0,
       "initial_facility": 4,
-      "field_38": 3,
+      "travel_scope": 3,
       "recruit_cost_factor": 200,
       "attributes": [
         59,
@@ -1697,7 +1697,7 @@
       "recruitment_state": 1,
       "initial_city": 6,
       "initial_facility": 4,
-      "field_38": 1,
+      "travel_scope": 1,
       "recruit_cost_factor": 200,
       "attributes": [
         96,
@@ -1757,7 +1757,7 @@
       "recruitment_state": 1,
       "initial_city": 7,
       "initial_facility": 4,
-      "field_38": 3,
+      "travel_scope": 3,
       "recruit_cost_factor": 200,
       "attributes": [
         72,
@@ -1817,7 +1817,7 @@
       "recruitment_state": 1,
       "initial_city": 11,
       "initial_facility": 4,
-      "field_38": 3,
+      "travel_scope": 3,
       "recruit_cost_factor": 200,
       "attributes": [
         60,
@@ -1877,7 +1877,7 @@
       "recruitment_state": 1,
       "initial_city": 5,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 200,
       "attributes": [
         52,
@@ -1937,7 +1937,7 @@
       "recruitment_state": 1,
       "initial_city": 2,
       "initial_facility": 5,
-      "field_38": 3,
+      "travel_scope": 3,
       "recruit_cost_factor": 200,
       "attributes": [
         72,
@@ -1997,7 +1997,7 @@
       "recruitment_state": 1,
       "initial_city": 7,
       "initial_facility": 4,
-      "field_38": 3,
+      "travel_scope": 3,
       "recruit_cost_factor": 200,
       "attributes": [
         83,
@@ -2057,7 +2057,7 @@
       "recruitment_state": 1,
       "initial_city": 8,
       "initial_facility": 4,
-      "field_38": 3,
+      "travel_scope": 3,
       "recruit_cost_factor": 200,
       "attributes": [
         47,
@@ -2117,7 +2117,7 @@
       "recruitment_state": 1,
       "initial_city": 7,
       "initial_facility": 4,
-      "field_38": 3,
+      "travel_scope": 3,
       "recruit_cost_factor": 200,
       "attributes": [
         69,
@@ -2177,7 +2177,7 @@
       "recruitment_state": 1,
       "initial_city": 12,
       "initial_facility": 5,
-      "field_38": 3,
+      "travel_scope": 3,
       "recruit_cost_factor": 200,
       "attributes": [
         69,
@@ -2237,7 +2237,7 @@
       "recruitment_state": 1,
       "initial_city": 13,
       "initial_facility": 4,
-      "field_38": 3,
+      "travel_scope": 3,
       "recruit_cost_factor": 200,
       "attributes": [
         60,
@@ -2297,7 +2297,7 @@
       "recruitment_state": 1,
       "initial_city": 4,
       "initial_facility": 5,
-      "field_38": 3,
+      "travel_scope": 3,
       "recruit_cost_factor": 200,
       "attributes": [
         68,
@@ -2357,7 +2357,7 @@
       "recruitment_state": 1,
       "initial_city": 2,
       "initial_facility": 5,
-      "field_38": 3,
+      "travel_scope": 3,
       "recruit_cost_factor": 200,
       "attributes": [
         71,
@@ -2417,7 +2417,7 @@
       "recruitment_state": 1,
       "initial_city": 7,
       "initial_facility": 4,
-      "field_38": 3,
+      "travel_scope": 3,
       "recruit_cost_factor": 200,
       "attributes": [
         77,
@@ -2477,7 +2477,7 @@
       "recruitment_state": 1,
       "initial_city": 8,
       "initial_facility": 4,
-      "field_38": 3,
+      "travel_scope": 3,
       "recruit_cost_factor": 200,
       "attributes": [
         70,
@@ -2537,7 +2537,7 @@
       "recruitment_state": 1,
       "initial_city": 12,
       "initial_facility": 5,
-      "field_38": 3,
+      "travel_scope": 3,
       "recruit_cost_factor": 200,
       "attributes": [
         70,
@@ -2597,7 +2597,7 @@
       "recruitment_state": 1,
       "initial_city": 4,
       "initial_facility": 5,
-      "field_38": 3,
+      "travel_scope": 3,
       "recruit_cost_factor": 200,
       "attributes": [
         73,
@@ -2657,7 +2657,7 @@
       "recruitment_state": 1,
       "initial_city": 5,
       "initial_facility": 4,
-      "field_38": 3,
+      "travel_scope": 3,
       "recruit_cost_factor": 200,
       "attributes": [
         70,
@@ -2717,7 +2717,7 @@
       "recruitment_state": 1,
       "initial_city": 6,
       "initial_facility": 4,
-      "field_38": 3,
+      "travel_scope": 3,
       "recruit_cost_factor": 200,
       "attributes": [
         75,
@@ -2777,7 +2777,7 @@
       "recruitment_state": 1,
       "initial_city": 88,
       "initial_facility": 4,
-      "field_38": 3,
+      "travel_scope": 3,
       "recruit_cost_factor": 200,
       "attributes": [
         62,
@@ -2837,7 +2837,7 @@
       "recruitment_state": 1,
       "initial_city": 9,
       "initial_facility": 4,
-      "field_38": 3,
+      "travel_scope": 3,
       "recruit_cost_factor": 200,
       "attributes": [
         64,
@@ -2897,7 +2897,7 @@
       "recruitment_state": 1,
       "initial_city": 10,
       "initial_facility": 5,
-      "field_38": 3,
+      "travel_scope": 3,
       "recruit_cost_factor": 200,
       "attributes": [
         64,
@@ -2957,7 +2957,7 @@
       "recruitment_state": 1,
       "initial_city": 4,
       "initial_facility": 5,
-      "field_38": 3,
+      "travel_scope": 3,
       "recruit_cost_factor": 200,
       "attributes": [
         43,
@@ -3017,7 +3017,7 @@
       "recruitment_state": 1,
       "initial_city": 7,
       "initial_facility": 5,
-      "field_38": 3,
+      "travel_scope": 3,
       "recruit_cost_factor": 200,
       "attributes": [
         63,
@@ -3077,7 +3077,7 @@
       "recruitment_state": 1,
       "initial_city": 11,
       "initial_facility": 4,
-      "field_38": 3,
+      "travel_scope": 3,
       "recruit_cost_factor": 200,
       "attributes": [
         69,
@@ -3137,7 +3137,7 @@
       "recruitment_state": 1,
       "initial_city": 21,
       "initial_facility": 4,
-      "field_38": 1,
+      "travel_scope": 1,
       "recruit_cost_factor": 200,
       "attributes": [
         88,
@@ -3197,7 +3197,7 @@
       "recruitment_state": 1,
       "initial_city": 28,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 200,
       "attributes": [
         51,
@@ -3257,7 +3257,7 @@
       "recruitment_state": 1,
       "initial_city": 29,
       "initial_facility": 5,
-      "field_38": 3,
+      "travel_scope": 3,
       "recruit_cost_factor": 200,
       "attributes": [
         70,
@@ -3317,7 +3317,7 @@
       "recruitment_state": 1,
       "initial_city": 38,
       "initial_facility": 5,
-      "field_38": 3,
+      "travel_scope": 3,
       "recruit_cost_factor": 200,
       "attributes": [
         66,
@@ -3377,7 +3377,7 @@
       "recruitment_state": 1,
       "initial_city": 38,
       "initial_facility": 4,
-      "field_38": 1,
+      "travel_scope": 1,
       "recruit_cost_factor": 200,
       "attributes": [
         82,
@@ -3437,7 +3437,7 @@
       "recruitment_state": 1,
       "initial_city": 44,
       "initial_facility": 4,
-      "field_38": 3,
+      "travel_scope": 3,
       "recruit_cost_factor": 200,
       "attributes": [
         74,
@@ -3497,7 +3497,7 @@
       "recruitment_state": 1,
       "initial_city": 78,
       "initial_facility": 4,
-      "field_38": 1,
+      "travel_scope": 1,
       "recruit_cost_factor": 200,
       "attributes": [
         68,
@@ -3557,7 +3557,7 @@
       "recruitment_state": 1,
       "initial_city": 82,
       "initial_facility": 4,
-      "field_38": 1,
+      "travel_scope": 1,
       "recruit_cost_factor": 200,
       "attributes": [
         85,
@@ -3617,7 +3617,7 @@
       "recruitment_state": 1,
       "initial_city": 112,
       "initial_facility": 5,
-      "field_38": 1,
+      "travel_scope": 1,
       "recruit_cost_factor": 200,
       "attributes": [
         95,
@@ -3677,7 +3677,7 @@
       "recruitment_state": 1,
       "initial_city": 124,
       "initial_facility": 4,
-      "field_38": 3,
+      "travel_scope": 3,
       "recruit_cost_factor": 200,
       "attributes": [
         89,
@@ -3737,7 +3737,7 @@
       "recruitment_state": 1,
       "initial_city": 83,
       "initial_facility": 4,
-      "field_38": 1,
+      "travel_scope": 1,
       "recruit_cost_factor": 200,
       "attributes": [
         100,
@@ -3797,7 +3797,7 @@
       "recruitment_state": 2,
       "initial_city": 84,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 134,
       "attributes": [
         66,
@@ -3857,7 +3857,7 @@
       "recruitment_state": 2,
       "initial_city": 0,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 129,
       "attributes": [
         57,
@@ -3917,7 +3917,7 @@
       "recruitment_state": 2,
       "initial_city": 0,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 160,
       "attributes": [
         50,
@@ -3977,7 +3977,7 @@
       "recruitment_state": 2,
       "initial_city": 1,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 132,
       "attributes": [
         54,
@@ -4037,7 +4037,7 @@
       "recruitment_state": 2,
       "initial_city": 86,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 125,
       "attributes": [
         62,
@@ -4097,7 +4097,7 @@
       "recruitment_state": 2,
       "initial_city": 0,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 200,
       "attributes": [
         71,
@@ -4157,7 +4157,7 @@
       "recruitment_state": 2,
       "initial_city": 84,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 122,
       "attributes": [
         65,
@@ -4217,7 +4217,7 @@
       "recruitment_state": 2,
       "initial_city": 0,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 114,
       "attributes": [
         56,
@@ -4277,7 +4277,7 @@
       "recruitment_state": 2,
       "initial_city": 84,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 115,
       "attributes": [
         52,
@@ -4337,7 +4337,7 @@
       "recruitment_state": 2,
       "initial_city": 1,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 132,
       "attributes": [
         51,
@@ -4397,7 +4397,7 @@
       "recruitment_state": 2,
       "initial_city": 87,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 124,
       "attributes": [
         59,
@@ -4457,7 +4457,7 @@
       "recruitment_state": 2,
       "initial_city": 86,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 122,
       "attributes": [
         53,
@@ -4517,7 +4517,7 @@
       "recruitment_state": 2,
       "initial_city": 90,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 114,
       "attributes": [
         75,
@@ -4577,7 +4577,7 @@
       "recruitment_state": 2,
       "initial_city": 1,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 124,
       "attributes": [
         64,
@@ -4637,7 +4637,7 @@
       "recruitment_state": 2,
       "initial_city": 0,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 127,
       "attributes": [
         67,
@@ -4697,7 +4697,7 @@
       "recruitment_state": 2,
       "initial_city": 0,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 132,
       "attributes": [
         60,
@@ -4757,7 +4757,7 @@
       "recruitment_state": 2,
       "initial_city": 90,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 124,
       "attributes": [
         49,
@@ -4817,7 +4817,7 @@
       "recruitment_state": 2,
       "initial_city": 89,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 133,
       "attributes": [
         74,
@@ -4877,7 +4877,7 @@
       "recruitment_state": 2,
       "initial_city": 0,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 124,
       "attributes": [
         65,
@@ -4937,7 +4937,7 @@
       "recruitment_state": 2,
       "initial_city": 1,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 121,
       "attributes": [
         63,
@@ -4997,7 +4997,7 @@
       "recruitment_state": 2,
       "initial_city": 84,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 148,
       "attributes": [
         70,
@@ -5057,7 +5057,7 @@
       "recruitment_state": 2,
       "initial_city": 0,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 144,
       "attributes": [
         51,
@@ -5117,7 +5117,7 @@
       "recruitment_state": 2,
       "initial_city": 84,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 122,
       "attributes": [
         60,
@@ -5177,7 +5177,7 @@
       "recruitment_state": 2,
       "initial_city": 87,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 124,
       "attributes": [
         70,
@@ -5237,7 +5237,7 @@
       "recruitment_state": 2,
       "initial_city": 0,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 146,
       "attributes": [
         80,
@@ -5297,7 +5297,7 @@
       "recruitment_state": 2,
       "initial_city": 100,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 136,
       "attributes": [
         55,
@@ -5357,7 +5357,7 @@
       "recruitment_state": 2,
       "initial_city": 102,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 124,
       "attributes": [
         61,
@@ -5417,7 +5417,7 @@
       "recruitment_state": 2,
       "initial_city": 0,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 152,
       "attributes": [
         61,
@@ -5477,7 +5477,7 @@
       "recruitment_state": 2,
       "initial_city": 97,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 123,
       "attributes": [
         66,
@@ -5537,7 +5537,7 @@
       "recruitment_state": 2,
       "initial_city": 1,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 122,
       "attributes": [
         66,
@@ -5597,7 +5597,7 @@
       "recruitment_state": 2,
       "initial_city": 150,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 160,
       "attributes": [
         78,
@@ -5657,7 +5657,7 @@
       "recruitment_state": 2,
       "initial_city": 1,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 125,
       "attributes": [
         48,
@@ -5717,7 +5717,7 @@
       "recruitment_state": 2,
       "initial_city": 151,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 127,
       "attributes": [
         57,
@@ -5777,7 +5777,7 @@
       "recruitment_state": 2,
       "initial_city": 0,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 122,
       "attributes": [
         56,
@@ -5837,7 +5837,7 @@
       "recruitment_state": 2,
       "initial_city": 84,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 145,
       "attributes": [
         76,
@@ -5897,7 +5897,7 @@
       "recruitment_state": 2,
       "initial_city": 97,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 103,
       "attributes": [
         52,
@@ -5957,7 +5957,7 @@
       "recruitment_state": 2,
       "initial_city": 0,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 132,
       "attributes": [
         57,
@@ -6017,7 +6017,7 @@
       "recruitment_state": 2,
       "initial_city": 0,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 120,
       "attributes": [
         51,
@@ -6077,7 +6077,7 @@
       "recruitment_state": 2,
       "initial_city": 155,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 114,
       "attributes": [
         54,
@@ -6137,7 +6137,7 @@
       "recruitment_state": 2,
       "initial_city": 1,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 146,
       "attributes": [
         72,
@@ -6197,7 +6197,7 @@
       "recruitment_state": 2,
       "initial_city": 171,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 130,
       "attributes": [
         58,
@@ -6257,7 +6257,7 @@
       "recruitment_state": 2,
       "initial_city": 150,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 124,
       "attributes": [
         59,
@@ -6317,7 +6317,7 @@
       "recruitment_state": 2,
       "initial_city": 0,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 143,
       "attributes": [
         63,
@@ -6377,7 +6377,7 @@
       "recruitment_state": 2,
       "initial_city": 5,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 132,
       "attributes": [
         50,
@@ -6437,7 +6437,7 @@
       "recruitment_state": 2,
       "initial_city": 7,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 188,
       "attributes": [
         69,
@@ -6497,7 +6497,7 @@
       "recruitment_state": 2,
       "initial_city": 7,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 171,
       "attributes": [
         75,
@@ -6557,7 +6557,7 @@
       "recruitment_state": 2,
       "initial_city": 12,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 162,
       "attributes": [
         48,
@@ -6617,7 +6617,7 @@
       "recruitment_state": 2,
       "initial_city": 4,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 160,
       "attributes": [
         85,
@@ -6677,7 +6677,7 @@
       "recruitment_state": 2,
       "initial_city": 8,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 152,
       "attributes": [
         41,
@@ -6737,7 +6737,7 @@
       "recruitment_state": 2,
       "initial_city": 11,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 164,
       "attributes": [
         69,
@@ -6797,7 +6797,7 @@
       "recruitment_state": 2,
       "initial_city": 5,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 134,
       "attributes": [
         54,
@@ -6857,7 +6857,7 @@
       "recruitment_state": 2,
       "initial_city": 8,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 145,
       "attributes": [
         49,
@@ -6917,7 +6917,7 @@
       "recruitment_state": 2,
       "initial_city": 2,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 126,
       "attributes": [
         66,
@@ -6977,7 +6977,7 @@
       "recruitment_state": 2,
       "initial_city": 7,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 117,
       "attributes": [
         55,
@@ -7037,7 +7037,7 @@
       "recruitment_state": 2,
       "initial_city": 13,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 138,
       "attributes": [
         42,
@@ -7097,7 +7097,7 @@
       "recruitment_state": 2,
       "initial_city": 4,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 155,
       "attributes": [
         54,
@@ -7157,7 +7157,7 @@
       "recruitment_state": 2,
       "initial_city": 2,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 125,
       "attributes": [
         78,
@@ -7217,7 +7217,7 @@
       "recruitment_state": 2,
       "initial_city": 3,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 162,
       "attributes": [
         68,
@@ -7277,7 +7277,7 @@
       "recruitment_state": 2,
       "initial_city": 10,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 142,
       "attributes": [
         59,
@@ -7337,7 +7337,7 @@
       "recruitment_state": 2,
       "initial_city": 6,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 177,
       "attributes": [
         90,
@@ -7397,7 +7397,7 @@
       "recruitment_state": 2,
       "initial_city": 9,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 145,
       "attributes": [
         62,
@@ -7457,7 +7457,7 @@
       "recruitment_state": 2,
       "initial_city": 7,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 174,
       "attributes": [
         55,
@@ -7517,7 +7517,7 @@
       "recruitment_state": 2,
       "initial_city": 88,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 162,
       "attributes": [
         44,
@@ -7577,7 +7577,7 @@
       "recruitment_state": 2,
       "initial_city": 2,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 164,
       "attributes": [
         85,
@@ -7637,7 +7637,7 @@
       "recruitment_state": 2,
       "initial_city": 10,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 148,
       "attributes": [
         44,
@@ -7697,7 +7697,7 @@
       "recruitment_state": 2,
       "initial_city": 6,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 122,
       "attributes": [
         62,
@@ -7757,7 +7757,7 @@
       "recruitment_state": 2,
       "initial_city": 7,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 172,
       "attributes": [
         56,
@@ -7817,7 +7817,7 @@
       "recruitment_state": 2,
       "initial_city": 88,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 145,
       "attributes": [
         51,
@@ -7877,7 +7877,7 @@
       "recruitment_state": 2,
       "initial_city": 4,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 129,
       "attributes": [
         52,
@@ -7937,7 +7937,7 @@
       "recruitment_state": 2,
       "initial_city": 194,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 122,
       "attributes": [
         62,
@@ -7997,7 +7997,7 @@
       "recruitment_state": 2,
       "initial_city": 10,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 132,
       "attributes": [
         67,
@@ -8057,7 +8057,7 @@
       "recruitment_state": 2,
       "initial_city": 7,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 124,
       "attributes": [
         50,
@@ -8117,7 +8117,7 @@
       "recruitment_state": 2,
       "initial_city": 3,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 200,
       "attributes": [
         59,
@@ -8177,7 +8177,7 @@
       "recruitment_state": 2,
       "initial_city": 195,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 155,
       "attributes": [
         57,
@@ -8237,7 +8237,7 @@
       "recruitment_state": 2,
       "initial_city": 9,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 125,
       "attributes": [
         66,
@@ -8297,7 +8297,7 @@
       "recruitment_state": 2,
       "initial_city": 7,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 145,
       "attributes": [
         55,
@@ -8357,7 +8357,7 @@
       "recruitment_state": 2,
       "initial_city": 194,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 185,
       "attributes": [
         50,
@@ -8417,7 +8417,7 @@
       "recruitment_state": 2,
       "initial_city": 7,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 122,
       "attributes": [
         50,
@@ -8477,7 +8477,7 @@
       "recruitment_state": 2,
       "initial_city": 4,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 133,
       "attributes": [
         73,
@@ -8537,7 +8537,7 @@
       "recruitment_state": 2,
       "initial_city": 8,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 116,
       "attributes": [
         61,
@@ -8597,7 +8597,7 @@
       "recruitment_state": 2,
       "initial_city": 7,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 112,
       "attributes": [
         56,
@@ -8657,7 +8657,7 @@
       "recruitment_state": 2,
       "initial_city": 3,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 132,
       "attributes": [
         55,
@@ -8717,7 +8717,7 @@
       "recruitment_state": 2,
       "initial_city": 13,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 145,
       "attributes": [
         55,
@@ -8777,7 +8777,7 @@
       "recruitment_state": 2,
       "initial_city": 2,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 139,
       "attributes": [
         49,
@@ -8837,7 +8837,7 @@
       "recruitment_state": 2,
       "initial_city": 4,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 175,
       "attributes": [
         74,
@@ -8897,7 +8897,7 @@
       "recruitment_state": 2,
       "initial_city": 9,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 138,
       "attributes": [
         68,
@@ -8957,7 +8957,7 @@
       "recruitment_state": 2,
       "initial_city": 10,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 139,
       "attributes": [
         51,
@@ -9017,7 +9017,7 @@
       "recruitment_state": 2,
       "initial_city": 88,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 142,
       "attributes": [
         66,
@@ -9077,7 +9077,7 @@
       "recruitment_state": 2,
       "initial_city": 11,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 174,
       "attributes": [
         40,
@@ -9137,7 +9137,7 @@
       "recruitment_state": 2,
       "initial_city": 7,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 134,
       "attributes": [
         56,
@@ -9197,7 +9197,7 @@
       "recruitment_state": 2,
       "initial_city": 11,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 126,
       "attributes": [
         64,
@@ -9257,7 +9257,7 @@
       "recruitment_state": 2,
       "initial_city": 8,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 140,
       "attributes": [
         76,
@@ -9317,7 +9317,7 @@
       "recruitment_state": 2,
       "initial_city": 198,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 174,
       "attributes": [
         90,
@@ -9377,7 +9377,7 @@
       "recruitment_state": 2,
       "initial_city": 12,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 180,
       "attributes": [
         89,
@@ -9437,7 +9437,7 @@
       "recruitment_state": 2,
       "initial_city": 9,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 139,
       "attributes": [
         72,
@@ -9497,7 +9497,7 @@
       "recruitment_state": 2,
       "initial_city": 194,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 135,
       "attributes": [
         68,
@@ -9557,7 +9557,7 @@
       "recruitment_state": 2,
       "initial_city": 7,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 170,
       "attributes": [
         82,
@@ -9617,7 +9617,7 @@
       "recruitment_state": 2,
       "initial_city": 8,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 130,
       "attributes": [
         65,
@@ -9677,7 +9677,7 @@
       "recruitment_state": 2,
       "initial_city": 195,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 136,
       "attributes": [
         57,
@@ -9737,7 +9737,7 @@
       "recruitment_state": 2,
       "initial_city": 197,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 185,
       "attributes": [
         88,
@@ -9797,7 +9797,7 @@
       "recruitment_state": 2,
       "initial_city": 195,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 170,
       "attributes": [
         63,
@@ -9857,7 +9857,7 @@
       "recruitment_state": 2,
       "initial_city": 194,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 192,
       "attributes": [
         84,
@@ -9917,7 +9917,7 @@
       "recruitment_state": 2,
       "initial_city": 5,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 144,
       "attributes": [
         74,
@@ -9977,7 +9977,7 @@
       "recruitment_state": 2,
       "initial_city": 7,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 180,
       "attributes": [
         42,
@@ -10037,7 +10037,7 @@
       "recruitment_state": 2,
       "initial_city": 210,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 115,
       "attributes": [
         56,
@@ -10097,7 +10097,7 @@
       "recruitment_state": 2,
       "initial_city": 198,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 121,
       "attributes": [
         71,
@@ -10157,7 +10157,7 @@
       "recruitment_state": 2,
       "initial_city": 195,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 195,
       "attributes": [
         32,
@@ -10217,7 +10217,7 @@
       "recruitment_state": 2,
       "initial_city": 197,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 160,
       "attributes": [
         58,
@@ -10277,7 +10277,7 @@
       "recruitment_state": 2,
       "initial_city": 6,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 172,
       "attributes": [
         78,
@@ -10337,7 +10337,7 @@
       "recruitment_state": 2,
       "initial_city": 196,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 125,
       "attributes": [
         56,
@@ -10397,7 +10397,7 @@
       "recruitment_state": 2,
       "initial_city": 194,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 155,
       "attributes": [
         76,
@@ -10457,7 +10457,7 @@
       "recruitment_state": 2,
       "initial_city": 14,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 176,
       "attributes": [
         68,
@@ -10517,7 +10517,7 @@
       "recruitment_state": 2,
       "initial_city": 198,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 146,
       "attributes": [
         55,
@@ -10577,7 +10577,7 @@
       "recruitment_state": 2,
       "initial_city": 199,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 108,
       "attributes": [
         57,
@@ -10637,7 +10637,7 @@
       "recruitment_state": 2,
       "initial_city": 28,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 122,
       "attributes": [
         49,
@@ -10697,7 +10697,7 @@
       "recruitment_state": 2,
       "initial_city": 28,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 134,
       "attributes": [
         56,
@@ -10757,7 +10757,7 @@
       "recruitment_state": 2,
       "initial_city": 29,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 166,
       "attributes": [
         62,
@@ -10817,7 +10817,7 @@
       "recruitment_state": 2,
       "initial_city": 29,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 175,
       "attributes": [
         70,
@@ -10877,7 +10877,7 @@
       "recruitment_state": 2,
       "initial_city": 33,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 180,
       "attributes": [
         59,
@@ -10937,7 +10937,7 @@
       "recruitment_state": 2,
       "initial_city": 34,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 156,
       "attributes": [
         75,
@@ -10997,7 +10997,7 @@
       "recruitment_state": 2,
       "initial_city": 38,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 135,
       "attributes": [
         71,
@@ -11057,7 +11057,7 @@
       "recruitment_state": 2,
       "initial_city": 39,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 140,
       "attributes": [
         73,
@@ -11117,7 +11117,7 @@
       "recruitment_state": 2,
       "initial_city": 38,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 115,
       "attributes": [
         58,
@@ -11177,7 +11177,7 @@
       "recruitment_state": 2,
       "initial_city": 44,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 127,
       "attributes": [
         61,
@@ -11237,7 +11237,7 @@
       "recruitment_state": 2,
       "initial_city": 102,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 160,
       "attributes": [
         66,
@@ -11297,7 +11297,7 @@
       "recruitment_state": 2,
       "initial_city": 108,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 129,
       "attributes": [
         64,
@@ -11357,7 +11357,7 @@
       "recruitment_state": 1,
       "initial_city": 0,
       "initial_facility": 4,
-      "field_38": 3,
+      "travel_scope": 3,
       "recruit_cost_factor": 200,
       "attributes": [
         79,
@@ -11417,7 +11417,7 @@
       "recruitment_state": 2,
       "initial_city": 0,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 180,
       "attributes": [
         92,
@@ -11477,7 +11477,7 @@
       "recruitment_state": 1,
       "initial_city": 0,
       "initial_facility": 5,
-      "field_38": 3,
+      "travel_scope": 3,
       "recruit_cost_factor": 200,
       "attributes": [
         66,
@@ -11537,7 +11537,7 @@
       "recruitment_state": 1,
       "initial_city": 7,
       "initial_facility": 5,
-      "field_38": 1,
+      "travel_scope": 1,
       "recruit_cost_factor": 200,
       "attributes": [
         71,
@@ -11597,7 +11597,7 @@
       "recruitment_state": 1,
       "initial_city": 7,
       "initial_facility": 4,
-      "field_38": 1,
+      "travel_scope": 1,
       "recruit_cost_factor": 200,
       "attributes": [
         75,
@@ -11657,7 +11657,7 @@
       "recruitment_state": 1,
       "initial_city": 38,
       "initial_facility": 4,
-      "field_38": 1,
+      "travel_scope": 1,
       "recruit_cost_factor": 200,
       "attributes": [
         87,
@@ -11717,7 +11717,7 @@
       "recruitment_state": 1,
       "initial_city": 28,
       "initial_facility": 5,
-      "field_38": 3,
+      "travel_scope": 3,
       "recruit_cost_factor": 200,
       "attributes": [
         70,
@@ -11777,7 +11777,7 @@
       "recruitment_state": 1,
       "initial_city": 29,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 200,
       "attributes": [
         64,
@@ -11837,7 +11837,7 @@
       "recruitment_state": 1,
       "initial_city": 24,
       "initial_facility": 5,
-      "field_38": 3,
+      "travel_scope": 3,
       "recruit_cost_factor": 200,
       "attributes": [
         63,
@@ -11897,7 +11897,7 @@
       "recruitment_state": 1,
       "initial_city": 112,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 200,
       "attributes": [
         67,
@@ -11957,7 +11957,7 @@
       "recruitment_state": 2,
       "initial_city": -1,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 180,
       "attributes": [
         89,
@@ -12017,7 +12017,7 @@
       "recruitment_state": 2,
       "initial_city": -1,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 100,
       "attributes": [
         41,
@@ -12077,7 +12077,7 @@
       "recruitment_state": 2,
       "initial_city": -1,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 200,
       "attributes": [
         51,
@@ -12137,7 +12137,7 @@
       "recruitment_state": 2,
       "initial_city": -1,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 200,
       "attributes": [
         46,
@@ -12197,7 +12197,7 @@
       "recruitment_state": 2,
       "initial_city": -1,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 200,
       "attributes": [
         100,
@@ -12257,7 +12257,7 @@
       "recruitment_state": 2,
       "initial_city": -1,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 200,
       "attributes": [
         36,
@@ -12316,7 +12316,7 @@
       "recruitment_state": 2,
       "initial_city": -1,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 100,
       "attributes": [
         66,
@@ -12375,7 +12375,7 @@
       "recruitment_state": 2,
       "initial_city": -1,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 100,
       "attributes": [
         71,
@@ -12434,7 +12434,7 @@
       "recruitment_state": 2,
       "initial_city": -1,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 100,
       "attributes": [
         71,
@@ -12493,7 +12493,7 @@
       "recruitment_state": 2,
       "initial_city": -1,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 100,
       "attributes": [
         66,
@@ -12552,7 +12552,7 @@
       "recruitment_state": 2,
       "initial_city": -1,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 100,
       "attributes": [
         61,
@@ -12611,7 +12611,7 @@
       "recruitment_state": 2,
       "initial_city": -1,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 100,
       "attributes": [
         41,
@@ -12670,7 +12670,7 @@
       "recruitment_state": 2,
       "initial_city": -1,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 100,
       "attributes": [
         46,
@@ -12729,7 +12729,7 @@
       "recruitment_state": 2,
       "initial_city": -1,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 100,
       "attributes": [
         91,
@@ -12788,7 +12788,7 @@
       "recruitment_state": 2,
       "initial_city": -1,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 100,
       "attributes": [
         76,
@@ -12847,7 +12847,7 @@
       "recruitment_state": 2,
       "initial_city": -1,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 100,
       "attributes": [
         71,
@@ -12906,7 +12906,7 @@
       "recruitment_state": 2,
       "initial_city": -1,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 100,
       "attributes": [
         71,
@@ -12965,7 +12965,7 @@
       "recruitment_state": 2,
       "initial_city": -1,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 100,
       "attributes": [
         51,
@@ -13024,7 +13024,7 @@
       "recruitment_state": 2,
       "initial_city": -1,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 100,
       "attributes": [
         26,
@@ -13083,7 +13083,7 @@
       "recruitment_state": 2,
       "initial_city": -1,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 100,
       "attributes": [
         31,
@@ -13142,7 +13142,7 @@
       "recruitment_state": 2,
       "initial_city": -1,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 100,
       "attributes": [
         56,
@@ -13201,7 +13201,7 @@
       "recruitment_state": 2,
       "initial_city": -1,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 100,
       "attributes": [
         76,
@@ -13260,7 +13260,7 @@
       "recruitment_state": 2,
       "initial_city": -1,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 100,
       "attributes": [
         71,
@@ -13319,7 +13319,7 @@
       "recruitment_state": 2,
       "initial_city": -1,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 100,
       "attributes": [
         41,
@@ -13378,7 +13378,7 @@
       "recruitment_state": 2,
       "initial_city": -1,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 100,
       "attributes": [
         36,
@@ -13437,7 +13437,7 @@
       "recruitment_state": 2,
       "initial_city": -1,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 199,
       "attributes": [
         46,
@@ -13496,7 +13496,7 @@
       "recruitment_state": 2,
       "initial_city": -1,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 199,
       "attributes": [
         66,
@@ -13556,7 +13556,7 @@
       "recruitment_state": 2,
       "initial_city": -1,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 180,
       "attributes": [
         56,
@@ -13615,7 +13615,7 @@
       "recruitment_state": 2,
       "initial_city": -1,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 150,
       "attributes": [
         91,
@@ -13674,7 +13674,7 @@
       "recruitment_state": 2,
       "initial_city": -1,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 100,
       "attributes": [
         56,
@@ -13733,7 +13733,7 @@
       "recruitment_state": 2,
       "initial_city": -1,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 170,
       "attributes": [
         76,
@@ -13792,7 +13792,7 @@
       "recruitment_state": 2,
       "initial_city": -1,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 150,
       "attributes": [
         46,
@@ -13851,7 +13851,7 @@
       "recruitment_state": 2,
       "initial_city": -1,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 100,
       "attributes": [
         61,
@@ -13910,7 +13910,7 @@
       "recruitment_state": 2,
       "initial_city": -1,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 100,
       "attributes": [
         36,
@@ -13969,7 +13969,7 @@
       "recruitment_state": 2,
       "initial_city": -1,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 140,
       "attributes": [
         46,
@@ -14028,7 +14028,7 @@
       "recruitment_state": 2,
       "initial_city": -1,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 200,
       "attributes": [
         56,
@@ -14087,7 +14087,7 @@
       "recruitment_state": 2,
       "initial_city": -1,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 180,
       "attributes": [
         66,
@@ -14146,7 +14146,7 @@
       "recruitment_state": 2,
       "initial_city": -1,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 200,
       "attributes": [
         41,
@@ -14205,7 +14205,7 @@
       "recruitment_state": 2,
       "initial_city": -1,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 200,
       "attributes": [
         46,
@@ -14264,7 +14264,7 @@
       "recruitment_state": 2,
       "initial_city": -1,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 150,
       "attributes": [
         66,
@@ -14323,7 +14323,7 @@
       "recruitment_state": 2,
       "initial_city": -1,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 140,
       "attributes": [
         46,
@@ -14382,7 +14382,7 @@
       "recruitment_state": 2,
       "initial_city": -1,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 135,
       "attributes": [
         76,
@@ -14441,7 +14441,7 @@
       "recruitment_state": 2,
       "initial_city": -1,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 130,
       "attributes": [
         66,
@@ -14500,7 +14500,7 @@
       "recruitment_state": 2,
       "initial_city": -1,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 150,
       "attributes": [
         41,
@@ -14559,7 +14559,7 @@
       "recruitment_state": 2,
       "initial_city": -1,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 140,
       "attributes": [
         56,
@@ -14618,7 +14618,7 @@
       "recruitment_state": 2,
       "initial_city": -1,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 160,
       "attributes": [
         76,
@@ -14677,7 +14677,7 @@
       "recruitment_state": 2,
       "initial_city": -1,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 120,
       "attributes": [
         61,
@@ -14736,7 +14736,7 @@
       "recruitment_state": 2,
       "initial_city": -1,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 100,
       "attributes": [
         71,
@@ -14795,7 +14795,7 @@
       "recruitment_state": 2,
       "initial_city": -1,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 100,
       "attributes": [
         66,
@@ -14854,7 +14854,7 @@
       "recruitment_state": 2,
       "initial_city": -1,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 100,
       "attributes": [
         76,
@@ -14913,7 +14913,7 @@
       "recruitment_state": 2,
       "initial_city": -1,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 100,
       "attributes": [
         71,
@@ -14972,7 +14972,7 @@
       "recruitment_state": 2,
       "initial_city": -1,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 100,
       "attributes": [
         66,
@@ -15031,7 +15031,7 @@
       "recruitment_state": 2,
       "initial_city": -1,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 100,
       "attributes": [
         61,
@@ -15090,7 +15090,7 @@
       "recruitment_state": 2,
       "initial_city": -1,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 100,
       "attributes": [
         51,
@@ -15149,7 +15149,7 @@
       "recruitment_state": 2,
       "initial_city": -1,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 100,
       "attributes": [
         61,
@@ -15208,7 +15208,7 @@
       "recruitment_state": 2,
       "initial_city": -1,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 100,
       "attributes": [
         56,
@@ -15267,7 +15267,7 @@
       "recruitment_state": 2,
       "initial_city": -1,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 100,
       "attributes": [
         66,
@@ -15326,7 +15326,7 @@
       "recruitment_state": 2,
       "initial_city": -1,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 100,
       "attributes": [
         81,
@@ -15385,7 +15385,7 @@
       "recruitment_state": 2,
       "initial_city": -1,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 100,
       "attributes": [
         76,
@@ -15444,7 +15444,7 @@
       "recruitment_state": 2,
       "initial_city": -1,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 100,
       "attributes": [
         66,
@@ -15503,7 +15503,7 @@
       "recruitment_state": 2,
       "initial_city": -1,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 100,
       "attributes": [
         56,
@@ -15562,7 +15562,7 @@
       "recruitment_state": 2,
       "initial_city": -1,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 100,
       "attributes": [
         71,
@@ -15621,7 +15621,7 @@
       "recruitment_state": 2,
       "initial_city": -1,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 100,
       "attributes": [
         61,
@@ -15680,7 +15680,7 @@
       "recruitment_state": 2,
       "initial_city": 0,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 150,
       "attributes": [
         61,
@@ -15739,7 +15739,7 @@
       "recruitment_state": 2,
       "initial_city": 0,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 160,
       "attributes": [
         66,
@@ -15798,7 +15798,7 @@
       "recruitment_state": 2,
       "initial_city": 0,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 170,
       "attributes": [
         71,
@@ -15857,7 +15857,7 @@
       "recruitment_state": 2,
       "initial_city": 0,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 150,
       "attributes": [
         61,
@@ -15916,7 +15916,7 @@
       "recruitment_state": 2,
       "initial_city": 0,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 165,
       "attributes": [
         71,
@@ -15975,7 +15975,7 @@
       "recruitment_state": 2,
       "initial_city": 0,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 180,
       "attributes": [
         81,
@@ -16034,7 +16034,7 @@
       "recruitment_state": 2,
       "initial_city": 0,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 160,
       "attributes": [
         61,
@@ -16093,7 +16093,7 @@
       "recruitment_state": 2,
       "initial_city": 0,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 180,
       "attributes": [
         71,
@@ -16152,7 +16152,7 @@
       "recruitment_state": 2,
       "initial_city": 0,
       "initial_facility": 4,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 200,
       "attributes": [
         81,
@@ -16211,7 +16211,7 @@
       "recruitment_state": 2,
       "initial_city": -1,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 100,
       "attributes": [
         100,
@@ -16270,7 +16270,7 @@
       "recruitment_state": 2,
       "initial_city": -1,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 100,
       "attributes": [
         100,
@@ -16329,7 +16329,7 @@
       "recruitment_state": 2,
       "initial_city": -1,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 100,
       "attributes": [
         100,
@@ -16388,7 +16388,7 @@
       "recruitment_state": 2,
       "initial_city": -1,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 100,
       "attributes": [
         100,
@@ -16447,7 +16447,7 @@
       "recruitment_state": 2,
       "initial_city": -1,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 100,
       "attributes": [
         51,
@@ -16506,7 +16506,7 @@
       "recruitment_state": 4,
       "initial_city": -1,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 100,
       "attributes": [
         51,
@@ -16565,7 +16565,7 @@
       "recruitment_state": 4,
       "initial_city": -1,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 100,
       "attributes": [
         51,
@@ -16624,7 +16624,7 @@
       "recruitment_state": 4,
       "initial_city": -1,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 100,
       "attributes": [
         51,
@@ -16683,7 +16683,7 @@
       "recruitment_state": 4,
       "initial_city": -1,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 100,
       "attributes": [
         51,
@@ -16742,7 +16742,7 @@
       "recruitment_state": 4,
       "initial_city": -1,
       "initial_facility": 5,
-      "field_38": 0,
+      "travel_scope": 0,
       "recruit_cost_factor": 100,
       "attributes": [
         51,
