@@ -4,6 +4,8 @@ Android Chrome 및 iPhone Safari에서 접속할 웹 빌드입니다.
 
 게임 접속 주소: **https://dkenldlqfur.github.io/cds_web/**
 
+2026-10-25: 화면 효과를 켠 항해의 지도 그리기에서 지형·마스크·캐시 버퍼의 반복 소유 범위 검색을 줄이고, 불변 타일 종류와 한 프레임의 물결 기준값·변환값을 재사용합니다. 이동량·게임 시간·효과 진행·보간 곡선은 유지합니다. Windows·웹 빌드와 정적 검사로 확인하며 플레이 테스트와 성능 측정은 진행하지 않았습니다. [항해 지형 조회 수정본](https://dkenldlqfur.github.io/cds_web/?v=terrain-lookup-20261025).
+
 2026-10-25: 종료 시 `Restored World requires unconnected actual child 0x4b65a0`가 발생하던 상태 메시지 메모리 해제 경로를 연결했습니다. 원본의 해제·플래그 정리 순서를 유지하며 Windows·웹 컴파일과 정적 검사만 수행했습니다. 플레이 테스트는 진행하지 않았습니다. [종료 메시지 정리 수정본](https://dkenldlqfur.github.io/cds_web/?v=status-shutdown-20261025).
 
 2026-10-24: 함선 매각 목록에서 `address=0x54a190 extent=0x4 owners=0`로 중단되던 선수상 정보표의 주소 등록 누락을 수정했습니다. 선수상 이름뿐 아니라 36종 정보표 전체를 기존 데이터 경로의 읽기 전용 범위로 등록했습니다. 배포 검사에서 확인된 추가 원본 영상 29개의 웹 변환본 누락도 보완했습니다. Windows·웹 빌드와 정적 검사만 수행하며 플레이 테스트는 진행하지 않았습니다. [함선 매각 주소 수정본](https://dkenldlqfur.github.io/cds_web/?v=ship-sale-owner-20261024).
