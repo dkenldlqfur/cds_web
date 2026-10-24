@@ -4,6 +4,8 @@ Android Chrome 및 iPhone Safari에서 접속할 웹 빌드입니다.
 
 게임 접속 주소: **https://dkenldlqfur.github.io/cds_web/**
 
+2026-10-24: 월드 지도에서 도시 주변 지형을 읽을 때 `address=0x53c368 extent=0x4 owners=0`로 중단되는 원인이던 원본 상수표 주소 등록 누락을 수정했습니다. 같은 계산에 필요한 인접 상수도 원본 EXE와 대조해 읽기 전용으로 등록했습니다. Windows·웹 빌드와 정적 검사만 수행하며 플레이 테스트는 진행하지 않았습니다. [지형 상수 주소 수정본](https://dkenldlqfur.github.io/cds_web/?v=terrain-owner-20261024).
+
 2026-10-24: 저장·불러오기 10슬롯을 기존 EXE 도구 방식으로 맞췄습니다. 기존 게임 선택창과 `YYYY.MM.DD · 도시명` 표시(도시 밖은 해상), `SAVEDATA01.CDS`–`SAVEDATA10.CDS` 파일명, 확인 취소 시 목록 복귀를 사용합니다. 이전 폴더 저장은 보존해 번호 파일로 옮깁니다. Windows·웹 빌드와 정적 검사만 수행하며 플레이 테스트는 진행하지 않았습니다. [기존 10슬롯 방식 적용본](https://dkenldlqfur.github.io/cds_web/?v=original-save-slots-20261024).
 
 2026-10-24: 중앙 추적의 누락된 픽셀 단위 스크롤과 중간 프레임 보간을 보완했습니다. 소수 위치·표시 기한을 이어 붙여 이동을 표시하고, 클릭·상륙 선택·구름·화면 가장자리를 같은 좌표로 보정합니다. 비·눈은 중간 화면에서 기존 그림을 재사용하며 게임 이동·날짜·날씨 진행 주기는 유지합니다. Windows·웹 빌드와 정적 검사만 수행하며 플레이 테스트는 진행하지 않았습니다. [중앙 추적 보완본](https://dkenldlqfur.github.io/cds_web/?v=world-camera-smooth-20261024).
