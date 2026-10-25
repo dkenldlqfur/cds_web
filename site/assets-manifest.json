@@ -879,568 +879,568 @@
     {
       "url": "assets/videos/END.ogv",
       "path": "/cds95/videos/END.ogv",
-      "size": 21505388,
-      "sha256": "45e8b91d0fcde4f055f90c9e5ceb16aef31b36c2c90d8cee84b854fb6b885934",
+      "size": 19461493,
+      "sha256": "f50513bcb398b6187fafb39eabd849991b6817976f393052f35868643c7129f9",
       "aliases": [],
       "deferred": true
     },
     {
       "url": "assets/videos/I00_0000.ogv",
       "path": "/cds95/videos/I00_0000.ogv",
-      "size": 854810,
-      "sha256": "6952e4d7468ae6b87f41c522b7ca0c00bd192f4dbb3cb888d508dc0e3c9fca0c",
+      "size": 838451,
+      "sha256": "fc2b256c56969a6c741504a061b142f05d18c851b68a261fc29e154d36f261a0",
       "aliases": [],
       "deferred": true
     },
     {
       "url": "assets/videos/I01_0000.ogv",
       "path": "/cds95/videos/I01_0000.ogv",
-      "size": 779742,
-      "sha256": "e32bafaeb4ff3206cf1c527b417eb7af801b912451e95c24ded0cef0b15cc223",
+      "size": 751792,
+      "sha256": "919646d4d833e41a2ac952c386a83acd42e8443f039fa4a80f6b880cbe43f98d",
       "aliases": [],
       "deferred": true
     },
     {
       "url": "assets/videos/I02_0000.ogv",
       "path": "/cds95/videos/I02_0000.ogv",
-      "size": 560354,
-      "sha256": "88fb66228da1a45e06742deb284b20dc132903c453d6f18ce6b0ef48401bd1a4",
+      "size": 508947,
+      "sha256": "71da8134a744607b29c95afc439e6cfe982e866a53b689979636669bec59e2c2",
       "aliases": [],
       "deferred": true
     },
     {
       "url": "assets/videos/I03_0000.ogv",
       "path": "/cds95/videos/I03_0000.ogv",
-      "size": 199147,
-      "sha256": "db5251e3c3015b7be6b9fc160e3802913acef025cf8c6ce9759ec263c82e32de",
+      "size": 186411,
+      "sha256": "e757e5e63262508e174393fd03f7f3c8c97290cf95b9f3dccd3e68173b15c475",
       "aliases": [],
       "deferred": true
     },
     {
       "url": "assets/videos/I04_0000.ogv",
       "path": "/cds95/videos/I04_0000.ogv",
-      "size": 313164,
-      "sha256": "588f5a7c9551ad2019c3d8a3143fdc6dc3ad2dd53f38d5eb0a0ed0a39f58c0bd",
+      "size": 276502,
+      "sha256": "3a28173840cc2293d81d5b9c770ba7f8f7f3f34eb99dfd9feaffadee14b3fa2c",
       "aliases": [],
       "deferred": true
     },
     {
       "url": "assets/videos/I05_0000.ogv",
       "path": "/cds95/videos/I05_0000.ogv",
-      "size": 678076,
-      "sha256": "28978d8f5b0d45e00bb09f115357887f9bb161a631b610862306f29793aaabf1",
+      "size": 655189,
+      "sha256": "45d75400030c326fff8f65f082bb4e5d253eb59678479e71e2ffbf5666293f2a",
       "aliases": [],
       "deferred": true
     },
     {
       "url": "assets/videos/I06_0000.ogv",
       "path": "/cds95/videos/I06_0000.ogv",
-      "size": 486388,
-      "sha256": "018fe20f27dc6a2f5f22eddca3dcfafc4572470ba6245ef45ea4ba13e43cb6bf",
+      "size": 462114,
+      "sha256": "255e01a2e939f31730f2f4030ac7c4034fbaa58e3ab4f853bea3caf435c51873",
       "aliases": [],
       "deferred": true
     },
     {
       "url": "assets/videos/I07_0000.ogv",
       "path": "/cds95/videos/I07_0000.ogv",
-      "size": 550184,
-      "sha256": "f4dd143d827db89b7fdf653de147427264a23c552fbb2dff456df49e7ed49f92",
+      "size": 492797,
+      "sha256": "d890daf7f216c0ca1904ea9327d2f2399ddf7b6820cbea3d56ec0f46255beb4b",
       "aliases": [],
       "deferred": true
     },
     {
       "url": "assets/videos/I08_0000.ogv",
       "path": "/cds95/videos/I08_0000.ogv",
-      "size": 726959,
-      "sha256": "bc003e8a74e61781b08241a19b58ec8e12950636d6304c851d865422c5f6bbdc",
+      "size": 663802,
+      "sha256": "1d00606d06ec39891a4497617fa5499b6d368d44c54c9397d079f1ac57c4c3ca",
       "aliases": [],
       "deferred": true
     },
     {
       "url": "assets/videos/I09_0000.ogv",
       "path": "/cds95/videos/I09_0000.ogv",
-      "size": 245197,
-      "sha256": "cbca076d1fdfe5f68fb7e19cb939112c5ccaf4f64a1ad6f7ff2a18e04a71a393",
+      "size": 203392,
+      "sha256": "d41b0310c397602dd885fb0ce037086901e9e6a71c635bb5ac878f0a1d7f34db",
       "aliases": [],
       "deferred": true
     },
     {
       "url": "assets/videos/I10_0000.ogv",
       "path": "/cds95/videos/I10_0000.ogv",
-      "size": 975062,
-      "sha256": "cac54e5a5a97eb141acad312b2a6ddcf2ad7127c36a818e6d4e520084ce2f70a",
+      "size": 954214,
+      "sha256": "2f8f9fdb9d2484a53be04bb77eb21cdb5b1e67ac5b79fee570937db1473f3d9e",
       "aliases": [],
       "deferred": true
     },
     {
       "url": "assets/videos/I11_0000.ogv",
       "path": "/cds95/videos/I11_0000.ogv",
-      "size": 1188857,
-      "sha256": "890770d872bef23071575f81678c754025f2f79418cefb618627aa7507f62647",
+      "size": 1112280,
+      "sha256": "c2810031ed3c247f9c88b116324b30b6b931e584306f08df8aa90d9c828dd757",
       "aliases": [],
       "deferred": true
     },
     {
       "url": "assets/videos/I12_0000.ogv",
       "path": "/cds95/videos/I12_0000.ogv",
-      "size": 1193751,
-      "sha256": "45862c5546b07ef35a4c53582d267c7d7e17b8c778f98e11556a59f4b31a472c",
+      "size": 1167500,
+      "sha256": "8259668aa70a534eafeea70d681fc9bcbe4d3e33a132f4012d964cec1251efa5",
       "aliases": [],
       "deferred": true
     },
     {
       "url": "assets/videos/I13_0000.ogv",
       "path": "/cds95/videos/I13_0000.ogv",
-      "size": 466159,
-      "sha256": "133f609a70e257cf86dc5ea5bc40cbcae098ec7eaf5c4e69f560295b34dd1a0c",
+      "size": 421486,
+      "sha256": "ca1e2ee365ae1cc8f8ddf53ec4bdf68a176cf4f6b3c412a8613970221b8d1f19",
       "aliases": [],
       "deferred": true
     },
     {
       "url": "assets/videos/I14_0000.ogv",
       "path": "/cds95/videos/I14_0000.ogv",
-      "size": 722408,
-      "sha256": "19c18bc27e44df7ae3ddc9819de1a0eb1e7ed628f282590d222d75a530ef3dd3",
+      "size": 664550,
+      "sha256": "c0c9a0f46b30350f4b5050fb658ff4263fa49af2752afeec3c7b1f45fbfec6af",
       "aliases": [],
       "deferred": true
     },
     {
       "url": "assets/videos/I15_0000.ogv",
       "path": "/cds95/videos/I15_0000.ogv",
-      "size": 683070,
-      "sha256": "9b055b70855e3c8d108cc696899cce4352984c04bd05eb1b5e68354141d04009",
+      "size": 633813,
+      "sha256": "73072cb7caf0709b86ec83899b8ac8a1a69405e1d2cd09ffa1b1adc0c216d182",
       "aliases": [],
       "deferred": true
     },
     {
       "url": "assets/videos/I16_0000.ogv",
       "path": "/cds95/videos/I16_0000.ogv",
-      "size": 1063860,
-      "sha256": "ff8f313edd31b4d092c553b213cf97865c91e7eb2d99596749f21453c37f4155",
+      "size": 980450,
+      "sha256": "4fce4136bf13b59b08726fb7fb778c2b59a58839fbd6abe89b0716a7a2253a3a",
       "aliases": [],
       "deferred": true
     },
     {
       "url": "assets/videos/I17_0000.ogv",
       "path": "/cds95/videos/I17_0000.ogv",
-      "size": 979200,
-      "sha256": "787e5d94e62a29eb7fc00e564678efeb79d33d07f8ef4c2eb7313ac605a6b49b",
+      "size": 900408,
+      "sha256": "e968225888ca54ad251e23183a3d2e6afccd05b0e55059cefd00e6be9d8e0049",
       "aliases": [],
       "deferred": true
     },
     {
       "url": "assets/videos/I18_0000.ogv",
       "path": "/cds95/videos/I18_0000.ogv",
-      "size": 645113,
-      "sha256": "ee734b04ab5285861e17c694f27ac5895ab6fc09567a5cffdc6ee9f406c3030c",
+      "size": 596951,
+      "sha256": "0518fe0734f2350fdae83ca057f47b63f946caf95dcb6dbe0affd4f6f2b85dc1",
       "aliases": [],
       "deferred": true
     },
     {
       "url": "assets/videos/I19_0000.ogv",
       "path": "/cds95/videos/I19_0000.ogv",
-      "size": 497197,
-      "sha256": "94e16057b3643340c473153c34c69117e0b6dfc6a57b9d5fef0a6e6d585dde79",
+      "size": 446944,
+      "sha256": "5e6c197d498c76f68a41e7e7f1dbed8092f337261259e1ad49617f19fadb1608",
       "aliases": [],
       "deferred": true
     },
     {
       "url": "assets/videos/I20_0000.ogv",
       "path": "/cds95/videos/I20_0000.ogv",
-      "size": 980129,
-      "sha256": "a4a5c46db148a1649d61ade71896b1dbcefebdec148db2d45ab9dcca8b058a1c",
+      "size": 904126,
+      "sha256": "14d387f2f1b9ba8ae72fd431354be2910f0730cdcc3942e74c9cb16008ae960d",
       "aliases": [],
       "deferred": true
     },
     {
       "url": "assets/videos/I21_0000.ogv",
       "path": "/cds95/videos/I21_0000.ogv",
-      "size": 863103,
-      "sha256": "81d8d509e74d259bcf626aefcc52dc8148b152ce202067d7c4400115335eac5f",
+      "size": 810926,
+      "sha256": "178c5fc5abb999827b473d00934b7fa56b596f4736c3b0f020d578613e651a9a",
       "aliases": [],
       "deferred": true
     },
     {
       "url": "assets/videos/I22_0000.ogv",
       "path": "/cds95/videos/I22_0000.ogv",
-      "size": 490819,
-      "sha256": "991f588007fdd8e5f423dc8a35b56ca89707c142ff63e8be43e3f0780f1fb534",
+      "size": 440044,
+      "sha256": "cc5b54449d38ae42096ec7608c2af6bc3f70abf2cc86c385eaa11654d79f4b4c",
       "aliases": [],
       "deferred": true
     },
     {
       "url": "assets/videos/I23_0000.ogv",
       "path": "/cds95/videos/I23_0000.ogv",
-      "size": 591728,
-      "sha256": "fdf29cfdc87d260cf7065684123df35cc6b5f2f89924366d303a3f31207c72c3",
+      "size": 533031,
+      "sha256": "22db1c3625079a7bc5e0bde14eb74ce1458542fac55ea8c16055b4872f26df0b",
       "aliases": [],
       "deferred": true
     },
     {
       "url": "assets/videos/I24_0000.ogv",
       "path": "/cds95/videos/I24_0000.ogv",
-      "size": 554472,
-      "sha256": "04819cb2b62f53cee47fc7d75a7fbec5b73b73d402c0ba0acfb34a4af3a466db",
+      "size": 548330,
+      "sha256": "6bc34c5246e5b1efb6afd3f88dbaade146cdb5239f65323fc1226fc5f4af128a",
       "aliases": [],
       "deferred": true
     },
     {
       "url": "assets/videos/I25_0000.ogv",
       "path": "/cds95/videos/I25_0000.ogv",
-      "size": 626978,
-      "sha256": "bd74bec4e525314b9eafce046e3a8385e2c3ddab25188183f876b1656a9938ee",
+      "size": 593004,
+      "sha256": "e7fdc7c8f01d4f03549fa8a0b2612aa3a10fde62cd03e1dfa7bf4f6c186ec012",
       "aliases": [],
       "deferred": true
     },
     {
       "url": "assets/videos/I26_0000.ogv",
       "path": "/cds95/videos/I26_0000.ogv",
-      "size": 246651,
-      "sha256": "3978f5c5dd1503152f75b15cccbb35fc578c0f9720e23f7063b5a964856ec947",
+      "size": 217839,
+      "sha256": "b5583fc183e0d8f4bf298c6fa69e6a131b03977fb285fbb36e6c89cea5a1156e",
       "aliases": [],
       "deferred": true
     },
     {
       "url": "assets/videos/I27_0000.ogv",
       "path": "/cds95/videos/I27_0000.ogv",
-      "size": 715965,
-      "sha256": "746b1c636e83405f7104d33e071515bae1dea6cb8d605900521cb54a30416063",
+      "size": 649554,
+      "sha256": "85d4b094cde311fb6518dd1a55c966e5e78d975f63312a365491b05838f2c331",
       "aliases": [],
       "deferred": true
     },
     {
       "url": "assets/videos/I28_0000.ogv",
       "path": "/cds95/videos/I28_0000.ogv",
-      "size": 673841,
-      "sha256": "28a99e0db36d9d239db8c5acbb7caeb2fcdd47a78af28591fc926842dea7f92c",
+      "size": 602628,
+      "sha256": "f653c93502126ba88fda14052660ec2a5a38ab3dc61cb2097e94c899180286a0",
       "aliases": [],
       "deferred": true
     },
     {
       "url": "assets/videos/I29_0000.ogv",
       "path": "/cds95/videos/I29_0000.ogv",
-      "size": 320699,
-      "sha256": "9e7e02d94a8d922bf51b6febf4e7f645f124b16ecd8675cde0fe7f24a6b2c01a",
+      "size": 294259,
+      "sha256": "5b4d0318192094cd8a1d4e0d58b7f791b63cd99b62ac979f668d9267768f685d",
       "aliases": [],
       "deferred": true
     },
     {
       "url": "assets/videos/I30_0000.ogv",
       "path": "/cds95/videos/I30_0000.ogv",
-      "size": 1332023,
-      "sha256": "0d2d2018852d6bbfe6d217e3adcea4f29910d56d85c81c1f50b06b2845a4db71",
+      "size": 1289159,
+      "sha256": "72e622df112290f28c811cb85319a664783a97d27841546231b7dbc306da4af3",
       "aliases": [],
       "deferred": true
     },
     {
       "url": "assets/videos/I31_0000.ogv",
       "path": "/cds95/videos/I31_0000.ogv",
-      "size": 536013,
-      "sha256": "77245d847ea4aa3a6e81ea950a779cd1e1927886ef51fae1977c7bce1090604f",
+      "size": 491307,
+      "sha256": "d4754da8113e21e884d95c1495accf3a7b02d924c4c4bffe97a8aba121cac8c7",
       "aliases": [],
       "deferred": true
     },
     {
       "url": "assets/videos/I32_0000.ogv",
       "path": "/cds95/videos/I32_0000.ogv",
-      "size": 460990,
-      "sha256": "7b90442c18a2551bf506d3f08bb2a879b395ed84a3bfac394612f8b7847d20f7",
+      "size": 403021,
+      "sha256": "5a1535a1e742302731a938743e38ada3dd32285b4da0a84f889c142a3cf792b5",
       "aliases": [],
       "deferred": true
     },
     {
       "url": "assets/videos/I33_0000.ogv",
       "path": "/cds95/videos/I33_0000.ogv",
-      "size": 425564,
-      "sha256": "48fa47b4e536d3595d5f1f4efa1ca486918808633b7ace8102c77af7c39251df",
+      "size": 382627,
+      "sha256": "66d9d5fab154d34aeeb9c20097d404bd9706662b175c980ce182fe147d6340d2",
       "aliases": [],
       "deferred": true
     },
     {
       "url": "assets/videos/I34_0000.ogv",
       "path": "/cds95/videos/I34_0000.ogv",
-      "size": 1021805,
-      "sha256": "eec0dc089be49c2d6ce0a2a16772de5b26fbe9388a879f25cb59c5c2b7d3335a",
+      "size": 1010492,
+      "sha256": "547764d9003d1485dec38a4a601ba8e321a487dc50f477522891e1770de272dd",
       "aliases": [],
       "deferred": true
     },
     {
       "url": "assets/videos/I35_0000.ogv",
       "path": "/cds95/videos/I35_0000.ogv",
-      "size": 769143,
-      "sha256": "8aef3e34c76d21be60fe613c3edbedcfb98ce8a52710b55bdf2cbf531757f52f",
+      "size": 744869,
+      "sha256": "fbf4eaf88a634b2d8d42d711a6f1df63d39bd11914ed2040ccd62add58e9472b",
       "aliases": [],
       "deferred": true
     },
     {
       "url": "assets/videos/I36_0000.ogv",
       "path": "/cds95/videos/I36_0000.ogv",
-      "size": 602318,
-      "sha256": "f76f1fb8344c1e70c697bde3d8fa66c500440ab350cd3ebe69a4cb80f9dd115a",
+      "size": 618107,
+      "sha256": "23f7b78c334af1c0897d923dad57a4873ee1f6b4201e51768c01f01aa7fa27be",
       "aliases": [],
       "deferred": true
     },
     {
       "url": "assets/videos/I37_0000.ogv",
       "path": "/cds95/videos/I37_0000.ogv",
-      "size": 945437,
-      "sha256": "32fbf33427885c638956b03b3302f19f537c5d91ee03259542f3d5e74eea3aad",
+      "size": 909824,
+      "sha256": "2fe04c6dadd70869bb7017070036661138bcbd953dbf22b33f4205f1669fcb94",
       "aliases": [],
       "deferred": true
     },
     {
       "url": "assets/videos/I38_0000.ogv",
       "path": "/cds95/videos/I38_0000.ogv",
-      "size": 598754,
-      "sha256": "9e3f48f0da778b50e29717e75fcaed7d08d36bc67f56d21a53abd0263a641652",
+      "size": 543058,
+      "sha256": "7561a7ff49b6d75216cdcaf6020bacd3a7f72a4e0a7b9f75c08b6ed398dc1c01",
       "aliases": [],
       "deferred": true
     },
     {
       "url": "assets/videos/I39_0000.ogv",
       "path": "/cds95/videos/I39_0000.ogv",
-      "size": 692688,
-      "sha256": "feac26e59967e60a2d657eca890aa2150ac0494f07a432f24f11b78d1445b72f",
+      "size": 644493,
+      "sha256": "8bb89c08bbba1e0ba2556da2740c05e2dd7e1c655ec23598948d55776fe6aa0b",
       "aliases": [],
       "deferred": true
     },
     {
       "url": "assets/videos/I40_0000.ogv",
       "path": "/cds95/videos/I40_0000.ogv",
-      "size": 646419,
-      "sha256": "f6ee5405dbe9b8d5f1faa3482f08c7dfc2c20fcef32e01db600d7dcf8a3afa62",
+      "size": 595937,
+      "sha256": "b34b59c62c8c5fd43717d765d65c70414e9155a44091224e2b79620f5f8194cc",
       "aliases": [],
       "deferred": true
     },
     {
       "url": "assets/videos/I41_0000.ogv",
       "path": "/cds95/videos/I41_0000.ogv",
-      "size": 607376,
-      "sha256": "476b2bc17419ce69daa3a5eba07e415b510f241afa356cea8fa15d64862e14f2",
+      "size": 550913,
+      "sha256": "1c8f45e2042ece22b17d4e67fcaa015fb49505c1a60d4a87843bd3f8cd155168",
       "aliases": [],
       "deferred": true
     },
     {
       "url": "assets/videos/I42_0000.ogv",
       "path": "/cds95/videos/I42_0000.ogv",
-      "size": 546528,
-      "sha256": "a5e5beb0d6077108d87ceebfa07d93b1205bf4bf395784a2c41cffa6a39fb6ab",
+      "size": 508960,
+      "sha256": "1035e19a445977ae3cecc6922d61679bfe7a1ffc223b8cda0aba4844b801f8cf",
       "aliases": [],
       "deferred": true
     },
     {
       "url": "assets/videos/I43_0000.ogv",
       "path": "/cds95/videos/I43_0000.ogv",
-      "size": 1193176,
-      "sha256": "977e628ef3d19fddebd0092b2c8815ceec9d1e9064ae93dd643e5cf2142dae62",
+      "size": 1121446,
+      "sha256": "37ce63f807e8714054488a0625c9fd36aee690fa5061f49d87a98d415e82ebec",
       "aliases": [],
       "deferred": true
     },
     {
       "url": "assets/videos/I44_0000.ogv",
       "path": "/cds95/videos/I44_0000.ogv",
-      "size": 806807,
-      "sha256": "de264533c24cd047ee875b514e0a435bc8fb62d76c27a379f7e5477d2ae8628b",
+      "size": 763203,
+      "sha256": "ff20aaefc7c5e44e583180cf521ac142622680da796ce2295555282fd5775d6e",
       "aliases": [],
       "deferred": true
     },
     {
       "url": "assets/videos/I45_0000.ogv",
       "path": "/cds95/videos/I45_0000.ogv",
-      "size": 800724,
-      "sha256": "904abdbcbe4c3e41da8f342a9878f192a25c4135308fcac3690eca4663fd9551",
+      "size": 786605,
+      "sha256": "21f867c786d151cf63920512f235b0a05ecd6480f4e6e60bb21936e13a4c96e7",
       "aliases": [],
       "deferred": true
     },
     {
       "url": "assets/videos/I46_0000.ogv",
       "path": "/cds95/videos/I46_0000.ogv",
-      "size": 547277,
-      "sha256": "c2d98e1c2bbc459aeeb95f250f3877cfdf80fdbb88dd1b25bf26710784975138",
+      "size": 486800,
+      "sha256": "837d64740adce3046b8786379c2920bdefd1b5f5358474c2eabdeee6f8c7644c",
       "aliases": [],
       "deferred": true
     },
     {
       "url": "assets/videos/I47_0000.ogv",
       "path": "/cds95/videos/I47_0000.ogv",
-      "size": 541212,
-      "sha256": "07bd70775516777b293c0a81e47014c8da94fd5bfd5e52465d29d6c9432538b1",
+      "size": 490168,
+      "sha256": "c0afb8611f1a222a16ad9509f5ac83b3aadfa3a9d05b1d8b8f872e0768f9a186",
       "aliases": [],
       "deferred": true
     },
     {
       "url": "assets/videos/I48_0000.ogv",
       "path": "/cds95/videos/I48_0000.ogv",
-      "size": 836202,
-      "sha256": "8aa7f157686c11b78b7e4bb97116388ad3d8afef17766fa50c30e689ce207f17",
+      "size": 779355,
+      "sha256": "84d513e52ed57448d2c4671ee114737c8cc117d653bc77fa17f1e3cb0274d8da",
       "aliases": [],
       "deferred": true
     },
     {
       "url": "assets/videos/I49_0000.ogv",
       "path": "/cds95/videos/I49_0000.ogv",
-      "size": 777658,
-      "sha256": "0677cee24d4a782beb7c42a3e4f423616fe3e9a661548a02f217597b4c2627de",
+      "size": 746351,
+      "sha256": "caaab15ae6d8d25a7a699887cc6e5b8afd1eeb5960b05f4c439f333665c6b984",
       "aliases": [],
       "deferred": true
     },
     {
       "url": "assets/videos/I50_0000.ogv",
       "path": "/cds95/videos/I50_0000.ogv",
-      "size": 686011,
-      "sha256": "d2d1e60eecae46a1d86300a22726000c37f3c87e9a64d505244874dffd52e942",
+      "size": 664808,
+      "sha256": "4a804d5435e151522fd8b85d7608c91ad77e1c34d66f162ce792aba3ffe962eb",
       "aliases": [],
       "deferred": true
     },
     {
       "url": "assets/videos/I51_0000.ogv",
       "path": "/cds95/videos/I51_0000.ogv",
-      "size": 458793,
-      "sha256": "e0a8256195f8a4a9102098b23fd42e07f92115ec565b2375b6ec76a9b895f61d",
+      "size": 398811,
+      "sha256": "2622610548714cf802ea408cfc1e9746fb695967d0664b8a27ed6fc676f164d7",
       "aliases": [],
       "deferred": true
     },
     {
       "url": "assets/videos/I52_0000.ogv",
       "path": "/cds95/videos/I52_0000.ogv",
-      "size": 571364,
-      "sha256": "166f58d4a741c934964088473a08dfbf20d57cadefcbd45513fe107e32fe4e91",
+      "size": 537234,
+      "sha256": "712aa111a3f35360e9729371f0fc4124f8a685fed9d348f0fb11ddda3d952ada",
       "aliases": [],
       "deferred": true
     },
     {
       "url": "assets/videos/I53_0000.ogv",
       "path": "/cds95/videos/I53_0000.ogv",
-      "size": 848216,
-      "sha256": "f694e17b408299f350b31c91c025940f723c9b1dfc785a89f59d983ca5e06a19",
+      "size": 789794,
+      "sha256": "aa8cd98f93aeb0036c7b8c9ccc3d5dbfc6585d69416b51527b58223b39c365fc",
       "aliases": [],
       "deferred": true
     },
     {
       "url": "assets/videos/I54_0000.ogv",
       "path": "/cds95/videos/I54_0000.ogv",
-      "size": 830545,
-      "sha256": "9d940408e0ae327c7f95bdc1e61e2fb585c43fa9eaf269f0b8403d0d7002adec",
+      "size": 770987,
+      "sha256": "806f1201772a0c161a1d8b10a08a0b74e5381d7cefadfdcc5bb1f27d3cd0c132",
       "aliases": [],
       "deferred": true
     },
     {
       "url": "assets/videos/I55_0000.ogv",
       "path": "/cds95/videos/I55_0000.ogv",
-      "size": 451256,
-      "sha256": "7cfaf4f5187bee6776ec261128fab4ad82a746f3004514249319324157ac5380",
+      "size": 394474,
+      "sha256": "c350dbf3b7a1a521fcf6af027a94175c5d49eb6902c6630a8004b92a8a8a08d3",
       "aliases": [],
       "deferred": true
     },
     {
       "url": "assets/videos/I56_0000.ogv",
       "path": "/cds95/videos/I56_0000.ogv",
-      "size": 1145254,
-      "sha256": "9c148b4efc780376e8e0f64394f8ca93844b979e96490fa0437e0a9740f29ad6",
+      "size": 1097610,
+      "sha256": "525a15385ccb3a1563be9172117110bd19a3ba2cfc1cc85307990a817b93c233",
       "aliases": [],
       "deferred": true
     },
     {
       "url": "assets/videos/I57_0000.ogv",
       "path": "/cds95/videos/I57_0000.ogv",
-      "size": 887980,
-      "sha256": "aa2decc3652403b832ae11c0fe863fd3835a538e5d9245c98d7cde68a8c4dd45",
+      "size": 810191,
+      "sha256": "b1126f2bbc01d73a86820010f281b5d6b386baaac223039a36d6e78caadbb65f",
       "aliases": [],
       "deferred": true
     },
     {
       "url": "assets/videos/I58_0000.ogv",
       "path": "/cds95/videos/I58_0000.ogv",
-      "size": 746833,
-      "sha256": "a6dadbd5ab3f39e64955f65651147655dffc815a3ddb1783f6dfecbfbb1037f3",
+      "size": 684746,
+      "sha256": "bbd35cb1741f6375f2984e40f8a69a43bd0a4ba10f4741363cb6748cbd07d4e0",
       "aliases": [],
       "deferred": true
     },
     {
       "url": "assets/videos/I59_0000.ogv",
       "path": "/cds95/videos/I59_0000.ogv",
-      "size": 938932,
-      "sha256": "f451256bf13d47abc517fcd8d865a3e97af84f796593f55d3d9e7594e9db76d9",
+      "size": 885481,
+      "sha256": "dd7553671c3b8d74a7ec2f87bfb353ba68a0b600eb04545f0cd50fb80f75f418",
       "aliases": [],
       "deferred": true
     },
     {
       "url": "assets/videos/I60_0000.ogv",
       "path": "/cds95/videos/I60_0000.ogv",
-      "size": 1067340,
-      "sha256": "cf611d04698662870d50716ccd39a73b486c110a569bfa5a2aea32970b96f398",
+      "size": 1026448,
+      "sha256": "c2240cbd1b9e9feb491dfc6775f6c0d40f16e65e550d59d12e07aba80d86a0f7",
       "aliases": [],
       "deferred": true
     },
     {
       "url": "assets/videos/I61_0000.ogv",
       "path": "/cds95/videos/I61_0000.ogv",
-      "size": 843513,
-      "sha256": "6942674b223aa8751937709beebd30a6f7b3f5dd90f3e4d134b232c0817f5592",
+      "size": 800807,
+      "sha256": "54ff5a2076c490e1d4f9befd67e956d94d927269a47b2fce93ee75a7c35706ee",
       "aliases": [],
       "deferred": true
     },
     {
       "url": "assets/videos/I62_0000.ogv",
       "path": "/cds95/videos/I62_0000.ogv",
-      "size": 486003,
-      "sha256": "4c94b652b961540d8a155858dc8a47e65d7666cdc778071a50333dca708569de",
+      "size": 438991,
+      "sha256": "85ee7e7d47e6dd7fb0b9f5353475961c2fa627e854498edc25b386cb3b498d2a",
       "aliases": [],
       "deferred": true
     },
     {
       "url": "assets/videos/I63_0000.ogv",
       "path": "/cds95/videos/I63_0000.ogv",
-      "size": 606122,
-      "sha256": "7d3b2898d9b1ce67856b3c7ce2c980e12e62c4248eef758e8029868c033ac588",
+      "size": 547092,
+      "sha256": "53806a0b61ff797bf85d57fae29d67b3b21730722184acfd63f55cda61815ca8",
       "aliases": [],
       "deferred": true
     },
     {
       "url": "assets/videos/I64_0000.ogv",
       "path": "/cds95/videos/I64_0000.ogv",
-      "size": 974439,
-      "sha256": "2c8dca952d50a91b75c57cedcbc6129318386e668ac1d714699047a7c91b0d96",
+      "size": 934920,
+      "sha256": "8052364f4100f23885cbfa891fa88d25f68e03abea23292d25742c192419ab1f",
       "aliases": [],
       "deferred": true
     },
     {
       "url": "assets/videos/I65_0000.ogv",
       "path": "/cds95/videos/I65_0000.ogv",
-      "size": 462977,
-      "sha256": "c24a72d8f3eaa3682f10956769f217638c7db4ea2a407c26f1712e116893d5ca",
+      "size": 411406,
+      "sha256": "e5317a2894ead26fefc2c853ca27fe4bcf369b050a910e5cc8185a218ec6899f",
       "aliases": [],
       "deferred": true
     },
     {
       "url": "assets/videos/I66_0000.ogv",
       "path": "/cds95/videos/I66_0000.ogv",
-      "size": 726424,
-      "sha256": "8d66a4333b2881dab26ccddbedc8671bc6f2088c7a4d2824e9ca46b7c45ce189",
+      "size": 698966,
+      "sha256": "262f034758db69df6b4de7200a0d6bbd4b9f06bfac3848db5330a29737d90672",
       "aliases": [],
       "deferred": true
     },
     {
       "url": "assets/videos/I67_0000.ogv",
       "path": "/cds95/videos/I67_0000.ogv",
-      "size": 432412,
-      "sha256": "509d8c833bc7742dfed3040e454e0bdfc5b3a7fea4161f8e7de6c2f9dca8c17d",
+      "size": 406624,
+      "sha256": "bcffe86c3069f2b445c1514c5c095c5bd4619a95204901c9f38f256ba77f5dba",
       "aliases": [],
       "deferred": true
     },
     {
       "url": "assets/videos/I68_0000.ogv",
       "path": "/cds95/videos/I68_0000.ogv",
-      "size": 449456,
-      "sha256": "aac825cb9e9f74514ac61ccede5b9a91f280c706c7901c3046804204702f17e0",
+      "size": 391478,
+      "sha256": "58a4403892f8a7dca721e263f7a796863784868457ffd4a8623acf60b11956cc",
       "aliases": [],
       "deferred": true
     },
     {
       "url": "assets/videos/I69_0000.ogv",
       "path": "/cds95/videos/I69_0000.ogv",
-      "size": 1516756,
-      "sha256": "a3879a26436d032f0b555ed7f0cb0af11d678494cba9a140e34b09fb04d293a6",
+      "size": 1440056,
+      "sha256": "ddb0ac96b0f189e743dc3c613b6e177080698e2f0d41b7aff25634a89cf57b58",
       "aliases": [],
       "deferred": true
     },
@@ -1679,80 +1679,80 @@
     {
       "url": "assets/videos/LOGO.ogv",
       "path": "/cds95/videos/LOGO.ogv",
-      "size": 453919,
-      "sha256": "a1cd7f6e966cb38cb41738a0666d66b9c77d16b66c56b279ec2239c8127c9b9a",
+      "size": 416486,
+      "sha256": "954b86270cf9ef0deae301fd6aadf0c9db401c2d725dd43b03a8fd0e943f2550",
       "aliases": [],
       "deferred": true
     },
     {
       "url": "assets/videos/OPEN.ogv",
       "path": "/cds95/videos/OPEN.ogv",
-      "size": 13387437,
-      "sha256": "24647a3befcb2a149f4be7fce8863defb48bdb12d4339825cd2106c466417f10",
+      "size": 12184194,
+      "sha256": "e31cca199b8ce44ba775bcb57d6a97c8ffe612eb500f424ea8747dcf2524034d",
       "aliases": [],
       "deferred": true
     },
     {
       "url": "assets/videos/S00_0001.ogv",
       "path": "/cds95/videos/S00_0001.ogv",
-      "size": 185033,
-      "sha256": "701f5b4d47e6495bd9ba76027c42891ea0ceef9e0de13df461bd4800f1053475",
+      "size": 191728,
+      "sha256": "cc0806cb631356fa97818b82a1d6d79875fefc058a2a4836bc3a189dd1aa7fab",
       "aliases": [],
       "deferred": true
     },
     {
       "url": "assets/videos/S01_0001.ogv",
       "path": "/cds95/videos/S01_0001.ogv",
-      "size": 192873,
-      "sha256": "57bb6495caa72db4f7cb6515cbf0690e7a14f6761da568def92f3a1066254a46",
+      "size": 192862,
+      "sha256": "1c2cd5e9fec3a0430bdec1cd155cbc90307c92450dbfea872aee34969c5afb06",
       "aliases": [],
       "deferred": true
     },
     {
       "url": "assets/videos/S02_0001.ogv",
       "path": "/cds95/videos/S02_0001.ogv",
-      "size": 225825,
-      "sha256": "65bdfc9707a26e130ed285a4fc6b5aebb314763b557632b9f9efaa719dec1c28",
+      "size": 224482,
+      "sha256": "9e1111ac0c89915b4424d3468971290ac12cb366b679da89fcf7e6cb914cca8a",
       "aliases": [],
       "deferred": true
     },
     {
       "url": "assets/videos/S03_0001.ogv",
       "path": "/cds95/videos/S03_0001.ogv",
-      "size": 267086,
-      "sha256": "a36b6351efea96d024a202b140eb46e4cff1cc17032d5cba6d7bd20783821b13",
+      "size": 273984,
+      "sha256": "3ab32625b4d01579bbf74c18867072ad23c27f2011a7cdb4634bae058bd41f1f",
       "aliases": [],
       "deferred": true
     },
     {
       "url": "assets/videos/S04_0001.ogv",
       "path": "/cds95/videos/S04_0001.ogv",
-      "size": 224850,
-      "sha256": "e9883c2892475a4a02918b793c7681b54869cf883c5c059278ed16b5fcc208a1",
+      "size": 219939,
+      "sha256": "dd38ffd9c010971bcd9cafb04736f42aabec231f8cf354178d20a553d3933a8b",
       "aliases": [],
       "deferred": true
     },
     {
       "url": "assets/videos/S05_0001.ogv",
       "path": "/cds95/videos/S05_0001.ogv",
-      "size": 366558,
-      "sha256": "495679b6df07e80bb8c27a0e2cea09a491be7c11a28f330c26e28e2d6cd7844e",
+      "size": 377132,
+      "sha256": "2fb2b3573605d24a17ec720121e6c66a5c1c4ae382d42467c36cdadf05462b4a",
       "aliases": [],
       "deferred": true
     },
     {
       "url": "assets/videos/S06_0001.ogv",
       "path": "/cds95/videos/S06_0001.ogv",
-      "size": 390278,
-      "sha256": "5812aeb584e5d195174b57a279f97e50854690e8b8cfd23f5f6346ae2f703121",
+      "size": 402156,
+      "sha256": "325874865a6273dd2588c7ec18cc00e4106e45b7501bf153fd70c639f83b7a3b",
       "aliases": [],
       "deferred": true
     },
     {
       "url": "assets/videos/S07_0001.ogv",
       "path": "/cds95/videos/S07_0001.ogv",
-      "size": 193669,
-      "sha256": "abb094702d2c4458436cada3182916224c7acc1ddd6184299dfab7609d97da4e",
+      "size": 195582,
+      "sha256": "f03e1b7873661b6c71a3b212bf3f1ee7e5e852604ab6efb8cffdc930efaef5b5",
       "aliases": [],
       "deferred": true
     }
