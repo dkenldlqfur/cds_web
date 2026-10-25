@@ -4,6 +4,8 @@ Android Chrome 및 iPhone Safari에서 접속할 웹 빌드입니다.
 
 게임 접속 주소: **https://dkenldlqfur.github.io/cds_web/**
 
+2026-10-25: 다음 항해 좌표가 조금 늦게 도착하면 100ms 보간이 먼저 끝나 잠깐 정지하던 조건을 컴파일 시점 검사로 재현하고 보완했습니다. 새 구간에 50ms의 표시 여유를 두며, 확인된 좌표를 넘어 예측하지 않습니다. 게임 이동 주기는 유지하고 표시 지연은 약 50ms 늘어납니다. Windows·웹 빌드와 정적 검사만 수행하며 플레이 테스트와 체감 성능 측정은 하지 않았습니다. [항해 보간 여유 수정본](https://dkenldlqfur.github.io/cds_web/?v=interpolation-headroom-20261025).
+
 2026-10-25: 화면 효과를 켠 항해의 지도 그리기에서 지형·마스크·캐시 버퍼의 반복 소유 범위 검색을 줄이고, 불변 타일 종류와 한 프레임의 물결 기준값·변환값을 재사용합니다. 이동량·게임 시간·효과 진행·보간 곡선은 유지합니다. Windows·웹 빌드와 정적 검사로 확인하며 플레이 테스트와 성능 측정은 진행하지 않았습니다. [항해 지형 조회 수정본](https://dkenldlqfur.github.io/cds_web/?v=terrain-lookup-20261025).
 
 2026-10-25: 종료 시 `Restored World requires unconnected actual child 0x4b65a0`가 발생하던 상태 메시지 메모리 해제 경로를 연결했습니다. 원본의 해제·플래그 정리 순서를 유지하며 Windows·웹 컴파일과 정적 검사만 수행했습니다. 플레이 테스트는 진행하지 않았습니다. [종료 메시지 정리 수정본](https://dkenldlqfur.github.io/cds_web/?v=status-shutdown-20261025).
