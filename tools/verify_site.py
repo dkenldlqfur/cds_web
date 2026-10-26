@@ -19,7 +19,7 @@ def main():
         assert len(data) == item['size'], item['path']
         assert hashlib.sha256(data).hexdigest() == item['sha256'], item['path']
         assert len(data) < 100 * 1024 * 1024, 'File exceeds GitHub repository limit'
-        assert path.name.upper() not in ('SAVEDATA.CDS', 'ACCDATA.CDS'), 'Personal save file'
+        assert not path.name.upper().startswith(('SAVEDATA', 'ACCDATA')), 'Personal save or backup file'
         total += len(data)
     actual = {path.relative_to(SITE).as_posix() for path in SITE.rglob('*') if path.is_file()}
     assert expected == actual, 'Published file set differs from verified manifest'

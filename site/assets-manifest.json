@@ -439,8 +439,8 @@
     {
       "url": "assets/data/strings.ko.json",
       "path": "/cds95/data/strings.ko.json",
-      "size": 628494,
-      "sha256": "ecbb132f140f1b65f2c7c01e528c6ae25b7514dca91701cc4503d9b2ccd06a93",
+      "size": 630883,
+      "sha256": "9005d6536f3de196d68884051299c07e60e9f46a2e2a3de6ce4913287bf8db7b",
       "aliases": [],
       "deferred": false
     },
@@ -495,8 +495,8 @@
     {
       "url": "assets/data/records/cities.json",
       "path": "/cds95/data/records/cities.json",
-      "size": 155103,
-      "sha256": "cc127084b7142c99000bfd79691cb8abcd08dc481a1ccda81e3c6b4299b49f9c",
+      "size": 155105,
+      "sha256": "16396ca8d2bed66390f9327d22b8e1acf3e0342c935f779cc90bcc9d6a43c735",
       "aliases": [],
       "deferred": false
     },
@@ -551,8 +551,8 @@
     {
       "url": "assets/data/records/items.json",
       "path": "/cds95/data/records/items.json",
-      "size": 58692,
-      "sha256": "98717dacd5c5ba7637367429097320bc15b326e00c84708dfdf722eaf986d266",
+      "size": 59114,
+      "sha256": "aba70c5dd3a6b77e57d692a3d058640e3cc8b3d14348689b632d75cb5f65359c",
       "aliases": [],
       "deferred": false
     },

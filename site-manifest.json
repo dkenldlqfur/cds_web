@@ -7,6 +7,21 @@
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     {
+      "path": "LICENSE.DroidSans.txt",
+      "size": 581,
+      "sha256": "d0588452395c674334105d9a39e4d8627c66080f45491013e877139581a78ed1"
+    },
+    {
+      "path": "LICENSE.Godot.txt",
+      "size": 1149,
+      "sha256": "b0435e3b3e4e55238f05f4b306f30524a1b2e20147810d436eaa554fa6855c80"
+    },
+    {
+      "path": "assets-manifest.json",
+      "size": 56020,
+      "sha256": "37b0779b50986f879a3a7304e2503ef9579c1c6c21285ab0ee5fc12d83b41459"
+    },
+    {
       "path": "assets/bgm/Track02.mp3",
       "size": 3393827,
       "sha256": "f61ebcc072153e34a597f6e2fdb271238287442a595e7b129128d5a00f23cf1d"
@@ -267,14 +282,14 @@
       "sha256": "c1f3856512d28e7529deaa8282c64e72ef115e3ee839d57d1eed2c49dba37e9d"
     },
     {
-      "path": "assets/core/HIST_EV.CDS",
-      "size": 9214,
-      "sha256": "6095ad9679be24d4f8d98ab2cdaa1e85fde71bb5f98d90f14ad7c314bf86aaad"
-    },
-    {
       "path": "assets/core/HISTCHR.CDS",
       "size": 15627,
       "sha256": "719e42f440b8a12c70483901b1f36233349d24222c55d54df7904b375a867619"
+    },
+    {
+      "path": "assets/core/HIST_EV.CDS",
+      "size": 9214,
+      "sha256": "6095ad9679be24d4f8d98ab2cdaa1e85fde71bb5f98d90f14ad7c314bf86aaad"
     },
     {
       "path": "assets/core/ITEM.CDS",
@@ -433,8 +448,8 @@
     },
     {
       "path": "assets/data/records/cities.json",
-      "size": 155103,
-      "sha256": "cc127084b7142c99000bfd79691cb8abcd08dc481a1ccda81e3c6b4299b49f9c"
+      "size": 155105,
+      "sha256": "16396ca8d2bed66390f9327d22b8e1acf3e0342c935f779cc90bcc9d6a43c735"
     },
     {
       "path": "assets/data/records/creation_age_adjustments.json",
@@ -468,8 +483,8 @@
     },
     {
       "path": "assets/data/records/items.json",
-      "size": 58692,
-      "sha256": "98717dacd5c5ba7637367429097320bc15b326e00c84708dfdf722eaf986d266"
+      "size": 59114,
+      "sha256": "aba70c5dd3a6b77e57d692a3d058640e3cc8b3d14348689b632d75cb5f65359c"
     },
     {
       "path": "assets/data/records/matrices.json",
@@ -533,8 +548,8 @@
     },
     {
       "path": "assets/data/strings.ko.json",
-      "size": 628494,
-      "sha256": "ecbb132f140f1b65f2c7c01e528c6ae25b7514dca91701cc4503d9b2ccd06a93"
+      "size": 630883,
+      "sha256": "9005d6536f3de196d68884051299c07e60e9f46a2e2a3de6ce4913287bf8db7b"
     },
     {
       "path": "assets/data/strings.legacy.json",
@@ -1092,14 +1107,9 @@
       "sha256": "f03e1b7873661b6c71a3b212bf3f1ee7e5e852604ab6efb8cffdc930efaef5b5"
     },
     {
-      "path": "assets-manifest.json",
-      "size": 56020,
-      "sha256": "e48286e210cfd36c1f673f78fc030901f3f6f6d1fa56cbd71925905b5afa0b34"
-    },
-    {
       "path": "cds_native.web.wasm",
-      "size": 8446314,
-      "sha256": "85c1e95f33bb8ed1c144b94cba123604c577ede48c15a5d1c2a7d355fa8f3542"
+      "size": 8585292,
+      "sha256": "68c37811aafd5ef4a0f97007c630825e7f43092afe91c96d016c88bb4234b7e7"
     },
     {
       "path": "index.apple-touch-icon.png",
@@ -1118,8 +1128,8 @@
     },
     {
       "path": "index.html",
-      "size": 19113,
-      "sha256": "5b1d35f4286715dbd57f769052b19b616f490978c848d1538b918efd38cf5be4"
+      "size": 19137,
+      "sha256": "692b6333cf8d7948e07cc37b76d29f9cd71f1e03b8e9c27788570ee6d5b5389e"
     },
     {
       "path": "index.icon.png",
@@ -1133,8 +1143,8 @@
     },
     {
       "path": "index.pck",
-      "size": 31517000,
-      "sha256": "1705b84369fd61aadc8240c15d6f2bb04b54b271fd0f4a5489dffcc83905f673"
+      "size": 31541444,
+      "sha256": "73b1ca5627b84aa81500842a0235987d9b7b16b18bd821e5709a3dd146dd6f10"
     },
     {
       "path": "index.png",
@@ -1155,16 +1165,6 @@
       "path": "isolation-sw.js",
       "size": 1139,
       "sha256": "80afc9dfecf4c3b2ec4734f10c01912200360aa5a2397f11877ff27cd68c26fe"
-    },
-    {
-      "path": "LICENSE.DroidSans.txt",
-      "size": 581,
-      "sha256": "d0588452395c674334105d9a39e4d8627c66080f45491013e877139581a78ed1"
-    },
-    {
-      "path": "LICENSE.Godot.txt",
-      "size": 1149,
-      "sha256": "b0435e3b3e4e55238f05f4b306f30524a1b2e20147810d436eaa554fa6855c80"
     }
   ]
 }

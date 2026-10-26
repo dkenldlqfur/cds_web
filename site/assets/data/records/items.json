@@ -2860,6 +2860,26 @@
       "effect": 35,
       "category": 5,
       "hint_id": -1
+    },
+    {
+      "id": 286,
+      "name_key": "item.holy_oil.name",
+      "image": -1,
+      "buy_price": 1000,
+      "sell_price": 500,
+      "effect": -1,
+      "category": 0,
+      "hint_id": -1
+    },
+    {
+      "id": 287,
+      "name_key": "item.lime_juice.name",
+      "image": -1,
+      "buy_price": 1000,
+      "sell_price": 500,
+      "effect": -1,
+      "category": 0,
+      "hint_id": -1
     }
   ]
 }
