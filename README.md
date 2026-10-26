@@ -4,6 +4,8 @@ Android Chrome 및 iPhone Safari에서 접속할 웹 빌드입니다.
 
 게임 접속 주소: **https://dkenldlqfur.github.io/cds_web/**
 
+2026-10-26: Added window/fullscreen startup selection, remembered window size, full client-area rendering, nearby-map raster optimization and smooth map dragging. Builds and static checks only; no gameplay testing.
+
 2026-10-26: 해상 0 메뉴의 편성 진입 시 발생하던 Unconnected Screen typed TreeEvent consumer 오류를 수정했습니다. 편성 창의 그리기·활성화·비활성화 이벤트를 기존 원본 이벤트 처리에 연결했습니다. 네이티브 빌드·원본 EXE 대조·분리된 이벤트 전달 검사와 웹 정적 배포 검사를 수행했습니다. 플레이 테스트는 하지 않았습니다.
 
 2026-10-26: 실행 직후 발생하던 World Runtime operations require actual endpoint worker 오류를 수정했습니다. 해상도 콜백 등록을 메인 스레드 생성자에서 게임 작업 스레드의 시작 지점으로 옮겼습니다. 작업 스레드 소유권 검사는 유지하며, 빌드·등록 위치 회귀 검사·웹 정적 배포 검사를 수행했습니다. 플레이 테스트는 하지 않았습니다.

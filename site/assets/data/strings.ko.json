@@ -8076,5 +8076,8 @@
   "ui.advisor.minigame.offer": "저에게 맡기겠습니까?",
   "ui.advisor.minigame.success": "간단한 문제군요.",
   "ui.advisor.minigame.failure": "미니게임을 클리어하지 못했습니다.",
-  "ui.advisor.sphinx.answer": "정답은 %d마리 입니다."
+  "ui.advisor.sphinx.answer": "정답은 %d마리 입니다.",
+  "ui.display.mode.title": "화면 모드",
+  "ui.display.windowed": "창 모드",
+  "ui.display.fullscreen": "전체 화면"
 }

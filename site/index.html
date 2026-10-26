@@ -30,6 +30,7 @@ h1{font-size:25px;font-weight:600;margin:0 0 14px}
 progress{width:100%;height:12px;accent-color:#d9af63}
 #status{min-height:48px;white-space:pre-wrap;overflow-wrap:anywhere}
 #start{background:#a77a30;min-width:140px}
+#start-options{display:flex;flex-wrap:wrap;gap:10px;justify-content:center}
 #tip{font-size:13px;color:#acbec8}
 #error{color:#f2b0a8}
 body:not(.started) #tools{visibility:hidden}
@@ -59,16 +60,19 @@ body:not(.started) #tools{visibility:hidden}
   <p id="control-hint" aria-live="polite">키패드: 메뉴 이동 · 항해 방향 지정 · 5는 항해 정지/재개</p>
  </nav>
  </div>
+<div id="cover"><div id="card"><h1>대항해시대 3 ver 히소카</h1><p id="status" role="status">게임 데이터를 준비합니다.</p><progress id="progress" max="1" value="0"></progress><p id="start-options"><button id="start" disabled>준비 중…</button><button id="start-fullscreen" disabled hidden>전체 화면으로 시작</button></p><p id="tip">가로 화면을 권장합니다. 화면을 눌러 선택하고,<br>우클릭은 버튼을 누른 뒤 게임 화면을 터치하세요.<br>저장은 이 브라우저에 보관됩니다.</p><p id="error" role="alert"></p></div></div>
 </main>
-<div id="cover"><div id="card"><h1>대항해시대 3 ver 히소카</h1><p id="status" role="status">게임 데이터를 준비합니다.</p><progress id="progress" max="1" value="0"></progress><p><button id="start" disabled>준비 중…</button></p><p id="tip">가로 화면을 권장합니다. 화면을 눌러 선택하고,<br>우클릭은 버튼을 누른 뒤 게임 화면을 터치하세요.<br>저장은 이 브라우저에 보관됩니다.</p><p id="error" role="alert"></p></div></div>
 <script src="index.js"></script>
 <script>
 'use strict';
-const config={"args":[],"canvasResizePolicy":1,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":true,"executable":"index","experimentalVK":true,"fileSizes":{"index.pck":31542468,"index.wasm":1713410},"focusCanvas":true,"gdextensionLibs":["cds_native.web.wasm"],"godotPoolSize":4};
+const config={"args":[],"canvasResizePolicy":1,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":true,"executable":"index","experimentalVK":true,"fileSizes":{"index.pck":31542596,"index.wasm":1713410},"focusCanvas":true,"gdextensionLibs":["cds_native.web.wasm"],"godotPoolSize":4};
 const canvas=document.getElementById('canvas'),screen=document.getElementById('screen'),start=document.getElementById('start'),status=document.getElementById('status'),progress=document.getElementById('progress');
+const startFullscreen=document.getElementById('start-fullscreen'),app=document.getElementById('app');
+const canFullscreen=Boolean(document.fullscreenEnabled&&typeof app.requestFullscreen==='function');
+startFullscreen.hidden=!canFullscreen;
 config.canvas=canvas;config.canvasResizePolicy=1;config.focusCanvas=true;
 config.onProgress=(current,total)=>{if(total){progress.value=current/total;}};
-config.onExit=()=>{document.getElementById('cover').hidden=false;document.getElementById('cover').style.display='flex';status.textContent='게임이 종료되었습니다. 다시 실행하려면 페이지를 새로고침하세요.';start.hidden=true;};
+config.onExit=()=>{document.getElementById('cover').hidden=false;document.getElementById('cover').style.display='flex';status.textContent='게임이 종료되었습니다. 다시 실행하려면 페이지를 새로고침하세요.';start.hidden=true;startFullscreen.hidden=true;};
 const engine=new Engine(config);
 function fit(){
  const viewport=window.visualViewport,root=document.documentElement;
@@ -86,13 +90,14 @@ function fit(){
 let fitFrame=0;
 function scheduleFit(){if(!fitFrame)fitFrame=requestAnimationFrame(()=>{fitFrame=0;fit();});}
 function requestGameExtent(){
- const orientation=window.screen?.orientation?.type;
- const landscape=orientation?orientation.startsWith('landscape'):typeof window.orientation==='number'?Math.abs(window.orientation)===90:screen.clientWidth>screen.clientHeight;
- const frameHeight=Math.max(480,Math.min(544,canvas.height||480));
- const width=landscape?Math.max(640,Math.min(1536,Math.ceil(frameHeight*screen.clientWidth/Math.max(1,screen.clientHeight)/16)*16)):640;
- // One latest request: every native input wait can commit the actual game
- // resolution. Height stays 480; extra width exposes more rendered content.
- window.CDS95RequestedExtent=(480<<16)|width;
+ if(screen.clientWidth<=0||screen.clientHeight<=0)return;
+ const inset=Math.max(0,Math.min(128,Number(window.CDS95MenuInset??32)));
+ // Keep a pixel per CSS pixel when space permits. Smaller phone viewports
+ // fit the minimum native canvas; larger windows reveal additional content.
+ const scale=Math.min(1,screen.clientWidth/640,screen.clientHeight/(480+inset));
+ const width=Math.max(640,Math.min(4096,Math.floor(screen.clientWidth/scale)));
+ const height=Math.max(480,Math.min(4096,Math.floor(screen.clientHeight/scale)-inset));
+ window.CDS95RequestedExtent=(height<<16)|width;
 }
 function fitGameViewport(){fit();requestGameExtent();}
 let fitTimers=[];
@@ -103,15 +108,15 @@ function settleFit(){
  fitTimers=[80,180,350,700,1200].map(delay=>setTimeout(fitGameViewport,delay));
  fitGameViewport();
 }
-new ResizeObserver(scheduleFit).observe(screen);
+new ResizeObserver(()=>{scheduleFit();requestGameExtent();}).observe(screen);
 new MutationObserver(()=>{scheduleFit();requestGameExtent();}).observe(canvas,{attributes:true,attributeFilter:['width','height']});
-window.addEventListener('resize',scheduleFit);window.addEventListener('orientationchange',settleFit);
+window.addEventListener('resize',settleFit);window.addEventListener('orientationchange',settleFit);
 window.screen?.orientation?.addEventListener('change',settleFit);
 window.addEventListener('pageshow',settleFit);
 document.addEventListener('visibilitychange',()=>{if(!document.hidden)settleFit();});
-window.visualViewport?.addEventListener('resize',scheduleFit);window.visualViewport?.addEventListener('scroll',scheduleFit);
+window.visualViewport?.addEventListener('resize',settleFit);window.visualViewport?.addEventListener('scroll',scheduleFit);
 document.addEventListener('fullscreenchange',settleFit);fit();
-function fail(error){status.textContent='게임을 시작할 수 없습니다.';document.getElementById('error').textContent=String(error.message||error);start.disabled=true;start.textContent='시작 불가';console.error(error);}
+function fail(error){status.textContent='게임을 시작할 수 없습니다.';document.getElementById('error').textContent=String(error.message||error);start.disabled=true;startFullscreen.disabled=true;start.textContent='시작 불가';console.error(error);}
 async function prepareBrowser(){
  if(!isSecureContext)throw new Error('HTTPS 주소로 접속해야 합니다.');
  const key='cds95-isolation-reload:'+location.pathname;
@@ -154,9 +159,18 @@ async function assets(){
   const hash=Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',data)),n=>n.toString(16).padStart(2,'0')).join('');if(hash!==file.sha256)throw new Error(`데이터 검증 실패: ${file.url}`);
   await engine.preloadFile(data,file.path);for(const alias of file.aliases||[])await engine.preloadFile(data,alias);loaded+=file.size;progress.value=loaded/total;status.textContent=`게임 데이터 준비 ${Math.round(loaded/total*100)}%`;
  }}
- await Promise.all([worker(),worker(),worker()]);status.textContent='준비가 끝났습니다. 시작을 눌러주세요.';start.disabled=false;start.textContent='시작';
+ await Promise.all([worker(),worker(),worker()]);status.textContent='준비가 끝났습니다. 시작 방식을 선택하세요.';start.disabled=false;startFullscreen.disabled=false;start.textContent='브라우저에서 시작';
 }
-start.addEventListener('click',async()=>{start.disabled=true;start.textContent='실행 중…';try{await engine.startGame();document.getElementById('cover').style.display='none';document.body.classList.add('started');canvas.focus();fit();}catch(error){fail(error);}});
+async function beginGame(fullscreen){
+ if(start.disabled)return;start.disabled=true;startFullscreen.disabled=true;start.textContent='실행 중…';
+ try{
+  // Call directly within this click, before any asynchronous game startup.
+  if(fullscreen&&canFullscreen){try{await app.requestFullscreen();}catch(error){console.info(error);}}
+  settleFit();await engine.startGame();document.getElementById('cover').style.display='none';document.body.classList.add('started');canvas.focus();settleFit();
+ }catch(error){fail(error);}
+}
+start.addEventListener('click',()=>beginGame(false));
+startFullscreen.addEventListener('click',()=>beginGame(true));
 // Physical key names retain their original per-screen meanings. Both native
 // gameplay and Godot dialogs pull their own queue on the engine frame.
 const codes={ArrowLeft:[37,'ArrowLeft'],ArrowUp:[38,'ArrowUp'],ArrowRight:[39,'ArrowRight'],ArrowDown:[40,'ArrowDown'],Enter:[13,'Enter'],Escape:[27,'Escape'],Tab:[9,'Tab'],Backspace:[8,'Backspace'],' ':[32,'Space'],'0':[48,'Digit0'],'1':[49,'Digit1'],'2':[50,'Digit2'],'3':[51,'Digit3'],'4':[52,'Digit4'],'5':[53,'Digit5'],'6':[54,'Digit6'],'7':[55,'Digit7'],'8':[56,'Digit8'],'9':[57,'Digit9']};
@@ -198,8 +212,9 @@ canvas.addEventListener('touchmove',event=>{if(rightTouch===null)return;const to
 function releaseRight(event){if(rightTouch===null)return;const touch=Array.from(event.changedTouches).find(t=>t.identifier===rightTouch);if(!touch)return;event.preventDefault();event.stopImmediatePropagation();mouse('mouseup',touch,false);rightTouch=null;rightMode=false;right.setAttribute('aria-pressed','false');}
 canvas.addEventListener('touchend',releaseRight,{capture:true,passive:false});canvas.addEventListener('touchcancel',releaseRight,{capture:true,passive:false});
 document.getElementById('fullscreen').addEventListener('click',async()=>{try{if(document.fullscreenElement)await document.exitFullscreen();else if(document.getElementById('app').requestFullscreen)await document.getElementById('app').requestFullscreen();}catch(error){console.info(error);}});
-document.getElementById('fullscreen').hidden=!document.fullscreenEnabled;
+document.getElementById('fullscreen').hidden=!canFullscreen;
 assets().catch(fail);
 </script>
 </body>
 </html>
+

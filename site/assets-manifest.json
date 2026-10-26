@@ -439,8 +439,8 @@
     {
       "url": "assets/data/strings.ko.json",
       "path": "/cds95/data/strings.ko.json",
-      "size": 630883,
-      "sha256": "9005d6536f3de196d68884051299c07e60e9f46a2e2a3de6ce4913287bf8db7b",
+      "size": 631013,
+      "sha256": "dc527b3df80a65b011b63959298ee19d41d1635981163753eddc4e91440d4342",
       "aliases": [],
       "deferred": false
     },
