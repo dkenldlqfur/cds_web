@@ -7,21 +7,6 @@
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     {
-      "path": "LICENSE.DroidSans.txt",
-      "size": 581,
-      "sha256": "d0588452395c674334105d9a39e4d8627c66080f45491013e877139581a78ed1"
-    },
-    {
-      "path": "LICENSE.Godot.txt",
-      "size": 1149,
-      "sha256": "b0435e3b3e4e55238f05f4b306f30524a1b2e20147810d436eaa554fa6855c80"
-    },
-    {
-      "path": "assets-manifest.json",
-      "size": 56020,
-      "sha256": "37b0779b50986f879a3a7304e2503ef9579c1c6c21285ab0ee5fc12d83b41459"
-    },
-    {
       "path": "assets/bgm/Track02.mp3",
       "size": 3393827,
       "sha256": "f61ebcc072153e34a597f6e2fdb271238287442a595e7b129128d5a00f23cf1d"
@@ -282,14 +267,14 @@
       "sha256": "c1f3856512d28e7529deaa8282c64e72ef115e3ee839d57d1eed2c49dba37e9d"
     },
     {
-      "path": "assets/core/HISTCHR.CDS",
-      "size": 15627,
-      "sha256": "719e42f440b8a12c70483901b1f36233349d24222c55d54df7904b375a867619"
-    },
-    {
       "path": "assets/core/HIST_EV.CDS",
       "size": 9214,
       "sha256": "6095ad9679be24d4f8d98ab2cdaa1e85fde71bb5f98d90f14ad7c314bf86aaad"
+    },
+    {
+      "path": "assets/core/HISTCHR.CDS",
+      "size": 15627,
+      "sha256": "719e42f440b8a12c70483901b1f36233349d24222c55d54df7904b375a867619"
     },
     {
       "path": "assets/core/ITEM.CDS",
@@ -1107,9 +1092,14 @@
       "sha256": "f03e1b7873661b6c71a3b212bf3f1ee7e5e852604ab6efb8cffdc930efaef5b5"
     },
     {
+      "path": "assets-manifest.json",
+      "size": 56020,
+      "sha256": "37b0779b50986f879a3a7304e2503ef9579c1c6c21285ab0ee5fc12d83b41459"
+    },
+    {
       "path": "cds_native.web.wasm",
-      "size": 8585292,
-      "sha256": "68c37811aafd5ef4a0f97007c630825e7f43092afe91c96d016c88bb4234b7e7"
+      "size": 8586173,
+      "sha256": "c9d4255fcab787234deb708f19e264ee2e74a7073106e2a57ffeba86fee16f60"
     },
     {
       "path": "index.apple-touch-icon.png",
@@ -1165,6 +1155,16 @@
       "path": "isolation-sw.js",
       "size": 1139,
       "sha256": "80afc9dfecf4c3b2ec4734f10c01912200360aa5a2397f11877ff27cd68c26fe"
+    },
+    {
+      "path": "LICENSE.DroidSans.txt",
+      "size": 581,
+      "sha256": "d0588452395c674334105d9a39e4d8627c66080f45491013e877139581a78ed1"
+    },
+    {
+      "path": "LICENSE.Godot.txt",
+      "size": 1149,
+      "sha256": "b0435e3b3e4e55238f05f4b306f30524a1b2e20147810d436eaa554fa6855c80"
     }
   ]
 }
