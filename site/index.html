@@ -6,16 +6,34 @@
 <meta name="theme-color" content="#14222d">
 <title>대항해시대 3 ver 히소카</title>
 <style>
-canvas{width:var(--display-width,640px)!important;height:var(--display-height,480px)!important}
-/* Keep the complete game surface inside the phone's visible viewport, even
-   while browser chrome, keyboard or page zoom changes its usable area. */
-#app{position:absolute;left:var(--visual-left,0px);top:var(--visual-top,0px);width:var(--visual-width,100%);height:var(--visual-height,100dvh)!important}
-#screen{position:relative;min-width:0}
-#canvas{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);max-width:none;max-height:none}
-#tools .direction-controls{flex:0 0 auto}.direction-pad{display:grid;grid-template-columns:repeat(3,44px);gap:3px}.direction-pad button{padding:3px;font-size:14px;user-select:none;-webkit-user-select:none}#action-keys{display:grid;grid-template-columns:repeat(3,minmax(44px,1fr));gap:4px;flex:1;max-width:330px;min-width:144px}#action-keys button{padding:5px;font-size:13px}#control-hint{flex-basis:100%;margin:0;text-align:center;font-size:12px;color:#acbec8}#tools button{touch-action:none}@media(max-height:420px){.direction-pad{grid-template-columns:repeat(3,38px)}.direction-pad button{min-width:38px;min-height:38px}#control-hint{font-size:11px}}
-#tools{max-height:46%;flex-shrink:0;overflow-y:auto;align-items:center}
-.direction-pad button{width:100%;min-width:0;overflow:hidden;white-space:normal;line-height:1.15}
-*{box-sizing:border-box}html,body{margin:0;width:100%;height:100%;background:#101820;color:#f3f5ed;font:15px system-ui,sans-serif}body{overflow:hidden}#app{height:100dvh;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left)}#screen{flex:1;min-height:0;width:100%;display:flex;align-items:center;justify-content:center;overflow:hidden}canvas{display:block;outline:none;touch-action:none;image-rendering:pixelated}button{font:inherit;color:inherit;background:#263b49;border:1px solid #5a7483;border-radius:7px;min-width:44px;min-height:44px;padding:8px 12px;touch-action:manipulation}button:active,button[aria-pressed=true]{background:#a77a30;color:#fff}button:disabled{opacity:.5}#tools{display:flex;flex-wrap:wrap;justify-content:center;gap:5px;padding:6px;width:100%;background:#14222d}#cover{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:#101820;z-index:10;padding:24px}#card{width:min(440px,100%);text-align:center;line-height:1.6}h1{font-size:25px;font-weight:600;margin:0 0 14px}progress{width:100%;height:12px;accent-color:#d9af63}#status{min-height:48px;white-space:pre-wrap;overflow-wrap:anywhere}#start{background:#a77a30;min-width:140px}#tip{font-size:13px;color:#acbec8}#error{color:#f2b0a8}body:not(.started) #tools{visibility:hidden}@media(max-height:420px){#tools{gap:3px;padding:3px}button{min-height:38px;padding:5px 9px}#tip{display:none}}
+*{box-sizing:border-box}
+html,body{margin:0;width:100%;height:100%;background:#101820;color:#f3f5ed;font:15px system-ui,sans-serif}
+body{overflow:hidden}
+/* Fit the complete game surface to the visible viewport, including browser chrome. */
+#app{position:absolute;left:var(--visual-left,0px);top:var(--visual-top,0px);width:var(--visual-width,100%);height:var(--visual-height,100dvh);display:flex;flex-direction:column;align-items:center;justify-content:center;padding:env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left)}
+#screen{position:relative;flex:1;min-width:0;min-height:0;width:100%;overflow:hidden}
+#canvas{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:var(--display-width,640px)!important;height:var(--display-height,480px)!important;display:block;max-width:none;max-height:none;outline:none;touch-action:none;image-rendering:pixelated}
+button{font:inherit;color:inherit;background:#263b49;border:1px solid #5a7483;border-radius:7px;min-width:44px;min-height:44px;padding:8px 12px;touch-action:manipulation}
+button:active,button[aria-pressed=true]{background:#a77a30;color:#fff}
+button:disabled{opacity:.5}
+/* Match the canvas bounds. Only buttons intercept touches; all gaps reach the game. */
+#tools{position:absolute;z-index:2;left:50%;top:50%;transform:translate(-50%,-50%);width:var(--display-width,640px);height:var(--display-height,480px);pointer-events:none}
+#tools .direction-controls{position:absolute;left:8px;bottom:8px;transform:scale(var(--controls-scale,1));transform-origin:bottom left}
+.direction-pad{display:grid;grid-template-columns:repeat(3,44px);gap:3px}
+#action-keys{position:absolute;right:8px;bottom:8px;transform:scale(var(--controls-scale,1));transform-origin:bottom right;display:grid;grid-template-columns:repeat(3,52px);gap:3px}
+#tools button{pointer-events:auto;touch-action:none;min-width:0;min-height:44px;padding:3px;font-size:13px;line-height:1.15;background:rgba(20,34,45,.58);border-color:rgba(170,197,213,.65);text-shadow:0 1px 2px #000;user-select:none;-webkit-user-select:none}
+#tools button:active,#tools button[aria-pressed=true]{background:rgba(167,122,48,.9)}
+#control-hint{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+#cover{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;background:#101820;z-index:10;padding:24px}
+#card{width:min(440px,100%);text-align:center;line-height:1.6}
+h1{font-size:25px;font-weight:600;margin:0 0 14px}
+progress{width:100%;height:12px;accent-color:#d9af63}
+#status{min-height:48px;white-space:pre-wrap;overflow-wrap:anywhere}
+#start{background:#a77a30;min-width:140px}
+#tip{font-size:13px;color:#acbec8}
+#error{color:#f2b0a8}
+body:not(.started) #tools{visibility:hidden}
+@media(max-height:420px){#tip{display:none}}
 </style>
 <link id="-gd-engine-icon" rel="icon" type="image/png" href="index.icon.png" />
 <link rel="apple-touch-icon" href="index.apple-touch-icon.png"/>
@@ -24,7 +42,7 @@ canvas{width:var(--display-width,640px)!important;height:var(--display-height,48
 <body>
 <main id="app">
  <p id="download" role="status" hidden></p>
- <div id="screen"><canvas id="canvas" width="640" height="480" tabindex="0" aria-label="게임 화면"></canvas></div>
+ <div id="screen"><canvas id="canvas" width="640" height="480" tabindex="0" aria-label="게임 화면"></canvas>
  <nav id="tools" aria-label="게임 조작">
   <div class="direction-controls">
    <div class="direction-pad" role="group" aria-label="숫자·방향 키패드">
@@ -36,10 +54,11 @@ canvas{width:var(--display-width,640px)!important;height:var(--display-height,48
   <div id="action-keys">
    <button type="button" data-key="Enter">Enter</button><button type="button" data-key="Escape">Esc</button><button type="button" data-key="Tab">Tab</button>
    <button type="button" data-key=" ">Space</button><button type="button" data-key="0">0</button><button type="button" data-key="Backspace">⌫</button>
-   <button id="right" type="button" aria-pressed="false">우클릭 1회</button><button id="fullscreen" type="button">전체 화면</button>
+   <button id="right" type="button" aria-pressed="false" aria-label="우클릭 1회">우클릭</button><button id="fullscreen" type="button">전체 화면</button>
   </div>
   <p id="control-hint" aria-live="polite">키패드: 메뉴 이동 · 항해 방향 지정 · 5는 항해 정지/재개</p>
  </nav>
+ </div>
 </main>
 <div id="cover"><div id="card"><h1>대항해시대 3 ver 히소카</h1><p id="status" role="status">게임 데이터를 준비합니다.</p><progress id="progress" max="1" value="0"></progress><p><button id="start" disabled>준비 중…</button></p><p id="tip">가로 화면을 권장합니다. 화면을 눌러 선택하고,<br>우클릭은 버튼을 누른 뒤 게임 화면을 터치하세요.<br>저장은 이 브라우저에 보관됩니다.</p><p id="error" role="alert"></p></div></div>
 <script src="index.js"></script>
@@ -59,13 +78,14 @@ function fit(){
  root.style.setProperty('--visual-top',`${viewport?.offsetTop||0}px`);
  const width=canvas.width||640,height=canvas.height||480;
  const scale=Math.max(0,Math.min(screen.clientWidth/width,screen.clientHeight/height));
- canvas.style.setProperty('--display-width',`${Math.floor(width*scale)}px`);
- canvas.style.setProperty('--display-height',`${Math.floor(height*scale)}px`);
+ const displayWidth=Math.floor(width*scale),displayHeight=Math.floor(height*scale);
+ screen.style.setProperty('--display-width',`${displayWidth}px`);
+ screen.style.setProperty('--display-height',`${displayHeight}px`);
+ screen.style.setProperty('--controls-scale',String(Math.max(0,Math.min(1,(displayWidth-24)/300,(displayHeight-16)/138))));
 }
 let fitFrame=0;
 function scheduleFit(){if(!fitFrame)fitFrame=requestAnimationFrame(()=>{fitFrame=0;fit();});}
 new ResizeObserver(scheduleFit).observe(screen);
-new ResizeObserver(scheduleFit).observe(document.getElementById('tools'));
 new MutationObserver(scheduleFit).observe(canvas,{attributes:true,attributeFilter:['width','height']});
 window.addEventListener('resize',scheduleFit);window.addEventListener('orientationchange',scheduleFit);
 window.visualViewport?.addEventListener('resize',scheduleFit);window.visualViewport?.addEventListener('scroll',scheduleFit);
@@ -162,4 +182,3 @@ assets().catch(fail);
 </script>
 </body>
 </html>
-
