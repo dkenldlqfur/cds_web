@@ -85,11 +85,32 @@ function fit(){
 }
 let fitFrame=0;
 function scheduleFit(){if(!fitFrame)fitFrame=requestAnimationFrame(()=>{fitFrame=0;fit();});}
+function requestGameExtent(){
+ const orientation=window.screen?.orientation?.type;
+ const landscape=orientation?orientation.startsWith('landscape'):typeof window.orientation==='number'?Math.abs(window.orientation)===90:screen.clientWidth>screen.clientHeight;
+ const frameHeight=Math.max(480,Math.min(544,canvas.height||480));
+ const width=landscape?Math.max(640,Math.min(1536,Math.ceil(frameHeight*screen.clientWidth/Math.max(1,screen.clientHeight)/16)*16)):640;
+ // One latest request, consumed by the native engine and applied at a safe
+ // World wait boundary. Height stays 480; extra width exposes more map tiles.
+ window.CDS95RequestedExtent=(480<<16)|width;
+}
+function fitGameViewport(){fit();requestGameExtent();}
+let fitTimers=[];
+function settleFit(){
+ // Safari can report the old visual viewport during the rotation event.
+ // Read it again as browser chrome/safe areas settle, without restarting Godot.
+ for(const timer of fitTimers)clearTimeout(timer);
+ fitTimers=[80,180,350,700,1200].map(delay=>setTimeout(fitGameViewport,delay));
+ fitGameViewport();
+}
 new ResizeObserver(scheduleFit).observe(screen);
-new MutationObserver(scheduleFit).observe(canvas,{attributes:true,attributeFilter:['width','height']});
-window.addEventListener('resize',scheduleFit);window.addEventListener('orientationchange',scheduleFit);
+new MutationObserver(()=>{scheduleFit();requestGameExtent();}).observe(canvas,{attributes:true,attributeFilter:['width','height']});
+window.addEventListener('resize',scheduleFit);window.addEventListener('orientationchange',settleFit);
+window.screen?.orientation?.addEventListener('change',settleFit);
+window.addEventListener('pageshow',settleFit);
+document.addEventListener('visibilitychange',()=>{if(!document.hidden)settleFit();});
 window.visualViewport?.addEventListener('resize',scheduleFit);window.visualViewport?.addEventListener('scroll',scheduleFit);
-document.addEventListener('fullscreenchange',scheduleFit);fit();
+document.addEventListener('fullscreenchange',settleFit);fit();
 function fail(error){status.textContent='게임을 시작할 수 없습니다.';document.getElementById('error').textContent=String(error.message||error);start.disabled=true;start.textContent='시작 불가';console.error(error);}
 async function prepareBrowser(){
  if(!isSecureContext)throw new Error('HTTPS 주소로 접속해야 합니다.');
