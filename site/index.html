@@ -90,8 +90,8 @@ function requestGameExtent(){
  const landscape=orientation?orientation.startsWith('landscape'):typeof window.orientation==='number'?Math.abs(window.orientation)===90:screen.clientWidth>screen.clientHeight;
  const frameHeight=Math.max(480,Math.min(544,canvas.height||480));
  const width=landscape?Math.max(640,Math.min(1536,Math.ceil(frameHeight*screen.clientWidth/Math.max(1,screen.clientHeight)/16)*16)):640;
- // One latest request, consumed by the native engine and applied at a safe
- // World wait boundary. Height stays 480; extra width exposes more map tiles.
+ // One latest request: every native input wait can commit the actual game
+ // resolution. Height stays 480; extra width exposes more rendered content.
  window.CDS95RequestedExtent=(480<<16)|width;
 }
 function fitGameViewport(){fit();requestGameExtent();}
