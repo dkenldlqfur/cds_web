@@ -469,7 +469,7 @@
     {
       "path": "assets/data/records/items.json",
       "size": 59114,
-      "sha256": "aba70c5dd3a6b77e57d692a3d058640e3cc8b3d14348689b632d75cb5f65359c"
+      "sha256": "e3e05d53418733ed05274ab608d8b287c56d8f3d40bd3fdb3de0e636f8e298bf"
     },
     {
       "path": "assets/data/records/matrices.json",
@@ -533,13 +533,13 @@
     },
     {
       "path": "assets/data/strings.ko.json",
-      "size": 631013,
-      "sha256": "dc527b3df80a65b011b63959298ee19d41d1635981163753eddc4e91440d4342"
+      "size": 631411,
+      "sha256": "68d35a08279daea3a1b0a626ee536fd0ca3980b36a271ecd0945dbbd37418aa3"
     },
     {
       "path": "assets/data/strings.legacy.json",
-      "size": 10865943,
-      "sha256": "a98c3c2746436e9333e2d64a61e95575c16916e80bf481393383dba680de44c8"
+      "size": 10865973,
+      "sha256": "b7276f362126bcb291e3e48683e167cc88506b8de1c035f1dcb5cc94cd5fcf20"
     },
     {
       "path": "assets/videos/END.ogv",
@@ -1094,12 +1094,12 @@
     {
       "path": "assets-manifest.json",
       "size": 56020,
-      "sha256": "fd42655030306ec8315374de75f0d1ed4f1d15dcd18f1ad9ea8b211ff5ed723d"
+      "sha256": "7f4be4d914090f9503ab030b07b705c90ff756131da075ce652ed79a5aad3673"
     },
     {
       "path": "cds_native.web.wasm",
-      "size": 8611268,
-      "sha256": "627a57cf750e0f9af674f9c61040e1b778f01a34e32eb40ab6b49cc51b5b1db2"
+      "size": 8662804,
+      "sha256": "51109a2dc736e3d2d3186f1285a2e8531db9746e70fa707ce77a5883e738913a"
     },
     {
       "path": "index.apple-touch-icon.png",
@@ -1119,7 +1119,7 @@
     {
       "path": "index.html",
       "size": 19774,
-      "sha256": "ebc8549dd948adf733f8f5b136e9b68232b81ad30b53e61134ea584c3367340f"
+      "sha256": "b08a44b9b9ae7b4b2b22eaf5d65e869606af5775559a3b5b9111834c1bc059e8"
     },
     {
       "path": "index.icon.png",
@@ -1133,8 +1133,8 @@
     },
     {
       "path": "index.pck",
-      "size": 31542596,
-      "sha256": "53d1189e50a7101535741ca4675d6ba904e49cb23412085b68e367e7ea5d2ce5"
+      "size": 31547816,
+      "sha256": "f0c478605b39ec2cc70e1af702fbb76189909023e64146a39c87006d66ec6425"
     },
     {
       "path": "index.png",

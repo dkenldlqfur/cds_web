@@ -848,7 +848,7 @@
       "buy_price": 30000,
       "sell_price": 10000,
       "effect": 16,
-      "category": 5,
+      "category": 0,
       "hint_id": -1
     },
     {

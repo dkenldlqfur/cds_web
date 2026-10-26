@@ -7663,10 +7663,10 @@
   "exe.0057c7d0": "입력",
   "ui.settings.fps_value": "FPS: %d",
   "ui.settings.show_fps": "FPS 표시",
-  "ui.storage.expand_126": "확장",
+  "ui.storage.expand_128": "확장",
   "ui.storage.expand_99": "확장",
   "ui.storage.expand_max": "확장 완료",
-  "ui.storage.confirm_expand": "금화 %d만 닢을 소비하여 확장합니다.",
+  "ui.storage.confirm_expand": "금화 %d닢을 소비하여 확장합니다.\n%d칸 → %d칸",
   "ui.storage.insufficient": "보관함을 확장할 소지금이 부족합니다.",
   "ui.slots.save": "저장할 데이터를 선택하세요",
   "ui.slots.load": "불러올 데이터를 선택하세요",
@@ -8079,5 +8079,11 @@
   "ui.advisor.sphinx.answer": "정답은 %d마리 입니다.",
   "ui.display.mode.title": "화면 모드",
   "ui.display.windowed": "창 모드",
-  "ui.display.fullscreen": "전체 화면"
+  "ui.display.fullscreen": "전체 화면",
+  "ui.minimap.title": "주변지도",
+  "ui.minimap.help": "위쪽을 드래그하여 이동",
+  "exe.00568eb0": "[대항해시대 3 ver 히소카]를 종료합니다.\n환경 등이 보존되지 않습니다만 좋습니까?",
+  "exe.00568f08": "[대항해시대 3 ver 히소카]의 종료",
+  "ui.storage.filter_all": "전체",
+  "ui.storage.filter_title": "아이템 분류"
 }

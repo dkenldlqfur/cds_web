@@ -4,6 +4,8 @@ Android Chrome 및 iPhone Safari에서 접속할 웹 빌드입니다.
 
 게임 접속 주소: **https://dkenldlqfur.github.io/cds_web/**
 
+2026-10-27: Updated minimap, storage filters and capacity persistence, player luck, local preferences and platform-specific BGM. Web uses MP3 only. Builds and static checks only; no gameplay or audio playback testing.
+
 2026-10-26: Added window/fullscreen startup selection, remembered window size, full client-area rendering, nearby-map raster optimization and smooth map dragging. Builds and static checks only; no gameplay testing.
 
 2026-10-26: 해상 0 메뉴의 편성 진입 시 발생하던 Unconnected Screen typed TreeEvent consumer 오류를 수정했습니다. 편성 창의 그리기·활성화·비활성화 이벤트를 기존 원본 이벤트 처리에 연결했습니다. 네이티브 빌드·원본 EXE 대조·분리된 이벤트 전달 검사와 웹 정적 배포 검사를 수행했습니다. 플레이 테스트는 하지 않았습니다.
