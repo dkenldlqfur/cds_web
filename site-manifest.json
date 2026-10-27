@@ -1099,7 +1099,7 @@
     {
       "path": "cds_native.web.wasm",
       "size": 8666441,
-      "sha256": "002124ffe1733dbfdf2a59d31aa3211687920b0cdea28fe21ad71b887304fdd1"
+      "sha256": "cd7d3fc9a990a627d0cd22c4ac62c9bc57aa4dc7e4d396bf582793eb491b7fa6"
     },
     {
       "path": "index.apple-touch-icon.png",
@@ -1118,8 +1118,8 @@
     },
     {
       "path": "index.html",
-      "size": 20102,
-      "sha256": "5ed1f50889377962694273c8a6c3cc29e4033aa658fe6156bf2acdbdffcb2a1c"
+      "size": 19774,
+      "sha256": "84d9a861a188b2153f077397d0116e3b391d4a5b8fa05c9244a4c4e904478ee8"
     },
     {
       "path": "index.icon.png",
@@ -1134,7 +1134,7 @@
     {
       "path": "index.pck",
       "size": 31551444,
-      "sha256": "faaa848a73d56ebc781cd8dcaab4385c1d27c648d01bb5a1e6ecb26847cfa00a"
+      "sha256": "b85351686078686b32669f07156de11a13390bff30d171f233cd84e3c16dfd83"
     },
     {
       "path": "index.png",
@@ -1165,11 +1165,6 @@
       "path": "LICENSE.Godot.txt",
       "size": 1149,
       "sha256": "b0435e3b3e4e55238f05f4b306f30524a1b2e20147810d436eaa554fa6855c80"
-    },
-    {
-      "path": "audio_unlock.js",
-      "size": 3158,
-      "sha256": "04c1b417e7d1415298b631a8cf755abc448377c13bb8d68f0dfd62d7ef2e164b"
     }
   ]
 }
