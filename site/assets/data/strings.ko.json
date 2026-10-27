@@ -8085,5 +8085,6 @@
   "exe.00568eb0": "[대항해시대 3 ver 히소카]를 종료합니다.\n환경 등이 보존되지 않습니다만 좋습니까?",
   "exe.00568f08": "[대항해시대 3 ver 히소카]의 종료",
   "ui.storage.filter_all": "전체",
-  "ui.storage.filter_title": "아이템 분류"
+  "ui.storage.filter_title": "아이템 분류",
+  "ui.settings.pixel_filter": "픽셀 보정 필터"
 }
