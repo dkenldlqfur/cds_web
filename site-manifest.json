@@ -1118,8 +1118,8 @@
     },
     {
       "path": "index.html",
-      "size": 19774,
-      "sha256": "84d9a861a188b2153f077397d0116e3b391d4a5b8fa05c9244a4c4e904478ee8"
+      "size": 20102,
+      "sha256": "5ed1f50889377962694273c8a6c3cc29e4033aa658fe6156bf2acdbdffcb2a1c"
     },
     {
       "path": "index.icon.png",
@@ -1165,6 +1165,11 @@
       "path": "LICENSE.Godot.txt",
       "size": 1149,
       "sha256": "b0435e3b3e4e55238f05f4b306f30524a1b2e20147810d436eaa554fa6855c80"
+    },
+    {
+      "path": "audio_unlock.js",
+      "size": 3158,
+      "sha256": "04c1b417e7d1415298b631a8cf755abc448377c13bb8d68f0dfd62d7ef2e164b"
     }
   ]
 }

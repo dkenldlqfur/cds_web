@@ -4,6 +4,8 @@ Android Chrome 및 iPhone Safari에서 접속할 웹 빌드입니다.
 
 게임 접속 주소: **https://dkenldlqfur.github.io/cds_web/**
 
+2026-10-27: Browser audio unlock now handles HTML keypad and page gestures, retries suspended/interrupted engine contexts, and offers a sound-enable button. No gameplay or audio playback testing.
+
 2026-10-27: Added optional GPU pixel edge filtering, enabled by default with a settings toggle, and centered storage expansion confirmation lines. Builds, static and isolated checks only; no gameplay testing.
 
 2026-10-27: Updated minimap, storage filters and capacity persistence, player luck, local preferences and platform-specific BGM. Web uses MP3 only. Builds and static checks only; no gameplay or audio playback testing.
