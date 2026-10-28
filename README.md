@@ -4,6 +4,8 @@ Android Chrome 및 iPhone Safari에서 접속할 웹 빌드입니다.
 
 게임 접속 주소: **https://dkenldlqfur.github.io/cds_web/**
 
+2026-10-28: Rebuilt current game sources and fixed minimap placement preservation across canvas resizing. Static checks only; no gameplay testing.
+
 2026-10-27: Rolled back the recent browser audio unlock workaround and rebuilt the Web distribution. Pixel filtering and earlier game changes are retained. No gameplay testing.
 
 2026-10-27: Added optional GPU pixel edge filtering, enabled by default with a settings toggle, and centered storage expansion confirmation lines. Builds, static and isolated checks only; no gameplay testing.

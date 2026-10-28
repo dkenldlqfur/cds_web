@@ -278,8 +278,8 @@
     },
     {
       "path": "assets/core/ITEM.CDS",
-      "size": 2107434,
-      "sha256": "eda28b0d0be12510353e0d6145b7d8f1b39271e974c3f2aed23181eb627ca0b3"
+      "size": 3068814,
+      "sha256": "deea00902aceb5be07f0f255854440088c1481dcb039a3b76536e54620eb83d3"
     },
     {
       "path": "assets/core/LANDDATA.CDS",
@@ -433,8 +433,8 @@
     },
     {
       "path": "assets/data/records/cities.json",
-      "size": 155105,
-      "sha256": "16396ca8d2bed66390f9327d22b8e1acf3e0342c935f779cc90bcc9d6a43c735"
+      "size": 155106,
+      "sha256": "91161152faf1636c6bcd440a19379eadbfbb2fbd3620a0a5bfaac06571285d2f"
     },
     {
       "path": "assets/data/records/creation_age_adjustments.json",
@@ -468,8 +468,8 @@
     },
     {
       "path": "assets/data/records/items.json",
-      "size": 59114,
-      "sha256": "e3e05d53418733ed05274ab608d8b287c56d8f3d40bd3fdb3de0e636f8e298bf"
+      "size": 59322,
+      "sha256": "1276325694114dbfe7eba9de8142714a24ada9ff4d63f1a5eb137c2de7e4f6cd"
     },
     {
       "path": "assets/data/records/matrices.json",
@@ -533,8 +533,8 @@
     },
     {
       "path": "assets/data/strings.ko.json",
-      "size": 631466,
-      "sha256": "5d4baf0a0d25e2a12c1e1800813cb1a8f50ddbbfd2e73bc465ebcdb4d88eaeaf"
+      "size": 632884,
+      "sha256": "2eeeb5e6fed6d75c28d5f589e9671f4dd9db2bdde548de0d298ba6ab7e74f53e"
     },
     {
       "path": "assets/data/strings.legacy.json",
@@ -1094,12 +1094,12 @@
     {
       "path": "assets-manifest.json",
       "size": 56020,
-      "sha256": "2e7ba39852916e123d4676fafbe68aebb8cbcfd4a198995d94e966adae4c5ce8"
+      "sha256": "210d8ab970ca2e3bc848270d654e15c14689945458c515b2a04b27f70237b38f"
     },
     {
       "path": "cds_native.web.wasm",
-      "size": 8666441,
-      "sha256": "cd7d3fc9a990a627d0cd22c4ac62c9bc57aa4dc7e4d396bf582793eb491b7fa6"
+      "size": 8729652,
+      "sha256": "1525556deeb84f3e0466e57e34d4ae12627cc00e79bcd609e8c092a420e2efeb"
     },
     {
       "path": "index.apple-touch-icon.png",
@@ -1118,8 +1118,8 @@
     },
     {
       "path": "index.html",
-      "size": 19774,
-      "sha256": "84d9a861a188b2153f077397d0116e3b391d4a5b8fa05c9244a4c4e904478ee8"
+      "size": 20565,
+      "sha256": "325431eeffa5f1eda63d027052a710c0d0ceefc64b6592f50e53fa9267394a91"
     },
     {
       "path": "index.icon.png",
@@ -1133,8 +1133,8 @@
     },
     {
       "path": "index.pck",
-      "size": 31551444,
-      "sha256": "b85351686078686b32669f07156de11a13390bff30d171f233cd84e3c16dfd83"
+      "size": 45998208,
+      "sha256": "502ded4e5fa0ac544ce1cbbf73206ee0c420b47db905590b4661b695944c9e31"
     },
     {
       "path": "index.png",

@@ -178,8 +178,8 @@
     {
       "url": "assets/core/ITEM.CDS",
       "path": "/cds95/ITEM.CDS",
-      "size": 2107434,
-      "sha256": "eda28b0d0be12510353e0d6145b7d8f1b39271e974c3f2aed23181eb627ca0b3",
+      "size": 3068814,
+      "sha256": "deea00902aceb5be07f0f255854440088c1481dcb039a3b76536e54620eb83d3",
       "aliases": [],
       "deferred": false
     },
@@ -439,8 +439,8 @@
     {
       "url": "assets/data/strings.ko.json",
       "path": "/cds95/data/strings.ko.json",
-      "size": 631466,
-      "sha256": "5d4baf0a0d25e2a12c1e1800813cb1a8f50ddbbfd2e73bc465ebcdb4d88eaeaf",
+      "size": 632884,
+      "sha256": "2eeeb5e6fed6d75c28d5f589e9671f4dd9db2bdde548de0d298ba6ab7e74f53e",
       "aliases": [],
       "deferred": false
     },
@@ -495,8 +495,8 @@
     {
       "url": "assets/data/records/cities.json",
       "path": "/cds95/data/records/cities.json",
-      "size": 155105,
-      "sha256": "16396ca8d2bed66390f9327d22b8e1acf3e0342c935f779cc90bcc9d6a43c735",
+      "size": 155106,
+      "sha256": "91161152faf1636c6bcd440a19379eadbfbb2fbd3620a0a5bfaac06571285d2f",
       "aliases": [],
       "deferred": false
     },
@@ -551,8 +551,8 @@
     {
       "url": "assets/data/records/items.json",
       "path": "/cds95/data/records/items.json",
-      "size": 59114,
-      "sha256": "e3e05d53418733ed05274ab608d8b287c56d8f3d40bd3fdb3de0e636f8e298bf",
+      "size": 59322,
+      "sha256": "1276325694114dbfe7eba9de8142714a24ada9ff4d63f1a5eb137c2de7e4f6cd",
       "aliases": [],
       "deferred": false
     },

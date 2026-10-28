@@ -8086,5 +8086,19 @@
   "exe.00568f08": "[대항해시대 3 ver 히소카]의 종료",
   "ui.storage.filter_all": "전체",
   "ui.storage.filter_title": "아이템 분류",
-  "ui.settings.pixel_filter": "픽셀 보정 필터"
+  "item.cat.name": "고양이",
+  "item.cat.description": "소형의 애완동물. 쥐를 잘 잡는다.",
+  "ui.settings.hide_web_keypad": "키패드 숨김",
+  "ui.city_investment.menu": "투자",
+  "ui.city_investment.maximum": "이 도시는 최대 규모 9에 도달했습니다.",
+  "ui.city_investment.insufficient": "투자할 금화가 부족합니다.",
+  "ui.city_investment.monthly_limit": "이 도시의 이번 달 투자 한도 50,000닢을 모두 사용했습니다.\n다음 달 1일부터 다시 투자할 수 있습니다.",
+  "ui.city_investment.status": "현재 도시 규모: %ld\n발전 투자액: %ld / %ld 닢\n이번 달 투자액: %ld / %ld 닢\n투자할 금액을 입력하십시오.",
+  "ui.city_investment.confirm": "금화 %ld 닢을 투자합니다.\n도시 규모 %ld → %ld\n투자하시겠습니까?",
+  "ui.city_investment.changed": "투자 조건이 변경되었습니다. 투자 금액을 다시 선택하십시오.",
+  "ui.city_investment.result": "금화 %ld 닢을 투자했습니다.\n현재 도시 규모: %ld\n발전 투자액: %ld / %ld 닢",
+  "ui.city_investment.result_maximum": "금화 %ld 닢을 투자했습니다.\n도시가 최대 규모 %ld에 도달했습니다.",
+  "ui.city_investment.palace_rate": "성 투자: 금화 %ld닢당 후원자 친밀도 1 증가",
+  "ui.city_investment.palace_affinity": "%s 친밀도: %ld → %ld",
+  "ui.minigame.auto_confirm": "자동으로 진행하시겠습니까?"
 }

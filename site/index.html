@@ -19,6 +19,7 @@ button:disabled{opacity:.5}
 /* Match the canvas bounds. Only buttons intercept touches; all gaps reach the game. */
 #tools{position:absolute;z-index:2;left:50%;top:50%;transform:translate(-50%,-50%);width:var(--display-width,640px);height:var(--display-height,480px);pointer-events:none}
 #tools .direction-controls{position:absolute;left:8px;bottom:8px;transform:scale(var(--controls-scale,1));transform-origin:bottom left}
+#tools[hidden]{display:none}
 .direction-pad{display:grid;grid-template-columns:repeat(3,44px);gap:3px}
 #action-keys{position:absolute;right:8px;bottom:8px;transform:scale(var(--controls-scale,1));transform-origin:bottom right;display:grid;grid-template-columns:repeat(3,52px);gap:3px}
 #tools button{pointer-events:auto;touch-action:none;min-width:0;min-height:44px;padding:3px;font-size:13px;line-height:1.15;background:rgba(20,34,45,.58);border-color:rgba(170,197,213,.65);text-shadow:0 1px 2px #000;user-select:none;-webkit-user-select:none}
@@ -65,7 +66,7 @@ body:not(.started) #tools{visibility:hidden}
 <script src="index.js"></script>
 <script>
 'use strict';
-const config={"args":[],"canvasResizePolicy":1,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":true,"executable":"index","experimentalVK":true,"fileSizes":{"index.pck":31551444,"index.wasm":1713410},"focusCanvas":true,"gdextensionLibs":["cds_native.web.wasm"],"godotPoolSize":4};
+const config={"args":[],"canvasResizePolicy":1,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":true,"executable":"index","experimentalVK":true,"fileSizes":{"index.pck":45998208,"index.wasm":1713410},"focusCanvas":true,"gdextensionLibs":["cds_native.web.wasm"],"godotPoolSize":4};
 const canvas=document.getElementById('canvas'),screen=document.getElementById('screen'),start=document.getElementById('start'),status=document.getElementById('status'),progress=document.getElementById('progress');
 const startFullscreen=document.getElementById('start-fullscreen'),app=document.getElementById('app');
 const canFullscreen=Boolean(document.fullscreenEnabled&&typeof app.requestFullscreen==='function');
@@ -183,6 +184,7 @@ const nativeKeys=[];
 window.CDS95PopKey=()=>nativeKeys.shift()||0;
 function key(key,down,repeat=false){
  if(!Object.prototype.hasOwnProperty.call(codes,key))return;
+ if(down&&document.getElementById('tools').hidden)return;
  if(down)nativeKeys.push(nativeCodes[key]);
  pendingKeys.push([key,down,repeat]);
 }
@@ -204,15 +206,27 @@ for(const button of document.querySelectorAll('[data-key]')){
  button.addEventListener('click',event=>{if(pointerClick){pointerClick=false;return;}if(event.detail===0&&!button.disabled){key(button.dataset.key,true);key(button.dataset.key,false);}});
 }
 window.addEventListener('blur',releaseKeys);document.addEventListener('visibilitychange',()=>{if(document.hidden)releaseKeys();});
-let rightMode=false,rightTouch=null;const right=document.getElementById('right');right.addEventListener('click',()=>{rightMode=!rightMode;right.setAttribute('aria-pressed',String(rightMode));canvas.focus();});
+let rightMode=false,rightTouch=null,lastRightTouch=null;const right=document.getElementById('right');right.addEventListener('click',()=>{rightMode=!rightMode;right.setAttribute('aria-pressed',String(rightMode));canvas.focus();});
 function mouse(type,touch,pressed){canvas.dispatchEvent(new MouseEvent(type,{clientX:touch.clientX,clientY:touch.clientY,button:2,buttons:pressed?2:0,bubbles:true,cancelable:true}));}
 canvas.addEventListener('contextmenu',event=>event.preventDefault());
-canvas.addEventListener('touchstart',event=>{if(!rightMode||rightTouch!==null)return;event.preventDefault();event.stopImmediatePropagation();const touch=event.changedTouches[0];rightTouch=touch.identifier;mouse('mousemove',touch,false);mouse('mousedown',touch,true);},{capture:true,passive:false});
-canvas.addEventListener('touchmove',event=>{if(rightTouch===null)return;const touch=Array.from(event.changedTouches).find(t=>t.identifier===rightTouch);if(touch){event.preventDefault();event.stopImmediatePropagation();mouse('mousemove',touch,true);}},{capture:true,passive:false});
-function releaseRight(event){if(rightTouch===null)return;const touch=Array.from(event.changedTouches).find(t=>t.identifier===rightTouch);if(!touch)return;event.preventDefault();event.stopImmediatePropagation();mouse('mouseup',touch,false);rightTouch=null;rightMode=false;right.setAttribute('aria-pressed','false');}
+canvas.addEventListener('touchstart',event=>{if(!rightMode||rightTouch!==null)return;event.preventDefault();event.stopImmediatePropagation();const touch=event.changedTouches[0];rightTouch=touch.identifier;lastRightTouch=touch;mouse('mousemove',touch,false);mouse('mousedown',touch,true);},{capture:true,passive:false});
+canvas.addEventListener('touchmove',event=>{if(rightTouch===null)return;const touch=Array.from(event.changedTouches).find(t=>t.identifier===rightTouch);if(touch){event.preventDefault();event.stopImmediatePropagation();lastRightTouch=touch;mouse('mousemove',touch,true);}},{capture:true,passive:false});
+function releaseRight(event){if(rightTouch===null)return;const touch=Array.from(event.changedTouches).find(t=>t.identifier===rightTouch);if(!touch)return;event.preventDefault();event.stopImmediatePropagation();mouse('mouseup',touch,false);rightTouch=null;lastRightTouch=null;rightMode=false;right.setAttribute('aria-pressed','false');}
 canvas.addEventListener('touchend',releaseRight,{capture:true,passive:false});canvas.addEventListener('touchcancel',releaseRight,{capture:true,passive:false});
 document.getElementById('fullscreen').addEventListener('click',async()=>{try{if(document.fullscreenElement)await document.exitFullscreen();else if(document.getElementById('app').requestFullscreen)await document.getElementById('app').requestFullscreen();}catch(error){console.info(error);}});
 document.getElementById('fullscreen').hidden=!canFullscreen;
+window.CDS95SetKeypadHidden=hidden=>{
+ const tools=document.getElementById('tools');hidden=Boolean(hidden);
+ if(hidden){
+  releaseKeys();nativeKeys.length=0;
+  // Retain key-up events so the GUI cannot keep a previously held direction.
+  const releases=pendingKeys.filter(event=>!event[1]);pendingKeys.splice(0,pendingKeys.length,...releases);
+  if(rightTouch!==null&&lastRightTouch)mouse('mouseup',lastRightTouch,false);
+  rightTouch=null;lastRightTouch=null;rightMode=false;right.setAttribute('aria-pressed','false');
+  if(tools.contains(document.activeElement))canvas.focus();
+ }
+ tools.hidden=hidden;
+};
 assets().catch(fail);
 </script>
 </body>
