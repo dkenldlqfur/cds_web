@@ -4,6 +4,8 @@ Android Chrome 및 iPhone Safari에서 접속할 웹 빌드입니다.
 
 게임 접속 주소: **https://dkenldlqfur.github.io/cds_web/**
 
+2026-10-29: 아이템 투명 이미지, 공용 팝업과 발견물 설명, 연표 처리 개선 및 메뉴 스크롤 유지 수정을 반영했습니다. 웹 빌드와 정적 검사를 수행했으며 플레이 테스트는 하지 않았습니다.
+
 2026-10-28: Updated JSON text rendering to Godot Labels with multiline document support. Static checks only; no gameplay testing.
 
 2026-10-28: Rebuilt current game sources and fixed minimap placement preservation across canvas resizing. Static checks only; no gameplay testing.

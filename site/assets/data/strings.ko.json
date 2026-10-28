@@ -8100,5 +8100,14 @@
   "ui.city_investment.result_maximum": "금화 %ld 닢을 투자했습니다.\n도시가 최대 규모 %ld에 도달했습니다.",
   "ui.city_investment.palace_rate": "성 투자: 금화 %ld닢당 후원자 친밀도 1 증가",
   "ui.city_investment.palace_affinity": "%s 친밀도: %ld → %ld",
-  "ui.minigame.auto_confirm": "자동으로 진행하시겠습니까?"
+  "ui.minigame.auto_confirm": "자동으로 진행하시겠습니까?",
+  "ui.keyboard_name.utf8_limit": "UTF-8 이름 입력 · 한글·영문·유니코드 지원",
+  "ui.keyboard_name.utf8_invalid": "이름에 제어 문자를 사용할 수 없습니다. 최대 4096바이트입니다.",
+  "ui.city_investment.shop_intro": "어라, 투자해 주시는 겁니까?",
+  "ui.city_investment.shop_zero": "이 다음부턴 잘 부탁해요.",
+  "ui.city_investment.shop_thanks": "이 은혜는 평생 잊지 않겠습니다.",
+  "ui.city_investment.palace_intro": "이 도시에 투자를 하겠다고?",
+  "ui.city_investment.palace_zero": "용건도 없으면서 무턱대고 방문하는 것은 무례한 일입니다.",
+  "ui.city_investment.palace_angry": "네 녀석은 꼴도 보기 싫다. 두번 다시 이 곳에 얼굴도 내밀지 말아라.",
+  "ui.city_investment.palace_thanks": "음, 만족스럽소. 이것으로 우리 도시의 방위도 한층 굳건해질 것이오."
 }
