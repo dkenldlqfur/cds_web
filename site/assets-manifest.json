@@ -134,14 +134,6 @@
       "deferred": false
     },
     {
-      "url": "assets/core/FEMALE.CDS",
-      "path": "/cds95/FEMALE.CDS",
-      "size": 657749,
-      "sha256": "ef48fae069d1aa73d28933d4bca0d9e17cea2a55bb84b8ccfe57e8aa07b40de0",
-      "aliases": [],
-      "deferred": false
-    },
-    {
       "url": "assets/core/FIGHTER.CDS",
       "path": "/cds95/FIGHTER.CDS",
       "size": 1004710,
@@ -184,14 +176,6 @@
         "/cds95/LandData.CDS",
         "/cds95/Landdata.cds"
       ],
-      "deferred": false
-    },
-    {
-      "url": "assets/core/MALE.CDS",
-      "path": "/cds95/MALE.CDS",
-      "size": 1772542,
-      "sha256": "e730a69797686d8ad025f7745aed5bc3658c46dfd7286f0ed8ce9f40e3951f17",
-      "aliases": [],
       "deferred": false
     },
     {
