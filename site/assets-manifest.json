@@ -176,14 +176,6 @@
       "deferred": false
     },
     {
-      "url": "assets/core/ITEM.CDS",
-      "path": "/cds95/ITEM.CDS",
-      "size": 3068814,
-      "sha256": "deea00902aceb5be07f0f255854440088c1481dcb039a3b76536e54620eb83d3",
-      "aliases": [],
-      "deferred": false
-    },
-    {
       "url": "assets/core/LANDDATA.CDS",
       "path": "/cds95/LANDDATA.CDS",
       "size": 1404141,

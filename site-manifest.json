@@ -18,8 +18,8 @@
     },
     {
       "path": "assets-manifest.json",
-      "size": 56020,
-      "sha256": "ab8d38c4d521c6b8a50f400613f50e4857377b9e878c9d5cb1fa2d9b29332a7a"
+      "size": 55777,
+      "sha256": "9724150f28ca1b2a2b5e886696ea15e2472c89d47f9866f4f8715c49771f6b6e"
     },
     {
       "path": "assets/bgm/Track02.mp3",
@@ -290,11 +290,6 @@
       "path": "assets/core/HIST_EV.CDS",
       "size": 9214,
       "sha256": "6095ad9679be24d4f8d98ab2cdaa1e85fde71bb5f98d90f14ad7c314bf86aaad"
-    },
-    {
-      "path": "assets/core/ITEM.CDS",
-      "size": 3068814,
-      "sha256": "deea00902aceb5be07f0f255854440088c1481dcb039a3b76536e54620eb83d3"
     },
     {
       "path": "assets/core/LANDDATA.CDS",
@@ -1108,8 +1103,8 @@
     },
     {
       "path": "cds_native.web.wasm",
-      "size": 8985627,
-      "sha256": "256b6b782f5343aa17a64616e283f21ddce14c1dbac7a4db1ef7972be94a59f1"
+      "size": 9017135,
+      "sha256": "6ad926dd09efcbc26d54f0cb994fff71f6c08b7e2f42cf79b36805cd81d179be"
     },
     {
       "path": "index.apple-touch-icon.png",
@@ -1129,7 +1124,7 @@
     {
       "path": "index.html",
       "size": 20565,
-      "sha256": "d564282795c70be5fd56f1110fdfa05bdefae38222c5f4143b1193491fc696d7"
+      "sha256": "ebd5e988743c1e2338e44379889f302b8c2ad70da8e24e1d6eb1cb01076a6422"
     },
     {
       "path": "index.icon.png",
@@ -1143,8 +1138,8 @@
     },
     {
       "path": "index.pck",
-      "size": 41249620,
-      "sha256": "8c75d54ff297471a909970d2bf43f504af088f55f1d0c79d31d61228b7e3e336"
+      "size": 41327268,
+      "sha256": "9a3a326b3bad80c6b41bbc95defd56de12a394ff7463c5aae024bd36d2d4200c"
     },
     {
       "path": "index.png",
