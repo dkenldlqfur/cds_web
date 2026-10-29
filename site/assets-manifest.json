@@ -439,16 +439,16 @@
     {
       "url": "assets/data/strings.ko.json",
       "path": "/cds95/data/strings.ko.json",
-      "size": 633808,
-      "sha256": "0fff918907c489a8f750109740a4a1d06ce016dae9d1c6ca54076acc05504e4f",
+      "size": 644644,
+      "sha256": "fa690145f2adca5478bd91c77f38ac9a6c26ecbd612f4a2dc77dc1874455d591",
       "aliases": [],
       "deferred": false
     },
     {
       "url": "assets/data/strings.legacy.json",
       "path": "/cds95/data/strings.legacy.json",
-      "size": 10865973,
-      "sha256": "b7276f362126bcb291e3e48683e167cc88506b8de1c035f1dcb5cc94cd5fcf20",
+      "size": 10867443,
+      "sha256": "4860334d8864ff5dbf7d69cd4c0b1e1ac9540946f1a9c94db66a264558070228",
       "aliases": [],
       "deferred": false
     },
