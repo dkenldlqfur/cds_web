@@ -18,7 +18,8 @@ def main():
         data = (SITE / item['path']).read_bytes()
         assert len(data) == item['size'], item['path']
         assert hashlib.sha256(data).hexdigest() == item['sha256'], item['path']
-        assert len(data) < 100 * 1024 * 1024, 'File exceeds GitHub repository limit'
+        # index.pck is reconstructed from verified parts after checkout.
+        assert len(data) < 100 * 1024 * 1024 or item['path'] == 'index.pck', 'File exceeds GitHub repository limit'
         assert not path.name.upper().startswith(('SAVEDATA', 'ACCDATA', 'UTF8-NAMES')), 'Personal save, name registry or backup file'
         total += len(data)
     actual = {path.relative_to(SITE).as_posix() for path in SITE.rglob('*') if path.is_file()}

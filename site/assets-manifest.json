@@ -203,14 +203,6 @@
       "deferred": false
     },
     {
-      "url": "assets/core/MPCG.CDS",
-      "path": "/cds95/MPCG.CDS",
-      "size": 3194225,
-      "sha256": "55f9da4eeb8c6851aaef45fc01724685fd8747b21d7f2f86f5fa22cb25e9dec5",
-      "aliases": [],
-      "deferred": false
-    },
-    {
       "url": "assets/core/MPEFFECT.CDS",
       "path": "/cds95/MPEFFECT.CDS",
       "size": 36827,
@@ -425,6 +417,14 @@
       "path": "/cds95/data/strings.legacy.json",
       "size": 10867443,
       "sha256": "4860334d8864ff5dbf7d69cd4c0b1e1ac9540946f1a9c94db66a264558070228",
+      "aliases": [],
+      "deferred": false
+    },
+    {
+      "url": "assets/data/story.json",
+      "path": "/cds95/data/story.json",
+      "size": 1195,
+      "sha256": "cb06cad198edc56793f8f7b527acc00e75482b1b2aee3b409483ab32b5ce1ac8",
       "aliases": [],
       "deferred": false
     },

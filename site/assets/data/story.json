@@ -1,0 +1,48 @@
+[
+  {
+    "name": "라몬(포르투갈)",
+    "file": "STORY0.CDS",
+    "initial": {
+      "surname": "라몬",
+      "given_name": "데·마르시아스",
+      "portrait": 5,
+      "sex": 0,
+      "nationality": 0,
+      "blood_type": 0,
+      "occupation": 0,
+      "birth_date": [1456, 3, 19],
+      "city": 0,
+      "facility": 11,
+      "attributes": [76, 74, 76, 81, 79, 50],
+      "health": 1520,
+      "skills": [2, 2, 1, 0, 1, 0, 1, 1, 2, 1, 0, 0, 1],
+      "languages": [2, 3, 3, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0],
+      "fame": 1500,
+      "infamy": 0,
+      "cash": 5000
+    }
+  },
+  {
+    "name": "에밀리오(에스파니아)",
+    "file": "STORY1.CDS",
+    "initial": {
+      "surname": "에밀리오",
+      "given_name": "알발레스",
+      "portrait": 14,
+      "sex": 0,
+      "nationality": 1,
+      "blood_type": 1,
+      "occupation": 1,
+      "birth_date": [1457, 2, 15],
+      "city": 7,
+      "facility": 11,
+      "attributes": [65, 82, 60, 88, 70, 63],
+      "health": 1300,
+      "skills": [2, 2, 2, 1, 1, 0, 0, 1, 1, 1, 0, 1, 0],
+      "languages": [3, 2, 3, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0],
+      "fame": 1500,
+      "infamy": 0,
+      "cash": 2500
+    }
+  }
+]
