@@ -8191,6 +8191,7 @@
   "ui.settings.fps_value": "FPS: %d",
   "ui.settings.hide_web_keypad": "키패드 숨김",
   "ui.settings.show_fps": "FPS 표시",
+  "ui.slots.auto_prefix": "(AUTO SAVE)",
   "ui.slots.cancel": "취소",
   "ui.slots.empty": "빈 슬롯",
   "ui.slots.failed": "저장하지 못했습니다.",
@@ -8207,5 +8208,7 @@
   "ui.storage.expand_max": "확장 완료",
   "ui.storage.filter_all": "전체",
   "ui.storage.filter_title": "아이템 분류",
-  "ui.storage.insufficient": "보관함을 확장할 소지금이 부족합니다."
+  "ui.storage.insufficient": "보관함을 확장할 소지금이 부족합니다.",
+  "ui.city.person_female": "여",
+  "ui.city.person_male": "남"
 }

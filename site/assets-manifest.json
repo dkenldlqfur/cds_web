@@ -203,14 +203,6 @@
       "deferred": false
     },
     {
-      "url": "assets/core/MPEFFECT.CDS",
-      "path": "/cds95/MPEFFECT.CDS",
-      "size": 36827,
-      "sha256": "fc7d3a356865bab50cfef488dccfa6b8a52e944e8d86ae506589d55d0c9493b6",
-      "aliases": [],
-      "deferred": false
-    },
-    {
       "url": "assets/core/OCEAN.CDS",
       "path": "/cds95/OCEAN.CDS",
       "size": 1065709,
@@ -407,8 +399,8 @@
     {
       "url": "assets/data/strings.ko.json",
       "path": "/cds95/data/strings.ko.json",
-      "size": 644644,
-      "sha256": "fa690145f2adca5478bd91c77f38ac9a6c26ecbd612f4a2dc77dc1874455d591",
+      "size": 644754,
+      "sha256": "11f26a2d55a7a9d490fd3ad5962279521919fbb82ed38501bdf601207c60a11a",
       "aliases": [],
       "deferred": false
     },
