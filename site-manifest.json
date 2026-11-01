@@ -18,8 +18,8 @@
     },
     {
       "path": "assets-manifest.json",
-      "size": 55045,
-      "sha256": "ff070a34cbf1631008a558246908d5aac07c7262e30cae0225af963c84dab470"
+      "size": 55311,
+      "sha256": "4ce48ec1a73809e4750cd1ce3ef3859b00a0879a54062621b17b2aeef64bdb7b"
     },
     {
       "path": "assets/bgm/Track02.mp3",
@@ -213,8 +213,8 @@
     },
     {
       "path": "assets/core/DISEV.CDS",
-      "size": 92187,
-      "sha256": "5804b1cc29aebc78a37e93918b6bd699dc2ab3b0904bc0ee7a8ad35da39075a5"
+      "size": 92781,
+      "sha256": "612bdff2745fbac3f9892247bd41d5aad05e2f213879d431eb28003bd3bc6150"
     },
     {
       "path": "assets/core/DSTILL.CDS",
@@ -412,6 +412,11 @@
       "sha256": "b7813d9a21aecad474ca35e30e29de49976c5fae38b22bd1148f8b16460d4ddc"
     },
     {
+      "path": "assets/data/records/books.json",
+      "size": 17686,
+      "sha256": "23a7a2735dfaa28abd7c01e7f82c0db4fe4fba91578884a8ff45cc44b886e4d4"
+    },
+    {
       "path": "assets/data/records/cannons.json",
       "size": 341,
       "sha256": "609ff5de674cbb656052e5436c8ae59ae6faabcb8deaba9c4a81954cb33dd86a"
@@ -463,8 +468,8 @@
     },
     {
       "path": "assets/data/records/matrices.json",
-      "size": 69132,
-      "sha256": "64dd61ecb6b4ef95a2f42b3a47eb322545766507b746a5ee31e000fa43313e72"
+      "size": 69133,
+      "sha256": "2704fceee3a6a8f669b0a78a6cbd82362b31bec47919fe0df97cfddf23924cf1"
     },
     {
       "path": "assets/data/records/nations.json",
@@ -528,8 +533,8 @@
     },
     {
       "path": "assets/data/strings.ko.json",
-      "size": 644754,
-      "sha256": "11f26a2d55a7a9d490fd3ad5962279521919fbb82ed38501bdf601207c60a11a"
+      "size": 645053,
+      "sha256": "7f2d0526d689b314fc8d211eb2eaf60cc26f0d5ccb0b3010cdcaa9ed8df88d4a"
     },
     {
       "path": "assets/data/strings.legacy.json",
@@ -1088,8 +1093,8 @@
     },
     {
       "path": "cds_native.web.wasm",
-      "size": 9055986,
-      "sha256": "daeaa96efa6371e01cfbe82ee820b9efc9429ccc15febf4c535206c56dcb4fdd"
+      "size": 9228575,
+      "sha256": "18d7fa28ca3e2a0d6edf84719be067f548b1338d7e6e600020c68c05dcc8a996"
     },
     {
       "path": "index.apple-touch-icon.png",
@@ -1109,7 +1114,7 @@
     {
       "path": "index.html",
       "size": 20566,
-      "sha256": "40a98ccad13e81ae81140fa1fdc5054a12efd52072e47d5a9cb58530cdf0ead8"
+      "sha256": "18345d78814914dc79b4d6d7a7cb8f68f6f462c8ad028bed07fc8ab0b3ccac83"
     },
     {
       "path": "index.icon.png",
@@ -1123,8 +1128,8 @@
     },
     {
       "path": "index.pck",
-      "size": 230425024,
-      "sha256": "55090397fea95bf061d59c6eefec0e0b0f2d8a481880e7cec28ea98fcfdd9a8a"
+      "size": 230613188,
+      "sha256": "a1141219655b1bb7c29cb5b444e120548b499e4ad67cd77ddcb26481857caba8"
     },
     {
       "path": "index.png",

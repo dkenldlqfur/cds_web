@@ -54,8 +54,8 @@
     {
       "url": "assets/core/DISEV.CDS",
       "path": "/cds95/DISEV.CDS",
-      "size": 92187,
-      "sha256": "5804b1cc29aebc78a37e93918b6bd699dc2ab3b0904bc0ee7a8ad35da39075a5",
+      "size": 92781,
+      "sha256": "612bdff2745fbac3f9892247bd41d5aad05e2f213879d431eb28003bd3bc6150",
       "aliases": [],
       "deferred": false
     },
@@ -399,8 +399,8 @@
     {
       "url": "assets/data/strings.ko.json",
       "path": "/cds95/data/strings.ko.json",
-      "size": 644754,
-      "sha256": "11f26a2d55a7a9d490fd3ad5962279521919fbb82ed38501bdf601207c60a11a",
+      "size": 645053,
+      "sha256": "7f2d0526d689b314fc8d211eb2eaf60cc26f0d5ccb0b3010cdcaa9ed8df88d4a",
       "aliases": [],
       "deferred": false
     },
@@ -441,6 +441,14 @@
       "path": "/cds95/data/records/blood_personality.json",
       "size": 670,
       "sha256": "b7813d9a21aecad474ca35e30e29de49976c5fae38b22bd1148f8b16460d4ddc",
+      "aliases": [],
+      "deferred": false
+    },
+    {
+      "url": "assets/data/records/books.json",
+      "path": "/cds95/data/records/books.json",
+      "size": 17686,
+      "sha256": "23a7a2735dfaa28abd7c01e7f82c0db4fe4fba91578884a8ff45cc44b886e4d4",
       "aliases": [],
       "deferred": false
     },
@@ -527,8 +535,8 @@
     {
       "url": "assets/data/records/matrices.json",
       "path": "/cds95/data/records/matrices.json",
-      "size": 69132,
-      "sha256": "64dd61ecb6b4ef95a2f42b3a47eb322545766507b746a5ee31e000fa43313e72",
+      "size": 69133,
+      "sha256": "2704fceee3a6a8f669b0a78a6cbd82362b31bec47919fe0df97cfddf23924cf1",
       "aliases": [],
       "deferred": false
     },

@@ -8210,5 +8210,12 @@
   "ui.storage.filter_title": "아이템 분류",
   "ui.storage.insufficient": "보관함을 확장할 소지금이 부족합니다.",
   "ui.city.person_female": "여",
-  "ui.city.person_male": "남"
+  "ui.city.person_male": "남",
+  "ui.system.retry": "재시도",
+  "ui.system.cancel": "취소",
+  "ui.system.confirm": "확인",
+  "ui.system.yes": "예",
+  "ui.system.no": "아니오",
+  "ui.help.title": "도움말",
+  "ui.help.no_body": "도움말 본문 데이터가 없습니다.\n원본 도움말 파일: CDS95.HLP"
 }
