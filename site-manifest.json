@@ -1114,7 +1114,7 @@
     {
       "path": "index.html",
       "size": 21527,
-      "sha256": "63a94d51ec6d7fb4e92f96029e276e02f66b9469db4e3a64a3c9af834fa82ace"
+      "sha256": "1fbbf198176fbfdb6541d5eafd094a2896bf6ac9a44095460d4c4d7ccc91e4a7"
     },
     {
       "path": "index.icon.png",
@@ -1128,8 +1128,8 @@
     },
     {
       "path": "index.pck",
-      "size": 230634164,
-      "sha256": "a31639749b44888b0c72a35ec693714a7d75008bc18a94d7c82faf62a7f513b7"
+      "size": 230635716,
+      "sha256": "c66ebf83de4bf3559c38d0f4db3f85aba5ea065d70cc6d7a77c6f86e1a9274c0"
     },
     {
       "path": "index.png",
