@@ -66,7 +66,20 @@ body:not(.started) #tools{visibility:hidden}
 <script src="index.js"></script>
 <script>
 'use strict';
-const config={"args":[],"canvasResizePolicy":1,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":true,"executable":"index","experimentalVK":true,"fileSizes":{"index.pck":230613188,"index.wasm":1713410},"focusCanvas":true,"gdextensionLibs":["cds_native.web.wasm"],"godotPoolSize":4};
+const config={"args":[],"canvasResizePolicy":1,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":true,"executable":"index","experimentalVK":true,"fileSizes":{"index.pck":230613092,"index.wasm":1713410},"focusCanvas":true,"gdextensionLibs":["cds_native.web.wasm"],"godotPoolSize":4};
+// Opt-in freeze checkpoint, not a second runtime error log. Keep only the
+// latest stage so a blocked browser can show it after reloading the same tab.
+if(new URLSearchParams(location.search).get('freeze_debug')==='1'){
+ const key='cds95-freeze-checkpoint';
+ let previous='';try{previous=sessionStorage.getItem(key)||'';}catch(error){}
+ const diagnostic=document.createElement('p');diagnostic.id='freeze-diagnostic';
+ diagnostic.style.cssText='position:fixed;left:4px;top:4px;z-index:10000;background:#181818;color:#fff;padding:6px;font:12px monospace;pointer-events:none;max-width:95vw;white-space:pre-wrap';
+ diagnostic.textContent=previous?'지난 실행 마지막 처리: '+previous:'멈춤 진단 준비';document.body.appendChild(diagnostic);
+ window.CDS95FreezeCheckpoint=stage=>{
+  try{sessionStorage.setItem(key,stage);}catch(error){}
+  diagnostic.textContent=(previous?'지난 실행: '+previous+'\n':'')+'현재 처리: '+stage;
+ };
+}
 const canvas=document.getElementById('canvas'),screen=document.getElementById('screen'),start=document.getElementById('start'),status=document.getElementById('status'),progress=document.getElementById('progress');
 const startFullscreen=document.getElementById('start-fullscreen'),app=document.getElementById('app');
 const canFullscreen=Boolean(document.fullscreenEnabled&&typeof app.requestFullscreen==='function');
