@@ -20,14 +20,6 @@
       "deferred": false
     },
     {
-      "url": "assets/core/CITYCG.CDS",
-      "path": "/cds95/CITYCG.CDS",
-      "size": 20188852,
-      "sha256": "1300a72525ac290f40726e513cbba9af0159b6b6a80079ee520075f69a134f2d",
-      "aliases": [],
-      "deferred": false
-    },
-    {
       "url": "assets/core/CITYFRM.CDS",
       "path": "/cds95/CITYFRM.CDS",
       "size": 14484,
@@ -399,8 +391,8 @@
     {
       "url": "assets/data/strings.ko.json",
       "path": "/cds95/data/strings.ko.json",
-      "size": 645053,
-      "sha256": "7f2d0526d689b314fc8d211eb2eaf60cc26f0d5ccb0b3010cdcaa9ed8df88d4a",
+      "size": 645278,
+      "sha256": "4fbdd88570bca960ba03a3cb7cc2d9809ee233bc9d74ec4f2be99929c8c85661",
       "aliases": [],
       "deferred": false
     },
@@ -455,8 +447,8 @@
     {
       "url": "assets/data/records/cannons.json",
       "path": "/cds95/data/records/cannons.json",
-      "size": 341,
-      "sha256": "609ff5de674cbb656052e5436c8ae59ae6faabcb8deaba9c4a81954cb33dd86a",
+      "size": 846,
+      "sha256": "63c683939ade00d7c4cd05389ae09b195c61b85946e416461ce0898aae131cd5",
       "aliases": [],
       "deferred": false
     },
@@ -583,8 +575,8 @@
     {
       "url": "assets/data/records/ship_types.json",
       "path": "/cds95/data/records/ship_types.json",
-      "size": 3912,
-      "sha256": "fd1677068ff42e9062c54d01e489b206bcf9a2383c9fd277820840989369c8d8",
+      "size": 4677,
+      "sha256": "4480bd327e81cfe0de41577a6f9710e232ed10f99e2032c2f446c9b0f6e04eb4",
       "aliases": [],
       "deferred": false
     },
@@ -599,8 +591,8 @@
     {
       "url": "assets/data/records/taverns.json",
       "path": "/cds95/data/records/taverns.json",
-      "size": 34675,
-      "sha256": "3347fe923da2356a62d8658fedcb7f75da479df9d22dbc81350960308fc409ec",
+      "size": 49037,
+      "sha256": "460c37bee30f7630b5eef4023d17297ec8d04c67da5588aa040d69679401009f",
       "aliases": [],
       "deferred": false
     },

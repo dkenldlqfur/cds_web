@@ -18,8 +18,8 @@
     },
     {
       "path": "assets-manifest.json",
-      "size": 55311,
-      "sha256": "4ce48ec1a73809e4750cd1ce3ef3859b00a0879a54062621b17b2aeef64bdb7b"
+      "size": 55063,
+      "sha256": "14c549cfc82aaf7b2936b51cf21ace3ea6cdaf4ed5a838a7766e8243fcb0420a"
     },
     {
       "path": "assets/bgm/Track02.mp3",
@@ -185,11 +185,6 @@
       "path": "assets/core/CDS_95.EXE",
       "size": 1662464,
       "sha256": "efb76b970d5489862ddd8ed4e190d493439a70a29f0d9da5c32386d7cf7ffcd1"
-    },
-    {
-      "path": "assets/core/CITYCG.CDS",
-      "size": 20188852,
-      "sha256": "1300a72525ac290f40726e513cbba9af0159b6b6a80079ee520075f69a134f2d"
     },
     {
       "path": "assets/core/CITYFRM.CDS",
@@ -418,8 +413,8 @@
     },
     {
       "path": "assets/data/records/cannons.json",
-      "size": 341,
-      "sha256": "609ff5de674cbb656052e5436c8ae59ae6faabcb8deaba9c4a81954cb33dd86a"
+      "size": 846,
+      "sha256": "63c683939ade00d7c4cd05389ae09b195c61b85946e416461ce0898aae131cd5"
     },
     {
       "path": "assets/data/records/child_portraits.json",
@@ -498,8 +493,8 @@
     },
     {
       "path": "assets/data/records/ship_types.json",
-      "size": 3912,
-      "sha256": "fd1677068ff42e9062c54d01e489b206bcf9a2383c9fd277820840989369c8d8"
+      "size": 4677,
+      "sha256": "4480bd327e81cfe0de41577a6f9710e232ed10f99e2032c2f446c9b0f6e04eb4"
     },
     {
       "path": "assets/data/records/stock_sizes.json",
@@ -508,8 +503,8 @@
     },
     {
       "path": "assets/data/records/taverns.json",
-      "size": 34675,
-      "sha256": "3347fe923da2356a62d8658fedcb7f75da479df9d22dbc81350960308fc409ec"
+      "size": 49037,
+      "sha256": "460c37bee30f7630b5eef4023d17297ec8d04c67da5588aa040d69679401009f"
     },
     {
       "path": "assets/data/records/world_catalog.json",
@@ -533,8 +528,8 @@
     },
     {
       "path": "assets/data/strings.ko.json",
-      "size": 645053,
-      "sha256": "7f2d0526d689b314fc8d211eb2eaf60cc26f0d5ccb0b3010cdcaa9ed8df88d4a"
+      "size": 645278,
+      "sha256": "4fbdd88570bca960ba03a3cb7cc2d9809ee233bc9d74ec4f2be99929c8c85661"
     },
     {
       "path": "assets/data/strings.legacy.json",
@@ -1093,8 +1088,8 @@
     },
     {
       "path": "cds_native.web.wasm",
-      "size": 9239409,
-      "sha256": "01f44038987691fa1b840bdb2526a52448b7e8e8d608c2abfd2daa16586d61ba"
+      "size": 9317355,
+      "sha256": "0a90caf2651f473a5ed6b256575061d43765a64b1eaded92f2b55407f314cfc6"
     },
     {
       "path": "index.apple-touch-icon.png",
@@ -1114,7 +1109,7 @@
     {
       "path": "index.html",
       "size": 21527,
-      "sha256": "33f1ba84b14e486633942d4496646bca7fa611e8d343e500c1375d5597ab4e4a"
+      "sha256": "418f9592f8b79cc1d975d95d37a6a0528070de1f3daba36ecf2cfaf83330450c"
     },
     {
       "path": "index.icon.png",
@@ -1128,8 +1123,8 @@
     },
     {
       "path": "index.pck",
-      "size": 230653676,
-      "sha256": "6776c882011ee20b6fcf70fcfd34eaf3fe2118a7e3f71f1f219ac5d96549010f"
+      "size": 231193604,
+      "sha256": "7d3328ff507de8eca8175ab58d281081081b11124dd95e47c9f286fb843b5876"
     },
     {
       "path": "index.png",

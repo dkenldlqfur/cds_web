@@ -511,7 +511,7 @@
   "event.1f537faa5381c4ba": "강대했던　티무르제국도　드디어　망하고　말았네．",
   "event.1f9e14c8c2f4de25": "요리는　어떻습니까？　입맛에　맞습니까？",
   "event.1fb8a95bb192988f": "미틀라와　트라파　동지에게　알려라！",
-  "event.1fc319c927d980d4": "기저의　３대　피라미드를　발견했다！",
+  "event.1fc319c927d980d4": "기자의　３대　피라미드를　발견했다！",
   "event.1fca208ccbf8eaf9": "브랜디를　한턱　냈다",
   "event.1fcf9582e8bb1191": "제독．　아름답게　염색한　물건을　팔고　있습니다．　하나　사갑시다．",
   "event.1fd378f0c236cb59": "제독，　배후에　제국군이！",
@@ -8217,5 +8217,7 @@
   "ui.system.yes": "예",
   "ui.system.no": "아니오",
   "ui.help.title": "도움말",
-  "ui.help.no_body": "도움말 본문 데이터가 없습니다.\n원본 도움말 파일: CDS95.HLP"
+  "ui.help.no_body": "도움말 본문 데이터가 없습니다.\n원본 도움말 파일: CDS95.HLP",
+  "cannon.carronade.name": "카로네이드",
+  "cannon.carronade.description": "이것은 멀리 있는 적에게도 강력한 포격을 가할 수 있는 대포라네. 값은 비싸지만 그만한 값어치는 있지."
 }
