@@ -100,16 +100,6 @@
       "deferred": false
     },
     {
-      "url": "assets/core/EVANIME.CDS",
-      "path": "/cds95/EVANIME.CDS",
-      "size": 2533659,
-      "sha256": "86398242d6e62c6e79f6cc3d9e689e850c1f5daf17846e63a7f6488f009ec274",
-      "aliases": [
-        "/cds95/EvAnime.CDS"
-      ],
-      "deferred": false
-    },
-    {
       "url": "assets/core/EVSTILL.CDS",
       "path": "/cds95/EVSTILL.CDS",
       "size": 1021116,

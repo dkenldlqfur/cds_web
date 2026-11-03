@@ -18,8 +18,8 @@
     },
     {
       "path": "assets-manifest.json",
-      "size": 55063,
-      "sha256": "14c549cfc82aaf7b2936b51cf21ace3ea6cdaf4ed5a838a7766e8243fcb0420a"
+      "size": 54776,
+      "sha256": "f575e81404497cf376f218353ab4c78b4411863d9c9aefa7121df565a4202739"
     },
     {
       "path": "assets/bgm/Track02.mp3",
@@ -240,11 +240,6 @@
       "path": "assets/core/ENC.CDS",
       "size": 213363,
       "sha256": "d0e0f9ca8bbb476957f3cab25eeb091dbe9547e1acf622dc1f9f96a00b6f56a8"
-    },
-    {
-      "path": "assets/core/EVANIME.CDS",
-      "size": 2533659,
-      "sha256": "86398242d6e62c6e79f6cc3d9e689e850c1f5daf17846e63a7f6488f009ec274"
     },
     {
       "path": "assets/core/EVSTILL.CDS",
@@ -1088,8 +1083,8 @@
     },
     {
       "path": "cds_native.web.wasm",
-      "size": 9353580,
-      "sha256": "a5d24833407d6e44557e1597d96612ff8e703f551fbed7c96ebb974ddb7a98f0"
+      "size": 9369539,
+      "sha256": "ebce3d16702e1120168b719c525069bf44c24449922bfd8242d97c39bfe5e898"
     },
     {
       "path": "index.apple-touch-icon.png",
@@ -1109,7 +1104,7 @@
     {
       "path": "index.html",
       "size": 21527,
-      "sha256": "b56ea1452179db1b74524e3cad0d4fc5a170d0d7c18377b46464a4b80e497303"
+      "sha256": "ab0ad1e498b8e8f834fa521fc0ff8b180d690a7c77fbfe1bf8804306595c7c5c"
     },
     {
       "path": "index.icon.png",
@@ -1123,8 +1118,8 @@
     },
     {
       "path": "index.pck",
-      "size": 231209964,
-      "sha256": "324b1aa20fa5eea1cd3c5dcde02517feaf637dd6691cb4cc1fb4a34cc4b6451d"
+      "size": 307317120,
+      "sha256": "d70bfba9e95a69b63a3a96ac66074fefb5b5ca10e62934619b97c4d6cc5f9e2f"
     },
     {
       "path": "index.png",
