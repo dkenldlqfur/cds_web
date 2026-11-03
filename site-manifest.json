@@ -1083,8 +1083,8 @@
     },
     {
       "path": "cds_native.web.wasm",
-      "size": 9369539,
-      "sha256": "ebce3d16702e1120168b719c525069bf44c24449922bfd8242d97c39bfe5e898"
+      "size": 9369557,
+      "sha256": "ad3a2dc561b7f8475a64d42c492258fec412899b42ba20c271bc3c4b2fb789a8"
     },
     {
       "path": "index.apple-touch-icon.png",
@@ -1103,8 +1103,8 @@
     },
     {
       "path": "index.html",
-      "size": 22375,
-      "sha256": "629a12bce55e37fd4799ba3ea8f4eeb45533fc0debcbff38b8dd4e4f983f4b59"
+      "size": 22376,
+      "sha256": "e31ad348a013adb4cf28378542dc71bb4996733369a98cfe5e3887a4c140a002"
     },
     {
       "path": "index.icon.png",
@@ -1118,8 +1118,8 @@
     },
     {
       "path": "index.pck",
-      "size": 307317120,
-      "sha256": "d70bfba9e95a69b63a3a96ac66074fefb5b5ca10e62934619b97c4d6cc5f9e2f"
+      "size": 307317136,
+      "sha256": "ec3827fe1aa87bd80e9fc3fe6f7379c08c88759efc65e31e769e67f3d79707e4"
     },
     {
       "path": "index.png",
