@@ -39,7 +39,6 @@ body:not(.started) #tools{visibility:hidden}
 </style>
 <link id="-gd-engine-icon" rel="icon" type="image/png" href="index.icon.png" />
 <link rel="apple-touch-icon" href="index.apple-touch-icon.png"/>
-
 </head>
 <body>
 <main id="app">
@@ -85,7 +84,14 @@ const startFullscreen=document.getElementById('start-fullscreen'),app=document.g
 const canFullscreen=Boolean(document.fullscreenEnabled&&typeof app.requestFullscreen==='function');
 startFullscreen.hidden=!canFullscreen;
 config.canvas=canvas;config.canvasResizePolicy=1;config.focusCanvas=true;
-config.onProgress=(current,total)=>{if(total){progress.value=current/total;}};
+let enginePreparing=false,enginePrepared=false;
+const mainPack=config.mainPack||`${config.executable}.pck`;
+config.onProgress=(current,total)=>{
+ if(total){
+  progress.value=current/total;
+  if(enginePreparing)status.textContent=`게임 실행 파일 준비 ${Math.min(100,Math.round(current/total*100))}% (${Math.round(current/1048576)}/${Math.round(total/1048576)} MB)`;
+ }
+};
 config.onExit=()=>{document.getElementById('cover').hidden=false;document.getElementById('cover').style.display='flex';status.textContent='게임이 종료되었습니다. 다시 실행하려면 페이지를 새로고침하세요.';start.hidden=true;startFullscreen.hidden=true;};
 const engine=new Engine(config);
 function fit(){
@@ -173,14 +179,19 @@ async function assets(){
   const hash=Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',data)),n=>n.toString(16).padStart(2,'0')).join('');if(hash!==file.sha256)throw new Error(`데이터 검증 실패: ${file.url}`);
   await engine.preloadFile(data,file.path);for(const alias of file.aliases||[])await engine.preloadFile(data,alias);loaded+=file.size;progress.value=loaded/total;status.textContent=`게임 데이터 준비 ${Math.round(loaded/total*100)}%`;
  }}
- await Promise.all([worker(),worker(),worker()]);status.textContent='준비가 끝났습니다. 시작 방식을 선택하세요.';start.disabled=false;startFullscreen.disabled=false;start.textContent='브라우저에서 시작';
+ await Promise.all([worker(),worker(),worker()]);
+ enginePreparing=true;progress.value=0;status.textContent='게임 실행 파일과 엔진을 준비합니다. 처음 접속하면 시간이 걸릴 수 있습니다.';
+ try{await Promise.all([engine.init(config.executable),engine.preloadFile(mainPack,mainPack)]);}
+ finally{enginePreparing=false;}
+ enginePrepared=true;progress.value=1;status.textContent='준비가 끝났습니다. 시작 방식을 선택하세요.';start.disabled=false;startFullscreen.disabled=false;start.textContent='브라우저에서 시작';
 }
 async function beginGame(fullscreen){
- if(start.disabled)return;start.disabled=true;startFullscreen.disabled=true;start.textContent='실행 중…';
+ if(start.disabled||!enginePrepared)return;start.disabled=true;startFullscreen.disabled=true;start.textContent='실행 중…';status.textContent='게임을 실행합니다…';
  try{
   // Call directly within this click, before any asynchronous game startup.
   if(fullscreen&&canFullscreen){try{await app.requestFullscreen();}catch(error){console.info(error);}}
-  settleFit();await engine.startGame();document.getElementById('cover').style.display='none';document.body.classList.add('started');canvas.focus();settleFit();
+  // Engine and pack are already prepared. startGame() would download the pack again.
+  settleFit();await engine.start({args:['--main-pack',mainPack,...(config.args||[])]});document.getElementById('cover').style.display='none';document.body.classList.add('started');canvas.focus();settleFit();
  }catch(error){fail(error);}
 }
 start.addEventListener('click',()=>beginGame(false));
@@ -244,4 +255,3 @@ assets().catch(fail);
 </script>
 </body>
 </html>
-
