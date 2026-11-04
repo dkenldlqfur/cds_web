@@ -381,8 +381,8 @@
     {
       "url": "assets/data/strings.ko.json",
       "path": "/cds95/data/strings.ko.json",
-      "size": 645812,
-      "sha256": "6769e076f7de7b1ee290d662adfb3e71134d7ab00aa124ab09e3c7e583aab3dc",
+      "size": 646019,
+      "sha256": "11c17adbff06af5787ffd12cbe39c0382c45e678f999c5a911dfb8daf26beda8",
       "aliases": [],
       "deferred": false
     },
@@ -509,8 +509,8 @@
     {
       "url": "assets/data/records/items.json",
       "path": "/cds95/data/records/items.json",
-      "size": 59322,
-      "sha256": "1276325694114dbfe7eba9de8142714a24ada9ff4d63f1a5eb137c2de7e4f6cd",
+      "size": 59351,
+      "sha256": "07e433c5167b3f65e339296f36fe005fb2576224f48c692f8bc3525a3880baee",
       "aliases": [],
       "deferred": false
     },
