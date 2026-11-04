@@ -3,6 +3,7 @@
   "records": [
     {
       "id": 0,
+      "turn_steps": 3,
       "field_04": 2,
       "unlock_factor": 10,
       "base_speed": 70,
@@ -25,6 +26,7 @@
     },
     {
       "id": 1,
+      "turn_steps": 2,
       "field_04": 3,
       "unlock_factor": 15,
       "base_speed": 80,
@@ -47,6 +49,7 @@
     },
     {
       "id": 2,
+      "turn_steps": 2,
       "field_04": 3,
       "unlock_factor": 25,
       "base_speed": 50,
@@ -70,6 +73,7 @@
     },
     {
       "id": 3,
+      "turn_steps": 2,
       "field_04": 4,
       "unlock_factor": 35,
       "base_speed": 60,
@@ -93,6 +97,7 @@
     },
     {
       "id": 4,
+      "turn_steps": 1,
       "field_04": 0,
       "unlock_factor": 45,
       "base_speed": 50,
@@ -116,6 +121,7 @@
     },
     {
       "id": 5,
+      "turn_steps": 1,
       "field_04": 0,
       "unlock_factor": 55,
       "base_speed": 35,
@@ -140,6 +146,7 @@
     },
     {
       "id": 6,
+      "turn_steps": 2,
       "field_04": 0,
       "unlock_factor": 65,
       "base_speed": 55,
@@ -164,6 +171,7 @@
     },
     {
       "id": 7,
+      "turn_steps": 2,
       "field_04": 5,
       "unlock_factor": 10,
       "base_speed": 70,

@@ -17,7 +17,7 @@ async function fetchMainPack(request) {
     const headers = new Headers(request.headers);
     headers.set('If-None-Match', etag);
     response = await fetch(request, {cache: 'no-store', headers});
-    if (response.status === 304) return {response: cached};
+    if (response.status === 304) return {response: cached, cacheHit: true};
   } else {
     response = await fetch(request, {cache: 'no-cache'});
   }
@@ -46,7 +46,13 @@ self.addEventListener('fetch', event => {
   if (request.method === 'GET' && !request.headers.has('Range') &&
       url.href === new URL('index.pck', self.registration.scope).href) {
     const pack = fetchMainPack(request);
-    event.waitUntil(pack.then(({write}) => write, () => {}));
+    event.waitUntil(pack.then(async ({write, cacheHit}) => {
+      if (cacheHit && event.clientId) {
+        const client = await self.clients.get(event.clientId);
+        client?.postMessage({type: 'cds95-pack-cache-hit'});
+      }
+      await write;
+    }).catch(() => {}));
     event.respondWith(pack.then(({response}) => isolated(response)));
     return;
   }

@@ -46,8 +46,8 @@
     {
       "url": "assets/core/DISEV.CDS",
       "path": "/cds95/DISEV.CDS",
-      "size": 92781,
-      "sha256": "612bdff2745fbac3f9892247bd41d5aad05e2f213879d431eb28003bd3bc6150",
+      "size": 94682,
+      "sha256": "6a1d9a7bcb602b60e8175cca4d2ac3701ef4a48c178297448fbc5b87597fe0f4",
       "aliases": [],
       "deferred": false
     },
@@ -381,8 +381,8 @@
     {
       "url": "assets/data/strings.ko.json",
       "path": "/cds95/data/strings.ko.json",
-      "size": 645278,
-      "sha256": "4fbdd88570bca960ba03a3cb7cc2d9809ee233bc9d74ec4f2be99929c8c85661",
+      "size": 645812,
+      "sha256": "6769e076f7de7b1ee290d662adfb3e71134d7ab00aa124ab09e3c7e583aab3dc",
       "aliases": [],
       "deferred": false
     },
@@ -565,8 +565,8 @@
     {
       "url": "assets/data/records/ship_types.json",
       "path": "/cds95/data/records/ship_types.json",
-      "size": 4677,
-      "sha256": "4480bd327e81cfe0de41577a6f9710e232ed10f99e2032c2f446c9b0f6e04eb4",
+      "size": 4869,
+      "sha256": "31ec43030e4254c8e8d93339ce7321b8670c25765d5269e7c19d39f63f6ab55f",
       "aliases": [],
       "deferred": false
     },
@@ -589,8 +589,8 @@
     {
       "url": "assets/data/records/world_catalog.json",
       "path": "/cds95/data/records/world_catalog.json",
-      "size": 146299,
-      "sha256": "f33b470032f538185b70c7198ce51d8738ff999e78fead07f1b54eeb9c3c8d26",
+      "size": 146309,
+      "sha256": "4b905a45c85b12712a9956ec47f1b98def6ac9467cfc56d1a7f95ce47b2ff7b1",
       "aliases": [],
       "deferred": false
     },
