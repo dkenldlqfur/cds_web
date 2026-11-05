@@ -381,8 +381,8 @@
     {
       "url": "assets/data/strings.ko.json",
       "path": "/cds95/data/strings.ko.json",
-      "size": 646019,
-      "sha256": "11c17adbff06af5787ffd12cbe39c0382c45e678f999c5a911dfb8daf26beda8",
+      "size": 655977,
+      "sha256": "5c267442058237e0675085a3494f41d1d64873f02a2b751edeb8a96429170299",
       "aliases": [],
       "deferred": false
     },
@@ -590,7 +590,7 @@
       "url": "assets/data/records/world_catalog.json",
       "path": "/cds95/data/records/world_catalog.json",
       "size": 146309,
-      "sha256": "4b905a45c85b12712a9956ec47f1b98def6ac9467cfc56d1a7f95ce47b2ff7b1",
+      "sha256": "4e6fcf4be04e35501e613b1a5a0951ca177678fdb62f06036e2fc67aaf355c6a",
       "aliases": [],
       "deferred": false
     },

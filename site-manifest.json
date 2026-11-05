@@ -489,7 +489,7 @@
     {
       "path": "assets/data/records/world_catalog.json",
       "size": 146309,
-      "sha256": "4b905a45c85b12712a9956ec47f1b98def6ac9467cfc56d1a7f95ce47b2ff7b1"
+      "sha256": "4e6fcf4be04e35501e613b1a5a0951ca177678fdb62f06036e2fc67aaf355c6a"
     },
     {
       "path": "assets/data/records/zodiac_dates.json",
@@ -508,8 +508,8 @@
     },
     {
       "path": "assets/data/strings.ko.json",
-      "size": 646019,
-      "sha256": "11c17adbff06af5787ffd12cbe39c0382c45e678f999c5a911dfb8daf26beda8"
+      "size": 655977,
+      "sha256": "5c267442058237e0675085a3494f41d1d64873f02a2b751edeb8a96429170299"
     },
     {
       "path": "assets/data/strings.legacy.json",
@@ -1069,12 +1069,12 @@
     {
       "path": "assets-manifest.json",
       "size": 54776,
-      "sha256": "76107ace44e669ba61e59bf3d6e72c9bead9024c61450ace1d661de371296c47"
+      "sha256": "413d05c72de3c01e953106743c0dfd448b3907d9efc0d8da34cef625853d2452"
     },
     {
       "path": "cds_native.web.wasm",
-      "size": 9434024,
-      "sha256": "9b97fa6ed2651e098b4e9aec18140c1b5d01c1876e1bcb2a80d22a709bab580c"
+      "size": 9612397,
+      "sha256": "ccf91679d5dc25c0a298c55850afd2f2e88c1d41c4200ed35c4349739ebfec30"
     },
     {
       "path": "index.apple-touch-icon.png",
@@ -1094,7 +1094,7 @@
     {
       "path": "index.html",
       "size": 22682,
-      "sha256": "f36332d5be55478ecf3b30d00814b519e9361f550be3b5c66fd8647c95cbed14"
+      "sha256": "43555240b655a6fc175621827a67c032f988092cebb5e9e4a4e89547de5909b9"
     },
     {
       "path": "index.icon.png",
@@ -1108,8 +1108,8 @@
     },
     {
       "path": "index.pck",
-      "size": 314638572,
-      "sha256": "4a957b7bf20205fd864ba04e9d5a50a06ae292a8a9c137cb81004a6f45c88861"
+      "size": 312109416,
+      "sha256": "11d4d4dc7f896e6d700019bd6e1c4bf41d218f34387c5cefd74ad43f4da263cb"
     },
     {
       "path": "index.png",
