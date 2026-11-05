@@ -7,21 +7,6 @@
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
     },
     {
-      "path": "LICENSE.DroidSans.txt",
-      "size": 581,
-      "sha256": "d0588452395c674334105d9a39e4d8627c66080f45491013e877139581a78ed1"
-    },
-    {
-      "path": "LICENSE.Godot.txt",
-      "size": 1149,
-      "sha256": "b0435e3b3e4e55238f05f4b306f30524a1b2e20147810d436eaa554fa6855c80"
-    },
-    {
-      "path": "assets-manifest.json",
-      "size": 54776,
-      "sha256": "76107ace44e669ba61e59bf3d6e72c9bead9024c61450ace1d661de371296c47"
-    },
-    {
       "path": "assets/bgm/Track02.mp3",
       "size": 3393827,
       "sha256": "f61ebcc072153e34a597f6e2fdb271238287442a595e7b129128d5a00f23cf1d"
@@ -267,14 +252,14 @@
       "sha256": "c1f3856512d28e7529deaa8282c64e72ef115e3ee839d57d1eed2c49dba37e9d"
     },
     {
-      "path": "assets/core/HISTCHR.CDS",
-      "size": 15627,
-      "sha256": "719e42f440b8a12c70483901b1f36233349d24222c55d54df7904b375a867619"
-    },
-    {
       "path": "assets/core/HIST_EV.CDS",
       "size": 9214,
       "sha256": "6095ad9679be24d4f8d98ab2cdaa1e85fde71bb5f98d90f14ad7c314bf86aaad"
+    },
+    {
+      "path": "assets/core/HISTCHR.CDS",
+      "size": 15627,
+      "sha256": "719e42f440b8a12c70483901b1f36233349d24222c55d54df7904b375a867619"
     },
     {
       "path": "assets/core/LANDDATA.CDS",
@@ -1082,6 +1067,11 @@
       "sha256": "f03e1b7873661b6c71a3b212bf3f1ee7e5e852604ab6efb8cffdc930efaef5b5"
     },
     {
+      "path": "assets-manifest.json",
+      "size": 54776,
+      "sha256": "76107ace44e669ba61e59bf3d6e72c9bead9024c61450ace1d661de371296c47"
+    },
+    {
       "path": "cds_native.web.wasm",
       "size": 9434024,
       "sha256": "9b97fa6ed2651e098b4e9aec18140c1b5d01c1876e1bcb2a80d22a709bab580c"
@@ -1104,7 +1094,7 @@
     {
       "path": "index.html",
       "size": 22682,
-      "sha256": "4364c1660e6d0e5977792b00c2ee1708db7a0043afed30efd7baab58288e8594"
+      "sha256": "f36332d5be55478ecf3b30d00814b519e9361f550be3b5c66fd8647c95cbed14"
     },
     {
       "path": "index.icon.png",
@@ -1118,8 +1108,8 @@
     },
     {
       "path": "index.pck",
-      "size": 314625288,
-      "sha256": "ba81d4dd0d5adc55cdcf3b581aefe63b4d38cc7cc48602b031396c5d997426cd"
+      "size": 314638572,
+      "sha256": "4a957b7bf20205fd864ba04e9d5a50a06ae292a8a9c137cb81004a6f45c88861"
     },
     {
       "path": "index.png",
@@ -1140,6 +1130,16 @@
       "path": "isolation-sw.js",
       "size": 2469,
       "sha256": "3eecb53643a33a897456873037ca786e9340f853b98ed5c34173f4c0f645024f"
+    },
+    {
+      "path": "LICENSE.DroidSans.txt",
+      "size": 581,
+      "sha256": "d0588452395c674334105d9a39e4d8627c66080f45491013e877139581a78ed1"
+    },
+    {
+      "path": "LICENSE.Godot.txt",
+      "size": 1149,
+      "sha256": "b0435e3b3e4e55238f05f4b306f30524a1b2e20147810d436eaa554fa6855c80"
     }
   ]
 }
