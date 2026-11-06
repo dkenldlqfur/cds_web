@@ -7,6 +7,11 @@ ROOT = Path(__file__).resolve().parents[1]
 SITE = ROOT / 'site'
 
 
+def verify_achievement_preload(files):
+    definitions = [item for item in files if item['path'] == '/cds95/data/achievements.json']
+    assert len(definitions) == 1 and definitions[0]['deferred'] is False, 'Missing startup preload for achievement definitions'
+
+
 def main():
     manifest = json.loads((ROOT / 'site-manifest.json').read_text(encoding='utf-8'))
     expected = set()
@@ -30,6 +35,7 @@ def main():
         assert name in expected, name
     assert (SITE / 'index.wasm').read_bytes()[:4] == b'\0asm'
     assets = json.loads((SITE / 'assets-manifest.json').read_text(encoding='utf-8'))
+    verify_achievement_preload(assets['files'])
     for item in assets['files']:
         data = (SITE / item['url']).read_bytes()
         assert len(data) == item['size'] and hashlib.sha256(data).hexdigest() == item['sha256']

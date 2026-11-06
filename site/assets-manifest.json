@@ -403,6 +403,14 @@
       "deferred": false
     },
     {
+      "url": "assets/data/achievements.json",
+      "path": "/cds95/data/achievements.json",
+      "size": 46865,
+      "sha256": "c0d9986282403fb480f0f3bdb4a41d4e900c385a50dbd16c952aa5b696fb4e71",
+      "aliases": [],
+      "deferred": false
+    },
+    {
       "url": "assets/data/records/appearance_adjustments.json",
       "path": "/cds95/data/records/appearance_adjustments.json",
       "size": 38220,
