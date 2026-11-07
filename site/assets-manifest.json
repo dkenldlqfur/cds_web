@@ -381,8 +381,8 @@
     {
       "url": "assets/data/strings.ko.json",
       "path": "/cds95/data/strings.ko.json",
-      "size": 657439,
-      "sha256": "6e1355deece0ceb503d3e16a2894f24bc37218c3484328003cc668a1ba3769d4",
+      "size": 658500,
+      "sha256": "4f4da7f3e6c01787723dbee8d540456f7f35024ed795fd2f7797c42ef873a7b7",
       "aliases": [],
       "deferred": false
     },
@@ -405,8 +405,8 @@
     {
       "url": "assets/data/achievements.json",
       "path": "/cds95/data/achievements.json",
-      "size": 46865,
-      "sha256": "c0d9986282403fb480f0f3bdb4a41d4e900c385a50dbd16c952aa5b696fb4e71",
+      "size": 51606,
+      "sha256": "9d3ef65e7e0b0200ec78d08acea9308972f218a2d25f87f3a10d2ed26bf44a8f",
       "aliases": [],
       "deferred": false
     },

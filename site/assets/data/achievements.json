@@ -676,6 +676,52 @@
         34,
         35
       ]
+    },
+    "mediterranean_seduction_books": {
+      "kind": "item",
+      "ids": [
+        277,
+        278,
+        279,
+        280,
+        281,
+        282,
+        283,
+        284
+      ]
+    },
+    "counterfeit_discoveries": {
+      "kind": "discovery",
+      "ids": [
+        230,
+        231,
+        232,
+        233,
+        234,
+        235,
+        236,
+        237,
+        238,
+        239,
+        240,
+        241,
+        242,
+        243,
+        244,
+        245,
+        246,
+        247,
+        248,
+        249,
+        250,
+        251,
+        252,
+        253,
+        254,
+        255,
+        256,
+        257
+      ]
     }
   },
   "records": [
@@ -894,8 +940,49 @@
       "description_key": "achievement.discovery_report_first.description"
     },
     {
-      "id": "library_clue_discovery",
+      "id": "counterfeits_all",
       "number": 12,
+      "category": "discovery",
+      "enabled": true,
+      "hidden": true,
+      "progress_scope": "playthrough",
+      "condition": {
+        "type": "counterfeit_collection_complete",
+        "events": [
+          "catalog_registered",
+          "verified_state"
+        ],
+        "parameters": {
+          "collection_id": "counterfeit_discoveries"
+        }
+      },
+      "title_key": "achievement.counterfeits_all.title",
+      "description_key": "achievement.counterfeits_all.description"
+    },
+    {
+      "id": "mixed_discovery_report",
+      "number": 13,
+      "category": "discovery",
+      "enabled": true,
+      "hidden": true,
+      "progress_scope": "playthrough",
+      "condition": {
+        "type": "mixed_discovery_report",
+        "events": [
+          "discovery_report_completed"
+        ],
+        "parameters": {
+          "counterfeit_collection_id": "counterfeit_discoveries",
+          "require_same_report": true,
+          "require_accepted_report": true
+        }
+      },
+      "title_key": "achievement.mixed_discovery_report.title",
+      "description_key": "achievement.mixed_discovery_report.description"
+    },
+    {
+      "id": "library_clue_discovery",
+      "number": 14,
       "category": "exploration",
       "enabled": true,
       "hidden": true,
@@ -919,7 +1006,7 @@
     },
     {
       "id": "landing_three_discoveries",
-      "number": 13,
+      "number": 15,
       "category": "exploration",
       "enabled": true,
       "hidden": true,
@@ -945,7 +1032,7 @@
     },
     {
       "id": "sea_encounters_all",
-      "number": 14,
+      "number": 16,
       "category": "exploration",
       "enabled": true,
       "hidden": true,
@@ -965,8 +1052,29 @@
       "description_key": "achievement.sea_encounters_all.description"
     },
     {
+      "id": "minigame_manual_first",
+      "number": 17,
+      "category": "exploration",
+      "enabled": true,
+      "hidden": true,
+      "progress_scope": "playthrough",
+      "condition": {
+        "type": "manual_minigame_success",
+        "events": [
+          "minigame_finished"
+        ],
+        "parameters": {
+          "require_success": true,
+          "require_manual_play": true,
+          "main_menu_allowed": false
+        }
+      },
+      "title_key": "achievement.minigame_manual_first.title",
+      "description_key": "achievement.minigame_manual_first.description"
+    },
+    {
       "id": "distance_land",
-      "number": 15,
+      "number": 18,
       "category": "exploration",
       "enabled": true,
       "hidden": true,
@@ -987,7 +1095,7 @@
     },
     {
       "id": "departure_first",
-      "number": 16,
+      "number": 19,
       "category": "navigation",
       "enabled": true,
       "hidden": true,
@@ -1007,7 +1115,7 @@
     },
     {
       "id": "ports_all",
-      "number": 17,
+      "number": 20,
       "category": "navigation",
       "enabled": true,
       "hidden": true,
@@ -1028,7 +1136,7 @@
     },
     {
       "id": "auto_navigation_arrival",
-      "number": 18,
+      "number": 21,
       "category": "navigation",
       "enabled": true,
       "hidden": true,
@@ -1052,7 +1160,7 @@
     },
     {
       "id": "holy_oil_prevention",
-      "number": 19,
+      "number": 22,
       "category": "navigation",
       "enabled": true,
       "hidden": true,
@@ -1076,7 +1184,7 @@
     },
     {
       "id": "lime_juice_prevention",
-      "number": 20,
+      "number": 23,
       "category": "navigation",
       "enabled": true,
       "hidden": true,
@@ -1100,7 +1208,7 @@
     },
     {
       "id": "waterless_return",
-      "number": 21,
+      "number": 24,
       "category": "navigation",
       "enabled": true,
       "hidden": true,
@@ -1130,7 +1238,7 @@
     },
     {
       "id": "port_cultures",
-      "number": 22,
+      "number": 25,
       "category": "navigation",
       "enabled": true,
       "hidden": true,
@@ -1153,7 +1261,7 @@
     },
     {
       "id": "distance_sea",
-      "number": 23,
+      "number": 26,
       "category": "navigation",
       "enabled": true,
       "hidden": true,
@@ -1174,7 +1282,7 @@
     },
     {
       "id": "flagship_refits",
-      "number": 24,
+      "number": 27,
       "category": "fleet",
       "enabled": true,
       "hidden": true,
@@ -1200,8 +1308,34 @@
       "description_key": "achievement.flagship_refits.description"
     },
     {
+      "id": "figurehead_curse_lifted",
+      "number": 28,
+      "category": "fleet",
+      "enabled": true,
+      "hidden": true,
+      "progress_scope": "playthrough",
+      "condition": {
+        "type": "figurehead_replacement",
+        "events": [
+          "figurehead_replacement_committed"
+        ],
+        "parameters": {
+          "before_figurehead_ids": [
+            34,
+            35
+          ],
+          "after_figurehead_ids": [
+            20,
+            26
+          ]
+        }
+      },
+      "title_key": "achievement.figurehead_curse_lifted.title",
+      "description_key": "achievement.figurehead_curse_lifted.description"
+    },
+    {
       "id": "flagship_full_repair",
-      "number": 25,
+      "number": 29,
       "category": "fleet",
       "enabled": true,
       "hidden": true,
@@ -1226,7 +1360,7 @@
     },
     {
       "id": "full_fleet_departure",
-      "number": 26,
+      "number": 30,
       "category": "fleet",
       "enabled": true,
       "hidden": true,
@@ -1246,7 +1380,7 @@
     },
     {
       "id": "trade_profit_first",
-      "number": 27,
+      "number": 31,
       "category": "trade",
       "enabled": true,
       "hidden": true,
@@ -1265,7 +1399,7 @@
     },
     {
       "id": "trade_visit_profit",
-      "number": 28,
+      "number": 32,
       "category": "trade",
       "enabled": true,
       "hidden": true,
@@ -1284,7 +1418,7 @@
     },
     {
       "id": "trade_cumulative_profit",
-      "number": 29,
+      "number": 33,
       "category": "trade",
       "enabled": true,
       "hidden": true,
@@ -1304,7 +1438,7 @@
     },
     {
       "id": "trade_single_commodity_profit",
-      "number": 30,
+      "number": 34,
       "category": "trade",
       "enabled": true,
       "hidden": true,
@@ -1325,7 +1459,7 @@
     },
     {
       "id": "bargain_trade_first",
-      "number": 31,
+      "number": 35,
       "category": "trade",
       "enabled": true,
       "hidden": true,
@@ -1346,7 +1480,7 @@
     },
     {
       "id": "sea_victory_first",
-      "number": 32,
+      "number": 36,
       "category": "combat",
       "enabled": true,
       "hidden": true,
@@ -1367,7 +1501,7 @@
     },
     {
       "id": "land_victory_first",
-      "number": 33,
+      "number": 37,
       "category": "combat",
       "enabled": true,
       "hidden": true,
@@ -1388,7 +1522,7 @@
     },
     {
       "id": "duel_victory_first",
-      "number": 34,
+      "number": 38,
       "category": "combat",
       "enabled": true,
       "hidden": true,
@@ -1409,7 +1543,7 @@
     },
     {
       "id": "sea_victory_no_ship_loss",
-      "number": 35,
+      "number": 39,
       "category": "combat",
       "enabled": true,
       "hidden": true,
@@ -1431,7 +1565,7 @@
     },
     {
       "id": "sea_victory_outnumbered",
-      "number": 36,
+      "number": 40,
       "category": "combat",
       "enabled": true,
       "hidden": true,
@@ -1452,7 +1586,7 @@
     },
     {
       "id": "damaged_flagship_return",
-      "number": 37,
+      "number": 41,
       "category": "combat",
       "enabled": true,
       "hidden": true,
@@ -1483,7 +1617,7 @@
     },
     {
       "id": "duel_low_body_part_health",
-      "number": 38,
+      "number": 42,
       "category": "combat",
       "enabled": true,
       "hidden": true,
@@ -1512,7 +1646,7 @@
     },
     {
       "id": "sea_monsters_all",
-      "number": 39,
+      "number": 43,
       "category": "combat",
       "enabled": true,
       "hidden": true,
@@ -1534,7 +1668,7 @@
     },
     {
       "id": "crew_hire_first",
-      "number": 40,
+      "number": 44,
       "category": "people",
       "enabled": true,
       "hidden": true,
@@ -1555,7 +1689,7 @@
     },
     {
       "id": "crew_roles_all",
-      "number": 41,
+      "number": 45,
       "category": "people",
       "enabled": true,
       "hidden": true,
@@ -1576,7 +1710,7 @@
     },
     {
       "id": "sponsor_contract_first",
-      "number": 42,
+      "number": 46,
       "category": "people",
       "enabled": true,
       "hidden": true,
@@ -1595,8 +1729,28 @@
       "description_key": "achievement.sponsor_contract_first.description"
     },
     {
+      "id": "inspector_bribe_first",
+      "number": 47,
+      "category": "people",
+      "enabled": true,
+      "hidden": true,
+      "progress_scope": "playthrough",
+      "condition": {
+        "type": "inspector_bribe_completed",
+        "events": [
+          "inspector_bribe_completed"
+        ],
+        "parameters": {
+          "minimum": 1,
+          "require_payment_committed": true
+        }
+      },
+      "title_key": "achievement.inspector_bribe_first.title",
+      "description_key": "achievement.inspector_bribe_first.description"
+    },
+    {
       "id": "crew_long_service",
-      "number": 43,
+      "number": 48,
       "category": "people",
       "enabled": true,
       "hidden": true,
@@ -1626,7 +1780,7 @@
     },
     {
       "id": "barmaid_affection_max",
-      "number": 44,
+      "number": 49,
       "category": "people",
       "enabled": true,
       "hidden": true,
@@ -1646,7 +1800,7 @@
     },
     {
       "id": "child_birth",
-      "number": 45,
+      "number": 50,
       "category": "people",
       "enabled": true,
       "hidden": true,
@@ -1668,7 +1822,7 @@
     },
     {
       "id": "item_clue_first",
-      "number": 46,
+      "number": 51,
       "category": "items",
       "enabled": true,
       "hidden": true,
@@ -1688,8 +1842,29 @@
       "description_key": "achievement.item_clue_first.description"
     },
     {
+      "id": "mediterranean_seduction_all",
+      "number": 52,
+      "category": "items",
+      "enabled": true,
+      "hidden": true,
+      "progress_scope": "playthrough",
+      "condition": {
+        "type": "acquired_item_collection",
+        "events": [
+          "carried_inventory_changed",
+          "verified_state"
+        ],
+        "parameters": {
+          "collection_id": "mediterranean_seduction_books",
+          "require_simultaneous_possession": false
+        }
+      },
+      "title_key": "achievement.mediterranean_seduction_all.title",
+      "description_key": "achievement.mediterranean_seduction_all.description"
+    },
+    {
       "id": "navigation_equipment_all",
-      "number": 47,
+      "number": 53,
       "category": "items",
       "enabled": true,
       "hidden": true,
@@ -1709,7 +1884,7 @@
     },
     {
       "id": "achievements_all",
-      "number": 48,
+      "number": 54,
       "category": "completion",
       "enabled": true,
       "hidden": true,
@@ -1733,9 +1908,12 @@
             "encyclopedia_myth",
             "encyclopedia_ethnology",
             "discovery_report_first",
+            "counterfeits_all",
+            "mixed_discovery_report",
             "library_clue_discovery",
             "landing_three_discoveries",
             "sea_encounters_all",
+            "minigame_manual_first",
             "distance_land",
             "departure_first",
             "ports_all",
@@ -1746,6 +1924,7 @@
             "port_cultures",
             "distance_sea",
             "flagship_refits",
+            "figurehead_curse_lifted",
             "flagship_full_repair",
             "full_fleet_departure",
             "trade_profit_first",
@@ -1764,10 +1943,12 @@
             "crew_hire_first",
             "crew_roles_all",
             "sponsor_contract_first",
+            "inspector_bribe_first",
             "crew_long_service",
             "barmaid_affection_max",
             "child_birth",
             "item_clue_first",
+            "mediterranean_seduction_all",
             "navigation_equipment_all"
           ],
           "allow_unlocks_from_different_playthroughs": true
