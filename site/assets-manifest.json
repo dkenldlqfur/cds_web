@@ -377,8 +377,8 @@
     {
       "url": "assets/data/achievements.json",
       "path": "/cds95/data/achievements.json",
-      "size": 51606,
-      "sha256": "9d3ef65e7e0b0200ec78d08acea9308972f218a2d25f87f3a10d2ed26bf44a8f",
+      "size": 51669,
+      "sha256": "59a899be53d5b824580e499a493d99c41ef09867fc8dd18a7fbd1b84d8ffd66e",
       "aliases": [],
       "deferred": false
     },

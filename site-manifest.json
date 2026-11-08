@@ -358,8 +358,8 @@
     },
     {
       "path": "assets/data/achievements.json",
-      "size": 51606,
-      "sha256": "9d3ef65e7e0b0200ec78d08acea9308972f218a2d25f87f3a10d2ed26bf44a8f"
+      "size": 51669,
+      "sha256": "59a899be53d5b824580e499a493d99c41ef09867fc8dd18a7fbd1b84d8ffd66e"
     },
     {
       "path": "assets/data/records/appearance_adjustments.json",
@@ -1059,7 +1059,7 @@
     {
       "path": "assets-manifest.json",
       "size": 54222,
-      "sha256": "2c022ecdc37245b8b6c3f35934281ff2619980bcfa132faa402e37f88bbdb52d"
+      "sha256": "20121db3f75be3505ca5ad62dd24f4226afbc339f167b6a2bdbd5a1a82772f1c"
     },
     {
       "path": "build-version.json",
@@ -1068,8 +1068,8 @@
     },
     {
       "path": "cds_native.web.wasm",
-      "size": 9575479,
-      "sha256": "d2f0af178b68eade9c4ecdb6acdec5f1e36fd1e3dc223498e831c6bea44c401f"
+      "size": 9619205,
+      "sha256": "8c40d7f79a1b46b4ca56ef63f1af575e56ebaf4c6f553f65ad0de314df9e23f5"
     },
     {
       "path": "index.apple-touch-icon.png",
@@ -1089,7 +1089,7 @@
     {
       "path": "index.html",
       "size": 22662,
-      "sha256": "349ef058a0098c8d50da99f65219a9d3f9e00094b71fe93305046b6bce0e2bcc"
+      "sha256": "1f6c7584398f8f0ec22132a1655ddf852512cb8937d744698a0796b10d4ed203"
     },
     {
       "path": "index.icon.png",
@@ -1103,8 +1103,8 @@
     },
     {
       "path": "index.pck",
-      "size": 339000864,
-      "sha256": "4085bb33e4aaa74698d312e6edaa9ea170913b6936147203565e39ee19a02b56"
+      "size": 339001664,
+      "sha256": "219507dd65923abd47b2ea56c913f0a37aa3b106409a6fda5175de7d07be9110"
     },
     {
       "path": "index.png",

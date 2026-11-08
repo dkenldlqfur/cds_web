@@ -4,6 +4,8 @@ Android Chrome 및 iPhone Safari에서 접속할 웹 빌드입니다.
 
 게임 접속 주소: **https://dkenldlqfur.github.io/cds_web/**
 
+2026-11-09: **1.1.5** — 이동 표시·구름 이동과 화면 전달 비용을 개선하고, 연속 대사창 및 빌린 배 반납 후 식수 업적이 이어지던 문제를 수정했습니다. [Windows·macOS 다운로드 및 전체 변경 내역](https://github.com/dkenldlqfur/CDS95_Windows/releases/tag/v1.1.5). 웹도 같은 버전입니다. 빌드·정적 검사와 파일 해시 검증을 통과했으며 플레이 테스트는 하지 않았습니다.
+
 2026-11-08: **1.1.4** — 현재 수정본을 Windows·macOS·웹에 반영했습니다. 빌드·정적 검사와 배포 파일 검증을 통과했으며 플레이 테스트는 하지 않았습니다. [Windows·macOS 다운로드](https://github.com/dkenldlqfur/CDS95_Windows/releases/tag/v1.1.4).
 
 2026-11-07: **1.1.2** — 업적 6개를 추가해 전체 54개가 되었습니다. 감찰관 매수, 지중해의 유혹서 전권, 인게임 미니게임 직접 성공, 모든 모조품 발견, 발견물·모조품 동시 보고, 저주받은 선수상 교체를 판정합니다. 업적 전용 그림과 달성 알림을 반영했습니다. [Windows·macOS 다운로드 및 변경 내역](https://github.com/dkenldlqfur/CDS95_Windows/releases/tag/v1.1.2). 플레이 테스트 없이 빌드·정적 검사와 파일 검증을 수행했습니다.

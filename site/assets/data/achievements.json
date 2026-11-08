@@ -1218,6 +1218,8 @@
         "events": [
           "water_depleted",
           "water_replenished",
+          "port_departure_completed",
+          "ship_lost",
           "crew_lost",
           "city_entry_completed",
           "port_water_supply_completed"
