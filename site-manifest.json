@@ -162,11 +162,6 @@
       "sha256": "fcb63b2d3eaf2605ab469bae7895d05a06739acac9b1fd34fe54415c5470a2c8"
     },
     {
-      "path": "assets/core/BOOKSHEL.CDS",
-      "size": 70222,
-      "sha256": "b1a12f6042b3aff241c8921ea4108287e6c674621975821e3ec2267689526e6f"
-    },
-    {
       "path": "assets/core/CDS_95.EXE",
       "size": 1662464,
       "sha256": "efb76b970d5489862ddd8ed4e190d493439a70a29f0d9da5c32386d7cf7ffcd1"
@@ -175,11 +170,6 @@
       "path": "assets/core/CITYFRM.CDS",
       "size": 14484,
       "sha256": "680ec6b522cef2fe692816fad5546e362aadebcc323244e59f307f1f6df32336"
-    },
-    {
-      "path": "assets/core/CLOUD.CDS",
-      "size": 15364,
-      "sha256": "1acb3e2e1e289ce1baced9e348ff1db1f778c364507c1bc4d2bd6043bed01471"
     },
     {
       "path": "assets/core/CP949.BIN",
@@ -235,11 +225,6 @@
       "path": "assets/core/EXTRADATA.CDS",
       "size": 0,
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-    },
-    {
-      "path": "assets/core/FIGHTER.CDS",
-      "size": 1004710,
-      "sha256": "dc78ae0c78ee71bcabd7248ceb15ffbf3b5ca171b266c500aeda6e02000b2a88"
     },
     {
       "path": "assets/core/FISHING.CDS",
@@ -513,8 +498,8 @@
     },
     {
       "path": "assets/data/strings.ko.json",
-      "size": 658500,
-      "sha256": "4f4da7f3e6c01787723dbee8d540456f7f35024ed795fd2f7797c42ef873a7b7"
+      "size": 658738,
+      "sha256": "4ba80da1735772129e1a329d0e3ab7a492091b86572ca120f019b629e6805fc5"
     },
     {
       "path": "assets/data/strings.legacy.json",
@@ -1073,13 +1058,18 @@
     },
     {
       "path": "assets-manifest.json",
-      "size": 55040,
-      "sha256": "d36f41cf235c1bb814ef1e0cf5d191f09db102a721c100cee07567459496537d"
+      "size": 54222,
+      "sha256": "2c022ecdc37245b8b6c3f35934281ff2619980bcfa132faa402e37f88bbdb52d"
+    },
+    {
+      "path": "build-version.json",
+      "size": 252,
+      "sha256": "8bcc860e78ab56093e83ad8d0c44569f191b3b8e6469b2025c842e85db339316"
     },
     {
       "path": "cds_native.web.wasm",
-      "size": 9513511,
-      "sha256": "cb46199aa76d43208c43ba2fc5651eea57f1e6bed048e7659e1489a21a3bdb22"
+      "size": 9575479,
+      "sha256": "d2f0af178b68eade9c4ecdb6acdec5f1e36fd1e3dc223498e831c6bea44c401f"
     },
     {
       "path": "index.apple-touch-icon.png",
@@ -1098,8 +1088,8 @@
     },
     {
       "path": "index.html",
-      "size": 22682,
-      "sha256": "eb65935bd9d80764d54ae8003c2ba5bf41a51b7ba624840179b9b491f0881900"
+      "size": 22662,
+      "sha256": "349ef058a0098c8d50da99f65219a9d3f9e00094b71fe93305046b6bce0e2bcc"
     },
     {
       "path": "index.icon.png",
@@ -1113,8 +1103,8 @@
     },
     {
       "path": "index.pck",
-      "size": 321635608,
-      "sha256": "892444119c4a30f20a3a7ae609bd2f28654f0201773009dbe02a2f808b848d5f"
+      "size": 339000864,
+      "sha256": "4085bb33e4aaa74698d312e6edaa9ea170913b6936147203565e39ee19a02b56"
     },
     {
       "path": "index.png",

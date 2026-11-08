@@ -10,28 +10,10 @@
       "deferred": false
     },
     {
-      "url": "assets/core/BOOKSHEL.CDS",
-      "path": "/cds95/BOOKSHEL.CDS",
-      "size": 70222,
-      "sha256": "b1a12f6042b3aff241c8921ea4108287e6c674621975821e3ec2267689526e6f",
-      "aliases": [
-        "/cds95/BookShel.CDS"
-      ],
-      "deferred": false
-    },
-    {
       "url": "assets/core/CITYFRM.CDS",
       "path": "/cds95/CITYFRM.CDS",
       "size": 14484,
       "sha256": "680ec6b522cef2fe692816fad5546e362aadebcc323244e59f307f1f6df32336",
-      "aliases": [],
-      "deferred": false
-    },
-    {
-      "url": "assets/core/CLOUD.CDS",
-      "path": "/cds95/CLOUD.CDS",
-      "size": 15364,
-      "sha256": "1acb3e2e1e289ce1baced9e348ff1db1f778c364507c1bc4d2bd6043bed01471",
       "aliases": [],
       "deferred": false
     },
@@ -113,16 +95,6 @@
       "size": 0,
       "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "aliases": [],
-      "deferred": false
-    },
-    {
-      "url": "assets/core/FIGHTER.CDS",
-      "path": "/cds95/FIGHTER.CDS",
-      "size": 1004710,
-      "sha256": "dc78ae0c78ee71bcabd7248ceb15ffbf3b5ca171b266c500aeda6e02000b2a88",
-      "aliases": [
-        "/cds95/Fighter.cds"
-      ],
       "deferred": false
     },
     {
@@ -381,8 +353,8 @@
     {
       "url": "assets/data/strings.ko.json",
       "path": "/cds95/data/strings.ko.json",
-      "size": 658500,
-      "sha256": "4f4da7f3e6c01787723dbee8d540456f7f35024ed795fd2f7797c42ef873a7b7",
+      "size": 658738,
+      "sha256": "4ba80da1735772129e1a329d0e3ab7a492091b86572ca120f019b629e6805fc5",
       "aliases": [],
       "deferred": false
     },
