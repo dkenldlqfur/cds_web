@@ -4,6 +4,8 @@ Android Chrome 및 iPhone Safari에서 접속할 웹 빌드입니다.
 
 게임 접속 주소: **https://dkenldlqfur.github.io/cds_web/**
 
+2026-11-10: **1.1.7** — 효과음 MP3 50개를 별도 파일로 제공하고, 게임 시작 전에 내려받아 검증합니다. [Windows 패치·macOS 다운로드](https://github.com/dkenldlqfur/CDS95_Windows/releases/tag/v1.1.7).
+
 2026-11-09: **1.1.6** — 정지 중 구름 이동과 구름 모양을 개선하고 도시 테두리를 고해상도 이미지로 바꿨습니다. 발견 연출을 영상으로 통일하고 효과음과 발견물 데이터를 갱신했습니다. [Windows·macOS 다운로드 및 전체 변경 내역](https://github.com/dkenldlqfur/CDS95_Windows/releases/tag/v1.1.6). 웹 빌드와 정적 검증을 통과했습니다.
 
 2026-11-09: **1.1.5** — 이동 표시·구름 이동, 화면 합성·이미지 전달 처리와 반복 배경음 요청을 개선하고, 빌린 배 반납 후 새 배 보급으로 식수 업적이 달성되던 문제를 수정했습니다. [Windows·macOS 다운로드 및 전체 변경 내역](https://github.com/dkenldlqfur/CDS95_Windows/releases/tag/v1.1.5). 웹도 같은 버전입니다. 빌드·정적 검사와 파일 해시 검증을 통과했으며 플레이 테스트는 하지 않았습니다.
