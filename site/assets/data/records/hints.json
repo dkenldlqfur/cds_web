@@ -553,31 +553,37 @@
     },
     {
       "id": 110,
+      "name_key": "hint.name.110",
       "initial_value": 24000,
       "initially_available": 1
     },
     {
       "id": 111,
+      "name_key": "hint.name.111",
       "initial_value": 28000,
       "initially_available": 1
     },
     {
       "id": 112,
+      "name_key": "hint.name.112",
       "initial_value": 26000,
       "initially_available": 1
     },
     {
       "id": 113,
+      "name_key": "hint.name.113",
       "initial_value": 35000,
       "initially_available": 1
     },
     {
       "id": 114,
+      "name_key": "hint.name.114",
       "initial_value": 43000,
       "initially_available": 1
     },
     {
       "id": 115,
+      "name_key": "hint.name.115",
       "initial_value": 23000,
       "initially_available": 1
     },
@@ -588,6 +594,7 @@
     },
     {
       "id": 117,
+      "name_key": "hint.name.117",
       "initial_value": 50000,
       "initially_available": 1
     },
@@ -638,6 +645,7 @@
     },
     {
       "id": 127,
+      "name_key": "hint.name.127",
       "initial_value": 70000,
       "initially_available": 1
     },
@@ -683,6 +691,7 @@
     },
     {
       "id": 136,
+      "name_key": "hint.name.136",
       "initial_value": 35500,
       "initially_available": 1
     },
@@ -723,6 +732,7 @@
     },
     {
       "id": 144,
+      "name_key": "hint.name.144",
       "initial_value": 55000,
       "initially_available": 1
     },
@@ -758,6 +768,7 @@
     },
     {
       "id": 151,
+      "name_key": "hint.name.151",
       "initial_value": 85000,
       "initially_available": 1
     },

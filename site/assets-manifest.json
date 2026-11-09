@@ -10,22 +10,6 @@
       "deferred": false
     },
     {
-      "url": "assets/core/CITYFRM.CDS",
-      "path": "/cds95/CITYFRM.CDS",
-      "size": 14484,
-      "sha256": "680ec6b522cef2fe692816fad5546e362aadebcc323244e59f307f1f6df32336",
-      "aliases": [],
-      "deferred": false
-    },
-    {
-      "url": "assets/core/DISCOVER.CDS",
-      "path": "/cds95/DISCOVER.CDS",
-      "size": 9376071,
-      "sha256": "ffc3cd80a0b70aeac09c7e0285dce2c3c2296e69d88a0034d99f89e93519125f",
-      "aliases": [],
-      "deferred": false
-    },
-    {
       "url": "assets/core/DISEV.CDS",
       "path": "/cds95/DISEV.CDS",
       "size": 94682,
@@ -86,14 +70,6 @@
       "path": "/cds95/EVSTILL.CDS",
       "size": 1021116,
       "sha256": "415f68965fddb41dda7df1b8f10c7ad67dd335ce5ad52636dcb0a659e2f88f90",
-      "aliases": [],
-      "deferred": false
-    },
-    {
-      "url": "assets/core/EXTRADATA.CDS",
-      "path": "/cds95/EXTRADATA.CDS",
-      "size": 0,
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
       "aliases": [],
       "deferred": false
     },
@@ -269,14 +245,6 @@
       "deferred": false
     },
     {
-      "url": "assets/core/WAVES.CDS",
-      "path": "/cds95/WAVES.CDS",
-      "size": 2381657,
-      "sha256": "cdc87175c8b96074dff10c2d7dcb249281c1e420bb42e2c640121a20a7655838",
-      "aliases": [],
-      "deferred": false
-    },
-    {
       "url": "assets/core/WORLD.CDS",
       "path": "/cds95/WORLD.CDS",
       "size": 6250000,
@@ -293,22 +261,6 @@
       "deferred": false
     },
     {
-      "url": "assets/core/ALL_FONT.16P",
-      "path": "/cds95/ALL_FONT.16P",
-      "size": 104340,
-      "sha256": "dba28f1eab861ed72a8a5274b760de5cff532a24a1f1d8689dba04851201f8e6",
-      "aliases": [],
-      "deferred": false
-    },
-    {
-      "url": "assets/core/ANKFONT.DAT",
-      "path": "/cds95/ANKFONT.DAT",
-      "size": 1536,
-      "sha256": "1b7e66a9ab25e72dd339201ee773f7c6837f49b682f911a3b469a70ab2cc50c6",
-      "aliases": [],
-      "deferred": false
-    },
-    {
       "url": "assets/core/TRAMP.P",
       "path": "/cds95/TRAMP.P",
       "size": 423,
@@ -316,22 +268,6 @@
       "aliases": [
         "/cds95/Tramp.P"
       ],
-      "deferred": false
-    },
-    {
-      "url": "assets/core/GEMT.CFG",
-      "path": "/cds95/GEMT.CFG",
-      "size": 10855,
-      "sha256": "c1f3856512d28e7529deaa8282c64e72ef115e3ee839d57d1eed2c49dba37e9d",
-      "aliases": [],
-      "deferred": false
-    },
-    {
-      "url": "assets/core/SHIP.CFG",
-      "path": "/cds95/SHIP.CFG",
-      "size": 4485,
-      "sha256": "55f141db759722ad3403b1dd758e391e0be5c9e18cb01a36c29771c58068d59a",
-      "aliases": [],
       "deferred": false
     },
     {
@@ -353,8 +289,8 @@
     {
       "url": "assets/data/strings.ko.json",
       "path": "/cds95/data/strings.ko.json",
-      "size": 658738,
-      "sha256": "4ba80da1735772129e1a329d0e3ab7a492091b86572ca120f019b629e6805fc5",
+      "size": 660261,
+      "sha256": "fe319c6993c44f2cc9e6884b9de058d3cd2ef489e7d623ecc95be1280cce8c2f",
       "aliases": [],
       "deferred": false
     },
@@ -377,8 +313,8 @@
     {
       "url": "assets/data/achievements.json",
       "path": "/cds95/data/achievements.json",
-      "size": 51669,
-      "sha256": "59a899be53d5b824580e499a493d99c41ef09867fc8dd18a7fbd1b84d8ffd66e",
+      "size": 51821,
+      "sha256": "fee16e31248ba480081642b7f88681e5d55489466bfa5ddb16bb8864e4040752",
       "aliases": [],
       "deferred": false
     },
@@ -481,16 +417,16 @@
     {
       "url": "assets/data/records/hints.json",
       "path": "/cds95/data/records/hints.json",
-      "size": 17809,
-      "sha256": "609e0f6a9011ae002a233e6887e78895f9c0ea6706db956b016df0e350683477",
+      "size": 18205,
+      "sha256": "608e02947ea0c87ffdafb5f8b4ca0bd6d881f01310d153c9beaaee8c443caf69",
       "aliases": [],
       "deferred": false
     },
     {
       "url": "assets/data/records/items.json",
       "path": "/cds95/data/records/items.json",
-      "size": 59351,
-      "sha256": "07e433c5167b3f65e339296f36fe005fb2576224f48c692f8bc3525a3880baee",
+      "size": 59390,
+      "sha256": "04fda9c0a8dcb5b02218d283e1b421b7f3ac3846e1dbdd6b0691528fd6c05023",
       "aliases": [],
       "deferred": false
     },
@@ -569,8 +505,8 @@
     {
       "url": "assets/data/records/world_catalog.json",
       "path": "/cds95/data/records/world_catalog.json",
-      "size": 146309,
-      "sha256": "4e6fcf4be04e35501e613b1a5a0951ca177678fdb62f06036e2fc67aaf355c6a",
+      "size": 146690,
+      "sha256": "bbf90248f6ddabe189434017dd08cb764a69656891deab995b98e877d3e831a3",
       "aliases": [],
       "deferred": false
     },

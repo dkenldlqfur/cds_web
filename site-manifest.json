@@ -147,16 +147,6 @@
       "sha256": "1ce2e1742096508389a9836f0feee8e76d0ccf9a20aae4a231418743e876c68f"
     },
     {
-      "path": "assets/core/ALL_FONT.16P",
-      "size": 104340,
-      "sha256": "dba28f1eab861ed72a8a5274b760de5cff532a24a1f1d8689dba04851201f8e6"
-    },
-    {
-      "path": "assets/core/ANKFONT.DAT",
-      "size": 1536,
-      "sha256": "1b7e66a9ab25e72dd339201ee773f7c6837f49b682f911a3b469a70ab2cc50c6"
-    },
-    {
       "path": "assets/core/BALANCE.CDS",
       "size": 115363,
       "sha256": "fcb63b2d3eaf2605ab469bae7895d05a06739acac9b1fd34fe54415c5470a2c8"
@@ -167,19 +157,9 @@
       "sha256": "efb76b970d5489862ddd8ed4e190d493439a70a29f0d9da5c32386d7cf7ffcd1"
     },
     {
-      "path": "assets/core/CITYFRM.CDS",
-      "size": 14484,
-      "sha256": "680ec6b522cef2fe692816fad5546e362aadebcc323244e59f307f1f6df32336"
-    },
-    {
       "path": "assets/core/CP949.BIN",
       "size": 262144,
       "sha256": "3146b0f293386d9a1c5814c32ecdde99146e79b164953148803428df3dd63de4"
-    },
-    {
-      "path": "assets/core/DISCOVER.CDS",
-      "size": 9376071,
-      "sha256": "ffc3cd80a0b70aeac09c7e0285dce2c3c2296e69d88a0034d99f89e93519125f"
     },
     {
       "path": "assets/core/DISEV.CDS",
@@ -222,19 +202,9 @@
       "sha256": "415f68965fddb41dda7df1b8f10c7ad67dd335ce5ad52636dcb0a659e2f88f90"
     },
     {
-      "path": "assets/core/EXTRADATA.CDS",
-      "size": 0,
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
-    },
-    {
       "path": "assets/core/FISHING.CDS",
       "size": 64353,
       "sha256": "3967373e04407f797362f94d9935eeb1dfe9e523ecac64671c71cc9e3536719f"
-    },
-    {
-      "path": "assets/core/GEMT.CFG",
-      "size": 10855,
-      "sha256": "c1f3856512d28e7529deaa8282c64e72ef115e3ee839d57d1eed2c49dba37e9d"
     },
     {
       "path": "assets/core/HIST_EV.CDS",
@@ -312,11 +282,6 @@
       "sha256": "8d981a94a45bcf00daa5f960e4dcffb2ab418955cebdde15cae0bfa7e9c93be7"
     },
     {
-      "path": "assets/core/SHIP.CFG",
-      "size": 4485,
-      "sha256": "55f141db759722ad3403b1dd758e391e0be5c9e18cb01a36c29771c58068d59a"
-    },
-    {
       "path": "assets/core/SHIPSTIL.CDS",
       "size": 133036,
       "sha256": "4c074c90bd545deac3332b40a76760fd15c2e174fb09228ae0a67077971a7925"
@@ -347,19 +312,14 @@
       "sha256": "7d5b978862a16d68434164d83dd3f60b63dce03bd16e572b527692ff7f6aa1f8"
     },
     {
-      "path": "assets/core/WAVES.CDS",
-      "size": 2381657,
-      "sha256": "cdc87175c8b96074dff10c2d7dcb249281c1e420bb42e2c640121a20a7655838"
-    },
-    {
       "path": "assets/core/WORLD.CDS",
       "size": 6250000,
       "sha256": "4c9719caafc2a32d65821d8418a7531572042ce43d84f5aabd49671fca6e72ce"
     },
     {
       "path": "assets/data/achievements.json",
-      "size": 51669,
-      "sha256": "59a899be53d5b824580e499a493d99c41ef09867fc8dd18a7fbd1b84d8ffd66e"
+      "size": 51821,
+      "sha256": "fee16e31248ba480081642b7f88681e5d55489466bfa5ddb16bb8864e4040752"
     },
     {
       "path": "assets/data/records/appearance_adjustments.json",
@@ -423,13 +383,13 @@
     },
     {
       "path": "assets/data/records/hints.json",
-      "size": 17809,
-      "sha256": "609e0f6a9011ae002a233e6887e78895f9c0ea6706db956b016df0e350683477"
+      "size": 18205,
+      "sha256": "608e02947ea0c87ffdafb5f8b4ca0bd6d881f01310d153c9beaaee8c443caf69"
     },
     {
       "path": "assets/data/records/items.json",
-      "size": 59351,
-      "sha256": "07e433c5167b3f65e339296f36fe005fb2576224f48c692f8bc3525a3880baee"
+      "size": 59390,
+      "sha256": "04fda9c0a8dcb5b02218d283e1b421b7f3ac3846e1dbdd6b0691528fd6c05023"
     },
     {
       "path": "assets/data/records/matrices.json",
@@ -478,8 +438,8 @@
     },
     {
       "path": "assets/data/records/world_catalog.json",
-      "size": 146309,
-      "sha256": "4e6fcf4be04e35501e613b1a5a0951ca177678fdb62f06036e2fc67aaf355c6a"
+      "size": 146690,
+      "sha256": "bbf90248f6ddabe189434017dd08cb764a69656891deab995b98e877d3e831a3"
     },
     {
       "path": "assets/data/records/zodiac_dates.json",
@@ -498,8 +458,8 @@
     },
     {
       "path": "assets/data/strings.ko.json",
-      "size": 658738,
-      "sha256": "4ba80da1735772129e1a329d0e3ab7a492091b86572ca120f019b629e6805fc5"
+      "size": 660261,
+      "sha256": "fe319c6993c44f2cc9e6884b9de058d3cd2ef489e7d623ecc95be1280cce8c2f"
     },
     {
       "path": "assets/data/strings.legacy.json",
@@ -1058,8 +1018,8 @@
     },
     {
       "path": "assets-manifest.json",
-      "size": 54222,
-      "sha256": "20121db3f75be3505ca5ad62dd24f4226afbc339f167b6a2bdbd5a1a82772f1c"
+      "size": 52255,
+      "sha256": "89c891296ab4096eb78541629479e7ea0302e61ad19e9aa190fb033a1ca7d971"
     },
     {
       "path": "build-version.json",
@@ -1068,8 +1028,8 @@
     },
     {
       "path": "cds_native.web.wasm",
-      "size": 9619205,
-      "sha256": "8c40d7f79a1b46b4ca56ef63f1af575e56ebaf4c6f553f65ad0de314df9e23f5"
+      "size": 9626411,
+      "sha256": "744498d720d8d6d1e1c711088eff56d12d62aa6ea358eaab92e941b96af7e9ed"
     },
     {
       "path": "index.apple-touch-icon.png",
@@ -1089,7 +1049,7 @@
     {
       "path": "index.html",
       "size": 22662,
-      "sha256": "1f6c7584398f8f0ec22132a1655ddf852512cb8937d744698a0796b10d4ed203"
+      "sha256": "b201708f52ae6b156a63914539b08727e493994c7858a81e985ec6d06819e2ab"
     },
     {
       "path": "index.icon.png",
@@ -1103,8 +1063,8 @@
     },
     {
       "path": "index.pck",
-      "size": 339001664,
-      "sha256": "219507dd65923abd47b2ea56c913f0a37aa3b106409a6fda5175de7d07be9110"
+      "size": 343649844,
+      "sha256": "b9e9f3fdcfa5922e652fe9b6624205d8985af83f51e6c54d9f1e9f3770afb2ba"
     },
     {
       "path": "index.png",

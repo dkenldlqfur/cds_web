@@ -1020,7 +1020,7 @@
         ],
         "parameters": {
           "collection_id": "all_discoveries",
-          "minimum": 3,
+          "minimum": 5,
           "require_new_discoveries": true,
           "deduplicate_by": "catalog_id",
           "evaluate_on": "fleet_return_completed",
@@ -1683,7 +1683,13 @@
         "parameters": {
           "minimum": 1,
           "assigned_role": "any",
-          "role_reassignment_counts": false
+          "role_reassignment_counts": false,
+          "collection_id": "crew_roles",
+          "allowed_sources": [
+            "tavern",
+            "inn",
+            "event"
+          ]
         }
       },
       "title_key": "achievement.crew_hire_first.title",

@@ -3604,6 +3604,7 @@
     },
     {
       "id": 142,
+      "name_key": "discovery.name.142",
       "category": 6,
       "internal_id": 310,
       "still_slot": 5,
@@ -3629,6 +3630,7 @@
     },
     {
       "id": 143,
+      "name_key": "discovery.name.143",
       "category": 6,
       "internal_id": 311,
       "still_slot": 1,
@@ -3654,6 +3656,7 @@
     },
     {
       "id": 144,
+      "name_key": "discovery.name.144",
       "category": 6,
       "internal_id": 312,
       "still_slot": 4,
@@ -3679,6 +3682,7 @@
     },
     {
       "id": 145,
+      "name_key": "discovery.name.145",
       "category": 6,
       "internal_id": 313,
       "still_slot": 33,
@@ -3704,6 +3708,7 @@
     },
     {
       "id": 146,
+      "name_key": "discovery.name.146",
       "category": 6,
       "internal_id": 314,
       "still_slot": 6,
@@ -3729,6 +3734,7 @@
     },
     {
       "id": 147,
+      "name_key": "discovery.name.147",
       "category": 6,
       "internal_id": 315,
       "still_slot": 36,
@@ -3806,6 +3812,7 @@
     },
     {
       "id": 150,
+      "name_key": "discovery.name.150",
       "category": 6,
       "internal_id": 319,
       "still_slot": 37,
@@ -4115,7 +4122,7 @@
     },
     {
       "id": 162,
-      "name_key": "exe.005438fc",
+      "name_key": "discovery.name.162",
       "category": 6,
       "internal_id": 331,
       "still_slot": 15,
@@ -4400,7 +4407,7 @@
     },
     {
       "id": 173,
-      "name_key": "exe.00558574",
+      "name_key": "discovery.name.173",
       "category": 6,
       "internal_id": 342,
       "still_slot": 26,
@@ -4627,6 +4634,7 @@
     },
     {
       "id": 182,
+      "name_key": "discovery.name.182",
       "category": 7,
       "internal_id": 351,
       "still_slot": 35,
@@ -4802,6 +4810,7 @@
     },
     {
       "id": 189,
+      "name_key": "discovery.name.189",
       "category": 6,
       "internal_id": 358,
       "still_slot": 24,

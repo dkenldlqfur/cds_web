@@ -1283,7 +1283,7 @@
     },
     {
       "id": 128,
-      "name_key": "exe.005585a0",
+      "name_key": "item.name.128",
       "image": -1,
       "buy_price": 45000,
       "sell_price": 12500,
@@ -1293,7 +1293,7 @@
     },
     {
       "id": 129,
-      "name_key": "exe.00558598",
+      "name_key": "item.name.129",
       "image": -1,
       "buy_price": 70000,
       "sell_price": 15000,
@@ -1303,7 +1303,7 @@
     },
     {
       "id": 130,
-      "name_key": "exe.00558590",
+      "name_key": "item.name.130",
       "image": -1,
       "buy_price": 40000,
       "sell_price": 10000,
@@ -1313,7 +1313,7 @@
     },
     {
       "id": 131,
-      "name_key": "exe.005439a0",
+      "name_key": "item.name.131",
       "image": -1,
       "buy_price": 75000,
       "sell_price": 14000,
@@ -1323,7 +1323,7 @@
     },
     {
       "id": 132,
-      "name_key": "exe.00558588",
+      "name_key": "item.name.132",
       "image": -1,
       "buy_price": 40000,
       "sell_price": 8000,
@@ -1333,7 +1333,7 @@
     },
     {
       "id": 133,
-      "name_key": "exe.0055857c",
+      "name_key": "item.name.133",
       "image": -1,
       "buy_price": 4000,
       "sell_price": 1200,
@@ -1343,7 +1343,7 @@
     },
     {
       "id": 134,
-      "name_key": "exe.00558574",
+      "name_key": "item.name.134",
       "image": -1,
       "buy_price": 6000,
       "sell_price": 2500,
@@ -1373,7 +1373,7 @@
     },
     {
       "id": 137,
-      "name_key": "exe.00558554",
+      "name_key": "item.name.137",
       "image": -1,
       "buy_price": 16000,
       "sell_price": 10000,
@@ -1503,7 +1503,7 @@
     },
     {
       "id": 150,
-      "name_key": "exe.005438fc",
+      "name_key": "item.name.150",
       "image": -1,
       "buy_price": 15000,
       "sell_price": 9500,
@@ -1673,7 +1673,7 @@
     },
     {
       "id": 167,
-      "name_key": "exe.0054382c",
+      "name_key": "item.name.167",
       "image": -1,
       "buy_price": 180000,
       "sell_price": 40000,
@@ -1703,7 +1703,7 @@
     },
     {
       "id": 170,
-      "name_key": "exe.005437f0",
+      "name_key": "item.name.170",
       "image": -1,
       "buy_price": 100000,
       "sell_price": 25000,
@@ -2494,7 +2494,7 @@
     {
       "id": 249,
       "name_key": "exe.005580bc",
-      "image": -1,
+      "image": 238,
       "buy_price": 160,
       "sell_price": 50,
       "effect": 0,
@@ -2504,7 +2504,7 @@
     {
       "id": 250,
       "name_key": "exe.005580b0",
-      "image": -1,
+      "image": 239,
       "buy_price": 900,
       "sell_price": 400,
       "effect": 0,
@@ -2514,7 +2514,7 @@
     {
       "id": 251,
       "name_key": "exe.005580a0",
-      "image": -1,
+      "image": 240,
       "buy_price": 480,
       "sell_price": 200,
       "effect": 0,
@@ -2524,7 +2524,7 @@
     {
       "id": 252,
       "name_key": "exe.00558094",
-      "image": -1,
+      "image": 241,
       "buy_price": 300,
       "sell_price": 100,
       "effect": 0,
@@ -2534,7 +2534,7 @@
     {
       "id": 253,
       "name_key": "exe.00558088",
-      "image": -1,
+      "image": 242,
       "buy_price": 560,
       "sell_price": 200,
       "effect": 0,
@@ -2544,7 +2544,7 @@
     {
       "id": 254,
       "name_key": "exe.0055807c",
-      "image": -1,
+      "image": 243,
       "buy_price": 600,
       "sell_price": 120,
       "effect": 0,
@@ -2554,7 +2554,7 @@
     {
       "id": 255,
       "name_key": "exe.0055806c",
-      "image": -1,
+      "image": 244,
       "buy_price": 125,
       "sell_price": 25,
       "effect": 0,
@@ -2564,7 +2564,7 @@
     {
       "id": 256,
       "name_key": "exe.00558060",
-      "image": -1,
+      "image": 245,
       "buy_price": 210,
       "sell_price": 100,
       "effect": 0,
@@ -2574,7 +2574,7 @@
     {
       "id": 257,
       "name_key": "exe.00558054",
-      "image": -1,
+      "image": 246,
       "buy_price": 700,
       "sell_price": 200,
       "effect": 0,
@@ -2584,7 +2584,7 @@
     {
       "id": 258,
       "name_key": "exe.00558048",
-      "image": -1,
+      "image": 247,
       "buy_price": 360,
       "sell_price": 100,
       "effect": 0,
@@ -2594,7 +2594,7 @@
     {
       "id": 259,
       "name_key": "exe.00558040",
-      "image": -1,
+      "image": 248,
       "buy_price": 250,
       "sell_price": 100,
       "effect": 0,
@@ -2604,7 +2604,7 @@
     {
       "id": 260,
       "name_key": "exe.00558034",
-      "image": -1,
+      "image": 249,
       "buy_price": 80,
       "sell_price": 30,
       "effect": 0,
@@ -2614,7 +2614,7 @@
     {
       "id": 261,
       "name_key": "exe.00558028",
-      "image": -1,
+      "image": 250,
       "buy_price": 560,
       "sell_price": 200,
       "effect": 0,
@@ -2624,7 +2624,7 @@
     {
       "id": 262,
       "name_key": "exe.0055801c",
-      "image": -1,
+      "image": 251,
       "buy_price": 640,
       "sell_price": 250,
       "effect": 0,
@@ -2634,7 +2634,7 @@
     {
       "id": 263,
       "name_key": "exe.0055800c",
-      "image": -1,
+      "image": 252,
       "buy_price": 120,
       "sell_price": 50,
       "effect": 0,
@@ -2644,7 +2644,7 @@
     {
       "id": 264,
       "name_key": "exe.00558000",
-      "image": -1,
+      "image": 253,
       "buy_price": 580,
       "sell_price": 200,
       "effect": 0,
@@ -2654,7 +2654,7 @@
     {
       "id": 265,
       "name_key": "exe.00557ff4",
-      "image": -1,
+      "image": 254,
       "buy_price": 460,
       "sell_price": 150,
       "effect": 0,
@@ -2664,7 +2664,7 @@
     {
       "id": 266,
       "name_key": "exe.00557fe4",
-      "image": -1,
+      "image": 255,
       "buy_price": 20,
       "sell_price": 5,
       "effect": 0,
@@ -2674,7 +2674,7 @@
     {
       "id": 267,
       "name_key": "exe.00557fd8",
-      "image": -1,
+      "image": 256,
       "buy_price": 480,
       "sell_price": 200,
       "effect": 0,
@@ -2684,7 +2684,7 @@
     {
       "id": 268,
       "name_key": "exe.00557fd0",
-      "image": -1,
+      "image": 257,
       "buy_price": 320,
       "sell_price": 100,
       "effect": 0,
@@ -2694,7 +2694,7 @@
     {
       "id": 269,
       "name_key": "exe.00557fc4",
-      "image": -1,
+      "image": 258,
       "buy_price": 800,
       "sell_price": 300,
       "effect": 0,
@@ -2704,7 +2704,7 @@
     {
       "id": 270,
       "name_key": "exe.00557fb0",
-      "image": -1,
+      "image": 259,
       "buy_price": 350,
       "sell_price": 120,
       "effect": 0,
@@ -2714,7 +2714,7 @@
     {
       "id": 271,
       "name_key": "exe.00557fa4",
-      "image": -1,
+      "image": 260,
       "buy_price": 150,
       "sell_price": 50,
       "effect": 0,
@@ -2724,7 +2724,7 @@
     {
       "id": 272,
       "name_key": "exe.00557f9c",
-      "image": -1,
+      "image": 261,
       "buy_price": 1000,
       "sell_price": 350,
       "effect": 2,
@@ -2734,7 +2734,7 @@
     {
       "id": 273,
       "name_key": "exe.00557f90",
-      "image": -1,
+      "image": 262,
       "buy_price": 1500,
       "sell_price": 700,
       "effect": 4,
@@ -2744,7 +2744,7 @@
     {
       "id": 274,
       "name_key": "exe.00557f80",
-      "image": -1,
+      "image": 263,
       "buy_price": 200,
       "sell_price": 50,
       "effect": 1,
@@ -2754,7 +2754,7 @@
     {
       "id": 275,
       "name_key": "exe.00557f70",
-      "image": -1,
+      "image": 264,
       "buy_price": 160,
       "sell_price": 45,
       "effect": 0,
@@ -2764,7 +2764,7 @@
     {
       "id": 276,
       "name_key": "exe.00557f5c",
-      "image": -1,
+      "image": 265,
       "buy_price": 500,
       "sell_price": 190,
       "effect": 0,
