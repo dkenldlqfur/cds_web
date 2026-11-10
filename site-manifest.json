@@ -1264,12 +1264,12 @@
     {
       "path": "assets-manifest.json",
       "size": 65127,
-      "sha256": "af2fa7da6f242cd29e4044f2ccd76cb82093879dda4311e314ddacc8011a3660"
+      "sha256": "b30fbb387efb6ba7312d73aa8a7d1da5cc963d75dee21c7a379e7022764e6f88"
     },
     {
       "path": "build-version.json",
       "size": 1063,
-      "sha256": "db67029f731659987a6c10c46d8a0fcd9910a50abc3a54969d020fd7dc3da126"
+      "sha256": "15bbcb10906e742a3e8d7ecbc6702c840c80d2b961a37af36c14c7dec6ed523a"
     },
     {
       "path": "cds_native.web.wasm",
@@ -1279,12 +1279,12 @@
     {
       "path": "game-data.pck",
       "size": 20256528,
-      "sha256": "79dd5366a7067fae055da7cfd7179b900b42052be9454d8543ee8a23d4cdc5f0"
+      "sha256": "89fb67250753128c56534f44face45ffc8b41b5f02b09579b68d88fb4c568a5d"
     },
     {
       "path": "gameplay.pck",
       "size": 1520228,
-      "sha256": "4d638ba412b5cb54cf9e8d995191d77b169cae973c65fbdc6441ccfe010f5b4c"
+      "sha256": "64199968cb68cf94a7b8978729d5a792687bc85b3b9fdfac00624ba45377ecad"
     },
     {
       "path": "graphics.pck",
@@ -1324,7 +1324,7 @@
     {
       "path": "index.pck",
       "size": 11301128,
-      "sha256": "8718c168d87b23784199eef7b4f02e6337111dab7c5bbc5980f0e692558d4ff6"
+      "sha256": "37cbf89be7dbaef6571cfa142e189d2adbb45d2255f368e9932708be1f2b3642"
     },
     {
       "path": "index.png",
