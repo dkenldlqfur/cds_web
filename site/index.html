@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#14222d">
-<title>대항해시대 3 FPK</title>
+<title data-text-key="ui.application.name"></title>
 <style>
 *{box-sizing:border-box}
 html,body{margin:0;width:100%;height:100%;background:#101820;color:#f3f5ed;font:15px system-ui,sans-serif}
@@ -13,6 +13,8 @@ body{overflow:hidden}
 #app{position:absolute;left:var(--visual-left,0px);top:var(--visual-top,0px);width:var(--visual-width,100%);height:var(--visual-height,100dvh);display:flex;flex-direction:column;align-items:center;justify-content:center;padding:env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left)}
 #screen{position:relative;flex:1;min-width:0;min-height:0;width:100%;overflow:hidden}
 #canvas{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:var(--display-width,640px)!important;height:var(--display-height,480px)!important;display:block;max-width:none;max-height:none;outline:none;touch-action:none;image-rendering:pixelated}
+/* Godot inserts its keyboard targets next to the canvas. Keep them inside the visible game area. */
+#screen > :is(input,textarea){left:50%!important;top:50%!important;width:1px!important;height:20px!important;transform:translate(-50%,-50%);opacity:0;pointer-events:none;font-size:16px}
 button{font:inherit;color:inherit;background:#263b49;border:1px solid #5a7483;border-radius:7px;min-width:44px;min-height:44px;padding:8px 12px;touch-action:manipulation}
 button:active,button[aria-pressed=true]{background:#a77a30;color:#fff}
 button:disabled{opacity:.5}
@@ -20,6 +22,7 @@ button:disabled{opacity:.5}
 #tools{position:absolute;z-index:2;left:50%;top:50%;transform:translate(-50%,-50%);width:var(--display-width,640px);height:var(--display-height,480px);pointer-events:none}
 #tools .direction-controls{position:absolute;left:8px;bottom:8px;transform:scale(var(--controls-scale,1));transform-origin:bottom left}
 #tools[hidden]{display:none}
+#screen.typing #tools{visibility:hidden}
 .direction-pad{display:grid;grid-template-columns:repeat(3,44px);gap:3px}
 #action-keys{position:absolute;right:8px;bottom:8px;transform:scale(var(--controls-scale,1));transform-origin:bottom right;display:grid;grid-template-columns:repeat(3,52px);gap:3px}
 #tools button{pointer-events:auto;touch-action:none;min-width:0;min-height:44px;padding:3px;font-size:13px;line-height:1.15;background:rgba(20,34,45,.58);border-color:rgba(170,197,213,.65);text-shadow:0 1px 2px #000;user-select:none;-webkit-user-select:none}
@@ -44,42 +47,36 @@ body:not(.started) #tools{visibility:hidden}
 <body>
 <main id="app">
  <p id="download" role="status" hidden></p>
- <div id="screen"><canvas id="canvas" width="640" height="480" tabindex="0" aria-label="게임 화면"></canvas>
- <nav id="tools" aria-label="게임 조작">
+ <div id="screen"><canvas id="canvas" width="640" height="480" tabindex="0" data-label-key="ui.30780748669edf30"></canvas>
+ <nav id="tools" data-label-key="ui.42f0fedbccbfad4a">
   <div class="direction-controls">
-   <div class="direction-pad" role="group" aria-label="숫자·방향 키패드">
-    <button type="button" data-key="7" aria-label="7, 왼쪽 위">↖ 7</button><button type="button" data-key="8" aria-label="8, 위">↑ 8</button><button type="button" data-key="9" aria-label="9, 오른쪽 위">↗ 9</button>
-    <button type="button" data-key="4" aria-label="4, 왼쪽">← 4</button><button type="button" data-key="5" aria-label="5, 항해 정지 또는 재개">5</button><button type="button" data-key="6" aria-label="6, 오른쪽">→ 6</button>
-    <button type="button" data-key="1" aria-label="1, 왼쪽 아래">↙ 1</button><button type="button" data-key="2" aria-label="2, 아래">↓ 2</button><button type="button" data-key="3" aria-label="3, 오른쪽 아래">↘ 3</button>
+   <div class="direction-pad" role="group" data-label-key="ui.0febc297cf87d10b">
+    <button type="button" data-key="7" data-label-key="ui.57f38835bd958ccd">↖ 7</button><button type="button" data-key="8" data-label-key="ui.d7aad5b006255b6a">↑ 8</button><button type="button" data-key="9" data-label-key="ui.d0ffcc8293ec282c">↗ 9</button>
+    <button type="button" data-key="4" data-label-key="ui.0102b0d42bd76cba">← 4</button><button type="button" data-key="5" data-label-key="ui.9da569a65ce90118">5</button><button type="button" data-key="6" data-label-key="ui.7c4c35b71368cd97">→ 6</button>
+    <button type="button" data-key="1" data-label-key="ui.d95fb9ff8050d21b">↙ 1</button><button type="button" data-key="2" data-label-key="ui.c6d69bac7f3f642c">↓ 2</button><button type="button" data-key="3" data-label-key="ui.a8aace42d1a9ff25">↘ 3</button>
    </div>
   </div>
   <div id="action-keys">
    <button type="button" data-key="Enter">Enter</button><button type="button" data-key="Escape">Esc</button><button type="button" data-key="Tab">Tab</button>
    <button type="button" data-key=" ">Space</button><button type="button" data-key="0">0</button><button type="button" data-key="Backspace">⌫</button>
-   <button id="right" type="button" aria-pressed="false" aria-label="우클릭 1회">우클릭</button><button id="fullscreen" type="button">전체 화면</button>
+   <button id="right" type="button" aria-pressed="false" data-label-key="ui.2bba708b285d229a" data-text-key="ui.64eba2e33b44a7ba"></button><button id="fullscreen" type="button" data-text-key="ui.21bf97b035e0f177"></button>
   </div>
-  <p id="control-hint" aria-live="polite">키패드: 메뉴 이동 · 항해 방향 지정 · 5는 항해 정지/재개</p>
+  <p id="control-hint" aria-live="polite" data-text-key="ui.72f653b016114184"></p>
  </nav>
  </div>
-<div id="cover"><div id="card"><h1>대항해시대 3 FPK</h1><p id="status" role="status">게임 데이터를 준비합니다.</p><progress id="progress" max="1" value="0"></progress><p id="start-options"><button id="start" disabled>준비 중…</button><button id="start-fullscreen" disabled hidden>전체 화면으로 시작</button></p><p id="tip">가로 화면을 권장합니다. 화면을 눌러 선택하고,<br>우클릭은 버튼을 누른 뒤 게임 화면을 터치하세요.<br>저장은 이 브라우저에 보관됩니다.</p><p id="error" role="alert"></p></div></div>
+<div id="cover"><div id="card"><h1 data-text-key="ui.application.name"></h1><p id="status" role="status" data-text-key="ui.7c08d6650bf463e6"></p><progress id="progress" max="1" value="0"></progress><p id="start-options"><button id="start" disabled data-text-key="ui.44f859dd7059c8ad"></button><button id="start-fullscreen" disabled hidden data-text-key="ui.b1de4db35a38ebf3"></button></p><p id="tip" style="white-space:pre-line" data-text-key="ui.c2cb964797764a5e"></p><p id="error" role="alert"></p></div></div>
 </main>
 <script src="index.js"></script>
 <script>
 'use strict';
-const config={"args":[],"canvasResizePolicy":1,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":true,"executable":"index","experimentalVK":true,"fileSizes":{"index.pck":340694380,"index.wasm":1713410},"focusCanvas":true,"gdextensionLibs":["cds_native.web.wasm"],"godotPoolSize":4};
-// Opt-in freeze checkpoint, not a second runtime error log. Keep only the
-// latest stage so a blocked browser can show it after reloading the same tab.
-if(new URLSearchParams(location.search).get('freeze_debug')==='1'){
- const key='cds95-freeze-checkpoint';
- let previous='';try{previous=sessionStorage.getItem(key)||'';}catch(error){}
- const diagnostic=document.createElement('p');diagnostic.id='freeze-diagnostic';
- diagnostic.style.cssText='position:fixed;left:4px;top:4px;z-index:10000;background:#181818;color:#fff;padding:6px;font:12px monospace;pointer-events:none;max-width:95vw;white-space:pre-wrap';
- diagnostic.textContent=previous?'지난 실행 마지막 처리: '+previous:'멈춤 진단 준비';document.body.appendChild(diagnostic);
- window.CDS95FreezeCheckpoint=stage=>{
-  try{sessionStorage.setItem(key,stage);}catch(error){}
-  diagnostic.textContent=(previous?'지난 실행: '+previous+'\n':'')+'현재 처리: '+stage;
- };
+const webStrings=Object.create(null);
+function ui(key,...args){
+ const text=webStrings[key]??'';
+ return args.length?text.replace(/\{(\d+)\}/g,(_,index)=>String(args[Number(index)]??'')):text;
 }
+globalThis.CDS95WebText=ui;
+
+const config={"args":[],"canvasResizePolicy":1,"emscriptenPoolSize":8,"ensureCrossOriginIsolationHeaders":true,"executable":"index","experimentalVK":true,"fileSizes":{"index.pck":11301128,"index.wasm":1713410},"focusCanvas":true,"gdextensionLibs":["cds_native.web.wasm"],"godotPoolSize":4};
 const canvas=document.getElementById('canvas'),screen=document.getElementById('screen'),start=document.getElementById('start'),status=document.getElementById('status'),progress=document.getElementById('progress');
 const startFullscreen=document.getElementById('start-fullscreen'),app=document.getElementById('app');
 const canFullscreen=Boolean(document.fullscreenEnabled&&typeof app.requestFullscreen==='function');
@@ -95,21 +92,25 @@ config.onProgress=(current,total)=>{
  if(total){
   progress.value=current/total;
   if(enginePreparing){
-   const source=packFromCache?'저장된 게임 패키지 사용 · ':'';
-   status.textContent=`${source}게임 실행 파일 준비 ${Math.min(100,Math.round(current/total*100))}% (${Math.round(current/1048576)}/${Math.round(total/1048576)} MB)`;
+   const source=packFromCache?ui("ui.749de8b620f3c973"):'';
+   status.textContent=ui("ui.d8156b1d9f4e1b60",source,Math.min(100,Math.round(current/total*100)),Math.round(current/1048576),Math.round(total/1048576));
   }
  }
 };
-config.onExit=()=>{document.getElementById('cover').hidden=false;document.getElementById('cover').style.display='flex';status.textContent='게임이 종료되었습니다. 다시 실행하려면 페이지를 새로고침하세요.';start.hidden=true;startFullscreen.hidden=true;};
+config.onExit=()=>{document.getElementById('cover').hidden=false;document.getElementById('cover').style.display='flex';status.textContent=ui("ui.570268534efebada");start.hidden=true;startFullscreen.hidden=true;};
 const engine=new Engine(config);
 function fit(){
  const viewport=window.visualViewport,root=document.documentElement;
  root.style.setProperty('--visual-width',`${viewport?.width||root.clientWidth}px`);
  root.style.setProperty('--visual-height',`${viewport?.height||window.innerHeight}px`);
- root.style.setProperty('--visual-left',`${viewport?.offsetLeft||0}px`);
- root.style.setProperty('--visual-top',`${viewport?.offsetTop||0}px`);
+ // The app is positioned in document coordinates. Keyboard focus can scroll
+ // the document as well as pan the visual viewport on iOS.
+ root.style.setProperty('--visual-left',`${viewport?.pageLeft??(window.scrollX+(viewport?.offsetLeft??0))}px`);
+ root.style.setProperty('--visual-top',`${viewport?.pageTop??(window.scrollY+(viewport?.offsetTop??0))}px`);
  const width=canvas.width||640,height=canvas.height||480;
- const scale=Math.max(0,Math.min(screen.clientWidth/width,screen.clientHeight/height));
+ // Keep the centered editor readable on a tall canvas when the keyboard is open.
+ const visibleHeight=isKeyboardTarget(document.activeElement)?Math.min(height,320):height;
+ const scale=Math.max(0,Math.min(screen.clientWidth/width,screen.clientHeight/visibleHeight));
  const displayWidth=Math.floor(width*scale),displayHeight=Math.floor(height*scale);
  screen.style.setProperty('--display-width',`${displayWidth}px`);
  screen.style.setProperty('--display-height',`${displayHeight}px`);
@@ -117,8 +118,28 @@ function fit(){
 }
 let fitFrame=0;
 function scheduleFit(){if(!fitFrame)fitFrame=requestAnimationFrame(()=>{fitFrame=0;fit();});}
+function isKeyboardTarget(element){return element?.matches('#screen > input, #screen > textarea');}
+const nameEncoder=new TextEncoder();
+let nameCapacity=0,nameInput=null;
+window.CDS95SetNameCapacity=capacity=>{nameCapacity=capacity;};
+function limitNameInput(event){
+ const field=event.target;
+ if(!nameCapacity||field!==nameInput?.field)return;
+ const bytes=nameEncoder.encode(field.value).length;
+ if(bytes<=nameCapacity||bytes<nameInput.bytes){
+  nameInput.value=field.value;nameInput.bytes=bytes;return;
+ }
+ if(event.isComposing){
+  // Leave the OS composition intact, but don't send an overlong draft to Godot.
+  event.stopPropagation();return;
+ }
+ const caret=Math.max(0,field.selectionStart-Math.max(0,field.value.length-nameInput.value.length));
+ field.value=nameInput.value;
+ field.setSelectionRange(caret,caret);
+ event.stopPropagation();
+}
 function requestGameExtent(){
- if(screen.clientWidth<=0||screen.clientHeight<=0)return;
+ if(isKeyboardTarget(document.activeElement)||screen.clientWidth<=0||screen.clientHeight<=0)return;
  const inset=Math.max(0,Math.min(128,Number(window.CDS95MenuInset??32)));
  // Keep a pixel per CSS pixel when space permits. Smaller phone viewports
  // fit the minimum native canvas; larger windows reveal additional content.
@@ -139,14 +160,36 @@ function settleFit(){
 new ResizeObserver(()=>{scheduleFit();requestGameExtent();}).observe(screen);
 new MutationObserver(()=>{scheduleFit();requestGameExtent();}).observe(canvas,{attributes:true,attributeFilter:['width','height']});
 window.addEventListener('resize',settleFit);window.addEventListener('orientationchange',settleFit);
+window.addEventListener('scroll',scheduleFit,{passive:true});
 window.screen?.orientation?.addEventListener('change',settleFit);
 window.addEventListener('pageshow',settleFit);
 document.addEventListener('visibilitychange',()=>{if(!document.hidden)settleFit();});
 window.visualViewport?.addEventListener('resize',settleFit);window.visualViewport?.addEventListener('scroll',scheduleFit);
+screen.addEventListener('focusin',event=>{
+ const field=event.target;
+ if(!isKeyboardTarget(field))return;
+ screen.classList.add('typing');
+ nameInput={field,value:field.value,bytes:nameEncoder.encode(field.value).length};
+ scheduleFit();
+});
+screen.addEventListener('input',limitNameInput,true);
+screen.addEventListener('compositionend',event=>{
+ const field=event.target;
+ if(nameCapacity&&field===nameInput?.field)queueMicrotask(()=>{
+  if(nameCapacity&&field===nameInput?.field&&field.value!==nameInput.value)
+   field.dispatchEvent(new Event('input',{bubbles:true}));
+ });
+});
+screen.addEventListener('focusout',event=>{
+ if(!isKeyboardTarget(event.target))return;
+ nameInput=null;
+ screen.classList.remove('typing');
+ settleFit();
+});
 document.addEventListener('fullscreenchange',settleFit);fit();
-function fail(error){status.textContent='게임을 시작할 수 없습니다.';document.getElementById('error').textContent=String(error.message||error);start.disabled=true;startFullscreen.disabled=true;start.textContent='시작 불가';console.error(error);}
+function fail(error){status.textContent=ui("ui.382b44cd7657c850")||'Unable to start the game.';document.getElementById('error').textContent=String(error.message||error);start.disabled=true;startFullscreen.disabled=true;start.textContent=ui("ui.5a4ed11c0944265b");console.error(error);}
 async function prepareBrowser(){
- if(!isSecureContext)throw new Error('HTTPS 주소로 접속해야 합니다.');
+ if(!isSecureContext)throw new Error(ui("ui.9a3ee74511e97248"));
  const key='cds95-isolation-reload:'+location.pathname;
  const url=new URL('isolation-sw.js',location.href);
  if(globalThis.crossOriginIsolated&&typeof SharedArrayBuffer!=='undefined'){
@@ -156,45 +199,88 @@ async function prepareBrowser(){
    await registration.update();
    const pending=registration.installing||registration.waiting;
    if(pending&&pending.state!=='activated')await new Promise((resolve,reject)=>{
-    const timeout=setTimeout(()=>{pending.removeEventListener('statechange',changed);reject(new Error('게임 업데이트 준비 시간이 초과되었습니다. 새로고침해 주세요.'));},30000);
-    function changed(){if(pending.state==='activated'){clearTimeout(timeout);pending.removeEventListener('statechange',changed);resolve();}else if(pending.state==='redundant'){clearTimeout(timeout);pending.removeEventListener('statechange',changed);reject(new Error('게임 업데이트를 다시 준비해야 합니다. 새로고침해 주세요.'));}}
+    const timeout=setTimeout(()=>{pending.removeEventListener('statechange',changed);reject(new Error(ui("ui.e832d91e663030d3")));},30000);
+    function changed(){if(pending.state==='activated'){clearTimeout(timeout);pending.removeEventListener('statechange',changed);resolve();}else if(pending.state==='redundant'){clearTimeout(timeout);pending.removeEventListener('statechange',changed);reject(new Error(ui("ui.d46cadbdfd4eaa6b")));}}
     pending.addEventListener('statechange',changed);changed();
    });
   }
   sessionStorage.removeItem(key);return true;
  }
- if(!('serviceWorker' in navigator))throw new Error('이 브라우저는 게임 실행 준비 기능을 지원하지 않습니다. 최신 Chrome 또는 Safari를 사용해 주세요.');
- if(sessionStorage.getItem(key)==='1'&&navigator.serviceWorker.controller)throw new Error('게임 실행 준비를 완료하지 못했습니다. 최신 Chrome 또는 Safari에서 주소를 다시 열어 주세요.');
- status.textContent='처음 접속한 브라우저를 준비합니다. 잠시 후 자동으로 다시 열립니다.';
+ if(!('serviceWorker' in navigator))throw new Error(ui("ui.5f14be36976e3cc9"));
+ if(sessionStorage.getItem(key)==='1'&&navigator.serviceWorker.controller)throw new Error(ui("ui.a8b321868e5ea1ee"));
+ status.textContent=ui("ui.f304325a3494d1f9");
  await navigator.serviceWorker.register(url.href,{scope:'./',updateViaCache:'none'});
  await new Promise((resolve,reject)=>{
   const ready=()=>navigator.serviceWorker.controller?.scriptURL===url.href;
   if(ready()){resolve();return;}
-  const timeout=setTimeout(()=>{navigator.serviceWorker.removeEventListener('controllerchange',changed);reject(new Error('브라우저 준비 시간이 초과되었습니다. 페이지를 새로고침해 주세요.'));},30000);
+  const timeout=setTimeout(()=>{navigator.serviceWorker.removeEventListener('controllerchange',changed);reject(new Error(ui("ui.b629bbaea8aa3cae")));},30000);
   function changed(){if(ready()){clearTimeout(timeout);navigator.serviceWorker.removeEventListener('controllerchange',changed);resolve();}}
   navigator.serviceWorker.addEventListener('controllerchange',changed);
   changed();
  });
  sessionStorage.setItem(key,'1');location.reload();return false;
 }
+async function preloadPack(pack, destination){
+ packFromCache=false;
+ const response=await fetch(pack.url);
+ if(!response.ok)throw new Error(ui("ui.130893e0e99c7aa1",pack.url));
+ const data=new Uint8Array(pack.size);
+ const reader=response.body.getReader();
+ let loaded=0;
+ for(;;){
+  const {done,value}=await reader.read();
+  if(done)break;
+  if(value.byteLength>data.byteLength-loaded){await reader.cancel();throw new Error(ui("ui.2135a945695a9060",pack.url));}
+  data.set(value,loaded);loaded+=value.byteLength;config.onProgress(loaded,pack.size);
+ }
+ if(loaded!==data.byteLength)throw new Error(ui("ui.2135a945695a9060",pack.url));
+ const hash=Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',data)),n=>n.toString(16).padStart(2,'0')).join('');
+ if(hash!==pack.sha256)throw new Error(ui("ui.24bfc3d1de66e644",pack.url));
+ await engine.preloadFile(data.buffer,destination);
+}
 async function assets(){
+ const catalogResponse=await fetch('assets/data/strings.ko.json');
+ if(!catalogResponse.ok)throw new Error('Unable to load the game text catalog.');
+ const catalog=await catalogResponse.arrayBuffer();
+ const labels=JSON.parse(new TextDecoder().decode(catalog));
+ for(const key in labels)if(key.startsWith('ui.'))webStrings[key]=labels[key];
+ for(const node of document.querySelectorAll('[data-text-key]'))node.textContent=ui(node.dataset.textKey);
+ for(const node of document.querySelectorAll('[data-label-key]'))node.setAttribute('aria-label',ui(node.dataset.labelKey));
+ // Keep the latest opt-in checkpoint so a blocked browser can show it after reloading.
+ if(new URLSearchParams(location.search).get('freeze_debug')==='1'){
+  const key='cds95-freeze-checkpoint';
+  let previous='';try{previous=sessionStorage.getItem(key)||'';}catch(error){}
+  const diagnostic=document.createElement('p');diagnostic.id='freeze-diagnostic';
+  diagnostic.style.cssText='position:fixed;left:4px;top:4px;z-index:10000;background:#181818;color:#fff;padding:6px;font:12px monospace;pointer-events:none;max-width:95vw;white-space:pre-wrap';
+  diagnostic.textContent=previous?ui("ui.2fb2584822c8f7dc")+previous:ui("ui.64178f2283999f28");document.body.appendChild(diagnostic);
+  window.CDS95FreezeCheckpoint=stage=>{
+   try{sessionStorage.setItem(key,stage);}catch(error){}
+   diagnostic.textContent=(previous?ui("ui.fc17a90c73a03b02")+previous+'\n':'')+ui("ui.d8df267885db7e4d")+stage;
+  };
+ }
+
  if(!await prepareBrowser())return;
- const response=await fetch('assets-manifest.json');if(!response.ok)throw new Error('게임 데이터 목록을 불러오지 못했습니다.');
+ const response=await fetch('assets-manifest.json');if(!response.ok)throw new Error(ui("ui.6062a2f7365d2a6b"));
  const manifest=await response.json();globalThis.CDS95Assets={};for(const file of manifest.files){for(const path of [file.path,...(file.aliases||[])])globalThis.CDS95Assets[path]=file;}
  globalThis.CDS95DownloadStatus=text=>{const banner=document.getElementById('download');banner.textContent=text;banner.hidden=!text;};
  const initial=manifest.files.filter(file=>!file.deferred);let index=0,loaded=0;const total=initial.reduce((n,file)=>n+file.size,0);
- async function worker(){while(index<initial.length){const file=initial[index++];const response=await fetch(file.url);if(!response.ok)throw new Error(`데이터 다운로드 실패: ${file.url}`);const data=await response.arrayBuffer();if(data.byteLength!==file.size)throw new Error(`데이터 크기 불일치: ${file.url}`);
-  const hash=Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',data)),n=>n.toString(16).padStart(2,'0')).join('');if(hash!==file.sha256)throw new Error(`데이터 검증 실패: ${file.url}`);
-  await engine.preloadFile(data,file.path);for(const alias of file.aliases||[])await engine.preloadFile(data,alias);loaded+=file.size;progress.value=loaded/total;status.textContent=`게임 데이터 준비 ${Math.round(loaded/total*100)}%`;
+ async function worker(){while(index<initial.length){const file=initial[index++];const response=file.path==='/cds95/data/strings.ko.json'?null:await fetch(file.url);if(response&&!response.ok)throw new Error(ui("ui.130893e0e99c7aa1",file.url));const data=response?await response.arrayBuffer():catalog;if(data.byteLength!==file.size)throw new Error(ui("ui.2135a945695a9060",file.url));
+  const hash=Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',data)),n=>n.toString(16).padStart(2,'0')).join('');if(hash!==file.sha256)throw new Error(ui("ui.24bfc3d1de66e644",file.url));
+  await engine.preloadFile(data,file.path);for(const alias of file.aliases||[])await engine.preloadFile(data,alias);loaded+=file.size;progress.value=loaded/total;status.textContent=ui("ui.7e8418b0e34e6d82",Math.round(loaded/total*100));
  }}
  await Promise.all([worker(),worker(),worker()]);
- enginePreparing=true;progress.value=0;status.textContent='게임 실행 파일과 엔진을 준비합니다. 처음 접속하면 시간이 걸릴 수 있습니다.';
- try{await Promise.all([engine.init(config.executable),engine.preloadFile(mainPack,mainPack)]);}
+ enginePreparing=true;progress.value=0;status.textContent=ui("ui.873d7c8578a8e195");
+ try{
+  await engine.init(config.executable);
+  for(const pack of manifest.packs){
+   await preloadPack(pack,pack.url===mainPack?mainPack:`/cds95-packs/${pack.url}`);
+  }
+ }
  finally{enginePreparing=false;}
- enginePrepared=true;progress.value=1;status.textContent='준비가 끝났습니다. 시작 방식을 선택하세요.';start.disabled=false;startFullscreen.disabled=false;start.textContent='브라우저에서 시작';
+ enginePrepared=true;progress.value=1;status.textContent=ui("ui.2ef1be5b25f68b4d");start.disabled=false;startFullscreen.disabled=false;start.textContent=ui("ui.3c2298cb72591555");
 }
 async function beginGame(fullscreen){
- if(start.disabled||!enginePrepared)return;start.disabled=true;startFullscreen.disabled=true;start.textContent='실행 중…';status.textContent='게임을 실행합니다…';
+ if(start.disabled||!enginePrepared)return;start.disabled=true;startFullscreen.disabled=true;start.textContent=ui("ui.d452fd237b70da56");status.textContent=ui("ui.03c854eec415802d");
  try{
   // Call directly within this click, before any asynchronous game startup.
   if(fullscreen&&canFullscreen){try{await app.requestFullscreen();}catch(error){console.info(error);}}

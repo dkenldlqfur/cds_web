@@ -1,36 +1,40 @@
 {
-  "size": 340694380,
-  "sha256": "f8d9723514ba0812d7fedba5edcb1880d0f32dd38f228aa4e04cb6040ba42d42",
-  "parts": [
-    {
-      "path": "index.pck.000",
-      "size": 67108864,
-      "sha256": "04fb6e75ca2f617a0df729fd8c6116ac9da409935f9057a7bc062ccbcf8da84e"
-    },
-    {
-      "path": "index.pck.001",
-      "size": 67108864,
-      "sha256": "b0393fd6bf5564714dbc5491480e6859fb403d5dc2eeaceab90564d65030cf7d"
-    },
-    {
-      "path": "index.pck.002",
-      "size": 67108864,
-      "sha256": "2b642e3688ca62ad2d240ad6eb5713d1f19735b8548279939c91df8e73fbe7e7"
-    },
-    {
-      "path": "index.pck.003",
-      "size": 67108864,
-      "sha256": "71971148d92a9c220187c5d6dd7d8575733281a90a82c2d6a32209b9b3c51ceb"
-    },
-    {
-      "path": "index.pck.004",
-      "size": 67108864,
-      "sha256": "f1cef701683f6e296db22e9a04ce67e4f0c05fad36ecbc3870a46e4c64c85354"
-    },
-    {
-      "path": "index.pck.005",
-      "size": 5150060,
-      "sha256": "275eaa03b17c1e1bbcae8bd727569ed6d2dc318121a92985acb8be2b16a0746e"
+  "packs": {
+    "graphics.pck": {
+      "size": 338185908,
+      "sha256": "06c5f13cd27783a0a4e52cc13ed9be7570bddefcdab80b290da91a8b6b93c7b4",
+      "parts": [
+        {
+          "path": "graphics.pck.000",
+          "size": 67108864,
+          "sha256": "864d2f787ad838ecf683c73c518ca2d5b29cfdc578c79dcc2eb6896067bfe765"
+        },
+        {
+          "path": "graphics.pck.001",
+          "size": 67108864,
+          "sha256": "985f7cbe78ee267086c9c03d4370310e65fc7607fdf4925e4b67cf6eeddb9d49"
+        },
+        {
+          "path": "graphics.pck.002",
+          "size": 67108864,
+          "sha256": "f1fafa24c94162e950a968ca07d1f77522e2d1ba6046499657c097f91427d637"
+        },
+        {
+          "path": "graphics.pck.003",
+          "size": 67108864,
+          "sha256": "a9ead69bd05ec99841eb45631179513c757020a87a325037e98c569252d718da"
+        },
+        {
+          "path": "graphics.pck.004",
+          "size": 67108864,
+          "sha256": "e651cee0240c0dee7d486e456dc920818274432d23ca268b5fca6d79e1180064"
+        },
+        {
+          "path": "graphics.pck.005",
+          "size": 2641588,
+          "sha256": "6f8e8b3694783f597dc227f74b1d8140ca6f92a49c2c13e2115ea3340073cf69"
+        }
+      ]
     }
-  ]
+  }
 }

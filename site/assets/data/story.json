@@ -1,10 +1,10 @@
 [
   {
-    "name": "라몬(포르투갈)",
+    "name_key": "exe.00571998",
     "file": "STORY0.CDS",
     "initial": {
-      "surname": "라몬",
-      "given_name": "데·마르시아스",
+      "surname_key": "ui.c7f82d1158ac8698",
+      "given_name_key": "ui.ce9938f21604483e",
       "portrait": 5,
       "sex": 0,
       "nationality": 0,
@@ -23,11 +23,11 @@
     }
   },
   {
-    "name": "에밀리오(에스파니아)",
+    "name_key": "exe.005719a8",
     "file": "STORY1.CDS",
     "initial": {
-      "surname": "에밀리오",
-      "given_name": "알발레스",
+      "surname_key": "ui.6986e0fa9248967c",
+      "given_name_key": "ui.cac0f96db3aef71c",
       "portrait": 14,
       "sex": 0,
       "nationality": 1,

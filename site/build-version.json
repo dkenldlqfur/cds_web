@@ -1,6 +1,34 @@
 {
-  "version": "1.1.4",
-  "built_at": "2026-11-08T08:39:00.098347+00:00",
-  "pck_sha256": "4085bb33e4aaa74698d312e6edaa9ea170913b6936147203565e39ee19a02b56",
-  "native_sha256": "d2f0af178b68eade9c4ecdb6acdec5f1e36fd1e3dc223498e831c6bea44c401f"
+  "version": "1.2.0",
+  "channel": "public",
+  "built_at": "2026-11-10T18:30:24.959253+00:00",
+  "pck_sha256": "8718c168d87b23784199eef7b4f02e6337111dab7c5bbc5980f0e692558d4ff6",
+  "native_sha256": "37bfce8abfa24fd99dc64e6f26d7a1b894dd2c6d8392e49ffbabc646b5b912d2",
+  "packs": [
+    {
+      "url": "index.pck",
+      "size": 11301128,
+      "sha256": "8718c168d87b23784199eef7b4f02e6337111dab7c5bbc5980f0e692558d4ff6"
+    },
+    {
+      "url": "gameplay.pck",
+      "size": 1520228,
+      "sha256": "4d638ba412b5cb54cf9e8d995191d77b169cae973c65fbdc6441ccfe010f5b4c"
+    },
+    {
+      "url": "interface.pck",
+      "size": 1468456,
+      "sha256": "6a02d9ac43f608a879281898246a6a72279f4f3949a026307dae678e6d590dbd"
+    },
+    {
+      "url": "game-data.pck",
+      "size": 20256528,
+      "sha256": "79dd5366a7067fae055da7cfd7179b900b42052be9454d8543ee8a23d4cdc5f0"
+    },
+    {
+      "url": "graphics.pck",
+      "size": 338185908,
+      "sha256": "06c5f13cd27783a0a4e52cc13ed9be7570bddefcdab80b290da91a8b6b93c7b4"
+    }
+  ]
 }

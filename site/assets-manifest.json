@@ -12,48 +12,40 @@
     {
       "url": "assets/core/DISEV.CDS",
       "path": "/cds95/DISEV.CDS",
-      "size": 94682,
-      "sha256": "6a1d9a7bcb602b60e8175cca4d2ac3701ef4a48c178297448fbc5b87597fe0f4",
-      "aliases": [],
-      "deferred": false
-    },
-    {
-      "url": "assets/core/DSTILL.CDS",
-      "path": "/cds95/DSTILL.CDS",
-      "size": 5592628,
-      "sha256": "d7c901a5d3b1dafe49125264b5c657145ad442c29147c1ea313d8a271375ca3f",
+      "size": 91392,
+      "sha256": "67fcd690dc2bc6084eaaa2b46b59b6a8e85fe4e894b25217376cb888a80546b0",
       "aliases": [],
       "deferred": false
     },
     {
       "url": "assets/core/ECQ.CDS",
       "path": "/cds95/ECQ.CDS",
-      "size": 10366,
-      "sha256": "10a5754d8776038a834e4472c5b3ad4b8ceb64a896d3ef156d2b4df489b251ca",
+      "size": 9360,
+      "sha256": "1693c3425f451955acad897298ed03e82fb7bcd7045b1faac89ceaa5f2dc46ae",
       "aliases": [],
       "deferred": false
     },
     {
       "url": "assets/core/EDG.CDS",
       "path": "/cds95/EDG.CDS",
-      "size": 8421,
-      "sha256": "1b78b3a2153057dbc325180a10057feed6159cecd7807fadc72b87f0bcba2fb0",
+      "size": 8325,
+      "sha256": "01a364de0ecdaddde29c4c87803423c657a4b2c29407cc9b198426038cb85a3f",
       "aliases": [],
       "deferred": false
     },
     {
       "url": "assets/core/EEX.CDS",
       "path": "/cds95/EEX.CDS",
-      "size": 10006,
-      "sha256": "6f9a80f9cba79ea898a13a45de7aa03777bfa880a6d5fe407ccd124870a48cba",
+      "size": 8975,
+      "sha256": "7d60d97befd3f8992db0110aa26b7cb43d28ff1d9ad475e14b64c7edaa8820d9",
       "aliases": [],
       "deferred": false
     },
     {
       "url": "assets/core/EHT.CDS",
       "path": "/cds95/EHT.CDS",
-      "size": 8731,
-      "sha256": "b2ac3713027e317ab47f323534547280034bb571d15d2fb7abeff87e8a1ce4c1",
+      "size": 8823,
+      "sha256": "b39cb3bb5d58638211ecb30994079aa3904bb55582ae7fdc79706e40dd988406",
       "aliases": [],
       "deferred": false
     },
@@ -84,16 +76,16 @@
     {
       "url": "assets/core/HIST_EV.CDS",
       "path": "/cds95/HIST_EV.CDS",
-      "size": 9214,
-      "sha256": "6095ad9679be24d4f8d98ab2cdaa1e85fde71bb5f98d90f14ad7c314bf86aaad",
+      "size": 10151,
+      "sha256": "4e1869ef3d2b5529c021c2e44dfe64a9acf74aa69e7e846d051c240a2b256686",
       "aliases": [],
       "deferred": false
     },
     {
       "url": "assets/core/HISTCHR.CDS",
       "path": "/cds95/HISTCHR.CDS",
-      "size": 15627,
-      "sha256": "719e42f440b8a12c70483901b1f36233349d24222c55d54df7904b375a867619",
+      "size": 17893,
+      "sha256": "8c0ffc45981d25539b64cf7032d8dfbb15804ba6fcc3eb1b0bdb5b574a4f96bd",
       "aliases": [],
       "deferred": false
     },
@@ -153,32 +145,32 @@
     {
       "url": "assets/core/PCQ.CDS",
       "path": "/cds95/PCQ.CDS",
-      "size": 10456,
-      "sha256": "d9ae7617283bc5c9309c88b124604b8501686fcd1fcd26cd25320b5424a20357",
+      "size": 10622,
+      "sha256": "2949b6a4da5b6ab11c97ecd180de9d13097563ec806542798b18331b68b4e5f9",
       "aliases": [],
       "deferred": false
     },
     {
       "url": "assets/core/PDG.CDS",
       "path": "/cds95/PDG.CDS",
-      "size": 6927,
-      "sha256": "904b7d184b7be2b4db53794cf0439b72b2c49c40b86ac8c0020a2c4f9ed96bf2",
+      "size": 6824,
+      "sha256": "34f83e57e9cbdc6a221d7037259ec720d09e0c97bf906c1eb876a1b889a1e610",
       "aliases": [],
       "deferred": false
     },
     {
       "url": "assets/core/PEX.CDS",
       "path": "/cds95/PEX.CDS",
-      "size": 7395,
-      "sha256": "bc3b317850be8896662d3d9f2b350bff3ec8507a3010c209504f1302f068940c",
+      "size": 6906,
+      "sha256": "e5cc5fa1ffdf3884922672259567ba953a0f29b3130fdb5f83f3e3c187f1236a",
       "aliases": [],
       "deferred": false
     },
     {
       "url": "assets/core/PHT.CDS",
       "path": "/cds95/PHT.CDS",
-      "size": 11262,
-      "sha256": "e1adc34e01f0b120a5eebd5c87aa9e479df7f726dd216dd1506fd9aa94b106cd",
+      "size": 11400,
+      "sha256": "ed764a5bee19f6462782054d22723e294754e27a60a1f916ce5dc5916b16268a",
       "aliases": [],
       "deferred": false
     },
@@ -213,16 +205,16 @@
     {
       "url": "assets/core/STORY0.CDS",
       "path": "/cds95/STORY0.CDS",
-      "size": 11378,
-      "sha256": "43e959647b24a4bf278ff570e8f3f0acc2dc485aa56f7aac4d4623bd97bf9835",
+      "size": 8202,
+      "sha256": "29b6550579af22e0033ecb17ad427dac993a2a86c8a6d65722ae160977bf2fd7",
       "aliases": [],
       "deferred": false
     },
     {
       "url": "assets/core/STORY1.CDS",
       "path": "/cds95/STORY1.CDS",
-      "size": 11573,
-      "sha256": "1bc6870e87f34f6368c173fe71caa5e8840858ff1c7a788e4e74d0160b390741",
+      "size": 9324,
+      "sha256": "b3d66c3a4ca0a4180582b0b4cb65f8d3967a1be09e3550f1227819e8494673a5",
       "aliases": [],
       "deferred": false
     },
@@ -289,24 +281,16 @@
     {
       "url": "assets/data/strings.ko.json",
       "path": "/cds95/data/strings.ko.json",
-      "size": 660261,
-      "sha256": "fe319c6993c44f2cc9e6884b9de058d3cd2ef489e7d623ecc95be1280cce8c2f",
-      "aliases": [],
-      "deferred": false
-    },
-    {
-      "url": "assets/data/strings.legacy.json",
-      "path": "/cds95/data/strings.legacy.json",
-      "size": 10869110,
-      "sha256": "33a227ffe6d425d634402b3e65af7a970a800d1f574be8d4d279d6a66cc9b4f5",
+      "size": 1154744,
+      "sha256": "917aa5a34dc882039b82e8b377763f0767bcbec6c830cfd4723dd667473fdd72",
       "aliases": [],
       "deferred": false
     },
     {
       "url": "assets/data/story.json",
       "path": "/cds95/data/story.json",
-      "size": 1195,
-      "sha256": "cb06cad198edc56793f8f7b527acc00e75482b1b2aee3b409483ab32b5ce1ac8",
+      "size": 1220,
+      "sha256": "6d6cdee3ffed5a56860265ea312d00058be8c98123f6b39b03701f386e14cb75",
       "aliases": [],
       "deferred": false
     },
@@ -370,7 +354,7 @@
       "url": "assets/data/records/cities.json",
       "path": "/cds95/data/records/cities.json",
       "size": 155106,
-      "sha256": "91161152faf1636c6bcd440a19379eadbfbb2fbd3620a0a5bfaac06571285d2f",
+      "sha256": "014ac9af08a31cca8bbce46bcbb8602824e598f11cdd74e9685a43555cd099d6",
       "aliases": [],
       "deferred": false
     },
@@ -425,8 +409,8 @@
     {
       "url": "assets/data/records/items.json",
       "path": "/cds95/data/records/items.json",
-      "size": 59390,
-      "sha256": "04fda9c0a8dcb5b02218d283e1b421b7f3ac3846e1dbdd6b0691528fd6c05023",
+      "size": 66326,
+      "sha256": "71a8ff5aaced5e57464e5029cd53986286aff1ddb708c0af0b28ee6672645278",
       "aliases": [],
       "deferred": false
     },
@@ -457,8 +441,8 @@
     {
       "url": "assets/data/records/people.json",
       "path": "/cds95/data/records/people.json",
-      "size": 284908,
-      "sha256": "a78b86d59aec31828c681d9a23f5b15e2a147f095fed13a52425d6a731972fb0",
+      "size": 291652,
+      "sha256": "420b4387e6da343d603a4fc6220d9837a57c531772121dd69cbd5e844788d765",
       "aliases": [],
       "deferred": false
     },
@@ -2029,6 +2013,33 @@
       "sha256": "f03e1b7873661b6c71a3b212bf3f1ee7e5e852604ab6efb8cffdc930efaef5b5",
       "aliases": [],
       "deferred": true
+    }
+  ],
+  "packs": [
+    {
+      "url": "index.pck",
+      "size": 11301128,
+      "sha256": "8718c168d87b23784199eef7b4f02e6337111dab7c5bbc5980f0e692558d4ff6"
+    },
+    {
+      "url": "gameplay.pck",
+      "size": 1520228,
+      "sha256": "4d638ba412b5cb54cf9e8d995191d77b169cae973c65fbdc6441ccfe010f5b4c"
+    },
+    {
+      "url": "interface.pck",
+      "size": 1468456,
+      "sha256": "6a02d9ac43f608a879281898246a6a72279f4f3949a026307dae678e6d590dbd"
+    },
+    {
+      "url": "game-data.pck",
+      "size": 20256528,
+      "sha256": "79dd5366a7067fae055da7cfd7179b900b42052be9454d8543ee8a23d4cdc5f0"
+    },
+    {
+      "url": "graphics.pck",
+      "size": 338185908,
+      "sha256": "06c5f13cd27783a0a4e52cc13ed9be7570bddefcdab80b290da91a8b6b93c7b4"
     }
   ]
 }

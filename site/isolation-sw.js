@@ -1,9 +1,10 @@
 // GitHub Pages bootstrap: apply the same isolation headers as Godot's
-// official PWA worker. Keep one copy of the main pack and revalidate its ETag.
+// official PWA worker. Keep one copy of each pack and revalidate its ETag.
 'use strict';
 const packCacheName = 'cds95-main-pack-v1';
+const packNames = ['index.pck', 'gameplay.pck', 'interface.pck', 'game-data.pck', 'graphics.pck'];
 
-async function fetchMainPack(request) {
+async function fetchPack(request) {
   let cache, cached;
   try {
     cache = await caches.open(packCacheName);
@@ -44,8 +45,8 @@ self.addEventListener('fetch', event => {
   if (url.origin !== self.location.origin) return;
   if (request.cache === 'only-if-cached' && request.mode !== 'same-origin') return;
   if (request.method === 'GET' && !request.headers.has('Range') &&
-      url.href === new URL('index.pck', self.registration.scope).href) {
-    const pack = fetchMainPack(request);
+      packNames.some(name => url.href === new URL(name, self.registration.scope).href)) {
+    const pack = fetchPack(request);
     event.waitUntil(pack.then(async ({write, cacheHit}) => {
       if (cacheHit && event.clientId) {
         const client = await self.clients.get(event.clientId);
