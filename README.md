@@ -4,9 +4,7 @@ Android Chrome 및 iPhone Safari에서 접속할 웹 빌드입니다.
 
 게임 접속 주소: **https://dkenldlqfur.github.io/cds_web/**
 
-2026-11-11: **1.2.1** — 데스크톱 1.2.0에서 시작할 때 기본 데이터를 찾지 못하던 문제를 수정했습니다. 공개 웹도 같은 버전으로 갱신했습니다. [Windows·macOS 다운로드](https://github.com/dkenldlqfur/CDS95_Windows/releases/tag/v1.2.1).
-
-2026-11-11: **1.2.0** — 인물 등록과 편집 UI, 항해사 정보, 미니게임, 고해상도 삽화를 갱신했습니다. 웹 1.1.8 이후의 이벤트 텍스트와 육상전 배치 수정도 포함합니다. 리소스 팩을 분리해 변경 없는 팩은 캐시에서 재사용할 수 있습니다. [Windows·macOS 다운로드와 변경 내역](https://github.com/dkenldlqfur/CDS95_Windows/releases/tag/v1.2.0).
+2026-11-11: **1.2.0** — 인물 등록과 편집 UI, 항해사 정보, 미니게임, 고해상도 삽화를 갱신했습니다. 웹 1.1.8 이후의 이벤트 텍스트와 육상전 배치 수정도 포함합니다. Windows와 macOS 배포본에는 시작 시 기본 데이터 오류 수정과 연속 패치 기능이 포함됩니다. 리소스 팩을 분리해 변경 없는 팩은 캐시에서 재사용할 수 있습니다. [Windows·macOS 다운로드와 변경 내역](https://github.com/dkenldlqfur/CDS95_Windows/releases/tag/v1.2.0).
 
 2026-11-10: **1.1.8** — 1.1.5 이후의 정지 중 구름 이동, 도시 테두리, 발견 연출, 효과음 변경을 포함합니다. [Windows·macOS 전체 ZIP과 변경 내역](https://github.com/dkenldlqfur/CDS95_Windows/releases/tag/v1.1.8).
 
