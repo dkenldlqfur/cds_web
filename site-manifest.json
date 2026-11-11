@@ -388,8 +388,8 @@
     },
     {
       "path": "assets/data/records/items.json",
-      "size": 66326,
-      "sha256": "71a8ff5aaced5e57464e5029cd53986286aff1ddb708c0af0b28ee6672645278"
+      "size": 78517,
+      "sha256": "53c438349629f6b729ef2787c77e403dd9ccc47bbfc114eaeaa789dfb18e37ea"
     },
     {
       "path": "assets/data/records/matrices.json",
@@ -409,7 +409,7 @@
     {
       "path": "assets/data/records/people.json",
       "size": 291652,
-      "sha256": "420b4387e6da343d603a4fc6220d9837a57c531772121dd69cbd5e844788d765"
+      "sha256": "441f6d8361e5bab88a39db3fc3efa93e9ea6c0fee72412f6603c261ba9052bb9"
     },
     {
       "path": "assets/data/records/regional_goods.json",
@@ -458,8 +458,8 @@
     },
     {
       "path": "assets/data/strings.ko.json",
-      "size": 1154744,
-      "sha256": "917aa5a34dc882039b82e8b377763f0767bcbec6c830cfd4723dd667473fdd72"
+      "size": 1156291,
+      "sha256": "528df81399cd17bda75ccb3d3774c7dca5fb0a622b5a1dd41e332e3841b86d69"
     },
     {
       "path": "assets/sfx/WAVES_00.mp3",
@@ -1263,33 +1263,83 @@
     },
     {
       "path": "assets-manifest.json",
-      "size": 65127,
-      "sha256": "783a444d44fa2023bbaf49cf402e1dac7b5c27ca8867742c9a336abc90dc8b72"
+      "size": 66709,
+      "sha256": "4ed2c2205545189966882b2638533c1fc13abce7c2b2dd45d7df63144e1855aa"
     },
     {
       "path": "build-version.json",
-      "size": 1063,
-      "sha256": "15bbcb10906e742a3e8d7ecbc6702c840c80d2b961a37af36c14c7dec6ed523a"
+      "size": 2645,
+      "sha256": "5b3c3306ebd0bf3043d8ac2edc941e17b9313d564b3dbb261a0b57492c98e91b"
     },
     {
       "path": "cds_native.web.wasm",
-      "size": 9663644,
-      "sha256": "37bfce8abfa24fd99dc64e6f26d7a1b894dd2c6d8392e49ffbabc646b5b912d2"
+      "size": 9674332,
+      "sha256": "046eaaf4ffe536d5ddbd81cd35f343fffc54b02f36f9868dd5a5aa1e007230dc"
     },
     {
       "path": "game-data.pck",
-      "size": 20256528,
-      "sha256": "79dd5366a7067fae055da7cfd7179b900b42052be9454d8543ee8a23d4cdc5f0"
+      "size": 20270256,
+      "sha256": "e352a37da5a2bc7ad31c4cc704fc65ab5c41f1628696c1c0fd1855129490975d"
     },
     {
       "path": "gameplay.pck",
-      "size": 1521108,
-      "sha256": "53981308153c8e55b6d8fcc24b0d0a04c7894000c64d126f1bf0a57eb865adb2"
+      "size": 1550912,
+      "sha256": "a5746ec65dec2857491dd7a88d483cdb430ca8c1c16c330e213a460535c53605"
     },
     {
-      "path": "graphics.pck",
-      "size": 338185908,
-      "sha256": "06c5f13cd27783a0a4e52cc13ed9be7570bddefcdab80b290da91a8b6b93c7b4"
+      "path": "graphics-001.pck",
+      "size": 31775588,
+      "sha256": "bb9433cd8ba53cc7867ca59d90158c82dcaa6e0f277c918815b4a6526da87b67"
+    },
+    {
+      "path": "graphics-002.pck",
+      "size": 32820128,
+      "sha256": "8c51754a999fabe978cce978ece40d1e113958c7032ba771790546446adeab77"
+    },
+    {
+      "path": "graphics-003.pck",
+      "size": 33551376,
+      "sha256": "aabc8ad6753934d17bb05168b626e72a1876c8c572a008cff8999bb2158ece02"
+    },
+    {
+      "path": "graphics-004.pck",
+      "size": 33113428,
+      "sha256": "cbb016daee4200364b2ef64d788d4665e243d54c9bbe1cb6dcfe531d56acb948"
+    },
+    {
+      "path": "graphics-005.pck",
+      "size": 33499360,
+      "sha256": "1a6119a08f3d7c4913bb17a5ba978f471af5904de7bd8180a34103a5306d464b"
+    },
+    {
+      "path": "graphics-006.pck",
+      "size": 33488208,
+      "sha256": "8be580f052c3808b04c6df60113205bda2cdb33a6344775b641d48984221a1b0"
+    },
+    {
+      "path": "graphics-007.pck",
+      "size": 33168156,
+      "sha256": "51f98666ef3739736abd6f6705a37634f016e73abf2e5e5132065aad3356d697"
+    },
+    {
+      "path": "graphics-008.pck",
+      "size": 33539424,
+      "sha256": "58967c70c2bf253fce1c5f2ac6e113051bee43c6268012d8787f012d17c462fc"
+    },
+    {
+      "path": "graphics-009.pck",
+      "size": 33356948,
+      "sha256": "0747efe404fc3ed3139d75c9a4b2bdf9575e8af12c55019fb68daefd5a14f1f9"
+    },
+    {
+      "path": "graphics-010.pck",
+      "size": 32128896,
+      "sha256": "cbb1e5d3881ba0759ea55f8d7206524eb2d4d94e30b309539fcd5a00f2265e69"
+    },
+    {
+      "path": "graphics-011.pck",
+      "size": 8244300,
+      "sha256": "3cdfb687b09fd6720dac1be18cc47cc444719b48717014d54c4df0fd94ffbb37"
     },
     {
       "path": "index.apple-touch-icon.png",
@@ -1308,8 +1358,8 @@
     },
     {
       "path": "index.html",
-      "size": 26289,
-      "sha256": "566eef5f5ddac196087b4ab7ad0a0df75e991de478ea765e0dcd00520d49bee7"
+      "size": 27222,
+      "sha256": "690850175774d8e043781bb6853c97fd1eb972bf3087436a4dfd126af44a7b8b"
     },
     {
       "path": "index.icon.png",
@@ -1323,8 +1373,8 @@
     },
     {
       "path": "index.pck",
-      "size": 11301128,
-      "sha256": "f335be3f615b0e741b35095ab4fa92f29e51a43c6700e7b767213d977f8a890f"
+      "size": 11301896,
+      "sha256": "305180beb97ba9848d0c0185098845cbd988ada8d669a75cf870c0c13b7758c1"
     },
     {
       "path": "index.png",
@@ -1348,8 +1398,8 @@
     },
     {
       "path": "isolation-sw.js",
-      "size": 2573,
-      "sha256": "08a1062686b1ca3ebc772e72e38f69b5c00f996851e07a16ad75aec98afd4ac2"
+      "size": 2821,
+      "sha256": "6c9e322b5a976d4134c6d88c7ea5a8ce89ba3a24421413844c76cddc4a177463"
     },
     {
       "path": "LICENSE.DroidSans.txt",

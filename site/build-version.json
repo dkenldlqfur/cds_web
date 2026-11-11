@@ -1,19 +1,19 @@
 {
   "version": "1.2.1",
   "channel": "public",
-  "built_at": "2026-11-10T19:01:05.765141+00:00",
-  "pck_sha256": "37cbf89be7dbaef6571cfa142e189d2adbb45d2255f368e9932708be1f2b3642",
-  "native_sha256": "37bfce8abfa24fd99dc64e6f26d7a1b894dd2c6d8392e49ffbabc646b5b912d2",
+  "built_at": "2026-11-11T13:44:49.826585+00:00",
+  "pck_sha256": "305180beb97ba9848d0c0185098845cbd988ada8d669a75cf870c0c13b7758c1",
+  "native_sha256": "046eaaf4ffe536d5ddbd81cd35f343fffc54b02f36f9868dd5a5aa1e007230dc",
   "packs": [
     {
       "url": "index.pck",
-      "size": 11301128,
-      "sha256": "37cbf89be7dbaef6571cfa142e189d2adbb45d2255f368e9932708be1f2b3642"
+      "size": 11301896,
+      "sha256": "305180beb97ba9848d0c0185098845cbd988ada8d669a75cf870c0c13b7758c1"
     },
     {
       "url": "gameplay.pck",
-      "size": 1520228,
-      "sha256": "64199968cb68cf94a7b8978729d5a792687bc85b3b9fdfac00624ba45377ecad"
+      "size": 1550912,
+      "sha256": "a5746ec65dec2857491dd7a88d483cdb430ca8c1c16c330e213a460535c53605"
     },
     {
       "url": "interface.pck",
@@ -22,13 +22,63 @@
     },
     {
       "url": "game-data.pck",
-      "size": 20256528,
-      "sha256": "89fb67250753128c56534f44face45ffc8b41b5f02b09579b68d88fb4c568a5d"
+      "size": 20270256,
+      "sha256": "e352a37da5a2bc7ad31c4cc704fc65ab5c41f1628696c1c0fd1855129490975d"
     },
     {
-      "url": "graphics.pck",
-      "size": 338185908,
-      "sha256": "06c5f13cd27783a0a4e52cc13ed9be7570bddefcdab80b290da91a8b6b93c7b4"
+      "url": "graphics-001.pck",
+      "size": 31775588,
+      "sha256": "bb9433cd8ba53cc7867ca59d90158c82dcaa6e0f277c918815b4a6526da87b67"
+    },
+    {
+      "url": "graphics-002.pck",
+      "size": 32820128,
+      "sha256": "8c51754a999fabe978cce978ece40d1e113958c7032ba771790546446adeab77"
+    },
+    {
+      "url": "graphics-003.pck",
+      "size": 33551376,
+      "sha256": "aabc8ad6753934d17bb05168b626e72a1876c8c572a008cff8999bb2158ece02"
+    },
+    {
+      "url": "graphics-004.pck",
+      "size": 33113428,
+      "sha256": "cbb016daee4200364b2ef64d788d4665e243d54c9bbe1cb6dcfe531d56acb948"
+    },
+    {
+      "url": "graphics-005.pck",
+      "size": 33499360,
+      "sha256": "1a6119a08f3d7c4913bb17a5ba978f471af5904de7bd8180a34103a5306d464b"
+    },
+    {
+      "url": "graphics-006.pck",
+      "size": 33488208,
+      "sha256": "8be580f052c3808b04c6df60113205bda2cdb33a6344775b641d48984221a1b0"
+    },
+    {
+      "url": "graphics-007.pck",
+      "size": 33168156,
+      "sha256": "51f98666ef3739736abd6f6705a37634f016e73abf2e5e5132065aad3356d697"
+    },
+    {
+      "url": "graphics-008.pck",
+      "size": 33539424,
+      "sha256": "58967c70c2bf253fce1c5f2ac6e113051bee43c6268012d8787f012d17c462fc"
+    },
+    {
+      "url": "graphics-009.pck",
+      "size": 33356948,
+      "sha256": "0747efe404fc3ed3139d75c9a4b2bdf9575e8af12c55019fb68daefd5a14f1f9"
+    },
+    {
+      "url": "graphics-010.pck",
+      "size": 32128896,
+      "sha256": "cbb1e5d3881ba0759ea55f8d7206524eb2d4d94e30b309539fcd5a00f2265e69"
+    },
+    {
+      "url": "graphics-011.pck",
+      "size": 8244300,
+      "sha256": "3cdfb687b09fd6720dac1be18cc47cc444719b48717014d54c4df0fd94ffbb37"
     }
   ]
 }
