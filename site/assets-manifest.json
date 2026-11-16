@@ -50,22 +50,6 @@
       "deferred": false
     },
     {
-      "url": "assets/core/EVSTILL.CDS",
-      "path": "/cds95/EVSTILL.CDS",
-      "size": 1021116,
-      "sha256": "415f68965fddb41dda7df1b8f10c7ad67dd335ce5ad52636dcb0a659e2f88f90",
-      "aliases": [],
-      "deferred": false
-    },
-    {
-      "url": "assets/core/FISHING.CDS",
-      "path": "/cds95/FISHING.CDS",
-      "size": 64353,
-      "sha256": "3967373e04407f797362f94d9935eeb1dfe9e523ecac64671c71cc9e3536719f",
-      "aliases": [],
-      "deferred": false
-    },
-    {
       "url": "assets/core/HIST_EV.CDS",
       "path": "/cds95/HIST_EV.CDS",
       "size": 10151,
@@ -1992,13 +1976,13 @@
   "packs": [
     {
       "url": "index.pck",
-      "size": 20585480,
-      "sha256": "e9c4d10447617b7bc8d94d7de83df22260584b510c3b862492ac51dd01a80818"
+      "size": 20586952,
+      "sha256": "94333aa79d1a3ff7ab63665a6a6cdce5b72f9dc41dced021f441ea98a44b7b09"
     },
     {
       "url": "gameplay.pck",
-      "size": 1900428,
-      "sha256": "ddfaaa83510025406bd248b8322aafeff29e68d7a0d4f2ddce653ca0044b075e"
+      "size": 1903716,
+      "sha256": "58cbeb1f97905448cd9e537cd80151cd053184a62b488e10f634f05bc56ad5cd"
     },
     {
       "url": "interface.pck",
@@ -2007,8 +1991,8 @@
     },
     {
       "url": "game-data.pck",
-      "size": 17513820,
-      "sha256": "1225af01ac3861db2223a348413e8d16e08667610e03e739eaeed6d0bec350bd"
+      "size": 17506204,
+      "sha256": "7431d212cf21af4e924979138c0bd50025a6afae374f226fb395e7810760a584"
     },
     {
       "url": "graphics-001.pck",
@@ -2037,33 +2021,33 @@
     },
     {
       "url": "graphics-006.pck",
-      "size": 33511444,
-      "sha256": "5e462cdca17e32ebda9ee26f50fa84c60b84d466aac768395c274d851d59cc4e"
+      "size": 33518192,
+      "sha256": "e4615b0ab2bc910e443fff4f014ff9c742f73da01d2011115b79a5e912c8b8d0"
     },
     {
       "url": "graphics-007.pck",
-      "size": 33524580,
-      "sha256": "569479fbb31134bf42a30e50c516c82e4e487a450964a9fc08a3306b633d4c1b"
+      "size": 33510920,
+      "sha256": "927e4b3e9e438ad03fec6391e9bc1ef0474fac604fdbbe9c92564e3e27d2f47c"
     },
     {
       "url": "graphics-008.pck",
-      "size": 32733848,
-      "sha256": "f68a3fa5b9c62e04df9aaeb86e5216cd0e8b589071c55c674a682b105b7ba2d3"
+      "size": 33316016,
+      "sha256": "5f2fd2a7c8a646dcf12eff0c96f7f866a3f322a4539542d98ea3e62f0aa3796c"
     },
     {
       "url": "graphics-009.pck",
-      "size": 33280724,
-      "sha256": "0db323b4506a27eb68463e6fb55d4a89fa8c9f8bab4516295e18605c73f05a73"
+      "size": 33545932,
+      "sha256": "ba2004da7924e30ff807a12eb49b05cffc7134008db4f9ba51d8727c93cdd42f"
     },
     {
       "url": "graphics-010.pck",
-      "size": 27191708,
-      "sha256": "1395c2d10e3a043a1418bac5d801821befe143d5883e84fe18f8398e26fff220"
+      "size": 33493232,
+      "sha256": "7cf9d32ddef2a878ca899138c1406927d93fc25d45bdb9ebd7f45583d3afcb2b"
     },
     {
       "url": "graphics-011.pck",
-      "size": 23912128,
-      "sha256": "69403b54a784340bb8ca39f96fee623f3848db80814119337d117d1837f64d57"
+      "size": 24168152,
+      "sha256": "2a8804996f5942f3eb266d2fe2f0ce383be030edb8843ea9d30ab968f15a999f"
     }
   ]
 }
