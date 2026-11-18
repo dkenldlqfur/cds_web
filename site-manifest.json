@@ -187,11 +187,6 @@
       "sha256": "d0e0f9ca8bbb476957f3cab25eeb091dbe9547e1acf622dc1f9f96a00b6f56a8"
     },
     {
-      "path": "assets/core/HIST_EV.CDS",
-      "size": 10151,
-      "sha256": "4e1869ef3d2b5529c021c2e44dfe64a9acf74aa69e7e846d051c240a2b256686"
-    },
-    {
       "path": "assets/core/HISTCHR.CDS",
       "size": 17893,
       "sha256": "8c0ffc45981d25539b64cf7032d8dfbb15804ba6fcc3eb1b0bdb5b574a4f96bd"
@@ -1383,18 +1378,18 @@
     },
     {
       "path": "assets-manifest.json",
-      "size": 65687,
-      "sha256": "5ffbcb5a5803064bfdff00a394b668086fe13a5059df741e854a3696edae7d38"
+      "size": 65440,
+      "sha256": "af7cad8a5b8f36c7ae12ecb3ce61f7cdcd880a327a8c8eb6ea7fb685fdff8982"
     },
     {
       "path": "build-version.json",
       "size": 2646,
-      "sha256": "5869329855b6438cd9cd357f347786efc7169f90f5f483cc175fc10dbcb5e3d8"
+      "sha256": "50eac9b8aa85fbc88d919e46353d34578913ae1ccf764ce09ed92909cc6e149a"
     },
     {
       "path": "cds_native.web.wasm",
-      "size": 10028709,
-      "sha256": "6a24bee9f20ded07c43f37201c810e1e9f44cfb384b25407edd892423c04567b"
+      "size": 10058314,
+      "sha256": "c70c4705f7c1b12704d347da81d24efec7845fefacff7bc48108eda9cbb57e69"
     },
     {
       "path": "discovery-video-worker.js",
@@ -1403,13 +1398,13 @@
     },
     {
       "path": "game-data.pck",
-      "size": 17510468,
-      "sha256": "9e46865ddf444c2431ccda6259a342e60702f4b49abf473c520a612e57053021"
+      "size": 17591160,
+      "sha256": "f3f9fd6f0d0a8bb7fa45fb019b444127d5fa3f36216f9861eaffa81d6d42aa12"
     },
     {
       "path": "gameplay.pck",
-      "size": 1950984,
-      "sha256": "e623d2699382fb6dcfa2755544fcaa414c9ec492a25f6d4431b5e2673e0a102e"
+      "size": 1983636,
+      "sha256": "f560018f8e8055db76248f6eca229c7132686f75f26a97508ac9a5c1960700d7"
     },
     {
       "path": "graphics-001.pck",
@@ -1483,8 +1478,8 @@
     },
     {
       "path": "index.html",
-      "size": 36584,
-      "sha256": "32e8376f723c391ee07211f8e0d392f6096157697c65171dc121d930d3fa05e9"
+      "size": 37365,
+      "sha256": "e18e6235d674d1fa4e93490e81d9ed2a904eb7d9e90bd97d2096d3872bf52375"
     },
     {
       "path": "index.icon.png",
@@ -1498,8 +1493,8 @@
     },
     {
       "path": "index.pck",
-      "size": 20590792,
-      "sha256": "32c47f15ad4072fdc9a0c2c1f7aa31719a7d2d7a2020ec0279620a55dca248a3"
+      "size": 20699752,
+      "sha256": "9f2cea8b5a54b96f338cf02a3d5c0889ca4564eaf6f8ea25df1616c7b9de5ed4"
     },
     {
       "path": "index.png",
