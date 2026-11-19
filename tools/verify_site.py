@@ -2,6 +2,7 @@
 import hashlib
 import json
 from pathlib import Path, PurePosixPath
+import re
 
 ROOT = Path(__file__).resolve().parents[1]
 SITE = ROOT / 'site'
@@ -30,7 +31,7 @@ def main():
         total += len(data)
     actual = {path.relative_to(SITE).as_posix() for path in SITE.rglob('*') if path.is_file()}
     assert expected == actual, 'Published file set differs from verified manifest'
-    retired = {'strings.ko.json', 'disev.json', 'disev.cds'}
+    retired = {'strings.ko.json', 'disev.json', 'disev.cds', 'story_events.json', 'story0.cds', 'story1.cds'}
     assert not any(PurePosixPath(name).name.lower() in retired for name in actual), 'Standalone catalog or retired archive in site'
     assert total < 1024 ** 3, 'Site exceeds GitHub Pages size limit'
     for name in ('index.html', 'index.js', 'index.wasm', 'index.side.wasm', 'cds_native.web.wasm',
@@ -42,11 +43,25 @@ def main():
                for item in assets['files'] for path in [item['path'], *item['aliases']]), 'Standalone catalog or retired archive in manifest'
     verify_achievement_preload(assets['files'])
     packs = assets['packs']
-    shared = ['index.pck', 'gameplay.pck', 'interface.pck', 'game-data.pck']
-    graphics = packs[len(shared):]
-    assert graphics and [item['url'] for item in packs] == [
-        *shared, *(f'graphics-{index:03d}.pck' for index in range(1, len(graphics) + 1))]
-    assert all(0 < item['size'] <= 32 * 1024 * 1024 for item in graphics)
+    shared = ['index.pck', 'gameplay.pck', 'game-data.pck']
+    startup = [item for item in packs if not item.get('deferred')]
+    deferred = [item for item in packs if item.get('deferred')]
+    deferred_names = [item['url'] for item in deferred]
+    assert deferred_names in ([], ['puzzles.pck']), 'Unexpected deferred resource pack'
+    assets_by_folder = startup[len(shared):]
+    names = [item['url'] for item in assets_by_folder]
+    assert names and names == sorted(names)
+    assert [item['url'] for item in packs] == [*shared, *names, *deferred_names]
+    folders = {}
+    for name in names:
+        part = re.fullmatch(r'(assets-[a-z0-9][a-z0-9_-]*)(?:\.(\d{3}))?\.pck', name)
+        assert part, name
+        folder, index = part.groups()
+        folders.setdefault(folder, []).append(index)
+    for folder, indices in folders.items():
+        assert indices == ([None] if len(indices) == 1 else
+                           [f'{index:03d}' for index in range(1, len(indices) + 1)]), (folder, indices)
+    assert all(0 < item['size'] <= 32 * 1024 * 1024 for item in assets_by_folder + deferred)
     assert set(path for path in actual if path.endswith('.pck')) == {item['url'] for item in packs}
     for item in assets['files'] + packs:
         data = (SITE / item['url']).read_bytes()

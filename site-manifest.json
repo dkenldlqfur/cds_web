@@ -257,16 +257,6 @@
       "sha256": "4c074c90bd545deac3332b40a76760fd15c2e174fb09228ae0a67077971a7925"
     },
     {
-      "path": "assets/core/STORY0.CDS",
-      "size": 8202,
-      "sha256": "29b6550579af22e0033ecb17ad427dac993a2a86c8a6d65722ae160977bf2fd7"
-    },
-    {
-      "path": "assets/core/STORY1.CDS",
-      "size": 9324,
-      "sha256": "b3d66c3a4ca0a4180582b0b4cb65f8d3967a1be09e3550f1227819e8494673a5"
-    },
-    {
       "path": "assets/core/TOWER.CDS",
       "size": 140093,
       "sha256": "3ffa6aedb4550af924887393902726ba73cca5772ab098f17fdf38865f1d24e1"
@@ -288,8 +278,8 @@
     },
     {
       "path": "assets/data/achievements.json",
-      "size": 51821,
-      "sha256": "fee16e31248ba480081642b7f88681e5d55489466bfa5ddb16bb8864e4040752"
+      "size": 51857,
+      "sha256": "f185a329d455f0013fc628fc48b72f41b9c5043ddfcfe01b24eaaa75f939e3fd"
     },
     {
       "path": "assets/data/records/appearance_adjustments.json",
@@ -313,8 +303,8 @@
     },
     {
       "path": "assets/data/records/cannons.json",
-      "size": 846,
-      "sha256": "63c683939ade00d7c4cd05389ae09b195c61b85946e416461ce0898aae131cd5"
+      "size": 986,
+      "sha256": "11dae2e52c488c86b267a7303fd486b4b26d55a08a9c7618fffce64226f1bc04"
     },
     {
       "path": "assets/data/records/child_portraits.json",
@@ -323,8 +313,8 @@
     },
     {
       "path": "assets/data/records/cities.json",
-      "size": 162564,
-      "sha256": "f198236c64e6f139b914c6ac219ed8c5283f4bff1db2e3e2cd8fef6b1012fe47"
+      "size": 170404,
+      "sha256": "459cb3a24434a6ed7a1b11342931fc54335724715e0e139aeb4b4fb8e808442f"
     },
     {
       "path": "assets/data/records/creation_age_adjustments.json",
@@ -337,14 +327,19 @@
       "sha256": "fc6caae3e782e842ed96729d0be3636f75347c1f445ffef530c514589f5fd864"
     },
     {
+      "path": "assets/data/records/cultures.json",
+      "size": 706,
+      "sha256": "94602c5695419bf871a854127648807e5372878b7a96c74c88c4bb5bc0ee8f31"
+    },
+    {
       "path": "assets/data/records/facilities.json",
       "size": 600154,
       "sha256": "f6411b894784c79f89f02881eccd273539f9c88a662a70aaca12024712bfe9df"
     },
     {
       "path": "assets/data/records/figureheads.json",
-      "size": 1804,
-      "sha256": "e04cbfc4655688bf47a77cf108d870d7ab5bcb9c96037075ed78ad340e9d1b74"
+      "size": 3064,
+      "sha256": "fd46c491c718061f884b1f66eb25a41ee0a1e95b4663439d26fccbfd1ae74c21"
     },
     {
       "path": "assets/data/records/goods.json",
@@ -388,8 +383,8 @@
     },
     {
       "path": "assets/data/records/ship_types.json",
-      "size": 4869,
-      "sha256": "31ec43030e4254c8e8d93339ce7321b8670c25765d5269e7c19d39f63f6ab55f"
+      "size": 5149,
+      "sha256": "6158c1db3e875297712d8ce52443292fa76bf809172d39800a565ae72e064fc1"
     },
     {
       "path": "assets/data/records/stock_sizes.json",
@@ -403,8 +398,8 @@
     },
     {
       "path": "assets/data/records/taverns.json",
-      "size": 49037,
-      "sha256": "460c37bee30f7630b5eef4023d17297ec8d04c67da5588aa040d69679401009f"
+      "size": 53377,
+      "sha256": "8bb3b51a36aa80e03c8d8b0e767d47e9f5da6fc91587396e2e3a8f7aeea79fe4"
     },
     {
       "path": "assets/data/records/world_catalog.json",
@@ -1377,19 +1372,174 @@
       "sha256": "f03e1b7873661b6c71a3b212bf3f1ee7e5e852604ab6efb8cffdc930efaef5b5"
     },
     {
+      "path": "assets-achievements.pck",
+      "size": 216760,
+      "sha256": "d55654469871641a6c8983596f1b9e72620d2e36564ca4299bbd4e4066b98871"
+    },
+    {
+      "path": "assets-bookshelf.pck",
+      "size": 525096,
+      "sha256": "73f8cf4df34e65114a13c3fbaa8c847e071d93d18c2df3706acae7401ae041dc"
+    },
+    {
+      "path": "assets-cities.001.pck",
+      "size": 33233140,
+      "sha256": "1238615bddcc310ebe3a1b56bb7101c6bb0c4123ba5ccb277a71003028058e09"
+    },
+    {
+      "path": "assets-cities.002.pck",
+      "size": 33093428,
+      "sha256": "21b0b948df29b5bd04ce5815111a887bbea17c043ad037e93905b0d4768776ab"
+    },
+    {
+      "path": "assets-cities.003.pck",
+      "size": 33174764,
+      "sha256": "15f3a90514791b91ca82e95d79952135524754322954027ed387beaf827068f8"
+    },
+    {
+      "path": "assets-cities.004.pck",
+      "size": 33168764,
+      "sha256": "981290cdbaeaea4aa2ffbd87a2eb93b3072bc87d64ff1c052b685cd8bbc99421"
+    },
+    {
+      "path": "assets-cities.005.pck",
+      "size": 32855756,
+      "sha256": "d0c9ea390254f9ff4f18e980a4bcfe928a61a75c9de12ecdcb4e67bb2f9c35db"
+    },
+    {
+      "path": "assets-cities.006.pck",
+      "size": 7108060,
+      "sha256": "097fd9f49847f4e091d56bbfeac0fde54dd43d4863286fd88bd98886aaaee7af"
+    },
+    {
+      "path": "assets-cityfrm.pck",
+      "size": 97988,
+      "sha256": "b3444dee144d97075c39f15082358326f7ba52f9b81f1d78e7173e808ae7eecc"
+    },
+    {
+      "path": "assets-cloud.pck",
+      "size": 789276,
+      "sha256": "0f28379a88a716e20a385703984f40c40afdf231ec7b3a7b3e0197fb8eef6865"
+    },
+    {
+      "path": "assets-dstill.001.pck",
+      "size": 33356924,
+      "sha256": "86743edf16ca0d59e6329187c0930fecd0ccbfe90b46d014d89c68d92810c16c"
+    },
+    {
+      "path": "assets-dstill.002.pck",
+      "size": 9971068,
+      "sha256": "81ea664790bef3fcbface79c8af6e32487471554bcda02523e6527c5638e3812"
+    },
+    {
+      "path": "assets-evanime.001.pck",
+      "size": 33493264,
+      "sha256": "049f8be290ed7a288202d6be5f6c03b6b3ea36ec37453601c243bba0e46facb5"
+    },
+    {
+      "path": "assets-evanime.002.pck",
+      "size": 24532492,
+      "sha256": "bc845d52d523e2be48186a76f39c9e78c5c5980818b59753a182e3fa130f3df9"
+    },
+    {
+      "path": "assets-evanime.003.pck",
+      "size": 15391092,
+      "sha256": "5f17479e96409b0072ea9032e0e592b6766d737e8deba62d4ed7244746803040"
+    },
+    {
+      "path": "assets-evstill.pck",
+      "size": 6822872,
+      "sha256": "9efbf671b5fb12860f3ebb8718665f37dfc00fa2254d30b77b86b80b23bf9b7c"
+    },
+    {
+      "path": "assets-fighter.pck",
+      "size": 15897056,
+      "sha256": "a1a0b6a238230734feceeb071e556fb70a59db35fce39c2bb13cfe562418c3e8"
+    },
+    {
+      "path": "assets-fishing.pck",
+      "size": 575372,
+      "sha256": "03acc83800984c0a496afd6fc959c9961c83a3cc551dd1be15a704981668a0ba"
+    },
+    {
+      "path": "assets-hint_illustrations.pck",
+      "size": 4947540,
+      "sha256": "0578c4e0a3ee9c8fd0975776386a86c2b96dd4b9219c100655064ea33668a6ee"
+    },
+    {
+      "path": "assets-item_images.pck",
+      "size": 11681932,
+      "sha256": "e40a8ecb1a2cfddedf413b99ae86d72a625f91b37165bc627203a7ece86486c6"
+    },
+    {
       "path": "assets-manifest.json",
-      "size": 65440,
-      "sha256": "af7cad8a5b8f36c7ae12ecb3ce61f7cdcd880a327a8c8eb6ea7fb685fdff8982"
+      "size": 69401,
+      "sha256": "964af12986f57be7221a0d64ab2ccbdb7a0a5277e183bf06f0934e843b93fc76"
+    },
+    {
+      "path": "assets-misc.pck",
+      "size": 726832,
+      "sha256": "f76f883bcfe8e384b09219bf812e4b6d8705df9c6f16d478fe36e1c03be7b995"
+    },
+    {
+      "path": "assets-mpcg.001.pck",
+      "size": 32857172,
+      "sha256": "6bcad9fbdc850440749a4a5fd0bae5ffc9c8a0d41e60aa3f19582b94ee4c591b"
+    },
+    {
+      "path": "assets-mpcg.002.pck",
+      "size": 32400228,
+      "sha256": "ad6c839db243d09a800542d3901d966f07b6fa9a25090b6ef73a9cebef1aeb31"
+    },
+    {
+      "path": "assets-mpcg.003.pck",
+      "size": 33482200,
+      "sha256": "3e10fd8ee1f673b68cc7aa01120bb65337fa31bbb77f994a4a279209b2652e8e"
+    },
+    {
+      "path": "assets-mpcg.004.pck",
+      "size": 15973708,
+      "sha256": "74c68ffeeb0b5c097e2c340cdbe95b1daf44e9d243d67004d8aa48758a16449f"
+    },
+    {
+      "path": "assets-mpeffect.pck",
+      "size": 2861792,
+      "sha256": "d74d0bdbd689f90fd35b17f8415093bad4e66fcc92eee578018fdfda77796460"
+    },
+    {
+      "path": "assets-openbook.pck",
+      "size": 4350052,
+      "sha256": "ae1dbdf8943cc936130ae00abc3a473d97b940e0882f6565b1e23d0a4ce1aaf3"
+    },
+    {
+      "path": "assets-portraits.001.pck",
+      "size": 33504820,
+      "sha256": "914744687e6308f64c8b0999bcd8db6368fb73399460f88ae603d2f2f41c20b4"
+    },
+    {
+      "path": "assets-portraits.002.pck",
+      "size": 14966500,
+      "sha256": "7b2b8c8c30c60aa84ac0ed690798c7ea2ceddc336f6e8018c95f12a01d95313d"
+    },
+    {
+      "path": "assets-world-city.pck",
+      "size": 12832,
+      "sha256": "68f642e201645f4f90dc30d440b602ee7af161df7cd8e11c52f9f042ee9ef13b"
+    },
+    {
+      "path": "assets-world-map.pck",
+      "size": 1416,
+      "sha256": "743b925de15eea97c7705f310821f4b809ef0815db1b9864f882ac0cbaff4e62"
     },
     {
       "path": "build-version.json",
-      "size": 2646,
-      "sha256": "50eac9b8aa85fbc88d919e46353d34578913ae1ccf764ce09ed92909cc6e149a"
+      "size": 6825,
+      "sha256": "c007d13a2b64d84b1d205f5e0ca4b2a5ee82dfcc2a897a4a4bdb3daeae720e14"
     },
     {
       "path": "cds_native.web.wasm",
-      "size": 10058314,
-      "sha256": "c70c4705f7c1b12704d347da81d24efec7845fefacff7bc48108eda9cbb57e69"
+      "size": 10389659,
+      "sha256": "b409c26e7a573fba2204b2ec5965da11fc26f376e8c9b5c60d7aa514a116a226"
     },
     {
       "path": "discovery-video-worker.js",
@@ -1398,68 +1548,13 @@
     },
     {
       "path": "game-data.pck",
-      "size": 17591160,
-      "sha256": "f3f9fd6f0d0a8bb7fa45fb019b444127d5fa3f36216f9861eaffa81d6d42aa12"
+      "size": 16750388,
+      "sha256": "d5d40895c298e5b738c9f43ae096f778cbec2ea6e6cfa1a52586125329a5bf50"
     },
     {
       "path": "gameplay.pck",
-      "size": 1983636,
-      "sha256": "f560018f8e8055db76248f6eca229c7132686f75f26a97508ac9a5c1960700d7"
-    },
-    {
-      "path": "graphics-001.pck",
-      "size": 31775588,
-      "sha256": "bb9433cd8ba53cc7867ca59d90158c82dcaa6e0f277c918815b4a6526da87b67"
-    },
-    {
-      "path": "graphics-002.pck",
-      "size": 32820128,
-      "sha256": "8c51754a999fabe978cce978ece40d1e113958c7032ba771790546446adeab77"
-    },
-    {
-      "path": "graphics-003.pck",
-      "size": 33551376,
-      "sha256": "aabc8ad6753934d17bb05168b626e72a1876c8c572a008cff8999bb2158ece02"
-    },
-    {
-      "path": "graphics-004.pck",
-      "size": 33113428,
-      "sha256": "cbb016daee4200364b2ef64d788d4665e243d54c9bbe1cb6dcfe531d56acb948"
-    },
-    {
-      "path": "graphics-005.pck",
-      "size": 33507060,
-      "sha256": "0db8633e9d104fac352767a4f80f23294bffdcfd9d6c7335638dede8744888ea"
-    },
-    {
-      "path": "graphics-006.pck",
-      "size": 33518192,
-      "sha256": "e4615b0ab2bc910e443fff4f014ff9c742f73da01d2011115b79a5e912c8b8d0"
-    },
-    {
-      "path": "graphics-007.pck",
-      "size": 33510920,
-      "sha256": "927e4b3e9e438ad03fec6391e9bc1ef0474fac604fdbbe9c92564e3e27d2f47c"
-    },
-    {
-      "path": "graphics-008.pck",
-      "size": 33316016,
-      "sha256": "5f2fd2a7c8a646dcf12eff0c96f7f866a3f322a4539542d98ea3e62f0aa3796c"
-    },
-    {
-      "path": "graphics-009.pck",
-      "size": 33545932,
-      "sha256": "ba2004da7924e30ff807a12eb49b05cffc7134008db4f9ba51d8727c93cdd42f"
-    },
-    {
-      "path": "graphics-010.pck",
-      "size": 33508100,
-      "sha256": "484f44c877e498c838281ccb0f9e3b36a73f6206d175a303eac9bbc1146ea3a1"
-    },
-    {
-      "path": "graphics-011.pck",
-      "size": 24236844,
-      "sha256": "c39a9c287a5f0aca35e1716fe2a1d9d6e388b6197e245a4832c5528649103f96"
+      "size": 2002352,
+      "sha256": "76eb222ed9fd62322116366a0895074d74cebdfc420b1686fe75a2495f373a34"
     },
     {
       "path": "index.apple-touch-icon.png",
@@ -1478,8 +1573,8 @@
     },
     {
       "path": "index.html",
-      "size": 37365,
-      "sha256": "e18e6235d674d1fa4e93490e81d9ed2a904eb7d9e90bd97d2096d3872bf52375"
+      "size": 40112,
+      "sha256": "e06b3736bd064877ea82aac2c7c5f7916e181ae8f0ede507c3ac8f75f1e743e0"
     },
     {
       "path": "index.icon.png",
@@ -1493,8 +1588,8 @@
     },
     {
       "path": "index.pck",
-      "size": 20699752,
-      "sha256": "9f2cea8b5a54b96f338cf02a3d5c0889ca4564eaf6f8ea25df1616c7b9de5ed4"
+      "size": 21597060,
+      "sha256": "a38377c815a3ac12e74b9ffbd165a7efff59b51910cdfd85137e042adfb5cd9f"
     },
     {
       "path": "index.png",
@@ -1512,14 +1607,9 @@
       "sha256": "14ec7deb81f2da7df0e353ab61cc30dcb4c390b08e7a725d40339173c9dfcd41"
     },
     {
-      "path": "interface.pck",
-      "size": 1468456,
-      "sha256": "6a02d9ac43f608a879281898246a6a72279f4f3949a026307dae678e6d590dbd"
-    },
-    {
       "path": "isolation-sw.js",
-      "size": 2877,
-      "sha256": "685e154936f69d6cb13311bbb7b049a1875630ed93ad58779ef562c10cf7b58e"
+      "size": 3155,
+      "sha256": "3b5a046b4a3221fb437bdd048439ace93a8b9b10533d417325560e92e1d39053"
     },
     {
       "path": "LICENSE.DroidSans.txt",
@@ -1530,6 +1620,11 @@
       "path": "LICENSE.Godot.txt",
       "size": 1149,
       "sha256": "b0435e3b3e4e55238f05f4b306f30524a1b2e20147810d436eaa554fa6855c80"
+    },
+    {
+      "path": "puzzles.pck",
+      "size": 5192468,
+      "sha256": "a04933ecd7d5aa6c3cdd02c0522707ccf9b7be59eda4c9dbbc0fae3279861e2b"
     }
   ]
 }
