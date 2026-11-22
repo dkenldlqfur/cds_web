@@ -39,6 +39,9 @@ def main():
         assert name in expected, name
     assert (SITE / 'index.wasm').read_bytes()[:4] == b'\0asm'
     assets = json.loads((SITE / 'assets-manifest.json').read_text(encoding='utf-8'))
+    html = (SITE / 'index.html').read_text(encoding='utf-8')
+    shell_manifest = re.search(r'<script type="application/json" id="cds95-assets-manifest">([^<]*)</script>', html)
+    assert shell_manifest and json.loads(shell_manifest[1]) == assets, 'Web shell manifest differs from the package'
     assert all(PurePosixPath(path).name.lower() not in retired
                for item in assets['files'] for path in [item['path'], *item['aliases']]), 'Standalone catalog or retired archive in manifest'
     verify_achievement_preload(assets['files'])
@@ -62,8 +65,17 @@ def main():
         assert indices == ([None] if len(indices) == 1 else
                            [f'{index:03d}' for index in range(1, len(indices) + 1)]), (folder, indices)
     assert all(0 < item['size'] <= 32 * 1024 * 1024 for item in assets_by_folder + deferred)
-    assert set(path for path in actual if path.endswith('.pck')) == {item['url'] for item in packs}
-    for item in assets['files'] + packs:
+    mobile_packs = []
+    for pack in packs:
+        mobile = pack.get('mobile')
+        assert mobile or not re.fullmatch(r'assets-(?:cities(?:\.\d{3})?|cityfrm)\.pck', pack['url']), pack['url']
+        if mobile:
+            assert re.fullmatch(r'assets-[a-z0-9][a-z0-9_-]*(?:\.\d{3})?\.pck', pack['url']), pack['url']
+            assert mobile['url'] == 'mobile/' + pack['url']
+            assert 0 < mobile['size'] < pack['size']
+            mobile_packs.append(mobile)
+    assert {path for path in actual if path.endswith('.pck')} == {item['url'] for item in packs + mobile_packs}
+    for item in assets['files'] + packs + mobile_packs:
         data = (SITE / item['url']).read_bytes()
         assert len(data) == item['size'] and hashlib.sha256(data).hexdigest() == item['sha256']
     print(json.dumps({'verified_files': len(actual), 'site_bytes': total, 'gameplay_executed': False}, indent=2))

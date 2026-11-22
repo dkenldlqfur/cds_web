@@ -3,6 +3,7 @@
   "records": [
     {
       "id": 0,
+      "world_map_marker": 0,
       "category": 0,
       "group_id": 0,
       "still_slot": -1,
@@ -25,6 +26,7 @@
     },
     {
       "id": 1,
+      "world_map_marker": 0,
       "category": 0,
       "group_id": 1,
       "still_slot": -1,
@@ -47,6 +49,7 @@
     },
     {
       "id": 2,
+      "world_map_marker": 0,
       "category": 0,
       "group_id": 2,
       "still_slot": -1,
@@ -69,6 +72,7 @@
     },
     {
       "id": 3,
+      "world_map_marker": 0,
       "category": 0,
       "group_id": 3,
       "still_slot": -1,
@@ -91,6 +95,7 @@
     },
     {
       "id": 4,
+      "world_map_marker": 0,
       "category": 0,
       "group_id": 4,
       "still_slot": -1,
@@ -113,6 +118,7 @@
     },
     {
       "id": 5,
+      "world_map_marker": 0,
       "category": 0,
       "group_id": 5,
       "still_slot": -1,
@@ -135,6 +141,7 @@
     },
     {
       "id": 6,
+      "world_map_marker": 0,
       "category": 0,
       "group_id": 6,
       "still_slot": -1,
@@ -157,6 +164,7 @@
     },
     {
       "id": 7,
+      "world_map_marker": 0,
       "category": 0,
       "group_id": 7,
       "still_slot": -1,
@@ -179,6 +187,7 @@
     },
     {
       "id": 8,
+      "world_map_marker": 0,
       "category": 0,
       "group_id": 8,
       "still_slot": -1,
@@ -201,6 +210,7 @@
     },
     {
       "id": 9,
+      "world_map_marker": 0,
       "category": 0,
       "group_id": 9,
       "still_slot": -1,
@@ -223,6 +233,7 @@
     },
     {
       "id": 10,
+      "world_map_marker": 0,
       "category": 0,
       "group_id": 10,
       "still_slot": -1,
@@ -245,6 +256,7 @@
     },
     {
       "id": 11,
+      "world_map_marker": 0,
       "category": 0,
       "group_id": 11,
       "still_slot": -1,
@@ -267,6 +279,7 @@
     },
     {
       "id": 12,
+      "world_map_marker": 2,
       "category": 0,
       "group_id": 100,
       "still_slot": -1,
@@ -289,6 +302,7 @@
     },
     {
       "id": 13,
+      "world_map_marker": 2,
       "category": 0,
       "group_id": 101,
       "still_slot": -1,
@@ -311,6 +325,7 @@
     },
     {
       "id": 14,
+      "world_map_marker": 2,
       "category": 0,
       "group_id": 102,
       "still_slot": -1,
@@ -333,6 +348,7 @@
     },
     {
       "id": 15,
+      "world_map_marker": 2,
       "category": 0,
       "group_id": 103,
       "still_slot": 65,
@@ -355,6 +371,7 @@
     },
     {
       "id": 16,
+      "world_map_marker": 2,
       "category": 0,
       "group_id": 104,
       "still_slot": -1,
@@ -377,6 +394,7 @@
     },
     {
       "id": 17,
+      "world_map_marker": 2,
       "category": 0,
       "group_id": 105,
       "still_slot": 68,
@@ -399,6 +417,7 @@
     },
     {
       "id": 18,
+      "world_map_marker": 2,
       "category": 0,
       "group_id": 106,
       "still_slot": 66,
@@ -421,6 +440,7 @@
     },
     {
       "id": 19,
+      "world_map_marker": 3,
       "category": 1,
       "group_id": 107,
       "still_slot": -1,
@@ -443,6 +463,7 @@
     },
     {
       "id": 20,
+      "world_map_marker": 3,
       "category": 1,
       "group_id": 108,
       "still_slot": -1,
@@ -465,6 +486,7 @@
     },
     {
       "id": 21,
+      "world_map_marker": 0,
       "category": 1,
       "group_id": 668,
       "still_slot": -1,
@@ -487,6 +509,7 @@
     },
     {
       "id": 22,
+      "world_map_marker": 3,
       "category": 1,
       "group_id": 109,
       "still_slot": -1,
@@ -509,6 +532,7 @@
     },
     {
       "id": 23,
+      "world_map_marker": 0,
       "name_key": "exe.00543e88",
       "category": 1,
       "group_id": 110,
@@ -532,6 +556,7 @@
     },
     {
       "id": 24,
+      "world_map_marker": 3,
       "category": 1,
       "group_id": 111,
       "still_slot": -1,
@@ -554,6 +579,7 @@
     },
     {
       "id": 25,
+      "world_map_marker": 3,
       "category": 1,
       "group_id": 112,
       "still_slot": 53,
@@ -576,6 +602,7 @@
     },
     {
       "id": 26,
+      "world_map_marker": 3,
       "category": 1,
       "group_id": 113,
       "still_slot": -1,
@@ -598,6 +625,7 @@
     },
     {
       "id": 27,
+      "world_map_marker": 0,
       "category": 1,
       "group_id": 113,
       "still_slot": -1,
@@ -620,6 +648,7 @@
     },
     {
       "id": 28,
+      "world_map_marker": 3,
       "category": 1,
       "group_id": 115,
       "still_slot": -1,
@@ -642,6 +671,7 @@
     },
     {
       "id": 29,
+      "world_map_marker": 3,
       "category": 1,
       "group_id": 116,
       "still_slot": -1,
@@ -664,6 +694,7 @@
     },
     {
       "id": 30,
+      "world_map_marker": 0,
       "category": 1,
       "group_id": 116,
       "still_slot": -1,
@@ -686,6 +717,7 @@
     },
     {
       "id": 31,
+      "world_map_marker": 3,
       "category": 1,
       "group_id": 118,
       "still_slot": -1,
@@ -708,6 +740,7 @@
     },
     {
       "id": 32,
+      "world_map_marker": 3,
       "category": 1,
       "group_id": 119,
       "still_slot": 56,
@@ -730,6 +763,7 @@
     },
     {
       "id": 33,
+      "world_map_marker": 3,
       "category": 1,
       "group_id": 120,
       "still_slot": -1,
@@ -752,6 +786,7 @@
     },
     {
       "id": 34,
+      "world_map_marker": 3,
       "category": 1,
       "group_id": 121,
       "still_slot": -1,
@@ -774,6 +809,7 @@
     },
     {
       "id": 35,
+      "world_map_marker": 3,
       "category": 1,
       "group_id": 122,
       "still_slot": 60,
@@ -796,6 +832,7 @@
     },
     {
       "id": 36,
+      "world_map_marker": 3,
       "category": 1,
       "group_id": 123,
       "still_slot": -1,
@@ -818,6 +855,7 @@
     },
     {
       "id": 37,
+      "world_map_marker": 0,
       "category": 1,
       "group_id": 123,
       "still_slot": -1,
@@ -840,6 +878,7 @@
     },
     {
       "id": 38,
+      "world_map_marker": 3,
       "category": 1,
       "group_id": 125,
       "still_slot": -1,
@@ -862,6 +901,7 @@
     },
     {
       "id": 39,
+      "world_map_marker": 0,
       "category": 1,
       "group_id": 126,
       "still_slot": -1,
@@ -884,6 +924,7 @@
     },
     {
       "id": 40,
+      "world_map_marker": 3,
       "category": 1,
       "group_id": 127,
       "still_slot": -1,
@@ -906,6 +947,7 @@
     },
     {
       "id": 41,
+      "world_map_marker": 0,
       "name_key": "exe.005645cc",
       "category": 1,
       "group_id": 128,
@@ -929,6 +971,7 @@
     },
     {
       "id": 42,
+      "world_map_marker": 3,
       "category": 1,
       "group_id": 129,
       "still_slot": 62,
@@ -951,6 +994,7 @@
     },
     {
       "id": 43,
+      "world_map_marker": 3,
       "category": 1,
       "group_id": 130,
       "still_slot": -1,
@@ -973,6 +1017,7 @@
     },
     {
       "id": 44,
+      "world_map_marker": 0,
       "name_key": "exe.005647dc",
       "category": 1,
       "group_id": 131,
@@ -996,6 +1041,7 @@
     },
     {
       "id": 45,
+      "world_map_marker": 3,
       "category": 1,
       "group_id": 132,
       "still_slot": -1,
@@ -1018,6 +1064,7 @@
     },
     {
       "id": 46,
+      "world_map_marker": 3,
       "category": 1,
       "group_id": 133,
       "still_slot": -1,
@@ -1040,6 +1087,7 @@
     },
     {
       "id": 47,
+      "world_map_marker": 3,
       "category": 1,
       "group_id": 134,
       "still_slot": -1,
@@ -1062,6 +1110,7 @@
     },
     {
       "id": 48,
+      "world_map_marker": 3,
       "category": 1,
       "group_id": 135,
       "still_slot": -1,
@@ -1084,6 +1133,7 @@
     },
     {
       "id": 49,
+      "world_map_marker": 0,
       "name_key": "exe.0056629c",
       "category": 3,
       "group_id": 657,
@@ -1107,6 +1157,7 @@
     },
     {
       "id": 50,
+      "world_map_marker": 0,
       "category": 3,
       "group_id": 658,
       "still_slot": -1,
@@ -1129,6 +1180,7 @@
     },
     {
       "id": 51,
+      "world_map_marker": 0,
       "name_key": "exe.0056608c",
       "category": 3,
       "group_id": 659,
@@ -1152,6 +1204,7 @@
     },
     {
       "id": 52,
+      "world_map_marker": 0,
       "name_key": "exe.00565e94",
       "category": 3,
       "group_id": 660,
@@ -1175,6 +1228,7 @@
     },
     {
       "id": 53,
+      "world_map_marker": 0,
       "name_key": "exe.00565e50",
       "category": 3,
       "group_id": 661,
@@ -1198,6 +1252,7 @@
     },
     {
       "id": 54,
+      "world_map_marker": 0,
       "name_key": "exe.00565e34",
       "category": 3,
       "group_id": 662,
@@ -1221,6 +1276,7 @@
     },
     {
       "id": 55,
+      "world_map_marker": 0,
       "category": 3,
       "group_id": 663,
       "still_slot": -1,
@@ -1243,6 +1299,7 @@
     },
     {
       "id": 56,
+      "world_map_marker": 0,
       "name_key": "exe.00565cb8",
       "category": 3,
       "group_id": 664,
@@ -1266,6 +1323,7 @@
     },
     {
       "id": 57,
+      "world_map_marker": 0,
       "category": 3,
       "group_id": 665,
       "still_slot": 71,
@@ -1288,6 +1346,7 @@
     },
     {
       "id": 58,
+      "world_map_marker": 0,
       "name_key": "exe.00565b18",
       "category": 3,
       "group_id": 666,
@@ -1311,6 +1370,7 @@
     },
     {
       "id": 59,
+      "world_map_marker": 0,
       "name_key": "exe.00565ac0",
       "category": 3,
       "group_id": 667,
@@ -1334,6 +1394,7 @@
     },
     {
       "id": 60,
+      "world_map_marker": 0,
       "name_key": "exe.005659f4",
       "category": 3,
       "group_id": 669,
@@ -1357,6 +1418,7 @@
     },
     {
       "id": 61,
+      "world_map_marker": 0,
       "name_key": "exe.005658f0",
       "category": 3,
       "group_id": 670,
@@ -1380,6 +1442,7 @@
     },
     {
       "id": 62,
+      "world_map_marker": 0,
       "name_key": "exe.00565614",
       "category": 3,
       "group_id": 671,
@@ -1403,6 +1466,7 @@
     },
     {
       "id": 63,
+      "world_map_marker": 0,
       "name_key": "exe.00564d38",
       "description_key": "discovery.kaaba.description",
       "category": 7,
@@ -1427,6 +1491,7 @@
     },
     {
       "id": 64,
+      "world_map_marker": 3,
       "category": 3,
       "group_id": 136,
       "still_slot": -1,
@@ -1449,6 +1514,7 @@
     },
     {
       "id": 65,
+      "world_map_marker": 3,
       "category": 3,
       "group_id": 137,
       "still_slot": 63,
@@ -1471,6 +1537,7 @@
     },
     {
       "id": 66,
+      "world_map_marker": 0,
       "category": 3,
       "group_id": 138,
       "still_slot": -1,
@@ -1493,6 +1560,7 @@
     },
     {
       "id": 67,
+      "world_map_marker": 0,
       "name_key": "exe.00565580",
       "category": 3,
       "group_id": 139,
@@ -1516,6 +1584,7 @@
     },
     {
       "id": 68,
+      "world_map_marker": 0,
       "category": 3,
       "group_id": 140,
       "still_slot": 72,
@@ -1538,6 +1607,7 @@
     },
     {
       "id": 69,
+      "world_map_marker": 0,
       "category": 3,
       "group_id": 141,
       "still_slot": -1,
@@ -1560,6 +1630,7 @@
     },
     {
       "id": 70,
+      "world_map_marker": 3,
       "category": 3,
       "group_id": 142,
       "still_slot": -1,
@@ -1582,6 +1653,7 @@
     },
     {
       "id": 71,
+      "world_map_marker": 0,
       "category": 3,
       "group_id": 143,
       "still_slot": 57,
@@ -1604,6 +1676,7 @@
     },
     {
       "id": 72,
+      "world_map_marker": 3,
       "category": 3,
       "group_id": 144,
       "still_slot": 59,
@@ -1626,6 +1699,7 @@
     },
     {
       "id": 73,
+      "world_map_marker": 3,
       "category": 3,
       "group_id": 145,
       "still_slot": -1,
@@ -1648,6 +1722,7 @@
     },
     {
       "id": 74,
+      "world_map_marker": 3,
       "category": 1,
       "group_id": 146,
       "still_slot": -1,
@@ -1670,6 +1745,7 @@
     },
     {
       "id": 75,
+      "world_map_marker": 0,
       "category": 1,
       "group_id": 146,
       "still_slot": -1,
@@ -1692,6 +1768,7 @@
     },
     {
       "id": 76,
+      "world_map_marker": 0,
       "category": 1,
       "group_id": 146,
       "still_slot": -1,
@@ -1714,6 +1791,7 @@
     },
     {
       "id": 77,
+      "world_map_marker": 3,
       "category": 1,
       "group_id": 149,
       "still_slot": -1,
@@ -1736,6 +1814,7 @@
     },
     {
       "id": 78,
+      "world_map_marker": 3,
       "category": 3,
       "group_id": 150,
       "still_slot": -1,
@@ -1758,6 +1837,7 @@
     },
     {
       "id": 79,
+      "world_map_marker": 3,
       "category": 3,
       "group_id": 151,
       "still_slot": -1,
@@ -1780,6 +1860,7 @@
     },
     {
       "id": 80,
+      "world_map_marker": 0,
       "category": 7,
       "group_id": 152,
       "still_slot": -1,
@@ -1802,6 +1883,7 @@
     },
     {
       "id": 81,
+      "world_map_marker": 0,
       "name_key": "exe.00564fe0",
       "category": 7,
       "group_id": 153,
@@ -1825,6 +1907,7 @@
     },
     {
       "id": 82,
+      "world_map_marker": 0,
       "name_key": "exe.00564ae0",
       "category": 7,
       "group_id": 154,
@@ -1848,6 +1931,7 @@
     },
     {
       "id": 83,
+      "world_map_marker": 0,
       "category": 7,
       "group_id": 155,
       "still_slot": -1,
@@ -1870,6 +1954,7 @@
     },
     {
       "id": 84,
+      "world_map_marker": 0,
       "name_key": "exe.005648f0",
       "category": 7,
       "group_id": 156,
@@ -1893,6 +1978,7 @@
     },
     {
       "id": 85,
+      "world_map_marker": 3,
       "category": 7,
       "group_id": 157,
       "still_slot": -1,
@@ -1915,6 +2001,7 @@
     },
     {
       "id": 86,
+      "world_map_marker": 0,
       "category": 7,
       "group_id": 158,
       "still_slot": 61,
@@ -1937,6 +2024,7 @@
     },
     {
       "id": 87,
+      "world_map_marker": 0,
       "name_key": "exe.005644e0",
       "category": 7,
       "group_id": 159,
@@ -1960,6 +2048,7 @@
     },
     {
       "id": 88,
+      "world_map_marker": 3,
       "category": 1,
       "group_id": 160,
       "still_slot": -1,
@@ -1982,6 +2071,7 @@
     },
     {
       "id": 89,
+      "world_map_marker": 3,
       "category": 1,
       "group_id": 161,
       "still_slot": -1,
@@ -2004,6 +2094,7 @@
     },
     {
       "id": 90,
+      "world_map_marker": 3,
       "category": 7,
       "group_id": 162,
       "still_slot": -1,
@@ -2026,6 +2117,7 @@
     },
     {
       "id": 91,
+      "world_map_marker": 3,
       "category": 7,
       "group_id": 163,
       "still_slot": -1,
@@ -2048,6 +2140,7 @@
     },
     {
       "id": 92,
+      "world_map_marker": 3,
       "category": 5,
       "group_id": 164,
       "still_slot": -1,
@@ -2070,6 +2163,7 @@
     },
     {
       "id": 93,
+      "world_map_marker": 0,
       "name_key": "exe.00565570",
       "category": 3,
       "group_id": 139,
@@ -2093,6 +2187,7 @@
     },
     {
       "id": 94,
+      "world_map_marker": 0,
       "category": 1,
       "group_id": 161,
       "still_slot": -1,
@@ -2115,6 +2210,7 @@
     },
     {
       "id": 95,
+      "world_map_marker": 0,
       "name_key": "exe.00543bc0",
       "category": 7,
       "group_id": 167,
@@ -2138,6 +2234,7 @@
     },
     {
       "id": 96,
+      "world_map_marker": 0,
       "category": 3,
       "group_id": 168,
       "still_slot": 50,
@@ -2160,6 +2257,7 @@
     },
     {
       "id": 97,
+      "world_map_marker": 0,
       "category": 3,
       "group_id": 169,
       "still_slot": 48,
@@ -2182,6 +2280,7 @@
     },
     {
       "id": 98,
+      "world_map_marker": 0,
       "category": 7,
       "group_id": 170,
       "still_slot": 70,
@@ -2204,6 +2303,7 @@
     },
     {
       "id": 99,
+      "world_map_marker": 0,
       "name_key": "exe.00543ba8",
       "category": 7,
       "group_id": 171,
@@ -2227,6 +2327,7 @@
     },
     {
       "id": 100,
+      "world_map_marker": 0,
       "name_key": "exe.00543b98",
       "category": 7,
       "group_id": 172,
@@ -2250,6 +2351,7 @@
     },
     {
       "id": 101,
+      "world_map_marker": 0,
       "name_key": "exe.00543b8c",
       "category": 7,
       "group_id": 173,
@@ -2273,6 +2375,7 @@
     },
     {
       "id": 102,
+      "world_map_marker": 0,
       "name_key": "exe.00564598",
       "category": 7,
       "group_id": 215,
@@ -2296,6 +2399,7 @@
     },
     {
       "id": 103,
+      "world_map_marker": 0,
       "name_key": "exe.005587a8",
       "category": 2,
       "group_id": 200,
@@ -2319,6 +2423,7 @@
     },
     {
       "id": 104,
+      "world_map_marker": 0,
       "name_key": "exe.0055879c",
       "category": 2,
       "group_id": 201,
@@ -2342,6 +2447,7 @@
     },
     {
       "id": 105,
+      "world_map_marker": 0,
       "name_key": "exe.00543b54",
       "category": 2,
       "group_id": 109,
@@ -2365,6 +2471,7 @@
     },
     {
       "id": 106,
+      "world_map_marker": 0,
       "name_key": "exe.00558788",
       "category": 2,
       "group_id": 115,
@@ -2388,6 +2495,7 @@
     },
     {
       "id": 107,
+      "world_map_marker": 0,
       "name_key": "exe.0055877c",
       "category": 2,
       "group_id": 204,
@@ -2411,6 +2519,7 @@
     },
     {
       "id": 108,
+      "world_map_marker": 0,
       "name_key": "exe.0055876c",
       "category": 2,
       "group_id": 113,
@@ -2434,6 +2543,7 @@
     },
     {
       "id": 109,
+      "world_map_marker": 0,
       "name_key": "exe.0055875c",
       "category": 2,
       "group_id": 206,
@@ -2457,6 +2567,7 @@
     },
     {
       "id": 110,
+      "world_map_marker": 0,
       "name_key": "exe.00543b0c",
       "category": 2,
       "group_id": 145,
@@ -2480,6 +2591,7 @@
     },
     {
       "id": 111,
+      "world_map_marker": 0,
       "name_key": "exe.00558754",
       "category": 2,
       "group_id": 121,
@@ -2503,6 +2615,7 @@
     },
     {
       "id": 112,
+      "world_map_marker": 0,
       "name_key": "exe.00543af4",
       "category": 2,
       "group_id": 209,
@@ -2526,6 +2639,7 @@
     },
     {
       "id": 113,
+      "world_map_marker": 0,
       "name_key": "exe.00543ae8",
       "category": 2,
       "group_id": 155,
@@ -2549,6 +2663,7 @@
     },
     {
       "id": 114,
+      "world_map_marker": 0,
       "category": 2,
       "group_id": 156,
       "still_slot": -1,
@@ -2571,6 +2686,7 @@
     },
     {
       "id": 115,
+      "world_map_marker": 0,
       "name_key": "exe.00558740",
       "category": 2,
       "group_id": 158,
@@ -2594,6 +2710,7 @@
     },
     {
       "id": 116,
+      "world_map_marker": 0,
       "name_key": "exe.00543ad0",
       "category": 2,
       "group_id": 213,
@@ -2617,6 +2734,7 @@
     },
     {
       "id": 117,
+      "world_map_marker": 0,
       "category": 2,
       "group_id": 214,
       "still_slot": -1,
@@ -2639,6 +2757,7 @@
     },
     {
       "id": 118,
+      "world_map_marker": 0,
       "category": 2,
       "group_id": 215,
       "still_slot": -1,
@@ -2661,6 +2780,7 @@
     },
     {
       "id": 119,
+      "world_map_marker": 0,
       "name_key": "exe.00543aa8",
       "category": 2,
       "group_id": 216,
@@ -2684,6 +2804,7 @@
     },
     {
       "id": 120,
+      "world_map_marker": 0,
       "name_key": "exe.00543a9c",
       "category": 2,
       "group_id": 217,
@@ -2707,6 +2828,7 @@
     },
     {
       "id": 121,
+      "world_map_marker": 0,
       "name_key": "exe.0055871c",
       "category": 2,
       "group_id": 122,
@@ -2730,6 +2852,7 @@
     },
     {
       "id": 122,
+      "world_map_marker": 0,
       "name_key": "exe.0055870c",
       "category": 2,
       "group_id": 219,
@@ -2753,6 +2876,7 @@
     },
     {
       "id": 123,
+      "world_map_marker": 0,
       "name_key": "exe.00558704",
       "category": 2,
       "group_id": 361,
@@ -2776,6 +2900,7 @@
     },
     {
       "id": 124,
+      "world_map_marker": 0,
       "name_key": "exe.00543a80",
       "category": 2,
       "group_id": 161,
@@ -2799,6 +2924,7 @@
     },
     {
       "id": 125,
+      "world_map_marker": 0,
       "name_key": "exe.005586ec",
       "category": 2,
       "group_id": 222,
@@ -2822,6 +2948,7 @@
     },
     {
       "id": 126,
+      "world_map_marker": 0,
       "name_key": "exe.00543a60",
       "category": 2,
       "group_id": 133,
@@ -2845,6 +2972,7 @@
     },
     {
       "id": 127,
+      "world_map_marker": 0,
       "name_key": "exe.00543a50",
       "category": 3,
       "group_id": 224,
@@ -2868,6 +2996,7 @@
     },
     {
       "id": 128,
+      "world_map_marker": 0,
       "category": 3,
       "group_id": 225,
       "still_slot": -1,
@@ -2890,6 +3019,7 @@
     },
     {
       "id": 129,
+      "world_map_marker": 0,
       "name_key": "exe.00543a2c",
       "category": 3,
       "group_id": 142,
@@ -2913,6 +3043,7 @@
     },
     {
       "id": 130,
+      "world_map_marker": 0,
       "name_key": "exe.00543a20",
       "category": 7,
       "group_id": 227,
@@ -2936,6 +3067,7 @@
     },
     {
       "id": 131,
+      "world_map_marker": 0,
       "category": 2,
       "group_id": 362,
       "still_slot": -1,
@@ -2958,6 +3090,7 @@
     },
     {
       "id": 132,
+      "world_map_marker": 0,
       "category": 5,
       "group_id": 300,
       "still_slot": 73,
@@ -2980,6 +3113,7 @@
     },
     {
       "id": 133,
+      "world_map_marker": 0,
       "category": 5,
       "group_id": 301,
       "still_slot": 74,
@@ -3002,6 +3136,7 @@
     },
     {
       "id": 134,
+      "world_map_marker": 0,
       "category": 5,
       "group_id": 112,
       "still_slot": 75,
@@ -3024,6 +3159,7 @@
     },
     {
       "id": 135,
+      "world_map_marker": 0,
       "category": 5,
       "group_id": 303,
       "still_slot": 76,
@@ -3046,6 +3182,7 @@
     },
     {
       "id": 136,
+      "world_map_marker": 0,
       "category": 5,
       "group_id": 304,
       "still_slot": 77,
@@ -3068,6 +3205,7 @@
     },
     {
       "id": 137,
+      "world_map_marker": 0,
       "category": 5,
       "group_id": 305,
       "still_slot": 78,
@@ -3090,6 +3228,7 @@
     },
     {
       "id": 138,
+      "world_map_marker": 0,
       "category": 5,
       "group_id": 306,
       "still_slot": 81,
@@ -3112,6 +3251,7 @@
     },
     {
       "id": 139,
+      "world_map_marker": 0,
       "category": 5,
       "group_id": 307,
       "still_slot": 83,
@@ -3134,6 +3274,7 @@
     },
     {
       "id": 140,
+      "world_map_marker": 0,
       "category": 5,
       "group_id": 308,
       "still_slot": 82,
@@ -3156,6 +3297,7 @@
     },
     {
       "id": 141,
+      "world_map_marker": 0,
       "name_key": "exe.00558540",
       "category": 6,
       "group_id": 309,
@@ -3179,6 +3321,7 @@
     },
     {
       "id": 142,
+      "world_map_marker": 0,
       "name_key": "discovery.name.142",
       "category": 6,
       "group_id": 310,
@@ -3202,6 +3345,7 @@
     },
     {
       "id": 143,
+      "world_map_marker": 0,
       "name_key": "discovery.name.143",
       "category": 6,
       "group_id": 311,
@@ -3225,6 +3369,7 @@
     },
     {
       "id": 144,
+      "world_map_marker": 0,
       "name_key": "discovery.name.144",
       "category": 6,
       "group_id": 312,
@@ -3248,6 +3393,7 @@
     },
     {
       "id": 145,
+      "world_map_marker": 0,
       "name_key": "discovery.name.145",
       "category": 6,
       "group_id": 313,
@@ -3271,6 +3417,7 @@
     },
     {
       "id": 146,
+      "world_map_marker": 0,
       "name_key": "discovery.name.146",
       "category": 6,
       "group_id": 314,
@@ -3294,6 +3441,7 @@
     },
     {
       "id": 147,
+      "world_map_marker": 0,
       "name_key": "discovery.name.147",
       "category": 6,
       "group_id": 315,
@@ -3317,6 +3465,7 @@
     },
     {
       "id": 148,
+      "world_map_marker": 0,
       "name_key": "exe.00558568",
       "category": 6,
       "group_id": 317,
@@ -3340,6 +3489,7 @@
     },
     {
       "id": 149,
+      "world_map_marker": 0,
       "name_key": "exe.0055855c",
       "category": 6,
       "group_id": 317,
@@ -3363,6 +3513,7 @@
     },
     {
       "id": 150,
+      "world_map_marker": 0,
       "name_key": "discovery.name.150",
       "category": 6,
       "group_id": 319,
@@ -3386,6 +3537,7 @@
     },
     {
       "id": 151,
+      "world_map_marker": 0,
       "name_key": "exe.00558548",
       "category": 6,
       "group_id": 320,
@@ -3409,6 +3561,7 @@
     },
     {
       "id": 152,
+      "world_map_marker": 0,
       "category": 6,
       "group_id": 321,
       "still_slot": 3,
@@ -3431,6 +3584,7 @@
     },
     {
       "id": 153,
+      "world_map_marker": 0,
       "category": 6,
       "group_id": 322,
       "still_slot": 34,
@@ -3453,6 +3607,7 @@
     },
     {
       "id": 154,
+      "world_map_marker": 0,
       "name_key": "exe.00543930",
       "category": 6,
       "group_id": 323,
@@ -3476,6 +3631,7 @@
     },
     {
       "id": 155,
+      "world_map_marker": 0,
       "name_key": "exe.0055851c",
       "category": 6,
       "group_id": 324,
@@ -3499,6 +3655,7 @@
     },
     {
       "id": 156,
+      "world_map_marker": 0,
       "name_key": "exe.0054391c",
       "category": 6,
       "group_id": 325,
@@ -3522,6 +3679,7 @@
     },
     {
       "id": 157,
+      "world_map_marker": 0,
       "name_key": "exe.00558510",
       "category": 6,
       "group_id": 326,
@@ -3545,6 +3703,7 @@
     },
     {
       "id": 158,
+      "world_map_marker": 0,
       "name_key": "exe.0054390c",
       "category": 6,
       "group_id": 327,
@@ -3568,6 +3727,7 @@
     },
     {
       "id": 159,
+      "world_map_marker": 0,
       "name_key": "exe.00558508",
       "category": 6,
       "group_id": 328,
@@ -3591,6 +3751,7 @@
     },
     {
       "id": 160,
+      "world_map_marker": 0,
       "name_key": "exe.00558500",
       "category": 6,
       "group_id": 328,
@@ -3614,6 +3775,7 @@
     },
     {
       "id": 161,
+      "world_map_marker": 0,
       "name_key": "exe.005584f8",
       "category": 6,
       "group_id": 328,
@@ -3637,6 +3799,7 @@
     },
     {
       "id": 162,
+      "world_map_marker": 0,
       "name_key": "discovery.name.162",
       "category": 6,
       "group_id": 331,
@@ -3660,6 +3823,7 @@
     },
     {
       "id": 163,
+      "world_map_marker": 0,
       "name_key": "exe.005584e0",
       "category": 6,
       "group_id": 332,
@@ -3683,6 +3847,7 @@
     },
     {
       "id": 164,
+      "world_map_marker": 0,
       "name_key": "exe.005584d4",
       "category": 6,
       "group_id": 333,
@@ -3706,6 +3871,7 @@
     },
     {
       "id": 165,
+      "world_map_marker": 0,
       "name_key": "exe.005584cc",
       "category": 6,
       "group_id": 334,
@@ -3729,6 +3895,7 @@
     },
     {
       "id": 166,
+      "world_map_marker": 0,
       "name_key": "exe.005584c4",
       "category": 6,
       "group_id": 335,
@@ -3752,6 +3919,7 @@
     },
     {
       "id": 167,
+      "world_map_marker": 0,
       "name_key": "exe.005584b8",
       "category": 6,
       "group_id": 336,
@@ -3775,6 +3943,7 @@
     },
     {
       "id": 168,
+      "world_map_marker": 0,
       "name_key": "exe.005584b0",
       "category": 6,
       "group_id": 337,
@@ -3798,6 +3967,7 @@
     },
     {
       "id": 169,
+      "world_map_marker": 0,
       "name_key": "exe.005584a4",
       "category": 6,
       "group_id": 338,
@@ -3821,6 +3991,7 @@
     },
     {
       "id": 170,
+      "world_map_marker": 0,
       "name_key": "exe.005438a4",
       "category": 6,
       "group_id": 339,
@@ -3844,6 +4015,7 @@
     },
     {
       "id": 171,
+      "world_map_marker": 0,
       "category": 6,
       "group_id": 340,
       "still_slot": 27,
@@ -3866,6 +4038,7 @@
     },
     {
       "id": 172,
+      "world_map_marker": 0,
       "name_key": "exe.0055848c",
       "category": 6,
       "group_id": 341,
@@ -3889,6 +4062,7 @@
     },
     {
       "id": 173,
+      "world_map_marker": 0,
       "name_key": "discovery.name.173",
       "category": 6,
       "group_id": 342,
@@ -3912,6 +4086,7 @@
     },
     {
       "id": 174,
+      "world_map_marker": 0,
       "name_key": "exe.00558480",
       "category": 6,
       "group_id": 343,
@@ -3935,6 +4110,7 @@
     },
     {
       "id": 175,
+      "world_map_marker": 0,
       "category": 6,
       "group_id": 344,
       "still_slot": 30,
@@ -3957,6 +4133,7 @@
     },
     {
       "id": 176,
+      "world_map_marker": 0,
       "category": 6,
       "group_id": 345,
       "still_slot": -1,
@@ -3979,6 +4156,7 @@
     },
     {
       "id": 177,
+      "world_map_marker": 0,
       "category": 6,
       "group_id": 346,
       "still_slot": 32,
@@ -4001,6 +4179,7 @@
     },
     {
       "id": 178,
+      "world_map_marker": 0,
       "category": 5,
       "group_id": 347,
       "still_slot": -1,
@@ -4023,6 +4202,7 @@
     },
     {
       "id": 179,
+      "world_map_marker": 0,
       "category": 7,
       "group_id": 348,
       "still_slot": 43,
@@ -4045,6 +4225,7 @@
     },
     {
       "id": 180,
+      "world_map_marker": 0,
       "category": 7,
       "group_id": 349,
       "still_slot": 38,
@@ -4067,6 +4248,7 @@
     },
     {
       "id": 181,
+      "world_map_marker": 0,
       "category": 7,
       "group_id": 350,
       "still_slot": 79,
@@ -4089,6 +4271,7 @@
     },
     {
       "id": 182,
+      "world_map_marker": 0,
       "name_key": "discovery.name.182",
       "category": 7,
       "group_id": 351,
@@ -4112,6 +4295,7 @@
     },
     {
       "id": 183,
+      "world_map_marker": 0,
       "category": 7,
       "group_id": 352,
       "still_slot": 39,
@@ -4134,6 +4318,7 @@
     },
     {
       "id": 184,
+      "world_map_marker": 0,
       "category": 7,
       "group_id": 353,
       "still_slot": 42,
@@ -4156,6 +4341,7 @@
     },
     {
       "id": 185,
+      "world_map_marker": 0,
       "category": 7,
       "group_id": 354,
       "still_slot": 40,
@@ -4178,6 +4364,7 @@
     },
     {
       "id": 186,
+      "world_map_marker": 0,
       "category": 7,
       "group_id": 355,
       "still_slot": 44,
@@ -4200,6 +4387,7 @@
     },
     {
       "id": 187,
+      "world_map_marker": 0,
       "category": 5,
       "group_id": 356,
       "still_slot": 41,
@@ -4222,6 +4410,7 @@
     },
     {
       "id": 188,
+      "world_map_marker": 0,
       "category": 5,
       "group_id": 357,
       "still_slot": 80,
@@ -4244,6 +4433,7 @@
     },
     {
       "id": 189,
+      "world_map_marker": 0,
       "name_key": "discovery.name.189",
       "category": 6,
       "group_id": 358,
@@ -4267,6 +4457,7 @@
     },
     {
       "id": 190,
+      "world_map_marker": 0,
       "name_key": "exe.00558338",
       "category": 3,
       "group_id": 359,
@@ -4290,6 +4481,7 @@
     },
     {
       "id": 191,
+      "world_map_marker": 0,
       "category": 5,
       "group_id": 360,
       "still_slot": -1,
@@ -4312,6 +4504,7 @@
     },
     {
       "id": 192,
+      "world_map_marker": 0,
       "category": 7,
       "group_id": 361,
       "still_slot": -1,
@@ -4334,6 +4527,7 @@
     },
     {
       "id": 193,
+      "world_map_marker": 0,
       "category": 7,
       "group_id": 362,
       "still_slot": -1,
@@ -4356,6 +4550,7 @@
     },
     {
       "id": 194,
+      "world_map_marker": 0,
       "category": 3,
       "group_id": 400,
       "still_slot": -1,
@@ -4378,6 +4573,7 @@
     },
     {
       "id": 195,
+      "world_map_marker": 0,
       "category": 5,
       "group_id": 401,
       "still_slot": -1,
@@ -4400,6 +4596,7 @@
     },
     {
       "id": 196,
+      "world_map_marker": 0,
       "category": 5,
       "group_id": 402,
       "still_slot": -1,
@@ -4422,6 +4619,7 @@
     },
     {
       "id": 197,
+      "world_map_marker": 0,
       "name_key": "exe.005488d4",
       "category": 5,
       "group_id": 403,
@@ -4445,6 +4643,7 @@
     },
     {
       "id": 198,
+      "world_map_marker": 0,
       "name_key": "exe.005488b8",
       "category": 5,
       "group_id": 404,
@@ -4468,6 +4667,7 @@
     },
     {
       "id": 199,
+      "world_map_marker": 0,
       "category": 6,
       "group_id": 405,
       "still_slot": -1,
@@ -4490,6 +4690,7 @@
     },
     {
       "id": 200,
+      "world_map_marker": 0,
       "name_key": "exe.005437ac",
       "category": 6,
       "group_id": 406,
@@ -4513,6 +4714,7 @@
     },
     {
       "id": 201,
+      "world_map_marker": 0,
       "category": 6,
       "group_id": 407,
       "still_slot": -1,
@@ -4535,6 +4737,7 @@
     },
     {
       "id": 202,
+      "world_map_marker": 0,
       "category": 6,
       "group_id": 408,
       "still_slot": -1,
@@ -4557,6 +4760,7 @@
     },
     {
       "id": 203,
+      "world_map_marker": 0,
       "name_key": "exe.00547208",
       "category": 4,
       "group_id": 500,
@@ -4580,6 +4784,7 @@
     },
     {
       "id": 204,
+      "world_map_marker": 0,
       "name_key": "exe.00547200",
       "category": 4,
       "group_id": 501,
@@ -4603,6 +4808,7 @@
     },
     {
       "id": 205,
+      "world_map_marker": 0,
       "name_key": "exe.00543780",
       "category": 4,
       "group_id": 502,
@@ -4626,6 +4832,7 @@
     },
     {
       "id": 206,
+      "world_map_marker": 0,
       "name_key": "exe.00543778",
       "category": 4,
       "group_id": 2,
@@ -4649,6 +4856,7 @@
     },
     {
       "id": 207,
+      "world_map_marker": 0,
       "name_key": "exe.00543770",
       "category": 4,
       "group_id": 4,
@@ -4672,6 +4880,7 @@
     },
     {
       "id": 208,
+      "world_map_marker": 0,
       "name_key": "exe.00543768",
       "category": 4,
       "group_id": 505,
@@ -4695,6 +4904,7 @@
     },
     {
       "id": 209,
+      "world_map_marker": 0,
       "name_key": "exe.00547160",
       "category": 4,
       "group_id": 506,
@@ -4718,6 +4928,7 @@
     },
     {
       "id": 210,
+      "world_map_marker": 0,
       "name_key": "exe.00547150",
       "category": 4,
       "group_id": 507,
@@ -4741,6 +4952,7 @@
     },
     {
       "id": 211,
+      "world_map_marker": 0,
       "name_key": "exe.00543744",
       "category": 4,
       "group_id": 508,
@@ -4764,6 +4976,7 @@
     },
     {
       "id": 212,
+      "world_map_marker": 0,
       "name_key": "exe.00547148",
       "category": 4,
       "group_id": 509,
@@ -4787,6 +5000,7 @@
     },
     {
       "id": 213,
+      "world_map_marker": 0,
       "name_key": "exe.00543728",
       "category": 4,
       "group_id": 510,
@@ -4810,6 +5024,7 @@
     },
     {
       "id": 214,
+      "world_map_marker": 0,
       "name_key": "exe.00547130",
       "category": 4,
       "group_id": 511,
@@ -4833,6 +5048,7 @@
     },
     {
       "id": 215,
+      "world_map_marker": 0,
       "category": 4,
       "group_id": 512,
       "still_slot": -1,
@@ -4855,6 +5071,7 @@
     },
     {
       "id": 216,
+      "world_map_marker": 0,
       "name_key": "exe.0054370c",
       "category": 4,
       "group_id": 513,
@@ -4878,6 +5095,7 @@
     },
     {
       "id": 217,
+      "world_map_marker": 0,
       "name_key": "exe.00543704",
       "category": 4,
       "group_id": 514,
@@ -4901,6 +5119,7 @@
     },
     {
       "id": 218,
+      "world_map_marker": 0,
       "name_key": "exe.005436fc",
       "category": 4,
       "group_id": 515,
@@ -4924,6 +5143,7 @@
     },
     {
       "id": 219,
+      "world_map_marker": 0,
       "name_key": "exe.005436f4",
       "category": 4,
       "group_id": 516,
@@ -4947,6 +5167,7 @@
     },
     {
       "id": 220,
+      "world_map_marker": 0,
       "name_key": "exe.005436ec",
       "category": 4,
       "group_id": 517,
@@ -4970,6 +5191,7 @@
     },
     {
       "id": 221,
+      "world_map_marker": 0,
       "category": 4,
       "group_id": 518,
       "still_slot": -1,
@@ -4992,6 +5214,7 @@
     },
     {
       "id": 222,
+      "world_map_marker": 0,
       "name_key": "exe.005436dc",
       "category": 4,
       "group_id": 519,
@@ -5015,6 +5238,7 @@
     },
     {
       "id": 223,
+      "world_map_marker": 0,
       "name_key": "exe.005436d4",
       "category": 4,
       "group_id": 520,
@@ -5038,6 +5262,7 @@
     },
     {
       "id": 224,
+      "world_map_marker": 0,
       "name_key": "exe.0055823c",
       "category": 4,
       "group_id": 521,
@@ -5061,6 +5286,7 @@
     },
     {
       "id": 225,
+      "world_map_marker": 0,
       "name_key": "exe.005436c0",
       "category": 4,
       "group_id": 522,
@@ -5084,6 +5310,7 @@
     },
     {
       "id": 226,
+      "world_map_marker": 0,
       "name_key": "exe.005436b8",
       "category": 4,
       "group_id": 523,
@@ -5107,6 +5334,7 @@
     },
     {
       "id": 227,
+      "world_map_marker": 0,
       "name_key": "exe.005436b0",
       "category": 4,
       "group_id": 524,
@@ -5130,6 +5358,7 @@
     },
     {
       "id": 228,
+      "world_map_marker": 0,
       "name_key": "exe.005436a8",
       "category": 4,
       "group_id": 525,
@@ -5153,6 +5382,7 @@
     },
     {
       "id": 229,
+      "world_map_marker": 0,
       "name_key": "exe.005436a0",
       "category": 4,
       "group_id": 526,
@@ -5176,6 +5406,7 @@
     },
     {
       "id": 230,
+      "world_map_marker": 0,
       "name_key": "exe.005580bc",
       "category": 2,
       "group_id": 200,
@@ -5199,6 +5430,7 @@
     },
     {
       "id": 231,
+      "world_map_marker": 0,
       "name_key": "exe.005580b0",
       "category": 2,
       "group_id": 201,
@@ -5222,6 +5454,7 @@
     },
     {
       "id": 232,
+      "world_map_marker": 0,
       "name_key": "exe.005580a0",
       "category": 2,
       "group_id": 109,
@@ -5245,6 +5478,7 @@
     },
     {
       "id": 233,
+      "world_map_marker": 0,
       "name_key": "exe.00558094",
       "category": 2,
       "group_id": 115,
@@ -5268,6 +5502,7 @@
     },
     {
       "id": 234,
+      "world_map_marker": 0,
       "name_key": "exe.00558088",
       "category": 2,
       "group_id": 113,
@@ -5291,6 +5526,7 @@
     },
     {
       "id": 235,
+      "world_map_marker": 0,
       "name_key": "exe.0055807c",
       "category": 2,
       "group_id": 206,
@@ -5314,6 +5550,7 @@
     },
     {
       "id": 236,
+      "world_map_marker": 0,
       "name_key": "exe.0055806c",
       "category": 2,
       "group_id": 145,
@@ -5337,6 +5574,7 @@
     },
     {
       "id": 237,
+      "world_map_marker": 0,
       "name_key": "exe.00558060",
       "category": 2,
       "group_id": 121,
@@ -5360,6 +5598,7 @@
     },
     {
       "id": 238,
+      "world_map_marker": 0,
       "name_key": "exe.00558054",
       "category": 2,
       "group_id": 209,
@@ -5383,6 +5622,7 @@
     },
     {
       "id": 239,
+      "world_map_marker": 0,
       "name_key": "exe.00558048",
       "category": 2,
       "group_id": 155,
@@ -5406,6 +5646,7 @@
     },
     {
       "id": 240,
+      "world_map_marker": 0,
       "category": 2,
       "group_id": 156,
       "still_slot": -1,
@@ -5428,6 +5669,7 @@
     },
     {
       "id": 241,
+      "world_map_marker": 0,
       "name_key": "exe.00558034",
       "category": 2,
       "group_id": 158,
@@ -5451,6 +5693,7 @@
     },
     {
       "id": 242,
+      "world_map_marker": 0,
       "name_key": "exe.00558028",
       "category": 2,
       "group_id": 213,
@@ -5474,6 +5717,7 @@
     },
     {
       "id": 243,
+      "world_map_marker": 0,
       "name_key": "exe.0055801c",
       "category": 2,
       "group_id": 214,
@@ -5497,6 +5741,7 @@
     },
     {
       "id": 244,
+      "world_map_marker": 0,
       "name_key": "exe.0055800c",
       "category": 2,
       "group_id": 215,
@@ -5520,6 +5765,7 @@
     },
     {
       "id": 245,
+      "world_map_marker": 0,
       "name_key": "exe.00558000",
       "category": 2,
       "group_id": 216,
@@ -5543,6 +5789,7 @@
     },
     {
       "id": 246,
+      "world_map_marker": 0,
       "name_key": "exe.00557ff4",
       "category": 2,
       "group_id": 217,
@@ -5566,6 +5813,7 @@
     },
     {
       "id": 247,
+      "world_map_marker": 0,
       "name_key": "exe.00557fe4",
       "category": 2,
       "group_id": 122,
@@ -5589,6 +5837,7 @@
     },
     {
       "id": 248,
+      "world_map_marker": 0,
       "name_key": "exe.00557fd8",
       "category": 2,
       "group_id": 219,
@@ -5612,6 +5861,7 @@
     },
     {
       "id": 249,
+      "world_map_marker": 0,
       "name_key": "exe.00557fd0",
       "category": 2,
       "group_id": 361,
@@ -5635,6 +5885,7 @@
     },
     {
       "id": 250,
+      "world_map_marker": 0,
       "name_key": "exe.00557fc4",
       "category": 2,
       "group_id": 161,
@@ -5658,6 +5909,7 @@
     },
     {
       "id": 251,
+      "world_map_marker": 0,
       "name_key": "exe.00557fb0",
       "category": 2,
       "group_id": 222,
@@ -5681,6 +5933,7 @@
     },
     {
       "id": 252,
+      "world_map_marker": 0,
       "category": 2,
       "group_id": 133,
       "still_slot": -1,
@@ -5703,6 +5956,7 @@
     },
     {
       "id": 253,
+      "world_map_marker": 0,
       "name_key": "exe.00557f9c",
       "category": 3,
       "group_id": 224,
@@ -5726,6 +5980,7 @@
     },
     {
       "id": 254,
+      "world_map_marker": 0,
       "name_key": "exe.00557f90",
       "category": 3,
       "group_id": 225,
@@ -5749,6 +6004,7 @@
     },
     {
       "id": 255,
+      "world_map_marker": 0,
       "name_key": "exe.00557f80",
       "category": 3,
       "group_id": 142,
@@ -5772,6 +6028,7 @@
     },
     {
       "id": 256,
+      "world_map_marker": 0,
       "category": 7,
       "group_id": 227,
       "still_slot": -1,
@@ -5794,6 +6051,7 @@
     },
     {
       "id": 257,
+      "world_map_marker": 0,
       "name_key": "exe.00557f5c",
       "category": 2,
       "group_id": 362,
@@ -5817,6 +6075,7 @@
     },
     {
       "id": 258,
+      "world_map_marker": 0,
       "category": 6,
       "group_id": 650,
       "still_slot": -1,
@@ -5839,6 +6098,7 @@
     },
     {
       "id": 259,
+      "world_map_marker": 0,
       "category": 7,
       "group_id": 651,
       "still_slot": -1,
@@ -5861,6 +6121,7 @@
     },
     {
       "id": 260,
+      "world_map_marker": 0,
       "category": 7,
       "group_id": 652,
       "still_slot": -1,
@@ -5883,6 +6144,7 @@
     },
     {
       "id": 261,
+      "world_map_marker": 0,
       "category": 7,
       "group_id": 653,
       "still_slot": -1,
@@ -5905,6 +6167,7 @@
     },
     {
       "id": 262,
+      "world_map_marker": 0,
       "category": 7,
       "group_id": 654,
       "still_slot": -1,
@@ -5927,6 +6190,7 @@
     },
     {
       "id": 263,
+      "world_map_marker": 0,
       "category": 7,
       "group_id": 655,
       "still_slot": -1,
@@ -5949,6 +6213,7 @@
     },
     {
       "id": 264,
+      "world_map_marker": 0,
       "category": 7,
       "group_id": 656,
       "still_slot": -1,
@@ -5971,6 +6236,7 @@
     },
     {
       "id": 265,
+      "world_map_marker": 0,
       "category": 2,
       "group_id": 700,
       "still_slot": -1,
@@ -5993,6 +6259,7 @@
     },
     {
       "id": 266,
+      "world_map_marker": 0,
       "category": 2,
       "group_id": 701,
       "still_slot": -1,
@@ -6015,6 +6282,7 @@
     },
     {
       "id": 267,
+      "world_map_marker": 0,
       "category": 2,
       "group_id": 702,
       "still_slot": -1,
@@ -6037,6 +6305,7 @@
     },
     {
       "id": 268,
+      "world_map_marker": 0,
       "category": 2,
       "group_id": 703,
       "still_slot": -1,
@@ -6059,6 +6328,7 @@
     },
     {
       "id": 269,
+      "world_map_marker": 0,
       "category": 2,
       "group_id": 704,
       "still_slot": -1,
@@ -6081,6 +6351,7 @@
     },
     {
       "id": 270,
+      "world_map_marker": 0,
       "category": 2,
       "group_id": 705,
       "still_slot": -1,
@@ -6103,6 +6374,7 @@
     },
     {
       "id": 271,
+      "world_map_marker": 0,
       "category": 2,
       "group_id": 706,
       "still_slot": -1,
@@ -6125,6 +6397,7 @@
     },
     {
       "id": 272,
+      "world_map_marker": 0,
       "category": 2,
       "group_id": 707,
       "still_slot": -1,
@@ -6147,6 +6420,7 @@
     },
     {
       "id": 273,
+      "world_map_marker": 0,
       "category": 7,
       "group_id": 527,
       "still_slot": -1,
