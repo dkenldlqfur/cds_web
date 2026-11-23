@@ -1484,7 +1484,7 @@
     {
       "path": "assets-manifest.json",
       "size": 73751,
-      "sha256": "eff3d2cf1296883b7338a1be1d653cf28be12704e4500e7fd2025cdef7d56e2d"
+      "sha256": "8f99e01059cce3dc6190345a22fd15bb8c2c558d8d78e702f729c3548579b90e"
     },
     {
       "path": "assets-misc.pck",
@@ -1544,12 +1544,12 @@
     {
       "path": "build-version.json",
       "size": 10598,
-      "sha256": "541a2e4acca5df1497b960610cefc14a9464ceabb656c5cf482b1a90b63cf382"
+      "sha256": "41bf25c4f6000f4a682dffbb53734134eccbc29819d6db47d6d46e42110963de"
     },
     {
       "path": "cds_native.web.wasm",
-      "size": 10607725,
-      "sha256": "1cba7cd42cc7bd5ad077b14692e47c4916eb727a3e6cf82d861521d9852a38f8"
+      "size": 10610351,
+      "sha256": "b7b8594e1edbf388ec65af366f7bf5b722207c76543907310fa1dbbd2370f808"
     },
     {
       "path": "discovery-video-worker.js",
@@ -1559,12 +1559,12 @@
     {
       "path": "game-data.pck",
       "size": 16750548,
-      "sha256": "38daabc8e4faf09f6b6fde5aa3d8bfd9b2861a5520554f8627ec669bb8303142"
+      "sha256": "7a7c1b65c0748a685f8554d660876078f34f62101ac76349fc3408660d4c5cc5"
     },
     {
       "path": "gameplay.pck",
       "size": 2052508,
-      "sha256": "5829a8492083fd37af979569995e1e9099b6a459bce0f94219e157aa1418f54e"
+      "sha256": "64e9204f857f4e926b2b7838cd60d18ce827a430b4960f012bb2920237b63489"
     },
     {
       "path": "index.apple-touch-icon.png",
@@ -1584,7 +1584,7 @@
     {
       "path": "index.html",
       "size": 100494,
-      "sha256": "8dca7d012659de34990150c009b8e99f04f230cb46ed1e2790bc41f617e0350d"
+      "sha256": "d5f0ad65bfd38c8b68bcbd311ef285581b75769c44b1a7bed40e3e4cfbcfaba4"
     },
     {
       "path": "index.icon.png",
@@ -1598,8 +1598,8 @@
     },
     {
       "path": "index.pck",
-      "size": 25918336,
-      "sha256": "184580bbd7e5653760ec01c5fdebe59bfc33fcefffbf1841f307424b400b8478"
+      "size": 25918320,
+      "sha256": "d2bac8ab3abac91737cc922b0aba6d5eace4ccdf27d86689503292f354a06cc8"
     },
     {
       "path": "index.png",
