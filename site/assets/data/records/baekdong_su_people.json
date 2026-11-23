@@ -7,7 +7,7 @@
   "taverns": [],
   "patrons": [
     {"name": "혈", "family_name": "이", "previous_name": "성종", "portrait": 12002, "sex": 0, "nationality": 70, "occupation": 14, "appearance_year_offset": 0, "zodiac": 4, "blood_type": 1, "power": 91, "city": 190, "initial_facility": 2, "funds_10000": 90, "contract_factor": 65, "preference_flags": 255, "language_mask": 8192, "id": 4000, "source_id": 0},
-    {"name": "연산군", "portrait": 12003, "sex": 0, "nationality": 70, "occupation": 14, "appearance_year_offset": 14, "zodiac": 3, "blood_type": 0, "power": 95, "city": 190, "initial_facility": 2, "funds_10000": 95, "contract_factor": 75, "preference_flags": 255, "language_mask": 8192, "id": 4001, "source_id": 1},
+    {"name": "융", "family_name": "이", "previous_name": "연산군", "portrait": 12003, "sex": 0, "nationality": 70, "occupation": 14, "appearance_year_offset": 14, "zodiac": 3, "blood_type": 0, "power": 95, "city": 190, "initial_facility": 2, "funds_10000": 95, "contract_factor": 75, "preference_flags": 255, "language_mask": 8192, "id": 4001, "source_id": 1},
     {"name": "현", "family_name": "이", "previous_name": "제안대군", "portrait": 12004, "sex": 0, "nationality": 70, "occupation": 9, "appearance_year_offset": 0, "zodiac": 2, "blood_type": 2, "power": 10, "city": 190, "initial_facility": 12, "funds_10000": 50, "contract_factor": 70, "preference_flags": 255, "language_mask": 8192, "id": 4003, "source_id": 3}
   ],
   "previous_ids": {
