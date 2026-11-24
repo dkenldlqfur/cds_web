@@ -1993,19 +1993,19 @@
     {
       "url": "index.pck",
       "size": 25939564,
-      "sha256": "bf49a71322bec2a11d9d58ebb8ecd49a9c9f7c475903670d8e8a5dcab5681375",
+      "sha256": "9ae4090f66c38631250fef36f61c7bc68e10d636f2ef6c10d9652e628b5ccd40",
       "deferred": false
     },
     {
       "url": "gameplay.pck",
-      "size": 2066956,
-      "sha256": "518d217b8c8c06c492b87ba61b06802524488feb262882e59498c0cb98598810",
+      "size": 2066668,
+      "sha256": "417fdc0d5af1fddc77cf38c5a727e12083f26085e1b10e33d8104905eab763c6",
       "deferred": false
     },
     {
       "url": "game-data.pck",
       "size": 16761524,
-      "sha256": "2ab8a56e098b1f2b408e3023f5131022238bf068b6a33a5d82f91b764f414ff0",
+      "sha256": "47bd1877f18c37763a62b3b9a2a48970bd7b759c1684c6959e893e5e4950e3c9",
       "deferred": false
     },
     {
