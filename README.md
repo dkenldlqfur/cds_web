@@ -4,6 +4,8 @@ Android Chrome 및 iPhone Safari에서 접속할 웹 빌드입니다.
 
 게임 접속 주소: **https://dkenldlqfur.github.io/cds_web/**
 
+2026-11-25 **1.4.5** — 주인공 편집에서 세이브에 기록된 기술·언어 레벨을 표시하고, 조선소에서 선박 매각 시 긴 한글 제목과 합계가 내부 표시 버퍼를 넘던 오류를 수정했습니다. 게임 옵션에 오류 리포트 자동 전송을 추가했습니다. 기본값은 켜짐이며 전송되는 기록에 실행 버전과 진단 정보가 포함됩니다. [Windows·macOS 1.4.5 변경 내역](https://github.com/dkenldlqfur/CDS95_Windows/releases/tag/v1.4.5).
+
 2026-11-11: **1.2.0** — 인물 등록과 편집 UI, 항해사 정보, 미니게임, 고해상도 삽화를 갱신했습니다. 웹 1.1.8 이후의 이벤트 텍스트와 육상전 배치 수정도 포함합니다. Windows와 macOS 배포본에는 시작 시 기본 데이터 오류 수정과 연속 패치 기능이 포함됩니다. 리소스 팩을 분리해 변경 없는 팩은 캐시에서 재사용할 수 있습니다. [Windows·macOS 다운로드와 변경 내역](https://github.com/dkenldlqfur/CDS95_Windows/releases/tag/v1.2.0).
 
 2026-11-10: **1.1.8** — 1.1.5 이후의 정지 중 구름 이동, 도시 테두리, 발견 연출, 효과음 변경을 포함합니다. [Windows·macOS 전체 ZIP과 변경 내역](https://github.com/dkenldlqfur/CDS95_Windows/releases/tag/v1.1.8).

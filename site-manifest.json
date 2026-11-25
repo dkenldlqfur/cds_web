@@ -1484,7 +1484,7 @@
     {
       "path": "assets-manifest.json",
       "size": 72328,
-      "sha256": "c965544d6aebed3e683b2f5f69c78e374b3a1be50edb4096cb4f573f0d995a42"
+      "sha256": "3612d62017b3816cd3b945d750223e5771225bd07cda22b317e795cbbbc9cecb"
     },
     {
       "path": "assets-misc.pck",
@@ -1513,8 +1513,8 @@
     },
     {
       "path": "assets-portraits.pck",
-      "size": 27965408,
-      "sha256": "0e265748c0506a50079b4f114746cf74f81a15836cad5d59f3c0a94e7b6b970c"
+      "size": 28031920,
+      "sha256": "466a76c4fe30a74c5da461bc26d1566d018d88e0ffc5f7e5e007d815ef2f0949"
     },
     {
       "path": "assets-world-city.pck",
@@ -1529,12 +1529,12 @@
     {
       "path": "build-version.json",
       "size": 8889,
-      "sha256": "9b3ccf4e13e2954f44aea191b90a83c09e4264016bacefefccde3a501a36d6de"
+      "sha256": "b99efe1129441663a3043d4b2f791ee001535659b5b9bf8969f1c97989db36f6"
     },
     {
       "path": "cds_native.web.wasm",
-      "size": 10772036,
-      "sha256": "0b46acdc34b4d35c9b9e5f555457a0ad8329d16e8179909448c5cc38ebb61d98"
+      "size": 10772227,
+      "sha256": "88f563a225a5e455f51200f75e02ea1b8faba67dd59a993a3b3c817d145ffb06"
     },
     {
       "path": "discovery-video-worker.js",
@@ -1544,12 +1544,12 @@
     {
       "path": "game-data.pck",
       "size": 16761524,
-      "sha256": "47bd1877f18c37763a62b3b9a2a48970bd7b759c1684c6959e893e5e4950e3c9"
+      "sha256": "271871b1d14c8966e88c96aeccf4b1cc1c603795ed2b53578f3c504802dc9f28"
     },
     {
       "path": "gameplay.pck",
-      "size": 2066668,
-      "sha256": "417fdc0d5af1fddc77cf38c5a727e12083f26085e1b10e33d8104905eab763c6"
+      "size": 2077620,
+      "sha256": "63ae1cb67b802a1b1e6004a6c60557ddab895e61393b17aea2f392f14d81d117"
     },
     {
       "path": "index.apple-touch-icon.png",
@@ -1569,7 +1569,7 @@
     {
       "path": "index.html",
       "size": 99447,
-      "sha256": "b2182e4f0f9d9f319a6ec6ed8bd302eaa9fbe52a9629373ca1ff19fa79ed266c"
+      "sha256": "0d4b231ef0bf41ef96b7c15a173768a75c21a550610e953c393ba87e57851c7c"
     },
     {
       "path": "index.icon.png",
@@ -1583,8 +1583,8 @@
     },
     {
       "path": "index.pck",
-      "size": 25939564,
-      "sha256": "9ae4090f66c38631250fef36f61c7bc68e10d636f2ef6c10d9652e628b5ccd40"
+      "size": 25940732,
+      "sha256": "70e4351f89a161916b4d590e317011111762bc09c3785015f686419ebce40327"
     },
     {
       "path": "index.png",
@@ -1688,8 +1688,8 @@
     },
     {
       "path": "mobile/assets-portraits.pck",
-      "size": 6342640,
-      "sha256": "08c7b06fc80e021f67b677e3159a299d271fd105118618438bf3eb049bcc58ca"
+      "size": 6354352,
+      "sha256": "8c5cc82cc552c2b0d456425bcf8981bdcd1ef818b4c200f0812c713bd409246a"
     },
     {
       "path": "puzzles.pck",
