@@ -29,6 +29,11 @@ jobs:
         run: |
           node --check site/index.js
           node --check site/isolation-sw.js
+      - name: Upload verified site
+        if: ${{ !github.event.repository.private }}
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: site
 
   deploy:
     # Public Pages hosting was authorized by the repository owner.
@@ -39,13 +44,7 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - uses: actions/checkout@v6
-      - name: Reconstruct verified resource package
-        run: python3 tools/assemble_site.py
       - uses: actions/configure-pages@v5
-      - uses: actions/upload-pages-artifact@v4
-        with:
-          path: site
       - name: Publish
         id: deployment
         uses: actions/deploy-pages@v4
