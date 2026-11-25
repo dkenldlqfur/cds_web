@@ -1,31 +1,55 @@
 {
-  "version": "1.4.5",
+  "version": "1.4.6",
   "channel": "public",
-  "built_at": "2026-11-25T02:37:21.858247+00:00",
-  "pck_sha256": "70e4351f89a161916b4d590e317011111762bc09c3785015f686419ebce40327",
+  "built_at": "2026-11-25T08:32:13.332550+00:00",
+  "pck_sha256": "33cf4d23782aae7c5b9bb37ee7ac01d7440e9eb1787f90b655cceb28f426d918",
   "packs": [
     {
       "url": "index.pck",
-      "size": 25940732,
-      "sha256": "70e4351f89a161916b4d590e317011111762bc09c3785015f686419ebce40327",
+      "size": 23529052,
+      "sha256": "33cf4d23782aae7c5b9bb37ee7ac01d7440e9eb1787f90b655cceb28f426d918",
       "deferred": false
     },
     {
       "url": "gameplay.pck",
-      "size": 2077620,
-      "sha256": "63ae1cb67b802a1b1e6004a6c60557ddab895e61393b17aea2f392f14d81d117",
+      "size": 2087236,
+      "sha256": "c35d2e10acfae21d8c924e6fe5e946adfe19673207d1536c65870d52a0118918",
       "deferred": false
     },
     {
       "url": "game-data.pck",
-      "size": 16761524,
-      "sha256": "271871b1d14c8966e88c96aeccf4b1cc1c603795ed2b53578f3c504802dc9f28",
+      "size": 11118100,
+      "sha256": "094fba89a8d2e88a327b253f99a68edb6cd8aaa3bd2245c602d77368e4ece244",
       "deferred": false
     },
     {
       "url": "assets-achievements.pck",
       "size": 216760,
       "sha256": "d55654469871641a6c8983596f1b9e72620d2e36564ca4299bbd4e4066b98871",
+      "deferred": false
+    },
+    {
+      "url": "assets-bgm.001.pck",
+      "size": 28664324,
+      "sha256": "a074c844b6a570a31316da843b41c479caa6f1c0ff7f53448c472b016027cb85",
+      "deferred": false
+    },
+    {
+      "url": "assets-bgm.002.pck",
+      "size": 32297348,
+      "sha256": "afb846be47c415d3b1d1f38f41022477b48f4bdcdf8a4d2cbf4467d396811aec",
+      "deferred": false
+    },
+    {
+      "url": "assets-bgm.003.pck",
+      "size": 33460484,
+      "sha256": "27e76d1933e33ecc186a3200e81fe33ba23c0cb3f6b2d1db2201ca86e423a6ca",
+      "deferred": false
+    },
+    {
+      "url": "assets-bgm.004.pck",
+      "size": 19594324,
+      "sha256": "20ea9f5604bc7b935257886cb8a8613e7ea42b903aea00c58c6630a65d7ff185",
       "deferred": false
     },
     {
@@ -140,21 +164,15 @@
       }
     },
     {
-      "url": "assets-evanime.001.pck",
-      "size": 23085784,
-      "sha256": "404b59883b3dca9ebf7868a1df8b43ae1114546bbe7a981304010a06c7bc1900",
+      "url": "assets-evanime.pck",
+      "size": 25592024,
+      "sha256": "47098df177e4a64fcb3ee3a3b49cc5bc419cbbc7406dc6e296b8d0e06ca00adf",
       "deferred": false,
       "mobile": {
-        "url": "mobile/assets-evanime.001.pck",
-        "size": 7036952,
-        "sha256": "99399894b6b1a007af406765e9a0234c3af16025bb4450ce2e22e3a39d359212"
+        "url": "mobile/assets-evanime.pck",
+        "size": 9543192,
+        "sha256": "9d00696b3f10fc554c31f72b3d7be675a198b1b6209da9764ffe4ea97146fcfa"
       }
-    },
-    {
-      "url": "assets-evanime.002.pck",
-      "size": 15417444,
-      "sha256": "4aeeb3c1b02d6adbef15f28ce7a28f9812b2066f8fa221948dad464c9474167b",
-      "deferred": false
     },
     {
       "url": "assets-evstill.pck",
@@ -174,8 +192,8 @@
       "deferred": false,
       "mobile": {
         "url": "mobile/assets-fighter.pck",
-        "size": 3311824,
-        "sha256": "6b5f9c858aa293b1a8eebac26f4c1be71dd79e4d4b305af1cc490d5a5729b0b3"
+        "size": 2072944,
+        "sha256": "c730bc8a181fecbd577728e69a31d5a059c3ada3d78f8554bf34f0ac3d45fd1c"
       }
     },
     {
@@ -208,26 +226,20 @@
       "deferred": false
     },
     {
-      "url": "assets-mpcg.001.pck",
-      "size": 30146284,
-      "sha256": "0e01ae87802507bc10db80c81784f1485c9b1fcc39729e77239df5d11416cdaa",
+      "url": "assets-mpcg.pck",
+      "size": 31171376,
+      "sha256": "ce0fcca64bfa6a06f5f8a873c6a437058dc7a2ed7efa0e93a6f86ae79217347b",
       "deferred": false,
       "mobile": {
-        "url": "mobile/assets-mpcg.001.pck",
-        "size": 9152956,
-        "sha256": "2c23fa5daa75dfdee6d1188abf0cd4f4df1855ea51b4ebef7506678c6666a8c6"
+        "url": "mobile/assets-mpcg.pck",
+        "size": 5750592,
+        "sha256": "dfa5747632096cbeebabc799d481c449457271dce14ee85ce68a1a7bbba7512d"
       }
     },
     {
-      "url": "assets-mpcg.002.pck",
-      "size": 7460456,
-      "sha256": "45844f3adb673803ab19504dba7a0add276e538c17907d42c63ee5cbb280c5ee",
-      "deferred": false
-    },
-    {
       "url": "assets-mpeffect.pck",
-      "size": 1296832,
-      "sha256": "c7e20a03f4afe9d3252ea595bbc66cd5e0bdb95fe878c9018e934a0004b476fa",
+      "size": 759232,
+      "sha256": "d7fcd798a83e13bd7f7cca2cf45ec363b5096ee8d6c701ab2b76a513c654eeb5",
       "deferred": false
     },
     {
@@ -248,6 +260,12 @@
       }
     },
     {
+      "url": "assets-sfx.pck",
+      "size": 2922740,
+      "sha256": "2f2a51a1b8af160f55e2f5d4da01f206a8d37997cad38533e09fc650f27b0ae2",
+      "deferred": false
+    },
+    {
       "url": "assets-world-city.pck",
       "size": 14808,
       "sha256": "3df3fab81fb69502ed01e16b42269ab3ac85235896771e542ad5584c11e95cc4",
@@ -266,5 +284,5 @@
       "deferred": true
     }
   ],
-  "native_sha256": "88f563a225a5e455f51200f75e02ea1b8faba67dd59a993a3b3c817d145ffb06"
+  "native_sha256": "761519e51f31fe4830646d514c46731f3a793d7eab7b30f06c5b71a2d2f0460e"
 }
