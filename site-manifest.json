@@ -1109,7 +1109,7 @@
     {
       "path": "assets-manifest.json",
       "size": 53227,
-      "sha256": "c55060672abef89af2928f84324490faee4f491eb25b11c3a1f7ea5033367423"
+      "sha256": "85e9455d0eca5695d0629b924d9733d697a59d7c1c90a75a610ee2bf6441b68c"
     },
     {
       "path": "assets-misc.pck",
@@ -1153,13 +1153,13 @@
     },
     {
       "path": "build-version.json",
-      "size": 9421,
-      "sha256": "ffccede5a4703f11fe5f8d193bd60daa2e3214a4807ee0fa05ea98e64cbc842f"
+      "size": 9422,
+      "sha256": "b8f7f8b8688a1f9769949da4aa199cf16e01c4e3388a25f2e1ae722ff00dd61a"
     },
     {
       "path": "cds_native.web.wasm",
-      "size": 10771110,
-      "sha256": "5b37cf0d713d74ac364440482921548c7a8dac26dd431f32de16305be2474e63"
+      "size": 10772511,
+      "sha256": "f97b37c693533f7d7ccf82b25adf195ebf9af33cae6b78f41864bc555d72283f"
     },
     {
       "path": "discovery-video-worker.js",
@@ -1169,12 +1169,12 @@
     {
       "path": "game-data.pck",
       "size": 11118100,
-      "sha256": "94f2525fb9ed293b0c12aa1d7e13dc032bb09fc498d0e501598abf8ceb359977"
+      "sha256": "5eeca9551db9bca06c6f59eca5d96c835aeeb94295789b573b1d33918ee0bf29"
     },
     {
       "path": "gameplay.pck",
       "size": 2088388,
-      "sha256": "c1950afede3ef4526b55222f4c3716073744f733e0846b5a59cb07e0cafd7064"
+      "sha256": "e229412025b4fac0441d6064ea9f294cc79dee11d0f208459f2bbe0d107df915"
     },
     {
       "path": "index.apple-touch-icon.png",
@@ -1194,7 +1194,7 @@
     {
       "path": "index.html",
       "size": 90869,
-      "sha256": "0d4c5bf78e0d3949b495e339d8f1182d087c438352bf6b7fad7b57dc53ea7249"
+      "sha256": "eae8d209c7c71f070ed194229cc44eac6ca2c0d7d14fea88eecec78a19a50896"
     },
     {
       "path": "index.icon.png",
@@ -1208,8 +1208,8 @@
     },
     {
       "path": "index.pck",
-      "size": 23529340,
-      "sha256": "218feae868de43f46532c3871fac31b43b25ce8661e0b01226208f597eec208c"
+      "size": 23529244,
+      "sha256": "3d7f1a5cce1455409f4c23f3c6df02a25fae0efdc064618245c9bea6a5d3228a"
     },
     {
       "path": "index.png",
