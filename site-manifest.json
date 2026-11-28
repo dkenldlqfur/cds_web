@@ -979,7 +979,7 @@
     {
       "path": "assets-manifest.json",
       "size": 54183,
-      "sha256": "b39794bbb254bdfd2a01475a442ddb2ec4a96dcccd23e6099e08a9f23954e8a5"
+      "sha256": "46548bf3115e6ddca300ea5ee9407c4e5d458cb4f1035c1d96a61028b117beac"
     },
     {
       "path": "assets-misc.pck",
@@ -1029,12 +1029,12 @@
     {
       "path": "build-version.json",
       "size": 9604,
-      "sha256": "94f5291ab6a5e33b054a34e0094e71e534cd81181f53723cbedd920635765a45"
+      "sha256": "166bf8fa87b996bf3d224a60803c6f4cd7c5457838ba86d2578299640b9898ba"
     },
     {
       "path": "cds_native.web.wasm",
-      "size": 10830084,
-      "sha256": "9832861e9e42cda33ade11f3165fe83e5a7b3538de318fe51faea296a45ffb31"
+      "size": 10830089,
+      "sha256": "a343290251ed7c0274d4d0eaf535fd3dceb3afea937f5f141c93e65cd7a76d70"
     },
     {
       "path": "discovery-video-worker.js",
@@ -1044,12 +1044,12 @@
     {
       "path": "game-data.pck",
       "size": 11118100,
-      "sha256": "7a4dd0376282df5e86992a22eca435de2f97265b62878c1c3ce67d631c27b197"
+      "sha256": "b75c79606be59512ff7c85f451a718219bd1ea3f69ee1ad06a568592cefbcda8"
     },
     {
       "path": "gameplay.pck",
       "size": 2104980,
-      "sha256": "3d3201e74e83e4784e3a3738833e80ed8bae8984c7307ba8205fcc702fe1ebc5"
+      "sha256": "a15d5f0cd035147c504ba0a97fcc3d751be55f8d4c151ec61ca07b4374e00509"
     },
     {
       "path": "index.apple-touch-icon.png",
@@ -1069,7 +1069,7 @@
     {
       "path": "index.html",
       "size": 92330,
-      "sha256": "8931e242478dfa0be8034e777ee6eface056739d96ed51039cf9cfd268b06bb5"
+      "sha256": "d289d7eab166f64a5f66cf7ae75a1cfe973ffb206de254883d10c34e227e4d6c"
     },
     {
       "path": "index.icon.png",
@@ -1084,7 +1084,7 @@
     {
       "path": "index.pck",
       "size": 23533148,
-      "sha256": "51afd3f234de4d7c78349de44ea4d36b273f282ccd60be1a10b07728775f5bfd"
+      "sha256": "893c1e5afbe13a21e8f240f9c275a01a1d09f54cb5169c655efd19ec46ae054a"
     },
     {
       "path": "index.png",
