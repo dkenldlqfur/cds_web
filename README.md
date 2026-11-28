@@ -4,6 +4,8 @@ Android Chrome 및 iPhone Safari에서 접속할 웹 빌드입니다.
 
 게임 접속 주소: **https://dkenldlqfur.github.io/cds_web/**
 
+2026-11-28 **1.4.15** — 스토리와 주인공 연결을 편집하고 저장할 수 있습니다. 편집 메뉴와 폼은 이전 크기를 사용합니다. 개발·독립 검사 리포트 전송을 차단하고, 과거 오류의 재발 판정과 메뉴 로드·초상화 검사·시작 진단을 개선했습니다. [Windows·macOS 1.4.15 변경 내역](https://github.com/dkenldlqfur/CDS95_Windows/releases/tag/v1.4.15).
+
 2026-11-28 **1.4.14** — 원본 이름 후보를 넣었는데 결정 버튼이 비활성화되던 문제와 자동 입력 후 등록·저장 버튼이 갱신되지 않던 문제를 수정했습니다. 기본 데이터는 ID 기반 맵으로 조회하고 등록된 ID로 선택 목록과 참조를 검증합니다. 소·중·대맹선과 전용 리소스도 반영했습니다. [Windows·macOS 1.4.14 변경 내역](https://github.com/dkenldlqfur/CDS95_Windows/releases/tag/v1.4.14).
 
 2026-11-27 **1.4.13** — 추가 여급 검증에 실패하면 문제 항목을 보류하고 정상 데이터로 게임을 시작합니다. 원본 JSON과 문자열 키를 보존하며 보류 중에는 기본 데이터 저장을 차단합니다. 시작 경고에 해당 항목의 ID와 필드를 표시합니다. [Windows·macOS 1.4.13 변경 내역](https://github.com/dkenldlqfur/CDS95_Windows/releases/tag/v1.4.13).
