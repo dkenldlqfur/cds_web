@@ -295,8 +295,8 @@
     {
       "url": "assets/data/records/cities.json",
       "path": "/cds95/data/records/cities.json",
-      "size": 177899,
-      "sha256": "9a11f78e8eb42e48b65d58a2e8f1f65708765d78b9ef1fe52b8ade0d2b41344c",
+      "size": 177903,
+      "sha256": "00274e497a4b8bbdfba5e850809826789aaab3e81cb89b0a38e988a479a16a7f",
       "aliases": [],
       "deferred": false
     },
@@ -423,8 +423,8 @@
     {
       "url": "assets/data/records/ship_types.json",
       "path": "/cds95/data/records/ship_types.json",
-      "size": 5149,
-      "sha256": "6158c1db3e875297712d8ce52443292fa76bf809172d39800a565ae72e064fc1",
+      "size": 7849,
+      "sha256": "3aa82de044fc6b5510982f9fabec4ef347b7da9ad68fbda4ffbec2d9bfd03d81",
       "aliases": [],
       "deferred": false
     },
@@ -1363,25 +1363,49 @@
       "sha256": "f03e1b7873661b6c71a3b212bf3f1ee7e5e852604ab6efb8cffdc930efaef5b5",
       "aliases": [],
       "deferred": true
+    },
+    {
+      "url": "assets/videos/S08_0001.ogv",
+      "path": "/cds95/videos/S08_0001.ogv",
+      "size": 123793,
+      "sha256": "695373efc134a2ded201e03478634085835707c22448883da5ab158a3d1644aa",
+      "aliases": [],
+      "deferred": true
+    },
+    {
+      "url": "assets/videos/S09_0001.ogv",
+      "path": "/cds95/videos/S09_0001.ogv",
+      "size": 202223,
+      "sha256": "9307cbe3f2c21504b13c8b5afb48221d4050487b3e25e6829bcf479527e35191",
+      "aliases": [],
+      "deferred": true
+    },
+    {
+      "url": "assets/videos/S10_0001.ogv",
+      "path": "/cds95/videos/S10_0001.ogv",
+      "size": 276475,
+      "sha256": "2df2bd201a8b7d0a1c0dfeafb3be9d03edeef2c0e0cf68c80337b91087c18333",
+      "aliases": [],
+      "deferred": true
     }
   ],
   "packs": [
     {
       "url": "index.pck",
-      "size": 23529884,
-      "sha256": "c9601332fee23116f7e8c26f01234a1eb0ca492c80bf4474b35ac83d5342a9a9",
+      "size": 23532732,
+      "sha256": "b1891bd9018bac057ce67bf1bf1a64deede8c27cdedddafedc22c3f1fa0198ca",
       "deferred": false
     },
     {
       "url": "gameplay.pck",
-      "size": 2095924,
-      "sha256": "203b2571b5f7dc7bac37e53c538f58a0aad72e1950aaa71f90e801f01b220715",
+      "size": 2100260,
+      "sha256": "3045636d52dee6c3a27076940dc75bacef6b90b5f6c13be1233c4f674f73d305",
       "deferred": false
     },
     {
       "url": "game-data.pck",
       "size": 11118100,
-      "sha256": "8461d22def3d3ee420abc5d3009ad08453f4e00f67c3eb5989e67feca4d87db4",
+      "sha256": "30d8615e226dbd4954b59a0f59d00a07d86f4e6ccf18dea86f07d7cc92bec03e",
       "deferred": false
     },
     {
@@ -1625,6 +1649,12 @@
       "url": "assets-sfx.pck",
       "size": 2922740,
       "sha256": "2f2a51a1b8af160f55e2f5d4da01f206a8d37997cad38533e09fc650f27b0ae2",
+      "deferred": false
+    },
+    {
+      "url": "assets-ships.pck",
+      "size": 368976,
+      "sha256": "b783e4a15186db08736c3730299a98b455cf3d58dca2110e4537a24dd690bca1",
       "deferred": false
     },
     {

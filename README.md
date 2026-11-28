@@ -4,6 +4,8 @@ Android Chrome 및 iPhone Safari에서 접속할 웹 빌드입니다.
 
 게임 접속 주소: **https://dkenldlqfur.github.io/cds_web/**
 
+2026-11-28 **1.4.14** — 원본 이름 후보를 넣었는데 결정 버튼이 비활성화되던 문제와 자동 입력 후 등록·저장 버튼이 갱신되지 않던 문제를 수정했습니다. 기본 데이터는 ID 기반 맵으로 조회하고 등록된 ID로 선택 목록과 참조를 검증합니다. 소·중·대맹선과 전용 리소스도 반영했습니다. [Windows·macOS 1.4.14 변경 내역](https://github.com/dkenldlqfur/CDS95_Windows/releases/tag/v1.4.14).
+
 2026-11-27 **1.4.13** — 추가 여급 검증에 실패하면 문제 항목을 보류하고 정상 데이터로 게임을 시작합니다. 원본 JSON과 문자열 키를 보존하며 보류 중에는 기본 데이터 저장을 차단합니다. 시작 경고에 해당 항목의 ID와 필드를 표시합니다. [Windows·macOS 1.4.13 변경 내역](https://github.com/dkenldlqfur/CDS95_Windows/releases/tag/v1.4.13).
 
 2026-11-25 **1.4.5** — 주인공 편집에서 세이브에 기록된 기술·언어 레벨을 표시하고, 조선소에서 선박 매각 시 긴 한글 제목과 합계가 내부 표시 버퍼를 넘던 오류를 수정했습니다. 게임 옵션에 오류 리포트 자동 전송을 추가했습니다. 기본값은 켜짐이며 전송되는 기록에 실행 버전과 진단 정보가 포함됩니다. [Windows·macOS 1.4.5 변경 내역](https://github.com/dkenldlqfur/CDS95_Windows/releases/tag/v1.4.5).

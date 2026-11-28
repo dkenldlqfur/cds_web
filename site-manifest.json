@@ -178,8 +178,8 @@
     },
     {
       "path": "assets/data/records/cities.json",
-      "size": 177899,
-      "sha256": "9a11f78e8eb42e48b65d58a2e8f1f65708765d78b9ef1fe52b8ade0d2b41344c"
+      "size": 177903,
+      "sha256": "00274e497a4b8bbdfba5e850809826789aaab3e81cb89b0a38e988a479a16a7f"
     },
     {
       "path": "assets/data/records/creation_age_adjustments.json",
@@ -258,8 +258,8 @@
     },
     {
       "path": "assets/data/records/ship_types.json",
-      "size": 5149,
-      "sha256": "6158c1db3e875297712d8ce52443292fa76bf809172d39800a565ae72e064fc1"
+      "size": 7849,
+      "sha256": "3aa82de044fc6b5510982f9fabec4ef347b7da9ad68fbda4ffbec2d9bfd03d81"
     },
     {
       "path": "assets/data/records/stock_sizes.json",
@@ -295,151 +295,6 @@
       "path": "assets/data/story.json",
       "size": 1981,
       "sha256": "7a00376b841df6ca0c6e265fee923274f6c15f2b16fca2f9205ebbf23fe5ca51"
-    },
-    {
-      "path": "assets/discovery_animations/00.ogv",
-      "size": 141562,
-      "sha256": "d3148acff053cc107afefa9abed7f56ab21ad49f20f12570103cdbafbdf455d6"
-    },
-    {
-      "path": "assets/discovery_animations/01.ogv",
-      "size": 41157,
-      "sha256": "2cc32d3ca880043f37dba558791b489706d5410b97784a5b786120c2f5338d10"
-    },
-    {
-      "path": "assets/discovery_animations/02.ogv",
-      "size": 130248,
-      "sha256": "aaf408ed3af10b4134ac92840787027ce4c5030abe8fde696e9c41b222ac72e0"
-    },
-    {
-      "path": "assets/discovery_animations/03.ogv",
-      "size": 46895,
-      "sha256": "2899e334710b511bff3a146516c3559381a18c39c6c1ffb15b05bae64b8faf6f"
-    },
-    {
-      "path": "assets/discovery_animations/04.ogv",
-      "size": 34330,
-      "sha256": "2da197b4e0571402d1a97184467e52ba13e9de38221033754c01811796b0cb7d"
-    },
-    {
-      "path": "assets/discovery_animations/05.ogv",
-      "size": 69955,
-      "sha256": "a6e3af89a5d2b5bcff097183e857657289019582f62acec6bee80b2b22298d27"
-    },
-    {
-      "path": "assets/discovery_animations/06.ogv",
-      "size": 105538,
-      "sha256": "bad8e4956d5ad925176de1cd2cfbaf10f4e71292ad0a3b41a01719c11cee9aed"
-    },
-    {
-      "path": "assets/discovery_animations/07.ogv",
-      "size": 73794,
-      "sha256": "be91793a7cd98c345b645d88005b222c7aa4293444d6c9db2e76df8baa92599d"
-    },
-    {
-      "path": "assets/discovery_animations/08.ogv",
-      "size": 56049,
-      "sha256": "141d3638bdb33e1fde771147a8b8092266b697cb826e2646306281aadcebf774"
-    },
-    {
-      "path": "assets/discovery_animations/09.ogv",
-      "size": 72349,
-      "sha256": "f5455bebfe40f954c0a23f6a98818a9f1fb1bfcee596bd0109520b60ca1b8528"
-    },
-    {
-      "path": "assets/discovery_animations/10.ogv",
-      "size": 34994,
-      "sha256": "b6dde7726d40c57198e8c1599cd9f5f4a2c909b98f93d916e3fa5bbabc31d118"
-    },
-    {
-      "path": "assets/discovery_animations/11.ogv",
-      "size": 104740,
-      "sha256": "686e9b0f5ebcaa642c23ab4b1e041ee37dabe0514ed7f38cc75b1beec949d301"
-    },
-    {
-      "path": "assets/discovery_animations/12.ogv",
-      "size": 70221,
-      "sha256": "76acde6fe62bdf43436b90a27fef406cb91a9a3677635e3037e9dd95ccaaab80"
-    },
-    {
-      "path": "assets/discovery_animations/13.ogv",
-      "size": 61259,
-      "sha256": "d4719cd9cc83f5bd8e72a65adf166ed378bbefc595f773a1f536044070567b6d"
-    },
-    {
-      "path": "assets/discovery_animations/14.ogv",
-      "size": 50980,
-      "sha256": "a1f032b1910f711a9b1e2279891c6c2d6a49684518c8e4e56eaa3ba590ab6a06"
-    },
-    {
-      "path": "assets/discovery_animations/15.ogv",
-      "size": 52010,
-      "sha256": "04c48eaabe3e6305fc40486df49098faf84f6856f4dad3620ded37ffb46a1cca"
-    },
-    {
-      "path": "assets/discovery_animations/16.ogv",
-      "size": 58460,
-      "sha256": "7ef25d9dc3b0e951269c8abe0be138d806dc5f0768dec0018a5346cef284197d"
-    },
-    {
-      "path": "assets/discovery_animations/17.ogv",
-      "size": 83045,
-      "sha256": "4a1fff6c4ba2c1d94896e7765b7f4d6c9f52a9c3e851962912bd6f17c07e9afd"
-    },
-    {
-      "path": "assets/discovery_animations/18.ogv",
-      "size": 126781,
-      "sha256": "a1d066590966ad013bebef04cfe93a58dbcbd389f90eb35889f7db2afaba590e"
-    },
-    {
-      "path": "assets/discovery_animations/19.ogv",
-      "size": 99088,
-      "sha256": "ab98fc195c267bea1b8370a95a4e4c5785fd199a8d2afaba5c2f0d6e5b67f1e8"
-    },
-    {
-      "path": "assets/discovery_animations/20.ogv",
-      "size": 80178,
-      "sha256": "24fa3bac0f972aa6bd465ce3950941aecf4c549733932705931554a34cf8e47d"
-    },
-    {
-      "path": "assets/discovery_animations/21.ogv",
-      "size": 76325,
-      "sha256": "b8be88a4db2fc770185bd7df60b67611d0a295432c78ca22afc3326c8fe95b13"
-    },
-    {
-      "path": "assets/discovery_animations/22.ogv",
-      "size": 53056,
-      "sha256": "423d1a0ea87fa0411d34375b27659755b4c0155e9130c7428714e07fea4c46d3"
-    },
-    {
-      "path": "assets/discovery_animations/23.ogv",
-      "size": 110253,
-      "sha256": "46eabeee2d9f091175424487d2be2681e4d9caf369c574756a858d7ae56cfecb"
-    },
-    {
-      "path": "assets/discovery_animations/24.ogv",
-      "size": 78994,
-      "sha256": "69023a8b066f66c3a2ff75db1c33bb690ff2dbaf5cd4e2d082bb2eb8f18db78c"
-    },
-    {
-      "path": "assets/discovery_animations/25.ogv",
-      "size": 91762,
-      "sha256": "58d7c0ae15fe1b4dfbdde6d58a9fc23b5592a5f5b6fe6808765bbb9360627906"
-    },
-    {
-      "path": "assets/discovery_animations/26.ogv",
-      "size": 74571,
-      "sha256": "89ac35e71a59e08e7414cb84bc3cdd4fc53c4c3ebb8556fd544105a2c7b7938d"
-    },
-    {
-      "path": "assets/discovery_animations/27.ogv",
-      "size": 45408,
-      "sha256": "c87ba105cb44507202393f376c8b47fa5920dbb8c7f039c39eee4e7caa44e4d4"
-    },
-    {
-      "path": "assets/discovery_animations/28.ogv",
-      "size": 83886,
-      "sha256": "96ac1171e535c0d10ad1aee1b0de68884100b5baa91fb2f4ca6199767d7dc9ac"
     },
     {
       "path": "assets/videos/END.ogv",
@@ -997,6 +852,21 @@
       "sha256": "f03e1b7873661b6c71a3b212bf3f1ee7e5e852604ab6efb8cffdc930efaef5b5"
     },
     {
+      "path": "assets/videos/S08_0001.ogv",
+      "size": 123793,
+      "sha256": "695373efc134a2ded201e03478634085835707c22448883da5ab158a3d1644aa"
+    },
+    {
+      "path": "assets/videos/S09_0001.ogv",
+      "size": 202223,
+      "sha256": "9307cbe3f2c21504b13c8b5afb48221d4050487b3e25e6829bcf479527e35191"
+    },
+    {
+      "path": "assets/videos/S10_0001.ogv",
+      "size": 276475,
+      "sha256": "2df2bd201a8b7d0a1c0dfeafb3be9d03edeef2c0e0cf68c80337b91087c18333"
+    },
+    {
       "path": "assets-achievements.pck",
       "size": 216760,
       "sha256": "d55654469871641a6c8983596f1b9e72620d2e36564ca4299bbd4e4066b98871"
@@ -1108,8 +978,8 @@
     },
     {
       "path": "assets-manifest.json",
-      "size": 53227,
-      "sha256": "18ed04499612186f0f06bb7fa67fcb577ae5fd17626f709509cfa300e8d3f5e0"
+      "size": 54183,
+      "sha256": "6039cf212db97ee733dee4c628963ca1f68c3283d73cef317b254fbcbc36281b"
     },
     {
       "path": "assets-misc.pck",
@@ -1142,6 +1012,11 @@
       "sha256": "2f2a51a1b8af160f55e2f5d4da01f206a8d37997cad38533e09fc650f27b0ae2"
     },
     {
+      "path": "assets-ships.pck",
+      "size": 368976,
+      "sha256": "b783e4a15186db08736c3730299a98b455cf3d58dca2110e4537a24dd690bca1"
+    },
+    {
       "path": "assets-world-city.pck",
       "size": 14808,
       "sha256": "3df3fab81fb69502ed01e16b42269ab3ac85235896771e542ad5584c11e95cc4"
@@ -1153,13 +1028,13 @@
     },
     {
       "path": "build-version.json",
-      "size": 9422,
-      "sha256": "b8f7f8b8688a1f9769949da4aa199cf16e01c4e3388a25f2e1ae722ff00dd61a"
+      "size": 9310,
+      "sha256": "dfe9f70f074de58180586da47e5a792b2f996e86f82cefcb9e0a88bbb6f9b677"
     },
     {
       "path": "cds_native.web.wasm",
-      "size": 10788730,
-      "sha256": "f52313bde4c6c160f107ed0edbd2e543ba4afaeccf78c84a8a078524967d0ef3"
+      "size": 10824098,
+      "sha256": "5037283f6f3a7b7456a0ea410f43750b1a9af5bc10939f8953fff48a17f8a3a9"
     },
     {
       "path": "discovery-video-worker.js",
@@ -1169,12 +1044,12 @@
     {
       "path": "game-data.pck",
       "size": 11118100,
-      "sha256": "8461d22def3d3ee420abc5d3009ad08453f4e00f67c3eb5989e67feca4d87db4"
+      "sha256": "30d8615e226dbd4954b59a0f59d00a07d86f4e6ccf18dea86f07d7cc92bec03e"
     },
     {
       "path": "gameplay.pck",
-      "size": 2095924,
-      "sha256": "203b2571b5f7dc7bac37e53c538f58a0aad72e1950aaa71f90e801f01b220715"
+      "size": 2100260,
+      "sha256": "3045636d52dee6c3a27076940dc75bacef6b90b5f6c13be1233c4f674f73d305"
     },
     {
       "path": "index.apple-touch-icon.png",
@@ -1193,8 +1068,8 @@
     },
     {
       "path": "index.html",
-      "size": 91520,
-      "sha256": "154aac30f0fd7d024158d2676836305fc9c9ca898e7481ccc0e6e617f08467f7"
+      "size": 92330,
+      "sha256": "aec212ad410c196e9eddb52b9e04505c3d7f0082eb00f809651efa5d16ca0971"
     },
     {
       "path": "index.icon.png",
@@ -1208,8 +1083,8 @@
     },
     {
       "path": "index.pck",
-      "size": 23529884,
-      "sha256": "c9601332fee23116f7e8c26f01234a1eb0ca492c80bf4474b35ac83d5342a9a9"
+      "size": 23532732,
+      "sha256": "b1891bd9018bac057ce67bf1bf1a64deede8c27cdedddafedc22c3f1fa0198ca"
     },
     {
       "path": "index.png",

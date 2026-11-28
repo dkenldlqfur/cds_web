@@ -1,26 +1,25 @@
 {
-  "version": "1.4.10",
+  "version": "1.4.14",
   "channel": "public",
-  "built_at": "2026-11-26T07:34:03.040841+00:00",
-  "pck_sha256": "3d7f1a5cce1455409f4c23f3c6df02a25fae0efdc064618245c9bea6a5d3228a",
-  "native_sha256": "f97b37c693533f7d7ccf82b25adf195ebf9af33cae6b78f41864bc555d72283f",
+  "built_at": "2026-11-28T08:48:35.096950+00:00",
+  "pck_sha256": "b1891bd9018bac057ce67bf1bf1a64deede8c27cdedddafedc22c3f1fa0198ca",
   "packs": [
     {
       "url": "index.pck",
-      "size": 23529244,
-      "sha256": "3d7f1a5cce1455409f4c23f3c6df02a25fae0efdc064618245c9bea6a5d3228a",
+      "size": 23532732,
+      "sha256": "b1891bd9018bac057ce67bf1bf1a64deede8c27cdedddafedc22c3f1fa0198ca",
       "deferred": false
     },
     {
       "url": "gameplay.pck",
-      "size": 2088388,
-      "sha256": "e229412025b4fac0441d6064ea9f294cc79dee11d0f208459f2bbe0d107df915",
+      "size": 2100260,
+      "sha256": "3045636d52dee6c3a27076940dc75bacef6b90b5f6c13be1233c4f674f73d305",
       "deferred": false
     },
     {
       "url": "game-data.pck",
       "size": 11118100,
-      "sha256": "5eeca9551db9bca06c6f59eca5d96c835aeeb94295789b573b1d33918ee0bf29",
+      "sha256": "30d8615e226dbd4954b59a0f59d00a07d86f4e6ccf18dea86f07d7cc92bec03e",
       "deferred": false
     },
     {
@@ -267,6 +266,12 @@
       "deferred": false
     },
     {
+      "url": "assets-ships.pck",
+      "size": 368976,
+      "sha256": "b783e4a15186db08736c3730299a98b455cf3d58dca2110e4537a24dd690bca1",
+      "deferred": false
+    },
+    {
       "url": "assets-world-city.pck",
       "size": 14808,
       "sha256": "3df3fab81fb69502ed01e16b42269ab3ac85235896771e542ad5584c11e95cc4",
@@ -284,5 +289,6 @@
       "sha256": "a04933ecd7d5aa6c3cdd02c0522707ccf9b7be59eda4c9dbbc0fae3279861e2b",
       "deferred": true
     }
-  ]
+  ],
+  "native_sha256": "5037283f6f3a7b7456a0ea410f43750b1a9af5bc10939f8953fff48a17f8a3a9"
 }

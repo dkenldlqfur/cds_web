@@ -8098,8 +8098,8 @@
         "initial_status_flags": 73,
         "image_city": 226,
         "flags": 10229,
-        "fleet_mask": 14,
-        "initial_fleet_mask": 14,
+        "fleet_mask": 1792,
+        "initial_fleet_mask": 1792,
         "market_items": [33, 34, 35, 64, 76, 220, -1, -1],
         "additional_facilities": [
           {"facility": 6, "name_key": "facility.baekdong_su.shipyard", "hit_box": [122, 245, 96, 80], "initial_values": [0, 0]},

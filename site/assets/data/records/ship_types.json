@@ -21,6 +21,8 @@
       "price_1000": 7,
       "initial_flags": 0,
       "max_masts": 1,
+      "allow_sail_addition": 1,
+      "allow_sail_type_change": 0,
       "initial_masts": [
         "square"
       ]
@@ -45,6 +47,8 @@
       "price_1000": 10,
       "initial_flags": 0,
       "max_masts": 2,
+      "allow_sail_addition": 1,
+      "allow_sail_type_change": 0,
       "initial_masts": [
         "lateen"
       ]
@@ -69,6 +73,8 @@
       "price_1000": 40,
       "initial_flags": 0,
       "max_masts": 3,
+      "allow_sail_addition": 1,
+      "allow_sail_type_change": 0,
       "initial_masts": [
         "lateen",
         "lateen"
@@ -94,6 +100,8 @@
       "price_1000": 50,
       "initial_flags": 0,
       "max_masts": 3,
+      "allow_sail_addition": 1,
+      "allow_sail_type_change": 1,
       "initial_masts": [
         "square",
         "lateen"
@@ -119,6 +127,8 @@
       "price_1000": 100,
       "initial_flags": 0,
       "max_masts": 3,
+      "allow_sail_addition": 1,
+      "allow_sail_type_change": 1,
       "initial_masts": [
         "square",
         "square"
@@ -144,6 +154,8 @@
       "price_1000": 180,
       "initial_flags": 0,
       "max_masts": 3,
+      "allow_sail_addition": 1,
+      "allow_sail_type_change": 1,
       "initial_masts": [
         "square",
         "square",
@@ -170,6 +182,8 @@
       "price_1000": 250,
       "initial_flags": 0,
       "max_masts": 3,
+      "allow_sail_addition": 1,
+      "allow_sail_type_change": 1,
       "initial_masts": [
         "square",
         "square",
@@ -196,9 +210,92 @@
       "price_1000": 60,
       "initial_flags": 0,
       "max_masts": 2,
+      "allow_sail_addition": 1,
+      "allow_sail_type_change": 0,
       "initial_masts": [
         "lateen",
         "lateen"
+      ]
+    },
+    {
+      "id": 8,
+      "name_key": "ship.somaengseon.name",
+      "turn_steps": 3,
+      "field_04": 2,
+      "unlock_factor": 10,
+      "base_speed": 65,
+      "max_speed": 85,
+      "base_durability": 30,
+      "max_durability": 45,
+      "base_weight_capacity": 1300,
+      "max_weight_capacity": 1850,
+      "base_cargo_capacity": 125,
+      "max_cargo_capacity": 175,
+      "base_cannon_capacity": 2,
+      "max_cannon_capacity": 6,
+      "allocation_factor": 5,
+      "price_1000": 9,
+      "initial_flags": 0,
+      "max_masts": 1,
+      "allow_sail_addition": 0,
+      "allow_sail_type_change": 0,
+      "initial_masts": [
+        "square"
+      ]
+    },
+    {
+      "id": 9,
+      "name_key": "ship.jungmaengseon.name",
+      "turn_steps": 2,
+      "field_04": 3,
+      "unlock_factor": 15,
+      "base_speed": 55,
+      "max_speed": 75,
+      "base_durability": 40,
+      "max_durability": 60,
+      "base_weight_capacity": 2000,
+      "max_weight_capacity": 2750,
+      "base_cargo_capacity": 225,
+      "max_cargo_capacity": 300,
+      "base_cannon_capacity": 6,
+      "max_cannon_capacity": 14,
+      "allocation_factor": 15,
+      "price_1000": 45,
+      "initial_flags": 0,
+      "max_masts": 2,
+      "allow_sail_addition": 0,
+      "allow_sail_type_change": 0,
+      "initial_masts": [
+        "square",
+        "square"
+      ]
+    },
+    {
+      "id": 10,
+      "name_key": "ship.daemaengseon.name",
+      "turn_steps": 1,
+      "field_04": 0,
+      "unlock_factor": 19,
+      "base_speed": 40,
+      "max_speed": 55,
+      "base_durability": 50,
+      "max_durability": 70,
+      "base_weight_capacity": 3000,
+      "max_weight_capacity": 4000,
+      "base_cargo_capacity": 350,
+      "max_cargo_capacity": 425,
+      "base_cannon_capacity": 10,
+      "max_cannon_capacity": 18,
+      "allocation_factor": 30,
+      "price_1000": 120,
+      "initial_flags": 0,
+      "max_masts": 3,
+      "allow_sail_addition": 0,
+      "allow_sail_type_change": 0,
+      "initial_masts": [
+        "square",
+        "square",
+        "square"
       ]
     }
   ]
