@@ -4,6 +4,8 @@ Android Chrome 및 iPhone Safari에서 접속할 웹 빌드입니다.
 
 게임 접속 주소: **https://dkenldlqfur.github.io/cds_web/**
 
+2026-11-29 **1.4.17** — 맹선 개조 메뉴 뒤에 계속 남던 함선 미리보기를 제거했습니다. 돛 추가·돛 종류 변경 작업의 미리보기와 맹선의 돛 제한, 지역 21의 개조 허용 조건은 유지합니다. 포함된 C++ 소스의 변경도 macOS·웹 빌드 캐시 검사에 반영합니다. [Windows·macOS 1.4.17 변경 내역](https://github.com/dkenldlqfur/CDS95_Windows/releases/tag/v1.4.17).
+
 2026-11-28 **1.4.16** — 소·중·대맹선의 개조 조건이 실제 도시 지역 번호를 사용하도록 수정했습니다. 한양이 속한 지역 21에서만 개조를 허용하며 지역 20은 제외합니다. 기존 함선의 개조 조건과 맹선의 돛 추가·종류 변경 제한은 유지합니다. [Windows·macOS 1.4.16 변경 내역](https://github.com/dkenldlqfur/CDS95_Windows/releases/tag/v1.4.16).
 
 2026-11-28 **1.4.15** — 스토리와 주인공 연결을 편집하고 저장할 수 있습니다. 편집 메뉴와 폼은 이전 크기를 사용합니다. 개발·독립 검사 리포트 전송을 차단하고, 과거 오류의 재발 판정과 메뉴 로드·초상화 검사·시작 진단을 개선했습니다. [Windows·macOS 1.4.15 변경 내역](https://github.com/dkenldlqfur/CDS95_Windows/releases/tag/v1.4.15).
